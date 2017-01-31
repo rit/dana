@@ -1,0 +1,17 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10731_cn9/collection.json",
+  "@type": "sc:Collection",
+  "label": "World Museums",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "42 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 733 Folder 2"
+    }
+  ],
+  "description": "List with short descriptions of their founding."
+}

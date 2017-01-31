@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10506_igu/collection.json",
+  "@type": "sc:Collection",
+  "label": "Rol - Rye",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 719"
+    }
+  ]
+}

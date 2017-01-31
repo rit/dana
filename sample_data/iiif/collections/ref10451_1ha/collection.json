@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10451_1ha/collection.json",
+  "@type": "sc:Collection",
+  "label": "Painting, Italian - Ra",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 693"
+    }
+  ]
+}

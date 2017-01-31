@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10707_4at/collection.json",
+  "@type": "sc:Collection",
+  "label": "Roger van der Weyden",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "8 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 7"
+    }
+  ]
+}

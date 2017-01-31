@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10541_dmt/collection.json",
+  "@type": "sc:Collection",
+  "label": "Second floor: books, duplicates, magazines, sales catalogs and hall section 46-47 (books from basement) (782,3) (move to Duveen library)",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 folder (circa 15 sheets)"
+    },
+    {
+      "label": "Container",
+      "value": "Box 729 Folder 2"
+    }
+  ]
+}

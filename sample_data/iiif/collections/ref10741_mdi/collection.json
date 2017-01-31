@@ -1,0 +1,20 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10741_mdi/collection.json",
+  "@type": "sc:Collection",
+  "label": "Art Digest 1926 November 1-1934 December 31",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1926 November 1-1934 December 31"
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "1 volume"
+    },
+    {
+      "label": "Container",
+      "value": "Box 733 Folder 4"
+    }
+  ]
+}

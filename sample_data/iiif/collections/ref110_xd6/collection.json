@@ -1,0 +1,88 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref110_xd6/collection.json",
+  "@type": "sc:Collection",
+  "label": "Collectors' albums, Series I.B.",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1937-1956"
+    },
+    {
+      "label": "Arrangement",
+      "value": "Arranged alphabetically by names of collectors."
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "29 Linear Feet"
+    }
+  ],
+  "description": "The large hardcover albums of fabric-backed pages, with one large mounted photograph per page, illustrate the collections of some of Duveen's most important clients, including Jules S. Bache, Robert H. and Evelyn Benson and Andrew W. Mellon. The volumes also include views of the clients' estates, such as C\u00e0 d'Zan, John Ringling's winter home in Sarasota, Florida, Henry E. Huntington's residence in San Marino, California, and Edward T. Stotesbury's Whitemarsh Hall in Wyndmoor, Pennsylvania.",
+  "manifests": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0031/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Jules S. Bache collection"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0032/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Robert H. and Evelyn Benson collection"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0033/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Godefroy Brauer collection"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0034/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "George J. Gould collection"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0035/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Mildred Browning Green collection"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0036/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Henry E. Huntington collection"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0037/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Pictures and sculptures in the collection of Samuel H. Kress"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0038/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Collection of Franz Joseph II, Prince of Liechtenstein"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0039/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Andrew W. Mellon collection"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0040/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Sir Hubert Parry collection: Italian school"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0041/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "John Ringling collection"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0042/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Collection of Italian pictures of William Salomon"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0043/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Whitemarsh Hall, Edward T. Stotesbury Residence, Wyndmoor, Pennsylvania"
+    }
+  ]
+}

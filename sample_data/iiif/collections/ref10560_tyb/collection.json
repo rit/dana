@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10560_tyb/collection.json",
+  "@type": "sc:Collection",
+  "label": "Milan and Lombardy",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "4 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 729 Folder 3"
+    }
+  ]
+}

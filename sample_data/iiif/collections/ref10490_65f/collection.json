@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10490_65f/collection.json",
+  "@type": "sc:Collection",
+  "label": "Lauf - Lodo",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 711"
+    }
+  ]
+}

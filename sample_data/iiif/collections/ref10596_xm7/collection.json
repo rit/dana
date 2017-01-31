@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10596_xm7/collection.json",
+  "@type": "sc:Collection",
+  "label": "French, English and Spanish-Italian statuary",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 volume"
+    },
+    {
+      "label": "Container",
+      "value": "Box 729 Folder 7"
+    }
+  ]
+}

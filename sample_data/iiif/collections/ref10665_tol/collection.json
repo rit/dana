@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10665_tol/collection.json",
+  "@type": "sc:Collection",
+  "label": "Joshua Reynolds - listed by owners",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "27 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 4"
+    }
+  ]
+}

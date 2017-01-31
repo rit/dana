@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10751_rtv/collection.json",
+  "@type": "sc:Collection",
+  "label": "Les Arts",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10752_4zq/collection.json",
+      "@type": "sc:Collection",
+      "label": "Les Arts 1903-1904"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10755_ily/collection.json",
+      "@type": "sc:Collection",
+      "label": "Les Arts 1905-1908"
+    }
+  ]
+}

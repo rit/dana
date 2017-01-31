@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10615_tft/collection.json",
+  "@type": "sc:Collection",
+  "label": "Decorative arts",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10616_30w/collection.json",
+      "@type": "sc:Collection",
+      "label": "Miscellaneous"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10620_flt/collection.json",
+      "@type": "sc:Collection",
+      "label": "Bronzes and S\u00e8vres porcelain"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10623_euj/collection.json",
+      "@type": "sc:Collection",
+      "label": "Chinese porcelain"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10626_3nc/collection.json",
+      "@type": "sc:Collection",
+      "label": "French and Italian furniture, tapestry furniture, and clocks"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10629_ihd/collection.json",
+      "@type": "sc:Collection",
+      "label": "Rugs, miniatures, and maiolica"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10632_vbb/collection.json",
+      "@type": "sc:Collection",
+      "label": "Tapestries"
+    }
+  ]
+}

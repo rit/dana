@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10504_mf1/collection.json",
+  "@type": "sc:Collection",
+  "label": "Raf - Rok",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 718"
+    }
+  ]
+}

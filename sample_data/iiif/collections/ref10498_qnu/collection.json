@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10498_qnu/collection.json",
+  "@type": "sc:Collection",
+  "label": "Obe - Pfu",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 715"
+    }
+  ]
+}

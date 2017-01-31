@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10716_929/collection.json",
+  "@type": "sc:Collection",
+  "label": "Small Italian bronzes with measurements",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "5 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 733 Folder 1"
+    }
+  ]
+}

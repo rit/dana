@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10710_rbh/collection.json",
+  "@type": "sc:Collection",
+  "label": "Rubens drawings in America",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "3 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 7"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10581_kbw/collection.json",
+  "@type": "sc:Collection",
+  "label": "Summary of a list of books for the College Art Library",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 folder (13 sheets)"
+    },
+    {
+      "label": "Container",
+      "value": "Box 729 Folder 4"
+    }
+  ]
+}

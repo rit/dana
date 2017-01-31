@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10735_hzm/collection.json",
+  "@type": "sc:Collection",
+  "label": "Unidentified",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 733 Folder 3"
+    }
+  ]
+}

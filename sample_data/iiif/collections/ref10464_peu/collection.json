@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10464_peu/collection.json",
+  "@type": "sc:Collection",
+  "label": "Auq - Beno",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 698"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10592_hsp/collection.json",
+  "@type": "sc:Collection",
+  "label": "Paintings and sculptures",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10593_ufb/collection.json",
+      "@type": "sc:Collection",
+      "label": "English and French paintings, etchings, etc."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10596_xm7/collection.json",
+      "@type": "sc:Collection",
+      "label": "French, English and Spanish-Italian statuary"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10599_jh8/collection.json",
+      "@type": "sc:Collection",
+      "label": "Italian pictures (Benson and Dreyfus)"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10602_lk3/collection.json",
+      "@type": "sc:Collection",
+      "label": "Italian pictures (27262-29490)"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10605_jya/collection.json",
+      "@type": "sc:Collection",
+      "label": "Italian pictures (29504-29808)"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10608_wtt/collection.json",
+      "@type": "sc:Collection",
+      "label": "Raphael (Altoviti), Botticelli (Hearst), Masolino (Perdoux)"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10611_cer/collection.json",
+      "@type": "sc:Collection",
+      "label": "Spanish, Dutch and Flemish paintings"
+    }
+  ]
+}

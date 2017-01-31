@@ -1,0 +1,93 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref160_xda/collection.json",
+  "@type": "sc:Collection",
+  "label": "Other albums, Series I.C.",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1871-1931"
+    },
+    {
+      "label": "Arrangement",
+      "value": "Arrangement is by topic."
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "27 Linear Feet"
+    }
+  ],
+  "description": "Albums and portfolios in Series I.C. contain reproductions of Greek relief sculpture and vases, Italian paintings, sculptures and fountains, and of Italian and French architecture.",
+  "manifests": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0045/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Rijksmuseum: Dutch and Flemish masters"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0046/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "English interiors"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0047/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Hampton Court Palace"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0048/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Greek sculpture"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0049/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Greek sculpture in relief, stele, vases"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0050/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Greek sculpture: figures and heads"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0051/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Italian Renaissance interiors"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0052/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Italian Renaissance sculpture and painting"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0053/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Sculpture: Donatello, Ghiberti, Della Robbia, Siena, Rimini, Duccio, Michelangelo"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0054/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Italian Renaissance paintings"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0055/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Italian fountains"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0056/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Architecture, doors, sarcophagus, equestrians, ornaments"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0057/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Commission royale belge des \u00e9changes internationaux : Reproductions photographiques des objets dont dispose la section des Beaux-Arts"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0058/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Paintings, sculptures"
+    }
+  ]
+}

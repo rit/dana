@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10759_txb/collection.json",
+  "@type": "sc:Collection",
+  "label": "Index of pictures by Old Masters reproduced in Les Arts, Burlington Magazine, Art in America",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 volume"
+    },
+    {
+      "label": "Container",
+      "value": "Box 734"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10535_q3i/collection.json",
+  "@type": "sc:Collection",
+  "label": "Rembrandt drawings",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 folder (12 sheets)"
+    },
+    {
+      "label": "Container",
+      "value": "Box 729 Folder 1"
+    }
+  ]
+}

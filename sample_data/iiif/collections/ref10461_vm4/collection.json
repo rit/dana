@@ -1,0 +1,159 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10461_vm4/collection.json",
+  "@type": "sc:Collection",
+  "label": "Bibliography Index Cards",
+  "description": "List of artists, collectors, collections, authors and subjects.",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10462_6l1/collection.json",
+      "@type": "sc:Collection",
+      "label": "A - Aum"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10464_peu/collection.json",
+      "@type": "sc:Collection",
+      "label": "Auq - Beno"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10466_yp2/collection.json",
+      "@type": "sc:Collection",
+      "label": "Bens - Bouc"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10468_1ky/collection.json",
+      "@type": "sc:Collection",
+      "label": "Boud - Cand"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10470_tni/collection.json",
+      "@type": "sc:Collection",
+      "label": "Cane - Clee"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10472_giw/collection.json",
+      "@type": "sc:Collection",
+      "label": "Clem - Cup"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10474_zbe/collection.json",
+      "@type": "sc:Collection",
+      "label": "Cue - Doug"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10476_4yk/collection.json",
+      "@type": "sc:Collection",
+      "label": "Doui - Es"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10478_f8k/collection.json",
+      "@type": "sc:Collection",
+      "label": "Et - Frag"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10480_2f0/collection.json",
+      "@type": "sc:Collection",
+      "label": "Fram - Ges"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10482_ci0/collection.json",
+      "@type": "sc:Collection",
+      "label": "Get - Gre"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10484_gp6/collection.json",
+      "@type": "sc:Collection",
+      "label": "Gri - Hob"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10486_dkl/collection.json",
+      "@type": "sc:Collection",
+      "label": "Hoch - Jam"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10488_u49/collection.json",
+      "@type": "sc:Collection",
+      "label": "Jan - Lat"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10490_65f/collection.json",
+      "@type": "sc:Collection",
+      "label": "Lauf - Lodo"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10492_ipl/collection.json",
+      "@type": "sc:Collection",
+      "label": "Loeb - Mark"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10494_cvu/collection.json",
+      "@type": "sc:Collection",
+      "label": "Marl - Minn"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10496_8ui/collection.json",
+      "@type": "sc:Collection",
+      "label": "Mino - Nyn"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10498_qnu/collection.json",
+      "@type": "sc:Collection",
+      "label": "Obe - Pfu"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10500_ouf/collection.json",
+      "@type": "sc:Collection",
+      "label": "Phe - Pot"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10502_3qm/collection.json",
+      "@type": "sc:Collection",
+      "label": "Pou - Rae"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10504_mf1/collection.json",
+      "@type": "sc:Collection",
+      "label": "Raf - Rok"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10506_igu/collection.json",
+      "@type": "sc:Collection",
+      "label": "Rol - Rye"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10508_0ko/collection.json",
+      "@type": "sc:Collection",
+      "label": "Sab - Sar"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10510_uyl/collection.json",
+      "@type": "sc:Collection",
+      "label": "Sas - Slu"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10512_744/collection.json",
+      "@type": "sc:Collection",
+      "label": "Sma - Squ"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10514_6r5/collection.json",
+      "@type": "sc:Collection",
+      "label": "St\u00e4e - Tex"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10516_8x8/collection.json",
+      "@type": "sc:Collection",
+      "label": "Tham - Vava"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10518_98a/collection.json",
+      "@type": "sc:Collection",
+      "label": "Vec - Weit"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10520_oqy/collection.json",
+      "@type": "sc:Collection",
+      "label": "Wel - Zuy"
+    }
+  ]
+}

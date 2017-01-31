@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref17_ow4/collection.json",
+  "@type": "sc:Collection",
+  "label": "Decorative arts and sculpture,",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1907-1932"
+    }
+  ],
+  "manifests": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0004/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "China"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0005/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Porcelain"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0006/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Porcelain Exhibition, Duveen Brothers, New York, January and February 1907"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0007/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Exhibition of Rare Old Chinese Porcelains, Duveen Brothers, New York"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0008/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Wedgwood"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0009/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Miniatures"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0010/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Furniture"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0011/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Furniture"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0012/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Furniture and sculpture"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0013/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Bronzes, furniture, and objets d'art"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0014/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Italian frames"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0015/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Old frames in Italian museums"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0016/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Frames on pictures"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0017/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Tapestries"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0018/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Tapestries and tapestry furniture"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0019/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Sculpture and objets d'art"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0020/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Sculpture room exhibition"
+    }
+  ]
+}

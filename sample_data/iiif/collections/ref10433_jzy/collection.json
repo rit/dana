@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10433_jzy/collection.json",
+  "@type": "sc:Collection",
+  "label": "Library index cards",
+  "description": "Each box contains circa 100 index cards.",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10434_zy1/collection.json",
+      "@type": "sc:Collection",
+      "label": "General"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10461_vm4/collection.json",
+      "@type": "sc:Collection",
+      "label": "Bibliography Index Cards"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10524_0hb/collection.json",
+      "@type": "sc:Collection",
+      "label": "Unlabeled drawers: A-Z"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10526_d02/collection.json",
+      "@type": "sc:Collection",
+      "label": "Separate books: A-Z"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10528_8mg/collection.json",
+      "@type": "sc:Collection",
+      "label": "Library shelf locations and lists"
+    }
+  ]
+}

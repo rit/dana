@@ -1,0 +1,20 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10752_4zq/collection.json",
+  "@type": "sc:Collection",
+  "label": "Les Arts 1903-1904",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1903-1904"
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "1 volume"
+    },
+    {
+      "label": "Container",
+      "value": "Box 733 Folder 6"
+    }
+  ]
+}

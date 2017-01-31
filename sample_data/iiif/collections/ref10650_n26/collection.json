@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10650_n26/collection.json",
+  "@type": "sc:Collection",
+  "label": "French works of art in America",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "31 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 3"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10704_jcm/collection.json",
+  "@type": "sc:Collection",
+  "label": "Raeburn portraits of men with auction prices",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "26 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 7"
+    }
+  ]
+}

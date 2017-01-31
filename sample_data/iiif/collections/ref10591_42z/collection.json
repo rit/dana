@@ -1,0 +1,23 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10591_42z/collection.json",
+  "@type": "sc:Collection",
+  "label": "Brochure lists",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10592_hsp/collection.json",
+      "@type": "sc:Collection",
+      "label": "Paintings and sculptures"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10615_tft/collection.json",
+      "@type": "sc:Collection",
+      "label": "Decorative arts"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10636_g3z/collection.json",
+      "@type": "sc:Collection",
+      "label": "Balance of photograph captions"
+    }
+  ]
+}

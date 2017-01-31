@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10233_l35/collection.json",
+  "@type": "sc:Collection",
+  "label": "Correspondence,",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "undated"
+    }
+  ],
+  "manifests": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3379/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Correspondence: Benson (Rutland), Violet"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3380/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Correspondence: Hoffman, Malvina"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3381/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Correspondence: Lavery, John"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3382/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Correspondence: Vicaji, Dorothy E"
+    }
+  ]
+}
