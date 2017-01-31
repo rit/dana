@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10695_fed/collection.json",
+  "@type": "sc:Collection",
+  "label": "Paintings by the Old Masters illustrating the history of the Bible",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "15 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 7"
+    }
+  ]
+}

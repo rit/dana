@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10636_g3z/collection.json",
+  "@type": "sc:Collection",
+  "label": "Balance of photograph captions",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "7 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 2"
+    }
+  ]
+}

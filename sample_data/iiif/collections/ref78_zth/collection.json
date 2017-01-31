@@ -1,0 +1,54 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref78_zth/collection.json",
+  "@type": "sc:Collection",
+  "label": "Paintings,",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1920-1954"
+    }
+  ],
+  "manifests": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0022/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "British school"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0023/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Pictures: Dutch and Flemish schools"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Pictures: French school"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0025/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "German and Spanish schools"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0026/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Italian and German schools"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0027/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Portraits by Oswald Birley"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0028/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Anthony van Dyck"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0029/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Renoir Centennial Loan Exhibition for the Benefit of the Free French Relief Committee from November 8 to December 6, 1941"
+    }
+  ]
+}

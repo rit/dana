@@ -1,0 +1,61 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10247_02m/collection.json",
+  "@type": "sc:Collection",
+  "label": "Materials related to patronage,",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "undated"
+    }
+  ],
+  "manifests": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3384/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Materials related to patronage: American Institution of Iranian Art and Architecture"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3385/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Materials related to patronage: Tate Gallery, London"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3386/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Materials related to patronage: National Gallery, London (Trafalgar Square)"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3387/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Materials related to patronage: National Portrait Gallery, London"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3389/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Materials related to patronage: British Museum, Elgin Marbles Gallery"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3392/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Materials related to patronage: T. Roosevelt Memorial, Washington, D.C"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3393/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Materials related to patronage: Morley College Wall Paintings"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3394/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Materials related to patronage: U.S.A: 50 Sketches by Max Rabes"
+    }
+  ],
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10261_cma/collection.json",
+      "@type": "sc:Collection",
+      "label": "John Russell Pope Portfolio dedicated to Lord Duveen"
+    }
+  ]
+}

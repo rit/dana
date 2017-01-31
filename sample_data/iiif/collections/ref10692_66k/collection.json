@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10692_66k/collection.json",
+  "@type": "sc:Collection",
+  "label": "Paintings of Murillo in English private collections",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "3 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 6"
+    }
+  ]
+}

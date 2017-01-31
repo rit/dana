@@ -1,0 +1,33 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref15_kli/collection.json",
+  "@type": "sc:Collection",
+  "label": "Stock albums, Series I.A.",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1907-1954"
+    },
+    {
+      "label": "Arrangement",
+      "value": "Arranged in two groupings: I.A.1. Decorative arts and sculpture; I.A.2. Paintings."
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "47 Linear Feet"
+    }
+  ],
+  "description": "The stock albums provide a visual record of some of the most notable works sold by Duveen Brothers, with numerous photographs annotated. Annotations, some made by Bernard Berenson, include stock numbers, attributions, materials, measurements, dates, prices, provenance, and the colors of the objects. Certain objects photographed are noted as \"sold,\" \"in stock,\" or \"sold, can be copied.\"  Although many photographs remain unpublished, some of the photographs have appeared in Duveen Pictures in Public Collections of America and in Duveen Sculpture in Public Collections of America, published by Duveen Brothers. Albums, such as the one of portraits by Oswald Birley, have a corresponding exhibition catalog in Series III.",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref17_ow4/collection.json",
+      "@type": "sc:Collection",
+      "label": "Decorative arts and sculpture,"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref78_zth/collection.json",
+      "@type": "sc:Collection",
+      "label": "Paintings,"
+    }
+  ]
+}

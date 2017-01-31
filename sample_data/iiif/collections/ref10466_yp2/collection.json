@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10466_yp2/collection.json",
+  "@type": "sc:Collection",
+  "label": "Bens - Bouc",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 699"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10653_heq/collection.json",
+  "@type": "sc:Collection",
+  "label": "Gifts through history",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 4"
+    }
+  ]
+}

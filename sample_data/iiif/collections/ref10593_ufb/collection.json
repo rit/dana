@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10593_ufb/collection.json",
+  "@type": "sc:Collection",
+  "label": "English and French paintings, etchings, etc.",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 volume"
+    },
+    {
+      "label": "Container",
+      "value": "Box 729 Folder 5-6"
+    }
+  ]
+}

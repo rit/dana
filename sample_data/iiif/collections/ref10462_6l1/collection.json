@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10462_6l1/collection.json",
+  "@type": "sc:Collection",
+  "label": "A - Aum",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 697"
+    }
+  ]
+}

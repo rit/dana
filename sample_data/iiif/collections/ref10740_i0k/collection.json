@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10740_i0k/collection.json",
+  "@type": "sc:Collection",
+  "label": "Art Digest",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10741_mdi/collection.json",
+      "@type": "sc:Collection",
+      "label": "Art Digest 1926 November 1-1934 December 31"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10744_7ok/collection.json",
+      "@type": "sc:Collection",
+      "label": "Art Digest 1935 January 1-1935 December 31"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10640_nvj/collection.json",
+  "@type": "sc:Collection",
+  "label": "Reference lists",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10641_wuw/collection.json",
+      "@type": "sc:Collection",
+      "label": "Crivellis in Europe"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10644_oc6/collection.json",
+      "@type": "sc:Collection",
+      "label": "Donatellos in America"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10647_u6b/collection.json",
+      "@type": "sc:Collection",
+      "label": "French sculpture in America"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10650_n26/collection.json",
+      "@type": "sc:Collection",
+      "label": "French works of art in America"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10653_heq/collection.json",
+      "@type": "sc:Collection",
+      "label": "Gifts through history"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10656_hhy/collection.json",
+      "@type": "sc:Collection",
+      "label": "Guggenheim Memorial Foundation"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10659_6ym/collection.json",
+      "@type": "sc:Collection",
+      "label": "Holbeins in America"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10662_i5j/collection.json",
+      "@type": "sc:Collection",
+      "label": "Houdons in America"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10665_tol/collection.json",
+      "@type": "sc:Collection",
+      "label": "Joshua Reynolds - listed by owners"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10668_2kw/collection.json",
+      "@type": "sc:Collection",
+      "label": "List of the most renowned Italian masters and their works in private collections"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10671_mze/collection.json",
+      "@type": "sc:Collection",
+      "label": "List of museums and libraries"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10674_e9b/collection.json",
+      "@type": "sc:Collection",
+      "label": "List of trustees of the National Gallery up to 1909"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10677_wb8/collection.json",
+      "@type": "sc:Collection",
+      "label": "Liste des anciens membres de l'acad\u00e9mie celtique et de la soci\u00e9t\u00e9 des antiquiares de France"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10680_z83/collection.json",
+      "@type": "sc:Collection",
+      "label": "Lost works by Domenico Veneziano"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10683_fzc/collection.json",
+      "@type": "sc:Collection",
+      "label": "Miniatures"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10686_7a2/collection.json",
+      "@type": "sc:Collection",
+      "label": "Other van Dyck's in America"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10689_d5i/collection.json",
+      "@type": "sc:Collection",
+      "label": "Paintings of the English School"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10692_66k/collection.json",
+      "@type": "sc:Collection",
+      "label": "Paintings of Murillo in English private collections"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10695_fed/collection.json",
+      "@type": "sc:Collection",
+      "label": "Paintings by the Old Masters illustrating the history of the Bible"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10698_oyx/collection.json",
+      "@type": "sc:Collection",
+      "label": "Pictures by Terborch (Borch, Gerard ter)"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10701_qfh/collection.json",
+      "@type": "sc:Collection",
+      "label": "Portraits of Queen Charlotte by various painters"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10704_jcm/collection.json",
+      "@type": "sc:Collection",
+      "label": "Raeburn portraits of men with auction prices"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10707_4at/collection.json",
+      "@type": "sc:Collection",
+      "label": "Roger van der Weyden"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10710_rbh/collection.json",
+      "@type": "sc:Collection",
+      "label": "Rubens drawings in America"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10713_9j6/collection.json",
+      "@type": "sc:Collection",
+      "label": "Sculpture"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10716_929/collection.json",
+      "@type": "sc:Collection",
+      "label": "Small Italian bronzes with measurements"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10719_khq/collection.json",
+      "@type": "sc:Collection",
+      "label": "Some pictures by Gainsborough sold at auctions with prices"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10722_ttt/collection.json",
+      "@type": "sc:Collection",
+      "label": "Thomas Lawrence sold by Duveen Brothers with measurements and owners"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10725_mo7/collection.json",
+      "@type": "sc:Collection",
+      "label": "Unknown sale of Impressionists and Moderns"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10728_5s5/collection.json",
+      "@type": "sc:Collection",
+      "label": "Works of Matteo Civitale"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10731_cn9/collection.json",
+      "@type": "sc:Collection",
+      "label": "World Museums"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10735_hzm/collection.json",
+      "@type": "sc:Collection",
+      "label": "Unidentified"
+    }
+  ]
+}

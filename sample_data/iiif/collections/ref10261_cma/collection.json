@@ -1,0 +1,6 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10261_cma/collection.json",
+  "@type": "sc:Collection",
+  "label": "John Russell Pope Portfolio dedicated to Lord Duveen"
+}

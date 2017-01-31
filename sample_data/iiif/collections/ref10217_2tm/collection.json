@@ -1,0 +1,45 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10217_2tm/collection.json",
+  "@type": "sc:Collection",
+  "label": "Lord Joseph Duveen papers, Series X.",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1919-1933"
+    },
+    {
+      "label": "Arrangement",
+      "value": "Arranged by type of document."
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "11 Linear Feet"
+    }
+  ],
+  "description": "Series X includes papers relating to Lord Joseph Duveen: clippings, photographs, and correspondence which sheds light on Joseph Duveen's philanthropy and relationships with artists. Included are photographs of paintings and sculptures of Lord Duveen, and photographs of Duveen's relatives, friends and personnel. There are drawings related to the Tate Gallery, London, additions sponsored by Joseph Joel Duveen and later by his son, as well as photographs of the Elgin Marbles room of the British Museum, donated by Duveen, and other benefactions to art in Britain and the United States.",
+  "manifests": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3373/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Clippings"
+    }
+  ],
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10222_vq0/collection.json",
+      "@type": "sc:Collection",
+      "label": "Portraits,"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10233_l35/collection.json",
+      "@type": "sc:Collection",
+      "label": "Correspondence,"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10247_02m/collection.json",
+      "@type": "sc:Collection",
+      "label": "Materials related to patronage,"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10719_khq/collection.json",
+  "@type": "sc:Collection",
+  "label": "Some pictures by Gainsborough sold at auctions with prices",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "5 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 733 Folder 1"
+    }
+  ]
+}

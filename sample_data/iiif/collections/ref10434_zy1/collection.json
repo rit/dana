@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10434_zy1/collection.json",
+  "@type": "sc:Collection",
+  "label": "General",
+  "description": "Alphabetical enumeration of files in the Duveen library. Each file's location is noted on the top right-hand corner of the index cards.",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10435_ibn/collection.json",
+      "@type": "sc:Collection",
+      "label": "A - Bord"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10437_8xh/collection.json",
+      "@type": "sc:Collection",
+      "label": "Bore - Com"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10439_4i5/collection.json",
+      "@type": "sc:Collection",
+      "label": "Con - Exh, Cardiff"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10441_ued/collection.json",
+      "@type": "sc:Collection",
+      "label": "Exh, Chapill Hill - Ff"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10443_qxm/collection.json",
+      "@type": "sc:Collection",
+      "label": "Fi - Han"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10445_dkg/collection.json",
+      "@type": "sc:Collection",
+      "label": "Har - Le"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10447_qum/collection.json",
+      "@type": "sc:Collection",
+      "label": "Li - Mo"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10449_x83/collection.json",
+      "@type": "sc:Collection",
+      "label": "Mu - Painting, Irish"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10451_1ha/collection.json",
+      "@type": "sc:Collection",
+      "label": "Painting, Italian - Ra"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10453_7dx/collection.json",
+      "@type": "sc:Collection",
+      "label": "Re - Sc"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10455_ysa/collection.json",
+      "@type": "sc:Collection",
+      "label": "Se - Va"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10457_2cx/collection.json",
+      "@type": "sc:Collection",
+      "label": "Ve - Z"
+    }
+  ]
+}

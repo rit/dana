@@ -1,0 +1,28 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10739_q8w/collection.json",
+  "@type": "sc:Collection",
+  "label": "Indices",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10740_i0k/collection.json",
+      "@type": "sc:Collection",
+      "label": "Art Digest"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10748_jc7/collection.json",
+      "@type": "sc:Collection",
+      "label": "Burlington Magazine"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10751_rtv/collection.json",
+      "@type": "sc:Collection",
+      "label": "Les Arts"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10759_txb/collection.json",
+      "@type": "sc:Collection",
+      "label": "Index of pictures by Old Masters reproduced in Les Arts, Burlington Magazine, Art in America"
+    }
+  ]
+}

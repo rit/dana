@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10518_98a/collection.json",
+  "@type": "sc:Collection",
+  "label": "Vec - Weit",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 725"
+    }
+  ]
+}

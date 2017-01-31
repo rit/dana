@@ -1,0 +1,17 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10616_30w/collection.json",
+  "@type": "sc:Collection",
+  "label": "Miscellaneous",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 volume"
+    },
+    {
+      "label": "Container",
+      "value": "Box 731 Folder 1"
+    }
+  ],
+  "description": "Includes: armor, silver, Dresden porcelain, modern pictures, wood statuettes, porcelain ewers, maiolica busts, Limoges enamel, jewelry, and gold watches."
+}

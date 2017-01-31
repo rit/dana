@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref13_ggd/collection.json",
+  "@type": "sc:Collection",
+  "label": "Photograph albums, Series I.",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1871-1956"
+    },
+    {
+      "label": "Arrangement",
+      "value": "Arranged in three subseries: I.A. Stock albums; I.B. Collectors' albums; I.C. Other albums."
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "105 Linear Feet"
+    }
+  ],
+  "description": "Series I contains photograph albums of artworks that were acquired or sold by Duveen Brothers, albums documenting the collections of the firm's important clients, and albums unrelated to the firm's stock, which were apparently compiled primarily for reference.",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref15_kli/collection.json",
+      "@type": "sc:Collection",
+      "label": "Stock albums, Series I.A."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref110_xd6/collection.json",
+      "@type": "sc:Collection",
+      "label": "Collectors' albums, Series I.B."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref160_xda/collection.json",
+      "@type": "sc:Collection",
+      "label": "Other albums, Series I.C."
+    }
+  ]
+}

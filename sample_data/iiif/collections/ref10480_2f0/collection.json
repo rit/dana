@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10480_2f0/collection.json",
+  "@type": "sc:Collection",
+  "label": "Fram - Ges",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 706"
+    }
+  ]
+}

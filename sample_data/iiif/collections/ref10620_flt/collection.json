@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10620_flt/collection.json",
+  "@type": "sc:Collection",
+  "label": "Bronzes and S\u00e8vres porcelain",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 volume"
+    },
+    {
+      "label": "Container",
+      "value": "Box 731 Folder 2"
+    }
+  ]
+}

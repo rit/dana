@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10662_i5j/collection.json",
+  "@type": "sc:Collection",
+  "label": "Houdons in America",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "8 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 4"
+    }
+  ]
+}

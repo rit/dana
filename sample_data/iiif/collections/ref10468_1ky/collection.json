@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10468_1ky/collection.json",
+  "@type": "sc:Collection",
+  "label": "Boud - Cand",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 700"
+    }
+  ]
+}

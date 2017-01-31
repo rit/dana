@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10500_ouf/collection.json",
+  "@type": "sc:Collection",
+  "label": "Phe - Pot",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 716"
+    }
+  ]
+}

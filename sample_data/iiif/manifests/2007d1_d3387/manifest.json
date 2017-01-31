@@ -1,0 +1,243 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/2007d1_d3387/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Materials related to patronage: National Portrait Gallery, London",
+  "metadata": [
+    {
+      "label": "Author/Creator",
+      "value": [
+        "Duveen, Joseph",
+        "Duveen, Baron, 1869-1939"
+      ]
+    },
+    {
+      "label": "Contributors",
+      "value": "Duveen Brothers"
+    },
+    {
+      "label": "Creation Date",
+      "value": "undated"
+    },
+    {
+      "label": "Form/Genre",
+      "value": "Mixed material"
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "3.0 photographs"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "Art dealers",
+        "Duveen, Baron, 1869-1939",
+        "Duveen Brothers",
+        "Duveen, Joseph"
+      ]
+    },
+    {
+      "label": "ID/Acc. No.",
+      "value": [
+        "2007.D.1 (bx.670,f.3)",
+        "http://hdl.handle.net/10020/2007d1_d3387"
+      ]
+    },
+    {
+      "label": "Is Part Of",
+      "value": [
+        "Duveen Brothers stock documentation from the dealer\u2019s library, 1829-1965. Series X. Lord Joseph Duveen papers, 1919-1933 (http://hdl.handle.net/10020/cat717039)",
+        "GRI Special Collections"
+      ]
+    },
+    {
+      "label": "Use Restrictions",
+      "value": "Be aware that third parties may claim privacy or publicity rights in these images, or rights to artworks depicted that are not in the public domain. Users assume full responsibility for their use of these images. By downloading these images you agree that it is your responsibility to identify any potential claimants and obtain any necessary permissions for your use, and you agree to indemnify, defend, and hold the repository libraries harmless from all costs, charges, fees, or expenses, losses, damages, liabilities, or judgments arising from or relating to any claim, cause, or allegation asserted by a third party against the repository libraries based entirely or in part on your use of the images."
+    }
+  ],
+  "description": "The Duveen Brothers was a firm of influential art dealers from the late nineteenth to the mid-twentieth century based in London, Paris, and New York. With Joseph Duveen (1869-1939) at the helm and the assistance of art experts, most notably Bernard Berenson (1865-1959), Duveen Brothers played a prominent role in the transfer of old master paintings, antique furnishings, and objets d'art from Europe to the United States. Series X includes papers relating to Lord Joseph Duveen: clippings, photographs, and correspondence which sheds light on Joseph Duveen's philanthropy and relationships with artists. Included are photographs of paintings and sculptures of Lord Duveen, and photographs of Duveen's relatives, friends and personnel. There are drawings related to the Tate Gallery, London, additions  sponsored by Joseph Joel Duveen and later by his son, as well as photographs of the Elgin Marbles room of the British Museum,  donated by Duveen, and other benefactions to art in Britain and the United States.",
+  "attribution": "The Getty Research Institute, Los Angeles.",
+  "license": "http://hdl.handle.net/10020/repro_perm",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3387/sequence/regular.json",
+      "@type": "sc:Sequence",
+      "label": "Regular Order",
+      "canvases": [
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120181.json",
+          "@type": "sc:Canvas",
+          "label": "Image 001",
+          "height": 2818,
+          "width": 3634,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120181.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2818,
+                "width": 3634,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120181.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120181.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120184.json",
+          "@type": "sc:Canvas",
+          "label": "Image 002",
+          "height": 2840,
+          "width": 3640,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120184.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2840,
+                "width": 3640,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120184.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120184.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120187.json",
+          "@type": "sc:Canvas",
+          "label": "Image 003",
+          "height": 4977,
+          "width": 3175,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120187.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4977,
+                "width": 3175,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120187.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120187.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120190.json",
+          "@type": "sc:Canvas",
+          "label": "Image 004",
+          "height": 4960,
+          "width": 3175,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120190.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4960,
+                "width": 3175,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120190.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120190.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120197.json",
+          "@type": "sc:Canvas",
+          "label": "Image 005",
+          "height": 3685,
+          "width": 4892,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120197.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3685,
+                "width": 4892,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120197.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120197.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120202.json",
+          "@type": "sc:Canvas",
+          "label": "Image 006",
+          "height": 3668,
+          "width": 4875,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120202.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3668,
+                "width": 4875,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3387%2FFL2120202.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120202.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3387/range/range-1.json",
+      "@type": "sc:Range",
+      "label": "Materials related to patronage: National Portrait Gallery, London, undated ",
+      "viewingHint": "top",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120181.json",
+        "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120184.json",
+        "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120187.json",
+        "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120190.json",
+        "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120197.json",
+        "http://data.getty.edu/iiif/2007d1_d3387/canvas/canvas-FL2120202.json"
+      ]
+    }
+  ]
+}

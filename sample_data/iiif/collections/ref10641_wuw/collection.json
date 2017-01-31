@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10641_wuw/collection.json",
+  "@type": "sc:Collection",
+  "label": "Crivellis in Europe",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "6 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 3"
+    }
+  ]
+}

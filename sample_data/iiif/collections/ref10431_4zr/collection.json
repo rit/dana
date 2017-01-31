@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10431_4zr/collection.json",
+  "@type": "sc:Collection",
+  "label": "Library index cards, bibliographies, and reference lists, Series XIII.",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1903-1935"
+    },
+    {
+      "label": "Arrangement",
+      "value": "Arranged by type of document, with the index cards listed first."
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "13 Linear Feet"
+    }
+  ],
+  "description": "Typed or handwritten materials of compiled information about artwork location by specific artists and original card catalogues of the Duveen firm for auction catalogues, books in the original Duveen Brothers' library and archival materials and bibliographic references.",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10433_jzy/collection.json",
+      "@type": "sc:Collection",
+      "label": "Library index cards"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10550_4xq/collection.json",
+      "@type": "sc:Collection",
+      "label": "Bibliographies"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10591_42z/collection.json",
+      "@type": "sc:Collection",
+      "label": "Brochure lists"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10640_nvj/collection.json",
+      "@type": "sc:Collection",
+      "label": "Reference lists"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10739_q8w/collection.json",
+      "@type": "sc:Collection",
+      "label": "Indices"
+    }
+  ]
+}

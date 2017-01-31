@@ -1,0 +1,156 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/2007d1/collection.json",
+  "@type": "sc:Collection",
+  "label": "Duveen Brothers stock documentation from the dealer's library, 2007.D.1",
+  "metadata": [
+    {
+      "label": "Author/Creator",
+      "value": "Duveen Brothers"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1829-1965"
+    },
+    {
+      "label": "Bio./Hist. Note",
+      "value": [
+        "The Duveen Brothers was a firm of influential art dealers active from the late nineteenth to the mid-twentieth centuries with offices in London, Paris, and New York. Under the guidance of Joseph Duveen (1869-1939), and assisted by art experts, most notably Bernard Berenson (1865-1959), Duveen Brothers played a prominent role in the transfer of works of art from Europe to the United States. The firm helped form important private collections that later became the nuclei of museums such as the National Gallery of Art, the Huntington Art Collections, and the Frick Collection.",
+        " Joel Joseph (1843-1908) and Henry Duveen (1854-1919), the founders of Duveen Brothers were originally from Meppel, Holland. In 1866, Joel Joseph moved to England, first to the city of Hull and then to London, where he began importing delftware, porcelain and other objets d'art from Holland. In 1877, Henry moved to Boston and then New York, where he would become associated with the affluent American collectors J. P. Morgan, Benjamin Altman, Collis P. Huntington, P. A. B. Widener and George J. Gould. Joseph Duveen, the eldest son of Joseph Joel and the principal personage behind the firm's peak from 1907 to 1939 joined the business under his father's mentorship in the London branch in 1887. In 1905-1908, Sir (later Lord) Joseph Duveen made the decisive purchases in Paris of the Rodolfe Kann and Maurice Kann collections and in Berlin of the Hainauer collection.",
+        " The firm's operation involved a network of runners, scholars, librarians, writers, and photographers. Its access to the vast financial resources of its clientele of international bankers provided it with the capital necessary to make major purchases. The firm achieved major sales to collectors, such as Samuel Kress, Andrew Mellon, Henry Clay Frick, Joseph E. Widener, Mr. and Mrs. Henry E. Huntington and Philip Lehman.",
+        " In 1939, after Lord Duveen's death, his nephew, Armand Lowengard and Edward Fowles assumed leadership of the firms in Paris, New York and London. When Lowengard passed away in 1943, Fowles took over the presidency of Duveen Brothers until 1964, when he sold the firm to Norton Simon with most of its remaining stock."
+      ]
+    },
+    {
+      "label": "Arrangement",
+      "value": "Arranged in fourteen series: Series I. Albums of photographs, 1871-1956; Series II. Exhibition catalogs, pamphlets and posters, 1907-1964; Series III. Scrapbooks, 1869-1962; Series IV. Brochures, 1910-1962; Series V. Collectors' files, 1877-1956; Series VI. Articles, 1829-1963; Series VII. Photographs, 1898-circa 1960; Series VIII. Business records, 1910-circa 1960; Series IX. Robert Langton Douglas papers, 1916-1951; Series X. Lord Joseph Duveen, 1919-1933; Series XI. Photographs and inventories related to the Duveen Brothers' showrooms, 1920s; Series XII. Designs and architectural plans, undated; Series XIII. Library index cards, bibliographies and reference lists, undated; "
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "755 Linear Feet"
+    },
+    {
+      "label": "Summary",
+      "value": "These records from the art dealer Duveen Brothers formed part of the firm's library holdings that were purchased in 1965 by The Sterling and Francine Clark Art Institute in Williamstown, Massachusetts. They document the Duveen Brothers' cataloging, research, exhibition work, and publication of works of art and collections. They consist of brochures, photographs, collectors' files, scrapbooks, correspondence and authentication records from art experts, notably Bernard Berenson. Also included in these records are the papers of Italian Renaissance art historian R. (Robert) Langton Douglas."
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "Morgan, J. P. (John Pierpont), 1867-1943",
+        "Ringling, John, 1866-1936",
+        "Kress, Samuel H. (Samuel Henry), 1863-1955",
+        "Mellon, Andrew W. (Andrew William), 1855-1937",
+        "Benson, Robert, 1850-1929",
+        "Bache, Jules S. (Jules Semon), 1861-1944",
+        "Duveen, Joseph Duveen, Baron",
+        "Huntington, Henry Edwards, 1850-1927",
+        "Getty, J. Paul (Jean Paul), 1892-1976",
+        "Art -- Provenance",
+        "Art -- Private collections",
+        "Decorative arts -- Collectors and collecting",
+        "Collectors and collecting",
+        "Art dealers -- Great Britain",
+        "Art dealers -- France",
+        "Art -- Expertising",
+        "Art dealers -- United States",
+        "Painting, European -- Collectors and collecting"
+      ]
+    },
+    {
+      "label": "Language",
+      "value": "English"
+    },
+    {
+      "label": "Preferred Citation",
+      "value": [
+        "Duveen Brothers stock documentation from the dealer's library, 1829-1965, The Getty Research Institute, Los Angeles, Accession no. 2007.D.1.",
+        " http://hdl.handle.net/10020/cifa2007d1"
+      ]
+    },
+    {
+      "label": "Use Restrictions",
+      "value": "Contact Library Reproductions and Permissions."
+    },
+    {
+      "label": "Access/Rights",
+      "value": "Open for use by qualified researchers, except for Series III. Scrapbooks. Contact the repository for information regarding access of Series III."
+    },
+    {
+      "label": "Related Material",
+      "value": "Duveen Brothers Records, 1876-1981 (Accession no. 960015). Connect to finding aid: http://hdl.handle.net/10020/cifa960015"
+    }
+  ],
+  "description": "The stock documentation formed part of the library of the Duveen Brothers that was purchased in 1965 by The Sterling and Francine Clark Art Institute in Williamstown, Massachusetts. It was not included in the business records that were deeded in 1968 by Edward Fowles to the Metropolitan Museum and in turn donated to the Getty Research Institute in 1996 (Accession No. 960015). After the Clark Institute integrated the published books, sales catalogs and periodicals from the Duveen Brothers' Library into the institute's general collections, there remained a significant archive, comprised of photograph albums, drafts and published catalogs, brochures, clippings arranged in scrapbooks, photographs of the firm's stock, architectural plans, and art expertise documentation. This portion of the art dealer's records documents the firm's exhibition work, cataloging, research, and publication of works of art and collections. It includes collectors' files and authentication records from art experts, notably Bernard Berenson. The archive was placed on deposit in 2006 at the Getty Research Institute for processing, cataloging, conservation and microfilming.  The archive is primarily visual in nature, as its largest series consists of the photographic reference files maintained by Duveen Brothers personnel. Also included are albums of photographs that record the most important works of art in the firm's stock and albums of photographs that illustrate collections of the firm's clients, including Jules Bache, Anna Dodge Dillman, Andrew Mellon and Samuel Kress.  Although the bulk of the firm's correspondence forms part of the related archive at the Getty Research Institute, the Duveen Brothers records (Accession No. 960015), the archive includes some correspondence with Bernard Berenson, R. (Robert) Langton Douglas, Georg Swarzenski, Wilhelm von Bode, W. (Wilhelm Rheinhold Otto) Valentiner and Max Friedl\u00e4nder. Art expertive includes Bernard Berenson's X books and certificates of authenticity in the form of typed statements and signed photographs. Clippings and scrapbooks document advertising campaigns orchestrated by the firm and court trials occasioned by attribution disputes and claims of tax frauds.  Personal aspects of Lord Joseph Duveen's career and benefactions are documented in scrapbooks, drawings, and photographs. The daily activities of the firm appear in callers' books that include notes on customers' visits and on works seen. Plans, drawings, and fabric swatches document the firm's role as decorator for its clients's estates.  Also included are the papers of Italian Renaissance art historian R. (Robert) Langton Douglas (8.0 linear feet (9 boxes)), whose widow later married the firm's last president, Edward Fowles.",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref13_ggd/collection.json",
+      "@type": "sc:Collection",
+      "label": "Photograph albums, Series I."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref214_oz5/collection.json",
+      "@type": "sc:Collection",
+      "label": "Exhibition catalogs and posters, Series II."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref437_f9i/collection.json",
+      "@type": "sc:Collection",
+      "label": "Scrapbooks, Series III."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref685_ypt/collection.json",
+      "@type": "sc:Collection",
+      "label": "Brochures, Series IV."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref7221_njp/collection.json",
+      "@type": "sc:Collection",
+      "label": "Collectors' files, Series V."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref8048_m2j/collection.json",
+      "@type": "sc:Collection",
+      "label": "Articles, Series VI."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref8253_4yc/collection.json",
+      "@type": "sc:Collection",
+      "label": "Photographs, Series VII."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref9633_q0b/collection.json",
+      "@type": "sc:Collection",
+      "label": "Business records, Series VIII."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10114_r2z/collection.json",
+      "@type": "sc:Collection",
+      "label": "Robert Langton Douglas papers, Series IX."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10217_2tm/collection.json",
+      "@type": "sc:Collection",
+      "label": "Lord Joseph Duveen papers, Series X."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10284_7fz/collection.json",
+      "@type": "sc:Collection",
+      "label": "Photographs and inventories related to the Duveen Brothers showrooms, Series XI."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10364_07l/collection.json",
+      "@type": "sc:Collection",
+      "label": "Designs and architectural plans, Series XII."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10431_4zr/collection.json",
+      "@type": "sc:Collection",
+      "label": "Library index cards, bibliographies, and reference lists, Series XIII."
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10766_1pq/collection.json",
+      "@type": "sc:Collection",
+      "label": "Miscellaneous, Series XIV."
+    }
+  ]
+}

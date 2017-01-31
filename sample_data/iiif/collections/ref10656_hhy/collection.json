@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10656_hhy/collection.json",
+  "@type": "sc:Collection",
+  "label": "Guggenheim Memorial Foundation",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 pamphlet ([6 panels])"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 4"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10683_fzc/collection.json",
+  "@type": "sc:Collection",
+  "label": "Miniatures",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "2 pages"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 6"
+    }
+  ]
+}

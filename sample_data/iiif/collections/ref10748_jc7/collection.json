@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10748_jc7/collection.json",
+  "@type": "sc:Collection",
+  "label": "Burlington Magazine",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 volume"
+    },
+    {
+      "label": "Container",
+      "value": "Box 733 Folder 5"
+    }
+  ]
+}

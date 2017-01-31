@@ -1,0 +1,73 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10550_4xq/collection.json",
+  "@type": "sc:Collection",
+  "label": "Bibliographies",
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10551_ftu/collection.json",
+      "@type": "sc:Collection",
+      "label": "Chinese porcelain"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10554_fo4/collection.json",
+      "@type": "sc:Collection",
+      "label": "Furniture and bronzes"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10557_2cu/collection.json",
+      "@type": "sc:Collection",
+      "label": "List of books suggested for the H.E. Huntington Library and Art Gallery"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10560_tyb/collection.json",
+      "@type": "sc:Collection",
+      "label": "Milan and Lombardy"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10563_66r/collection.json",
+      "@type": "sc:Collection",
+      "label": "Nicolas Lancret"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10566_u0a/collection.json",
+      "@type": "sc:Collection",
+      "label": "Old masters"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10569_aj3/collection.json",
+      "@type": "sc:Collection",
+      "label": "Pourbus"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10572_bsw/collection.json",
+      "@type": "sc:Collection",
+      "label": "Selected list of books on Florentine painting from Cimabue to Michelangelo"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10575_3sz/collection.json",
+      "@type": "sc:Collection",
+      "label": "Selected list of books on sculpture of the Italian Renaissance"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10578_1gt/collection.json",
+      "@type": "sc:Collection",
+      "label": "Suggested list of books - general"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10581_kbw/collection.json",
+      "@type": "sc:Collection",
+      "label": "Summary of a list of books for the College Art Library"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10584_7b1/collection.json",
+      "@type": "sc:Collection",
+      "label": "Tapestries"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref10587_av9/collection.json",
+      "@type": "sc:Collection",
+      "label": "Works on sculpture"
+    }
+  ]
+}

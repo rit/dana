@@ -1,0 +1,12 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10514_6r5/collection.json",
+  "@type": "sc:Collection",
+  "label": "St\u00e4e - Tex",
+  "metadata": [
+    {
+      "label": "Container",
+      "value": "Box 723"
+    }
+  ]
+}

@@ -1,0 +1,2695 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/2007d1_d0024/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Pictures: French school",
+  "metadata": [
+    {
+      "label": "Author/Creator",
+      "value": "Duveen Brothers"
+    },
+    {
+      "label": "Creation Date",
+      "value": "undated"
+    },
+    {
+      "label": "Form/Genre",
+      "value": [
+        "Mixed material",
+        "Black-and-white photographs",
+        "Photograph albums",
+        "Photographs, Original"
+      ]
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "1.0 album"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "Art--Collectors and collecting",
+        "Art--Provenance",
+        "Duveen Brothers"
+      ]
+    },
+    {
+      "label": "ID/Acc. No.",
+      "value": [
+        "2007.D.1 (bx.31*)",
+        "http://hdl.handle.net/10020/2007d1_d0024"
+      ]
+    },
+    {
+      "label": "Is Part Of",
+      "value": [
+        "Duveen Brothers stock documentation from the dealer\u2019s library, 1829-1965. Series I. Photograph albums, 1871-1956. Series I.A. Stock albums, 1907-1954 (http://hdl.handle.net/10020/cat717039)",
+        "GRI Special Collections"
+      ]
+    },
+    {
+      "label": "Use Restrictions",
+      "value": "Be aware that third parties may claim privacy or publicity rights in these images, or rights to artworks depicted that are not in the public domain. Users assume full responsibility for their use of these images. By downloading these images you agree that it is your responsibility to identify any potential claimants and obtain any necessary permissions for your use, and you agree to indemnify, defend, and hold the repository libraries harmless from all costs, charges, fees, or expenses, losses, damages, liabilities, or judgments arising from or relating to any claim, cause, or allegation asserted by a third party against the repository libraries based entirely or in part on your use of the images."
+    }
+  ],
+  "description": "The Duveen Brothers was a firm of influential art dealers from the late nineteenth to the mid-twentieth century based in London, Paris, and New York. With Joseph Duveen (1869-1939) at the helm and the assistance of art experts, most notably Bernard Berenson (1865-1959), Duveen Brothers played a prominent role in the transfer of old master paintings, antique furnishings, and objets d'art from Europe to the United States. The stock albums provide a visual record of some of the most notable works sold by Duveen Brothers, with numerous photographs annotated. Annotations, some made by Bernard Berenson, include stock numbers, attributions, materials, measurements, dates, prices, provenance, and the colors of the objects. Certain objects photographed are noted as \"sold,\" \"in stock,\" or \"sold, can be copied.\" Although many photographs remain unpublished, some of the photographs have appeared in Duveen Pictures in Public Collections of America and in Duveen Sculpture in Public Collections of America, published by Duveen Brothers. Albums, such as the one of portraits by Oswald Birley, have a corresponding exhibition catalog in Series III.",
+  "attribution": "The Getty Research Institute, Los Angeles.",
+  "license": "http://hdl.handle.net/10020/repro_perm",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/sequence/regular.json",
+      "@type": "sc:Sequence",
+      "label": "Regular Order",
+      "canvases": [
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723634.json",
+          "@type": "sc:Canvas",
+          "label": "Front cover",
+          "height": 7079,
+          "width": 6554,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723634.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7079,
+                "width": 6554,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723634.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723634.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723635.json",
+          "@type": "sc:Canvas",
+          "label": "Front pastedown endpaper",
+          "height": 7143,
+          "width": 6032,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723635.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7143,
+                "width": 6032,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723635.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723635.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723636.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 6934,
+          "width": 6021,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723636.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6934,
+                "width": 6021,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723636.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723636.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723637.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6130,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723637.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6130,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723637.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723637.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723638.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6410,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723638.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6410,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723638.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723638.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723639.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6130,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723639.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6130,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723639.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723639.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723640.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6410,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723640.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6410,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723640.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723640.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723641.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6130,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723641.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6130,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723641.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723641.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723642.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6410,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723642.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6410,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723642.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723642.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723643.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6130,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723643.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6130,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723643.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723643.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723644.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6410,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723644.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6410,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723644.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723644.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723645.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6142,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723645.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6142,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723645.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723645.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723646.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6410,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723646.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6410,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723646.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723646.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723647.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6142,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723647.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6142,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723647.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723647.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723648.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6410,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723648.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6410,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723648.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723648.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723649.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6142,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723649.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6142,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723649.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723649.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723650.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6410,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723650.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6410,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723650.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723650.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723651.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6142,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723651.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6142,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723651.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723651.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723652.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6374,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723652.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6374,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723652.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723652.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723653.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6142,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723653.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6142,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723653.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723653.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723654.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6362,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723654.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6362,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723654.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723654.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723655.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6297,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723655.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6297,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723655.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723655.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723656.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6410,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723656.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6410,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723656.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723656.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723657.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6201,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723657.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6201,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723657.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723657.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723658.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6290,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723658.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6290,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723658.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723658.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723659.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6238,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723659.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6238,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723659.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723659.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723660.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723660.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6314,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723660.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723660.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723661.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6225,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723661.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6225,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723661.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723661.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723662.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723662.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6314,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723662.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723662.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723663.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6213,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723663.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6213,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723663.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723663.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723664.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723664.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6314,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723664.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723664.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723665.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6274,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723665.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6274,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723665.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723665.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723666.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6266,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723666.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6266,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723666.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723666.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723667.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6298,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723667.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723667.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723667.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723668.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6374,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723668.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6374,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723668.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723668.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723669.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6298,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723669.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723669.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723669.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723670.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6338,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723670.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6338,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723670.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723670.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723674.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7133,
+          "width": 6298,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723674.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7133,
+                "width": 6298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723674.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723674.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723676.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6374,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723676.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6374,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723676.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723676.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723678.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6298,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723678.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723678.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723678.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723680.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723680.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6314,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723680.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723680.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723682.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6298,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723682.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723682.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723682.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723684.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6374,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723684.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6374,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723684.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723684.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723686.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6298,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723686.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723686.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723686.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723688.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6374,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723688.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6374,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723688.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723688.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723690.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6346,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723690.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6346,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723690.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723690.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723692.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6374,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723692.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6374,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723692.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723692.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723694.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6382,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723694.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6382,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723694.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723694.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723696.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6374,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723696.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6374,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723696.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723696.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723698.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723698.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6358,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723698.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723698.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723700.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6326,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723700.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723700.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723700.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723702.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723702.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6358,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723702.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723702.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723704.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6326,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723704.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723704.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723704.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723706.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6418,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723706.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6418,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723706.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723706.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723708.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6326,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723708.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723708.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723708.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723710.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6417,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723710.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6417,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723710.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723710.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723712.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6278,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723712.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6278,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723712.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723712.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723714.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6430,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723714.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6430,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723714.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723714.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723716.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6278,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723716.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6278,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723716.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723716.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723718.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6465,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723718.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6465,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723718.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723718.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723720.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6326,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723720.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723720.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723720.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723722.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6477,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723722.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6477,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723722.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723722.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723724.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6254,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723724.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6254,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723724.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723724.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723726.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6442,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723726.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6442,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723726.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723726.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723728.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6254,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723728.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6254,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723728.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723728.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723730.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6454,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723730.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6454,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723730.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723730.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723732.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6254,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723732.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6254,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723732.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723732.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723734.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6477,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723734.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6477,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723734.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723734.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723736.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6182,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723736.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6182,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723736.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723736.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723738.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6537,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723738.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6537,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723738.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723738.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723740.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6182,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723740.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6182,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723740.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723740.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723742.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6501,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723742.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6501,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723742.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723742.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723744.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6255,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723744.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6255,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723744.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723744.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723746.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6537,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723746.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6537,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723746.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723746.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723748.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6194,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723748.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6194,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723748.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723748.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723750.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6561,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723750.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6561,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723750.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723750.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723752.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6158,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723752.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6158,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723752.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723752.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723754.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6597,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723754.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6597,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723754.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723754.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723756.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6134,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723756.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6134,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723756.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723756.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723758.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6609,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723758.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6609,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723758.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723758.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723760.json",
+          "@type": "sc:Canvas",
+          "label": "Recto",
+          "height": 7108,
+          "width": 6170,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723760.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7108,
+                "width": 6170,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723760.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723760.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723762.json",
+          "@type": "sc:Canvas",
+          "label": "Verso",
+          "height": 7193,
+          "width": 6693,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723762.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7193,
+                "width": 6693,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723762.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723762.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723764.json",
+          "@type": "sc:Canvas",
+          "label": "Back pastedown endpaper",
+          "height": 7192,
+          "width": 6050,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723764.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7192,
+                "width": 6050,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723764.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723764.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723766.json",
+          "@type": "sc:Canvas",
+          "label": "Back cover",
+          "height": 7089,
+          "width": 6493,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723766.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7089,
+                "width": 6493,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723766.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723766.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723768.json",
+          "@type": "sc:Canvas",
+          "label": "Spine",
+          "height": 6928,
+          "width": 919,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723768.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6928,
+                "width": 919,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d0024%2FFL1723768.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723768.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-1.json",
+      "@type": "sc:Range",
+      "label": "Pictures: French school, undated",
+      "viewingHint": "top",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723634.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723635.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723764.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723766.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723768.json"
+      ],
+      "ranges": [
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-2.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-3.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-4.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-5.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-6.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-7.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-8.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-9.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-10.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-11.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-12.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-13.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-14.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-15.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-16.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-17.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-18.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-19.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-20.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-21.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-22.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-23.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-24.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-25.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-26.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-27.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-28.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-29.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-30.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-31.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-32.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-33.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-34.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-35.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-36.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-37.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-38.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-39.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-40.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/range/range-41.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-2.json",
+      "@type": "sc:Range",
+      "label": "Leaf 1",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723636.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723637.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-3.json",
+      "@type": "sc:Range",
+      "label": "Leaf 2",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723638.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723639.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-4.json",
+      "@type": "sc:Range",
+      "label": "Leaf 3",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723640.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723641.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-5.json",
+      "@type": "sc:Range",
+      "label": "Leaf 4",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723642.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723643.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-6.json",
+      "@type": "sc:Range",
+      "label": "Leaf 5",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723644.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723645.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-7.json",
+      "@type": "sc:Range",
+      "label": "Leaf 6",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723646.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723647.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-8.json",
+      "@type": "sc:Range",
+      "label": "Leaf 7",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723648.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723649.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-9.json",
+      "@type": "sc:Range",
+      "label": "Leaf 8",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723650.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723651.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-10.json",
+      "@type": "sc:Range",
+      "label": "Leaf 9",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723652.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723653.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-11.json",
+      "@type": "sc:Range",
+      "label": "Leaf 10",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723654.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723655.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-12.json",
+      "@type": "sc:Range",
+      "label": "Leaf 11",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723656.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723657.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-13.json",
+      "@type": "sc:Range",
+      "label": "Leaf 12",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723658.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723659.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-14.json",
+      "@type": "sc:Range",
+      "label": "Leaf 13",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723660.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723661.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-15.json",
+      "@type": "sc:Range",
+      "label": "Leaf 14",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723662.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723663.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-16.json",
+      "@type": "sc:Range",
+      "label": "Leaf 15",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723664.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723665.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-17.json",
+      "@type": "sc:Range",
+      "label": "Leaf 16",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723666.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723667.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-18.json",
+      "@type": "sc:Range",
+      "label": "Leaf 17",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723668.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723669.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-19.json",
+      "@type": "sc:Range",
+      "label": "Leaf 18",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723670.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723674.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-20.json",
+      "@type": "sc:Range",
+      "label": "Leaf 19",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723676.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723678.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-21.json",
+      "@type": "sc:Range",
+      "label": "Leaf 20",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723680.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723682.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-22.json",
+      "@type": "sc:Range",
+      "label": "Leaf 21",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723684.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723686.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-23.json",
+      "@type": "sc:Range",
+      "label": "Leaf 22",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723688.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723690.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-24.json",
+      "@type": "sc:Range",
+      "label": "Leaf 23",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723692.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723694.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-25.json",
+      "@type": "sc:Range",
+      "label": "Leaf 24",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723696.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723698.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-26.json",
+      "@type": "sc:Range",
+      "label": "Leaf 25",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723700.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723702.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-27.json",
+      "@type": "sc:Range",
+      "label": "Leaf 26",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723704.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723706.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-28.json",
+      "@type": "sc:Range",
+      "label": "Leaf 27",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723708.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723710.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-29.json",
+      "@type": "sc:Range",
+      "label": "Leaf 28",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723712.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723714.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-30.json",
+      "@type": "sc:Range",
+      "label": "Leaf 29",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723716.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723718.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-31.json",
+      "@type": "sc:Range",
+      "label": "Leaf 30",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723720.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723722.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-32.json",
+      "@type": "sc:Range",
+      "label": "Leaf 31",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723724.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723726.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-33.json",
+      "@type": "sc:Range",
+      "label": "Leaf 32",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723728.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723730.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-34.json",
+      "@type": "sc:Range",
+      "label": "Leaf 33",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723732.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723734.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-35.json",
+      "@type": "sc:Range",
+      "label": "Leaf 34",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723736.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723738.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-36.json",
+      "@type": "sc:Range",
+      "label": "Leaf 35",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723740.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723742.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-37.json",
+      "@type": "sc:Range",
+      "label": "Leaf 36",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723744.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723746.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-38.json",
+      "@type": "sc:Range",
+      "label": "Leaf 37",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723748.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723750.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-39.json",
+      "@type": "sc:Range",
+      "label": "Leaf 38",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723752.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723754.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-40.json",
+      "@type": "sc:Range",
+      "label": "Leaf 39",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723756.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723758.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d0024/range/range-41.json",
+      "@type": "sc:Range",
+      "label": "Leaf 40",
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723760.json",
+        "http://data.getty.edu/iiif/2007d1_d0024/canvas/canvas-FL1723762.json"
+      ]
+    }
+  ]
+}

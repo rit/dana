@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10557_2cu/collection.json",
+  "@type": "sc:Collection",
+  "label": "List of books suggested for the H.E. Huntington Library and Art Gallery",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "17 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 729 Folder 3"
+    }
+  ]
+}

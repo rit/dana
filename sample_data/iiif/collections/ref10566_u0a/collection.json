@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10566_u0a/collection.json",
+  "@type": "sc:Collection",
+  "label": "Old masters",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 folder (11 sheets)"
+    },
+    {
+      "label": "Container",
+      "value": "Box 729 Folder 4"
+    }
+  ]
+}

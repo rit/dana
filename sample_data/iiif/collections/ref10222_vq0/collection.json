@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10222_vq0/collection.json",
+  "@type": "sc:Collection",
+  "label": "Portraits,",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "undated"
+    }
+  ],
+  "manifests": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3375/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Portraits: Sir Joseph Duveen"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3376/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Portraits"
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3377/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Portraits"
+    }
+  ]
+}

@@ -1,0 +1,1251 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/2007d1_d3389/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Materials related to patronage: British Museum, Elgin Marbles Gallery",
+  "metadata": [
+    {
+      "label": "Author/Creator",
+      "value": [
+        "Duveen, Joseph",
+        "Duveen, Baron, 1869-1939"
+      ]
+    },
+    {
+      "label": "Contributors",
+      "value": "Duveen Brothers"
+    },
+    {
+      "label": "Creation Date",
+      "value": "undated"
+    },
+    {
+      "label": "Form/Genre",
+      "value": "Mixed material"
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "1 portfolio and 10 drawings"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "Art dealers",
+        "Duveen, Baron, 1869-1939",
+        "Duveen Brothers",
+        "Duveen, Joseph"
+      ]
+    },
+    {
+      "label": "ID/Acc. No.",
+      "value": [
+        "2007.D.1 (bx.672*;ff.3**)",
+        "http://hdl.handle.net/10020/2007d1_d3389"
+      ]
+    },
+    {
+      "label": "Is Part Of",
+      "value": [
+        "Duveen Brothers stock documentation from the dealer\u2019s library, 1829-1965. Series X. Lord Joseph Duveen papers, 1919-1933 (http://hdl.handle.net/10020/cat717039)",
+        "GRI Special Collections"
+      ]
+    },
+    {
+      "label": "Use Restrictions",
+      "value": "Be aware that third parties may claim privacy or publicity rights in these images, or rights to artworks depicted that are not in the public domain. Users assume full responsibility for their use of these images. By downloading these images you agree that it is your responsibility to identify any potential claimants and obtain any necessary permissions for your use, and you agree to indemnify, defend, and hold the repository libraries harmless from all costs, charges, fees, or expenses, losses, damages, liabilities, or judgments arising from or relating to any claim, cause, or allegation asserted by a third party against the repository libraries based entirely or in part on your use of the images."
+    }
+  ],
+  "description": "The Duveen Brothers was a firm of influential art dealers from the late nineteenth to the mid-twentieth century based in London, Paris, and New York. With Joseph Duveen (1869-1939) at the helm and the assistance of art experts, most notably Bernard Berenson (1865-1959), Duveen Brothers played a prominent role in the transfer of old master paintings, antique furnishings, and objets d'art from Europe to the United States. Series X includes papers relating to Lord Joseph Duveen: clippings, photographs, and correspondence which sheds light on Joseph Duveen's philanthropy and relationships with artists. Included are photographs of paintings and sculptures of Lord Duveen, and photographs of Duveen's relatives, friends and personnel. There are drawings related to the Tate Gallery, London, additions  sponsored by Joseph Joel Duveen and later by his son, as well as photographs of the Elgin Marbles room of the British Museum,  donated by Duveen, and other benefactions to art in Britain and the United States.",
+  "attribution": "The Getty Research Institute, Los Angeles.",
+  "license": "http://hdl.handle.net/10020/repro_perm",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3389/sequence/regular.json",
+      "@type": "sc:Sequence",
+      "label": "Regular Order",
+      "canvases": [
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120288.json",
+          "@type": "sc:Canvas",
+          "label": "Image 001",
+          "height": 3816,
+          "width": 5528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120288.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3816,
+                "width": 5528,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120288.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120288.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120289.json",
+          "@type": "sc:Canvas",
+          "label": "Image 002",
+          "height": 4144,
+          "width": 5130,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120289.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4144,
+                "width": 5130,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120289.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120289.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120291.json",
+          "@type": "sc:Canvas",
+          "label": "Image 003",
+          "height": 4152,
+          "width": 5128,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120291.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4152,
+                "width": 5128,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120291.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120291.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120293.json",
+          "@type": "sc:Canvas",
+          "label": "Image 004",
+          "height": 5657,
+          "width": 7068,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120293.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5657,
+                "width": 7068,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120293.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120293.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120296.json",
+          "@type": "sc:Canvas",
+          "label": "Image 005",
+          "height": 5623,
+          "width": 7034,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120296.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5623,
+                "width": 7034,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120296.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120296.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120298.json",
+          "@type": "sc:Canvas",
+          "label": "Image 006",
+          "height": 6677,
+          "width": 5623,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120298.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6677,
+                "width": 5623,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120298.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120298.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120299.json",
+          "@type": "sc:Canvas",
+          "label": "Image 007",
+          "height": 4620,
+          "width": 6218,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120299.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4620,
+                "width": 6218,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120299.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120299.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120301.json",
+          "@type": "sc:Canvas",
+          "label": "Image 008",
+          "height": 4586,
+          "width": 6609,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120301.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4586,
+                "width": 6609,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120301.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120301.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120304.json",
+          "@type": "sc:Canvas",
+          "label": "Image 009",
+          "height": 4654,
+          "width": 6660,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120304.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4654,
+                "width": 6660,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120304.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120304.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120306.json",
+          "@type": "sc:Canvas",
+          "label": "Image 010",
+          "height": 4654,
+          "width": 6694,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120306.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4654,
+                "width": 6694,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120306.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120306.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120308.json",
+          "@type": "sc:Canvas",
+          "label": "Image 011",
+          "height": 4654,
+          "width": 6541,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120308.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4654,
+                "width": 6541,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120308.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120308.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120309.json",
+          "@type": "sc:Canvas",
+          "label": "Image 012",
+          "height": 6626,
+          "width": 4586,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120309.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6626,
+                "width": 4586,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120309.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120309.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120312.json",
+          "@type": "sc:Canvas",
+          "label": "Image 013",
+          "height": 4586,
+          "width": 6643,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120312.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4586,
+                "width": 6643,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120312.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120312.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120314.json",
+          "@type": "sc:Canvas",
+          "label": "Image 014",
+          "height": 5538,
+          "width": 6864,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120314.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5538,
+                "width": 6864,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120314.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120314.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120315.json",
+          "@type": "sc:Canvas",
+          "label": "Image 015",
+          "height": 3243,
+          "width": 5317,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120315.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3243,
+                "width": 5317,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120315.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120315.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120317.json",
+          "@type": "sc:Canvas",
+          "label": "Image 016",
+          "height": 3277,
+          "width": 5317,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120317.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3277,
+                "width": 5317,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120317.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120317.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120319.json",
+          "@type": "sc:Canvas",
+          "label": "Image 017",
+          "height": 5844,
+          "width": 7017,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120319.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5844,
+                "width": 7017,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120319.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120319.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120321.json",
+          "@type": "sc:Canvas",
+          "label": "Image 018",
+          "height": 7357,
+          "width": 5946,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120321.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7357,
+                "width": 5946,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120321.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120321.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120324.json",
+          "@type": "sc:Canvas",
+          "label": "Image 019",
+          "height": 5827,
+          "width": 7068,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120324.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5827,
+                "width": 7068,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120324.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120324.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120325.json",
+          "@type": "sc:Canvas",
+          "label": "Image 020",
+          "height": 5827,
+          "width": 7068,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120325.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5827,
+                "width": 7068,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120325.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120325.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120328.json",
+          "@type": "sc:Canvas",
+          "label": "Image 021",
+          "height": 5902,
+          "width": 7134,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120328.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5902,
+                "width": 7134,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120328.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120328.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120330.json",
+          "@type": "sc:Canvas",
+          "label": "Image 022",
+          "height": 5625,
+          "width": 7134,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120330.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5625,
+                "width": 7134,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120330.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120330.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120333.json",
+          "@type": "sc:Canvas",
+          "label": "Image 023",
+          "height": 5663,
+          "width": 7134,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120333.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5663,
+                "width": 7134,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120333.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120333.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120336.json",
+          "@type": "sc:Canvas",
+          "label": "Image 024",
+          "height": 5480,
+          "width": 7134,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120336.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5480,
+                "width": 7134,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120336.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120336.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120340.json",
+          "@type": "sc:Canvas",
+          "label": "Image 025",
+          "height": 5515,
+          "width": 7134,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120340.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5515,
+                "width": 7134,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120340.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120340.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120344.json",
+          "@type": "sc:Canvas",
+          "label": "Image 026",
+          "height": 5471,
+          "width": 7134,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120344.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5471,
+                "width": 7134,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120344.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120344.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120347.json",
+          "@type": "sc:Canvas",
+          "label": "Image 027",
+          "height": 5657,
+          "width": 7068,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120347.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5657,
+                "width": 7068,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120347.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120347.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120350.json",
+          "@type": "sc:Canvas",
+          "label": "Image 028",
+          "height": 7080,
+          "width": 5656,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120350.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7080,
+                "width": 5656,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120350.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120350.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120351.json",
+          "@type": "sc:Canvas",
+          "label": "Image 029",
+          "height": 3498,
+          "width": 3345,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120351.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3498,
+                "width": 3345,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120351.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120351.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120354.json",
+          "@type": "sc:Canvas",
+          "label": "Image 001",
+          "height": 7760,
+          "width": 10304,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120354.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7760,
+                "width": 10304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120354.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120354.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120359.json",
+          "@type": "sc:Canvas",
+          "label": "Image 002",
+          "height": 4841,
+          "width": 7340,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120359.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4841,
+                "width": 7340,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120359.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120359.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120361.json",
+          "@type": "sc:Canvas",
+          "label": "Image 003",
+          "height": 5544,
+          "width": 4376,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120361.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5544,
+                "width": 4376,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120361.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120361.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120363.json",
+          "@type": "sc:Canvas",
+          "label": "Image 004",
+          "height": 4892,
+          "width": 9567,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120363.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4892,
+                "width": 9567,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120363.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120363.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120366.json",
+          "@type": "sc:Canvas",
+          "label": "Image 005",
+          "height": 4892,
+          "width": 9584,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120366.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4892,
+                "width": 9584,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120366.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120366.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120371.json",
+          "@type": "sc:Canvas",
+          "label": "Image 006",
+          "height": 4926,
+          "width": 9601,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120371.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4926,
+                "width": 9601,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120371.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120371.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120374.json",
+          "@type": "sc:Canvas",
+          "label": "Image 007",
+          "height": 4892,
+          "width": 9584,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120374.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4892,
+                "width": 9584,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120374.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120374.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120375.json",
+          "@type": "sc:Canvas",
+          "label": "Image 008",
+          "height": 4892,
+          "width": 9584,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120375.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4892,
+                "width": 9584,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120375.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120375.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120380.json",
+          "@type": "sc:Canvas",
+          "label": "Image 009",
+          "height": 4875,
+          "width": 9567,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120380.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4875,
+                "width": 9567,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120380.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120380.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120382.json",
+          "@type": "sc:Canvas",
+          "label": "Image 010",
+          "height": 4926,
+          "width": 9550,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120382.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4926,
+                "width": 9550,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120382.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120382.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120386.json",
+          "@type": "sc:Canvas",
+          "label": "Image 011",
+          "height": 4807,
+          "width": 10179,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120386.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4807,
+                "width": 10179,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120386.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120386.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120387.json",
+          "@type": "sc:Canvas",
+          "label": "Image 012",
+          "height": 4790,
+          "width": 10128,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120387.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4790,
+                "width": 10128,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120387.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120387.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120391.json",
+          "@type": "sc:Canvas",
+          "label": "Image 013",
+          "height": 4790,
+          "width": 7238,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120391.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4790,
+                "width": 7238,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiifdev.getty.edu/loris/gri%2F2007d1_d3389%2FFL2120391.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120391.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3389/range/range-1.json",
+      "@type": "sc:Range",
+      "label": "Materials related to patronage: British Museum, Elgin Marbles Gallery, undated ",
+      "viewingHint": "top",
+      "ranges": [
+        "http://data.getty.edu/iiif/2007d1_d3389/range/range-2.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/range/range-3.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3389/range/range-2.json",
+      "@type": "sc:Range",
+      "label": "Portfolio",
+      "metadata": [
+        {
+          "label": "Physical Desc.",
+          "value": "1 volume"
+        },
+        {
+          "label": "Container",
+          "value": "Box 672*"
+        }
+      ],
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120288.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120289.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120291.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120293.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120296.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120298.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120299.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120301.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120304.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120306.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120308.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120309.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120312.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120314.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120315.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120317.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120319.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120321.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120324.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120325.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120328.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120330.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120333.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120336.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120340.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120344.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120347.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120350.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120351.json"
+      ]
+    },
+    {
+      "@id": "http://data.getty.edu/iiif/2007d1_d3389/range/range-3.json",
+      "@type": "sc:Range",
+      "label": "Architectural drawings",
+      "metadata": [
+        {
+          "label": "Physical Desc.",
+          "value": "10 drawings"
+        },
+        {
+          "label": "Container",
+          "value": "Flatfile 3**"
+        }
+      ],
+      "canvases": [
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120354.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120359.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120361.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120363.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120366.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120371.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120374.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120375.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120380.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120382.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120386.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120387.json",
+        "http://data.getty.edu/iiif/2007d1_d3389/canvas/canvas-FL2120391.json"
+      ]
+    }
+  ]
+}

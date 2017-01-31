@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10689_d5i/collection.json",
+  "@type": "sc:Collection",
+  "label": "Paintings of the English School",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "18 Sheets"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 6"
+    }
+  ]
+}

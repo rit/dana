@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10668_2kw/collection.json",
+  "@type": "sc:Collection",
+  "label": "List of the most renowned Italian masters and their works in private collections",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "1 volume"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 5"
+    }
+  ]
+}

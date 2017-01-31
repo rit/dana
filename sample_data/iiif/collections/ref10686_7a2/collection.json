@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/ref10686_7a2/collection.json",
+  "@type": "sc:Collection",
+  "label": "Other van Dyck's in America",
+  "metadata": [
+    {
+      "label": "Physical Desc.",
+      "value": "3 pages, 1 sheet"
+    },
+    {
+      "label": "Container",
+      "value": "Box 732 Folder 6"
+    }
+  ]
+}
