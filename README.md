@@ -28,3 +28,7 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Directory Structure
+
+The project directory structure is documented at the [vue webpack template](http://vuejs-templates.github.io/webpack/structure.html)
