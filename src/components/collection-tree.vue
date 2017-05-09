@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       data: [{
         label: 'Level one 1',
@@ -53,7 +53,7 @@ export default {
     }
   },
   methods: {
-    handleNodeClick(data) {
+    handleNodeClick (data) {
       console.log(data)
     }
   }

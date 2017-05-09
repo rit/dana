@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import {Tree} from 'element-ui'
+import { Tree } from 'element-ui'
 
 Vue.use(Tree)
 
@@ -15,5 +15,5 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: {App}
+  components: { App }
 })

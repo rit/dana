@@ -9,8 +9,7 @@ module.exports = {
   env: {
     browser: true,
   },
-  // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-  extends: 'google',
+  extends: 'vue',
   // required to lint *.vue files
   plugins: [
     'html'
@@ -18,12 +17,6 @@ module.exports = {
   // add your custom rules here
   'rules': {
     'semi': 0,
-    "comma-dangle": ["error", {
-      "arrays": "never",
-      "objects": "never",
-      "functions": "ignore",
-    }],
-
     // allow paren-less arrow functions
     'arrow-parens': 0,
     // allow async-await
