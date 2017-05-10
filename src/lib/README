@@ -1,0 +1,5 @@
+Everything that is runable on Node.js should be in this folder. So it can
+developed faster on node environment.
+
+The `src/lib` has been symlinked to `node_module/lib` for simple require().
+See this docs for details: https://github.com/substack/browserify-handbook#symlink
