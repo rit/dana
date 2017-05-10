@@ -1,0 +1,3 @@
+--report .
+--require test/mocha-config.js
+test/unit/lib/**/*.spec.js
