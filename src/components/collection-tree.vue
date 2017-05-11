@@ -1,6 +1,7 @@
 <template>
   <el-tree
-    :data="data"
+    empty-text="Loading..."
+    :data="collection"
     :props="defaultProps"
     accordion
     @node-click="handleNodeClick">
@@ -8,12 +9,12 @@
 </template>
 
 <script>
-import data from 'lib/data'
+import { fetchCollection, navTree } from 'lib/transformer'
 
 export default {
   data () {
     return {
-      data: data,
+      collection: [],
       defaultProps: {
         children: 'children',
         label: 'label'
@@ -22,8 +23,14 @@ export default {
   },
   methods: {
     handleNodeClick (data) {
-      console.log(data)
     }
+  },
+
+  created () {
+    var collectionUrl = '/static/sample-collection.json'
+    fetchCollection(collectionUrl, (resp) => {
+      this.collection = [navTree(resp.data)]
+    })
   }
 }
 </script>
