@@ -27,7 +27,8 @@ export default {
   },
 
   created () {
-    fetchCollection((resp) => {
+    var collectionUrl = '/static/sample-collection.json'
+    fetchCollection(collectionUrl, (resp) => {
       this.collection = [navTree(resp.data)]
     })
   }

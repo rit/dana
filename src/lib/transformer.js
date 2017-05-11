@@ -12,8 +12,8 @@ function navTree (data) {
   return transformed
 }
 
-function fetchCollection (fn) {
-  axios.get('/static/sample-collection.json')
+function fetchCollection (url, fn) {
+  axios.get(url)
     .then(fn)
     .catch(function (err) {
       console.log(err)
