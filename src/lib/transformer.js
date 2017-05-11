@@ -1,3 +1,5 @@
+var axios = require('axios')
+
 function navTree (data) {
   var transformed = {}
   transformed.label = data.label
@@ -10,6 +12,15 @@ function navTree (data) {
   return transformed
 }
 
+function fetchCollection (fn) {
+  axios.get('/static/sample-collection.json')
+    .then(fn)
+    .catch(function (err) {
+      console.log(err)
+    })
+}
+
 module.exports = {
-  navTree
+  navTree,
+  fetchCollection
 }
