@@ -24,7 +24,7 @@ export default {
     }
   },
   methods: {
-    loadCollectionTree (slug) {
+    loadSeriesTree (slug) {
       var collectionUrl = `/static/${slug}.json`
       fetchCollection(collectionUrl, (resp) => {
         this.collection = [navTree(resp.data)]
@@ -36,11 +36,11 @@ export default {
   },
 
   created () {
-    this.loadCollectionTree(this.$route.params.slug)
+    this.loadSeriesTree(this.$route.params.slug)
   },
 
   beforeRouteUpdate (to, from, next) {
-    this.loadCollectionTree(to.params.slug)
+    this.loadSeriesTree(to.params.slug)
     next()
   }
 }
