@@ -13,7 +13,7 @@ export default new Router({
       component: Hello
     },
     {
-      path: '/tree',
+      path: '/collections/:slug',
       name: 'CollectionTree',
       component: CollectionTree
     }
