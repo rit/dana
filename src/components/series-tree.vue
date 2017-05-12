@@ -1,5 +1,5 @@
 <template>
-  <div class="collection-tree">
+  <div class="series-tree">
     <el-tree
       empty-text="Loading..."
       :data="collection"
@@ -24,7 +24,7 @@ export default {
     }
   },
   methods: {
-    loadCollectionTree (slug) {
+    loadSeriesTree (slug) {
       var collectionUrl = `/static/${slug}.json`
       fetchCollection(collectionUrl, (resp) => {
         this.collection = [navTree(resp.data)]
@@ -36,18 +36,18 @@ export default {
   },
 
   created () {
-    this.loadCollectionTree(this.$route.params.slug)
+    this.loadSeriesTree(this.$route.params.slug)
   },
 
   beforeRouteUpdate (to, from, next) {
-    this.loadCollectionTree(to.params.slug)
+    this.loadSeriesTree(to.params.slug)
     next()
   }
 }
 </script>
 
 <style>
-.collection-tree {
+.series-tree {
   width: 320px;
 }
 </style>
