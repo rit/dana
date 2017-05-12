@@ -1,11 +1,13 @@
 <template>
-  <el-tree
-    empty-text="Loading..."
-    :data="collection"
-    :props="defaultProps"
-    accordion
-    @node-click="handleNodeClick">
-  </el-tree>
+  <div class="collection-tree">
+    <el-tree
+      empty-text="Loading..."
+      :data="collection"
+      :props="defaultProps"
+      accordion
+      @node-click="handleNodeClick">
+    </el-tree>
+  </div>
 </template>
 
 <script>
@@ -43,3 +45,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.collection-tree {
+  width: 320px;
+}
+</style>
