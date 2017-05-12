@@ -1,5 +1,5 @@
 <template>
-  <div class="collection-tree">
+  <div class="series-tree">
     <el-tree
       empty-text="Loading..."
       :data="collection"
@@ -47,7 +47,7 @@ export default {
 </script>
 
 <style>
-.collection-tree {
+.series-tree {
   width: 320px;
 }
 </style>
