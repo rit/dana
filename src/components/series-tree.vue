@@ -14,6 +14,7 @@
 import { fetchCollection, navTree } from 'lib/transformer'
 
 export default {
+  props: ['collectionSlug'],
   data () {
     return {
       collection: [],
@@ -36,7 +37,7 @@ export default {
   },
 
   created () {
-    this.loadSeriesTree(this.$route.params.slug)
+    this.loadSeriesTree(this.collectionSlug)
   },
 
   beforeRouteUpdate (to, from, next) {
