@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
-import CollectionTree from '@/components/collection-tree'
+import CollectionHome from '@/components/collection-home'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component: Hello
     },
     {
-      path: '/collections/:slug',
-      name: 'CollectionTree',
-      component: CollectionTree
+      path: '/collections/:collectionSlug',
+      name: 'CollectionHome',
+      component: CollectionHome
     }
   ]
 })
