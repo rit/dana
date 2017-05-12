@@ -22,15 +22,24 @@ export default {
     }
   },
   methods: {
+    loadCollectionTree (slug) {
+      var collectionUrl = `/static/${slug}.json`
+      fetchCollection(collectionUrl, (resp) => {
+        this.collection = [navTree(resp.data)]
+      })
+    },
+
     handleNodeClick (data) {
     }
   },
 
   created () {
-    var collectionUrl = '/static/sample-collection.json'
-    fetchCollection(collectionUrl, (resp) => {
-      this.collection = [navTree(resp.data)]
-    })
+    this.loadCollectionTree(this.$route.params.slug)
+  },
+
+  beforeRouteUpdate (to, from, next) {
+    this.loadCollectionTree(to.params.slug)
+    next()
   }
 }
 </script>
