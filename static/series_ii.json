@@ -1,0 +1,54 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/collection/2011m30s2/collection.json",
+  "@type": "sc:Collection",
+  "label": "Harald Szeemann artist files 2011.M.30.S2",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1836-2010, bulk 1957-2005"
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "1400 Linear Feet"
+    },
+    {
+      "label": "Summary",
+      "value": "Series II of the Harald Szeemann papers contains artist files on more than 20,000 artists. In addition to fine arts artists, Harald Szeemann created artist files for architects, composers, musicians, film directors, authors and philosphers. The contents of the artist files vary widely from artist to artist, but may include artist statements; artist proposals; biographies; correspondence; exhibition announcements; news clippings; notes; photographs of works of art, exhibitions of the artist; posters; resumes; and original works of art. Due to its size, Series II is described in a separate finding aid. The main finding aid for the Harald Szeemann papers is available here: http://hdl.handle.net/10020/cifa2011m30"
+    },
+    {
+      "label": "Language",
+      "value": [
+        "German",
+        "German",
+        "Italian",
+        "French",
+        "English"
+      ]
+    },
+    {
+      "label": "Preferred Citation",
+      "value": "Harald Szeemann papers, 1800-2011, bulk 1949-2005, The Getty Research Institute, Los Angeles, Accession no. 2011.M.30 http://hdl.handle.net/10020/cifa2011m30"
+    },
+    {
+      "label": "Use Restrictions",
+      "value": "Contact Library Reproductions and Permissions."
+    },
+    {
+      "label": "Access/Rights",
+      "value": [
+        "Open for use by qualified researchers with the following exceptions. ",
+        "Unreformatted audiovisual materials, nitrate negatives and computer files are unavailable. Contact repository to request reformatting.",
+        "Boxes 81, 214, 224, 2409, 2418, RX and RX2 are sealed pending further review. Boxes 230-267 contain nitrate negatives and are restricted. ",
+        "Boxes 82, 215, and 1074B require special handling; contact the repository regarding access. Box 2885A is restricted due to fragility; contact the repository regarding access. Boxes 1074C and 1074D are restricted due to fragility; contact repository to request digital imaging. Boxes B-13**, B-16**, B-43**, B-48**, B-79**, B-81**, B-83**, B-84**, B-86**, 3741**-3743**, 3765*-3767* and TP-drawers are housed off-site and only open for use with the curator's permission. Contact repository regarding access. Boxes 320-321, 924, 2955-3028*, 2966**, 3716-3730, 3727*, 3748-3754, 3755*-3757*, TP59A-TP59B, TP77-TP78, and 3109* are currently only open for use with the curator's permission. Contact the repository regarding access. Boxes 2214-2312, 2315-2346, 2353-2360 and 3513-3531 contain unreformatted audiovisual materials and are restricted; all reels are also restricted; contact the repository for reformatting of items in these boxes on reels."
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "@id": "http://data.getty.edu/iiif/collection/ref2_mpu/collection.json",
+      "@type": "sc:Collection",
+      "label": "Artist files Series II."
+    }
+  ]
+}
