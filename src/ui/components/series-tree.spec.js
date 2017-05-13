@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import ElementUI from 'element-ui'
-import CollectionTree from '@/components/collection-tree'
+import SeriesTree from '@ui/components/series-tree'
 
 describe('Collection Tree', () => {
   beforeEach(() => {
@@ -8,8 +8,8 @@ describe('Collection Tree', () => {
   });
 
   it('acts like an accordion', () => {
-    const vm = new Vue(CollectionTree).$mount()
-    expect(vm.$el.textContent).to.contain('Bruce')
+    const vm = new Vue(SeriesTree).$mount()
+    expect(vm.$el.textContent).to.contain('Loading')
   });
 
   it('asynchronously loads tree data')

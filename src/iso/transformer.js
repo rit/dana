@@ -16,7 +16,7 @@ function fetchCollection (url, fn) {
   axios.get(url)
     .then(fn)
     .catch(function (err) {
-      console.log(err)
+      console.log('fetchCollection error: ', err)
     })
 }
 
