@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import CollectionHome from '@/components/collection-home'
-import SeriesTree from '@/components/series-tree'
+import Hello from '@ui/components/Hello'
+import CollectionHome from '@ui/components/collection-home'
+import SeriesTree from '@ui/components/series-tree'
 
 Vue.use(Router)
 Vue.component('series-tree', SeriesTree)

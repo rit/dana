@@ -1,5 +1,5 @@
 var loadJsonFixture = require('./load-json');
-var navTree = require('lib/transformer').navTree
+var navTree = require('iso/transformer').navTree
 
 describe('navTree', () => {
   var data

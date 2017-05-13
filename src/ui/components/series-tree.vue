@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { fetchCollection, navTree } from 'lib/transformer'
+import { fetchCollection, navTree } from 'iso/transformer'
 
 export default {
   props: ['collectionSlug'],

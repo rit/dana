@@ -8,6 +8,8 @@ module.exports = {
   },
   env: {
     browser: true,
+    jasmine: true,
+    mocha: true
   },
   extends: 'vue',
   // required to lint *.vue files
