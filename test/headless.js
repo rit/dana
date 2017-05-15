@@ -42,14 +42,30 @@ launchChrome(true).then(launcher => {
       Page.loadEventFired((timestamp) => {
         Runtime.consoleAPICalled((data) => {
           var args = data.args.map(item => item.value)
-          console.log.apply(null, args)
+          if (args[0].trim() === '__mocha_finished__') {
+            mocha_finished = true
+          } else {
+            console.log.apply(null, args)
+          }
         })
       })
     })
   });
 });
 
+function done() {
+  _protocol.close()
+  _laucher.kill()
+}
+
 process.on('SIGINT', () => {
-  _protocol.close();
-  _laucher.kill();
-});
+  done()
+})
+
+var mocha_finished = false
+var watcher = setInterval(() => {
+  if (mocha_finished) {
+    done()
+    clearInterval(watcher)
+  }
+}, 50)
