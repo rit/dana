@@ -42,38 +42,38 @@ describe('navTree', () => {
   });
 });
 
-function fixture() {
+function fixture () {
   return {
-    "@id": "http://data.getty.edu/iiif/collection/2011m30/collection.json",
-    "label": "Harald Szeemann papers",
-    "collections": [
+    '@id': 'http://data.getty.edu/iiif/collection/2011m30/collection.json',
+    'label': 'Harald Szeemann papers',
+    'collections': [
       {
-        "@id": "http://data.getty.edu/iiif/collection/ref5903_vld/collection.json",
-        "label": "Project files, Series I."
+        '@id': 'http://data.getty.edu/iiif/collection/ref5903_vld/collection.json',
+        'label': 'Project files, Series I.'
       },
       {
-        "@id": "http://data.getty.edu/iiif/collection/ref237693_e02/collection.json",
-        "label": "Artist files Series II.",
-        "collections": [
-        { "@id": "id for Sub-Series II",
-          "label": "Sub-Series II A",
-          "collections": []
-        },
-        {
-          "@id": "http://data.getty.edu/iiif/collection/ref237693_e02/collection.json",
-          "label": "Sub-Series II B",
-          "collections": []
-        },
-        {
-          "@id": "http://data.getty.edu/iiif/collection/ref234485_6io/collection.json",
-          "label": "Sub-Series II C",
-          "collections": []
-        }
+        '@id': 'http://data.getty.edu/iiif/collection/ref237693_e02/collection.json',
+        'label': 'Artist files Series II.',
+        'collections': [
+          { '@id': 'id for Sub-Series II',
+            'label': 'Sub-Series II A',
+            'collections': []
+          },
+          {
+            '@id': 'http://data.getty.edu/iiif/collection/ref237693_e02/collection.json',
+            'label': 'Sub-Series II B',
+            'collections': []
+          },
+          {
+            '@id': 'http://data.getty.edu/iiif/collection/ref234485_6io/collection.json',
+            'label': 'Sub-Series II C',
+            'collections': []
+          }
         ]
       },
       {
-        "@id": "http://data.getty.edu/iiif/collection/ref234485_6io/collection.json",
-        "label": "Curator and museum professional files, Series III."
+        '@id': 'http://data.getty.edu/iiif/collection/ref234485_6io/collection.json',
+        'label': 'Curator and museum professional files, Series III.'
       }
     ]
   }

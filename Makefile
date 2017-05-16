@@ -1,2 +1,2 @@
 gentags:
-	ctags -R --extra=+f src test
+	ctags -R --extra=+f src

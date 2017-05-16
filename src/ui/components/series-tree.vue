@@ -2,7 +2,7 @@
   <div class="series-tree">
     <el-tree
       empty-text="Loading..."
-      :data="collection"
+      :data="seriesTree"
       :props="defaultProps"
       accordion
       @node-click="handleNodeClick">
@@ -11,38 +11,42 @@
 </template>
 
 <script>
-import { fetchCollection, navTree } from 'iso/transformer'
+import { mapActions, mapState } from 'vuex'
 
 export default {
-  props: ['collectionSlug'],
+  props: ['seriesTreeSlug'],
   data () {
     return {
-      collection: [],
       defaultProps: {
         children: 'children',
         label: 'label'
       }
     }
   },
+
+  computed: {
+    ...mapState({
+      seriesTree: state => state.seriesTree
+    })
+  },
+
   methods: {
-    loadSeriesTree (slug) {
-      var collectionUrl = `/static/${slug}.json`
-      fetchCollection(collectionUrl, (resp) => {
-        this.collection = [navTree(resp.data)]
-      })
-    },
+    ...mapActions([
+      'updateSeriesTree'
+    ]),
 
     handleNodeClick (data) {
     }
   },
 
-  created () {
-    this.loadSeriesTree(this.collectionSlug)
+  watch: {
+    seriesTreeSlug: function (newSlug) {
+      this.updateSeriesTree({ slug: newSlug })
+    }
   },
 
-  beforeRouteUpdate (to, from, next) {
-    this.loadSeriesTree(to.params.slug)
-    next()
+  created () {
+    this.updateSeriesTree({ slug: this.seriesTreeSlug })
   }
 }
 </script>

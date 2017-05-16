@@ -6,6 +6,7 @@ import 'element-ui/lib/theme-default/index.css'
 
 import App from './App'
 import router from './router'
+import store from 'iso/store'
 
 Vue.use(ElementUI)
 Vue.config.productionTip = false
@@ -13,6 +14,7 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   router,
   template: '<App/>',
   components: { App }

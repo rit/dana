@@ -4,7 +4,7 @@
   <!--<collection-heading></collection-heading>-->
   <!--<series-heading></series-heading>-->
   <section class="main">
-    <series-tree :collectionSlug="accessionNo" ></series-tree>
+    <series-tree :series-tree-slug="accessionNo" ></series-tree>
     <!--<section class="content">-->
     <!--  <content-heading></content-heading>-->
     <!--  <content-tree></content-tree>-->
@@ -20,6 +20,11 @@ export default {
     return {
       accessionNo: this.$route.params.collectionSlug
     }
+  },
+
+  beforeRouteUpdate (to, from, next) {
+    this.accessionNo = to.params.collectionSlug
+    next()
   }
 }
 
