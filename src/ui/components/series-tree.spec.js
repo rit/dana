@@ -2,7 +2,7 @@ import Vue from 'vue'
 import ElementUI from 'element-ui'
 import SeriesTree from '@ui/components/series-tree'
 
-describe('Collection Tree', () => {
+describe('Series Tree', () => {
   beforeEach(() => {
     Vue.use(ElementUI)
   });
