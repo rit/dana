@@ -4,6 +4,7 @@ import Hello from '@ui/components/Hello'
 import CollectionHome from '@ui/components/collection-home'
 import SeriesTree from '@ui/components/series-tree'
 import Layout from '@ui/components/layout'
+import ItemDetail from '@ui/components/item-detail'
 
 Vue.use(Router)
 Vue.component('series-tree', SeriesTree)
@@ -24,6 +25,11 @@ export default new Router({
       path: '/collections/:collectionSlug',
       name: 'CollectionHome',
       component: CollectionHome
+    },
+    {
+      path: '/item-detail',
+      name: 'ItemDetail',
+      component: ItemDetail
     }
   ]
 })
