@@ -36,6 +36,12 @@ export default {
     next()
   },
 
+  watch: {
+    accessionNo () {
+      this.updateCollectionMetaData({ slug: this.accessionNo })
+    }
+  },
+
   created () {
     this.updateCollectionMetaData({ slug: this.accessionNo })
   }
