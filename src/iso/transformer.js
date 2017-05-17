@@ -16,9 +16,11 @@ function collectionHeading (data) {
   if (!data.metadata) {
     return {}
   }
-  var physicalDesc = metadataMap(data.metadata)['Physical Desc.'].join(' ')
+  var mapped = metadataMap(data.metadata)
+  var physicalDesc = mapped['Physical Desc.'].join(' ')
+  var label = [data.label, mapped['Creation Date']].join(', ')
   return {
-    label: data.label,
+    label,
     physicalDesc
   }
 }

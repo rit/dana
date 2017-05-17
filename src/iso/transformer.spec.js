@@ -46,7 +46,8 @@ describe('navTree', () => {
 describe('collectionHeading', () => {
   it('has label', () => {
     var data = collectionHeading(szeemanSample)
-    expect(data.label).to.equal('Harald Szeemann papers 2011.M.30')
+    var expected = 'Harald Szeemann papers 2011.M.30, 1800-2011, bulk 1949-2005'
+    expect(data.label).to.equal(expected)
   })
 
   it('has physical description', () => {
