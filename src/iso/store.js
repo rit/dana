@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
-import mapper from 'iso/transformer'
+import mapper from 'iso/mapper'
 
 Vue.use(Vuex)
 
@@ -39,7 +39,7 @@ const store = new Vuex.Store({
         var url = `/static/${slug}.json`
         axios.get(url)
           .then((resp) => {
-            var tree = [mapper.navTree(resp.data)]
+            var tree = [mapper.seriesTree(resp.data)]
             commit('updateSeriesTree', { seriesTree: tree })
           })
           .catch(function (err) {
@@ -55,7 +55,7 @@ const store = new Vuex.Store({
       var url = `/static/${slug}.json`
       axios.get(url)
         .then((resp) => {
-          var seriesTree = [mapper.navTree(resp.data)]
+          var seriesTree = [mapper.seriesTree(resp.data)]
           var collectionHeading = mapper.collectionHeading(resp.data)
           commit('updateSeriesTree', { seriesTree })
           commit('updateCollectionHeading', { collectionHeading })

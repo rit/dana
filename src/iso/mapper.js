@@ -1,11 +1,11 @@
 var axios = require('axios')
 
-function navTree (data) {
+function seriesTree (data) {
   var transformed = {}
   transformed.label = data.label
   transformed['@id'] = data['@id']
   if (data.collections) {
-    transformed.children = data.collections.map(node => navTree(node))
+    transformed.children = data.collections.map(node => seriesTree(node))
   } else {
     transformed.children = []
   }
@@ -43,7 +43,7 @@ function fetchCollection (url, fn) {
 }
 
 module.exports = {
-  navTree,
+  seriesTree,
   metadataMap,
   collectionHeading,
   fetchCollection

@@ -1,7 +1,7 @@
 import szeemanSample from '@fixtures/szeemann-collection.json'
-import { navTree, metadataMap, collectionHeading } from 'iso/transformer'
+import { seriesTree, metadataMap, collectionHeading } from 'iso/mapper'
 
-describe('navTree', () => {
+describe('seriesTree', () => {
   var data
   var root
 
@@ -10,12 +10,12 @@ describe('navTree', () => {
   })
 
   beforeEach(() => {
-    root = navTree(data)
+    root = seriesTree(data)
   });
 
   describe('root node', () => {
     it('has a label', () => {
-      root = navTree(data);
+      root = seriesTree(data);
       expect(root.label).to.equal('Harald Szeemann papers')
     });
 

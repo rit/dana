@@ -1,7 +1,7 @@
 <template>
   <div>
   <collection-heading :collection-slug="accessionNo"></collection-heading>
-  <!--<series-heading></series-heading>-->
+  <!--<collection-heading :collection-slug="seriesSlug"></collection-heading>-->
   <section class="main">
     <series-tree :series-tree-slug="accessionNo" ></series-tree>
     <!--<section class="content">-->
