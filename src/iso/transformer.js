@@ -13,10 +13,20 @@ function navTree (data) {
 }
 
 function collectionHeading (data) {
+  var physicalDesc = metadataMap(data.metadata)['Physical Desc.'].join(' ')
   return {
     label: data.label,
-    physicalDesc: data.physicalDesc
+    physicalDesc
   }
+}
+
+// metadata is an array
+// we need to index it by label name
+function metadataMap (metadata) {
+  return metadata.reduce((acc, item) => {
+    acc[item.label] = item.value
+    return acc
+  }, {})
 }
 
 function fetchCollection (url, fn) {
@@ -29,6 +39,7 @@ function fetchCollection (url, fn) {
 
 module.exports = {
   navTree,
+  metadataMap,
   collectionHeading,
   fetchCollection
 }
