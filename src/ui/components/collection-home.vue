@@ -1,7 +1,7 @@
 <template>
   <div>
   <h2>Collection Heading - {{ accessionNo }} </h2>
-  <!--<collection-heading></collection-heading>-->
+  <collection-heading></collection-heading>
   <!--<series-heading></series-heading>-->
   <section class="main">
     <series-tree :series-tree-slug="accessionNo" ></series-tree>
