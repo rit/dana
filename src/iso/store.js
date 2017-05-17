@@ -61,6 +61,7 @@ const store = new Vuex.Store({
           commit('updateCollectionHeading', { collectionHeading })
         })
         .catch(function (err) {
+          // TODO How do we update the UI?
           console.log(err)
         })
     }
