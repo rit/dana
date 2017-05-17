@@ -13,6 +13,9 @@ function navTree (data) {
 }
 
 function collectionHeading (data) {
+  if (!data.metadata) {
+    return {}
+  }
   var physicalDesc = metadataMap(data.metadata)['Physical Desc.'].join(' ')
   return {
     label: data.label,
