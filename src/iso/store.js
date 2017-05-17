@@ -1,23 +1,35 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
+import mapper from 'iso/transformer'
 import { navTree } from 'iso/transformer'
 
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
   state: {
+    collectionMetaData: {},
+    collectionHeading: {},
     seriesTree: [],
     seriesTreeSlug: null
+
   },
 
   mutations: {
-    updateSeriesTree (state, payload) {
-      state.seriesTree = payload.seriesTree
+    updateCollectionMetaData (state, payload) {
+      state.collectionMetaData = payload.collectionMetaData
     },
 
-    seriesTreeSlug (state, payload) {
-      state.seriesTreeSlug = payload.slug
+    updateCollectionHeading (state, { collectionHeading }) {
+      state.collectionHeading = collectionHeading
+    },
+
+    updateSeriesTree (state, { seriesTree }) {
+      state.seriesTree = seriesTree
+    },
+
+    seriesTreeSlug (state, { slug }) {
+      state.seriesTreeSlug = slug
     }
   },
 
@@ -36,6 +48,23 @@ const store = new Vuex.Store({
             commit('updateSeriesTree', { seriesTree: [] })
           })
       }
+    },
+
+    updateCollectionMetaData ({ commit, state }, { slug }) {
+      // get the meta data from the server
+      // parse and commit the collection heading and series tree
+      var url = `/static/${slug}.json`
+      axios.get(url)
+        .then((resp) => {
+          var seriesTree = [navTree(resp.data)]
+          var collectionHeading = mapper.collectionHeading(resp.data)
+          commit('updateSeriesTree', { seriesTree })
+          commit('updateCollectionHeading', { collectionHeading })
+        })
+        .catch(function (err) {
+          console.log(err)
+          commit('updateSeriesTree', { seriesTree: [] })
+        })
     }
   }
 })
