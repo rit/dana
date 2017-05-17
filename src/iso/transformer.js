@@ -12,6 +12,13 @@ function navTree (data) {
   return transformed
 }
 
+function collectionHeading (data) {
+  return {
+    label: data.label,
+    physicalDesc: data.physicalDesc
+  }
+}
+
 function fetchCollection (url, fn) {
   axios.get(url)
     .then(fn)
@@ -22,5 +29,6 @@ function fetchCollection (url, fn) {
 
 module.exports = {
   navTree,
+  collectionHeading,
   fetchCollection
 }
