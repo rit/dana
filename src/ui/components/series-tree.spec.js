@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import ElementUI from 'element-ui'
 import sinon from 'sinon'
+import swing from 'icemaker-swing'
+
 import SeriesTree from '@ui/components/series-tree'
 
 Vue.use(ElementUI)
@@ -32,7 +34,18 @@ describe('Series Tree', () => {
     expect(updateSeriesTree).to.have.been.called
   })
 
-  // it('displays the collection label')
+  it('loads series tree data on slug changed', (done) => {
+    var propsData = { seriesTreeSlug: 'szeemann' }
+    var vm = vmFor(SeriesTree, { store, propsData }).$mount()
+    expect(vm.seriesTreeSlug).to.equal('szeemann')
+    vm.seriesTreeSlug = 'new-slug'
+    swing(Vue.nextTick(), done, () => {
+      expect(updateSeriesTree).to.have.been.calledTwice
+      var payload = updateSeriesTree.secondCall.args[1]
+      expect(payload.slug).to.equal('new-slug')
+    })
+  })
+
   // it('limits to two level of sub-trees')
 });
 
