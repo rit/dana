@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 
 export default {
   data () {
@@ -21,9 +22,22 @@ export default {
     }
   },
 
+  methods: {
+    ...mapActions([
+      'updateCollectionMetaData'
+    ]),
+
+    handleNodeClick (data) {
+    }
+  },
+
   beforeRouteUpdate (to, from, next) {
     this.accessionNo = to.params.collectionSlug
     next()
+  },
+
+  created () {
+    this.updateCollectionMetaData({ slug: this.accessionNo })
   }
 }
 

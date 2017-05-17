@@ -17,11 +17,13 @@ export default {
       collectionHeading: state => state.collectionHeading
     }),
 
-    label: this.collectionHeading.label,
-    physicalDesc: this.collectionHeading.physicalDesc
-  },
+    label () {
+      return this.collectionHeading.label
+    },
 
-  created () {
+    physicalDesc () {
+      return this.collectionHeading.physicalDesc
+    }
   }
 }
 
