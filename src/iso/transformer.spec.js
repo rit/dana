@@ -1,4 +1,5 @@
-var navTree = require('iso/transformer').navTree
+import szeemanSample from '@fixtures/szeemann-collection.json'
+import { navTree, metadataMap, collectionHeading } from 'iso/transformer'
 
 describe('navTree', () => {
   var data
@@ -41,6 +42,27 @@ describe('navTree', () => {
     });
   });
 });
+
+describe('collectionHeading', () => {
+  it('has label', () => {
+    var data = collectionHeading(szeemanSample)
+    expect(data.label).to.equal('Harald Szeemann papers 2011.M.30')
+  })
+
+  it('has physical description', () => {
+    var data = collectionHeading(szeemanSample)
+    var expected = '1959.35 Linear Feet (3814 boxes, 449 flatfiles, 6 crates, 3 bins, 24 reels)'
+    expect(data.physicalDesc).to.equal(expected)
+  })
+})
+
+describe('listToObject', () => {
+  it('can be indexed by label name', () => {
+    var expected = '1959.35 Linear Feet (3814 boxes, 449 flatfiles, 6 crates, 3 bins, 24 reels)'
+    var data = metadataMap(szeemanSample.metadata)
+    expect(data['Physical Desc.'].join(' ')).to.equal(expected)
+  })
+})
 
 function fixture () {
   return {
