@@ -1,18 +1,21 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import ElementUI from 'element-ui'
+import sinon from 'sinon'
 import SeriesTree from '@ui/components/series-tree'
+
+Vue.use(ElementUI)
+Vue.use(Vuex)
 
 describe('Series Tree', () => {
   var store
+  var updateSeriesTree
 
   beforeEach(() => {
-    Vue.use(ElementUI)
-    Vue.use(Vuex)
+    updateSeriesTree = sinon.spy()
     store = new Vuex.Store({
       actions: {
-        updateSeriesTree: function () {
-        }
+        updateSeriesTree
       }
     })
   });
@@ -25,8 +28,10 @@ describe('Series Tree', () => {
 
   it('loads series tree data after created', () => {
     var propsData = { seriesTreeSlug: 'szeemann' }
-    const vm = vmFor(SeriesTree, { store, propsData }).$mount()
+    vmFor(SeriesTree, { store, propsData }).$mount()
+    expect(updateSeriesTree).to.have.been.called
   })
+
   // it('displays the collection label')
   // it('limits to two level of sub-trees')
 });
