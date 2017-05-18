@@ -1,15 +1,24 @@
 <template>
-  <div>
-  <collection-heading :collection-slug="accessionNo"></collection-heading>
-  <!--<collection-heading :collection-slug="seriesSlug"></collection-heading>-->
-  <section class="main">
-    <series-tree :series-tree-slug="accessionNo" ></series-tree>
+  <collection-layout>
+    <collection-heading slot="collection-header" :collection-slug="accessionNo">
+    </collection-heading>
+
+    <collection-heading
+      v-show="isSeries"
+      :collection-slug="accessionNo"
+      slot="series-header">
+    </collection-heading>
+
+    <series-tree slot="collection-hierarchy" :series-tree-slug="accessionNo">
+    </series-tree>
+  </collection-layout>
+
+  <!--<section class="main">-->
     <!--<section class="content">-->
     <!--  <content-heading></content-heading>-->
     <!--  <content-tree></content-tree>-->
     <!--</section>-->
-  </section>
-  </div>
+  <!--</section>-->
 </template>
 
 <script>
@@ -18,6 +27,7 @@ import { mapActions } from 'vuex'
 export default {
   data () {
     return {
+      isSeries: false,
       accessionNo: this.$route.params.collectionSlug
     }
   },
