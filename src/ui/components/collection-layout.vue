@@ -38,8 +38,9 @@
       </el-col>
 
       <el-col :xs="24" :sm="24" :md="24" :lg="16">
-        <slot name="content-header"></slot>
-        <slot name="content-metadata"></slot>
+
+        <router-view></router-view>
+
       </el-col>
     </el-row><!-- /.row -->
   </div>

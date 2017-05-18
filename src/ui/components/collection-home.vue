@@ -12,12 +12,6 @@
     <series-tree slot="collection-hierarchy" :series-tree-slug="collectionSlug">
     </series-tree>
 
-    <div slot="content-metadata">
-      <h2>Summary</h2>
-      <div>
-        <router-view></router-view>
-      </div>
-    </div>
   </collection-layout>
 
   <!--<section class="main">-->
