@@ -21,8 +21,17 @@ export default new Router({
     },
     {
       path: '/collections/:collectionSlug',
+      props: true,
       name: 'CollectionHome',
-      component: CollectionHome
+      component: CollectionHome,
+      children: [
+        {
+          path: 'series/:seriesSlug',
+          props: true,
+          name: 'SeriesHome',
+          component: CollectionHome
+        }
+      ]
     }
   ]
 })

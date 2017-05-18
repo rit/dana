@@ -1,19 +1,22 @@
 <template>
   <collection-layout>
-    <collection-heading slot="collection-header" :collection-slug="accessionNo">
+    <collection-heading slot="collection-header" :collection-slug="collectionSlug">
     </collection-heading>
 
     <collection-heading
       v-show="isSeries"
-      :collection-slug="accessionNo"
+      :collection-slug="seriesSlug"
       slot="series-header">
     </collection-heading>
 
-    <series-tree slot="collection-hierarchy" :series-tree-slug="accessionNo">
+    <series-tree slot="collection-hierarchy" :series-tree-slug="collectionSlug">
     </series-tree>
 
     <div slot="content-metadata">
       <h2>Summary</h2>
+      <div>
+        <router-view></router-view>
+      </div>
     </div>
   </collection-layout>
 
@@ -29,10 +32,11 @@
 import { mapActions } from 'vuex'
 
 export default {
+  props: ['collectionSlug', 'seriesSlug'],
+
   data () {
     return {
-      isSeries: false,
-      accessionNo: this.$route.params.collectionSlug
+      isSeries: false
     }
   },
 
@@ -45,19 +49,14 @@ export default {
     }
   },
 
-  beforeRouteUpdate (to, from, next) {
-    this.accessionNo = to.params.collectionSlug
-    next()
-  },
-
   watch: {
-    accessionNo () {
-      this.updateCollectionMetaData({ slug: this.accessionNo })
+    collectionSlug () {
+      this.updateCollectionMetaData({ slug: this.collectionSlug })
     }
   },
 
   created () {
-    this.updateCollectionMetaData({ slug: this.accessionNo })
+    this.updateCollectionMetaData({ slug: this.collectionSlug })
   }
 }
 
