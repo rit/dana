@@ -16,7 +16,6 @@
       <el-col :xs="24" :sm="24" :md="24" :lg="10">
         <slot name="collection-nav"></slot>
       </el-col>
-      <hr>
     </el-row><!-- /.row -->
 
     <el-row>

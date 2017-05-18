@@ -11,6 +11,10 @@
 
     <series-tree slot="collection-hierarchy" :series-tree-slug="accessionNo">
     </series-tree>
+
+    <div slot="content-metadata">
+      <h2>Summary</h2>
+    </div>
   </collection-layout>
 
   <!--<section class="main">-->
