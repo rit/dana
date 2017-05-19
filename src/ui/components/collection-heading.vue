@@ -28,3 +28,16 @@ export default {
 }
 
 </script>
+
+<style scoped>
+
+h1 {
+  font-size: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+div {
+  margin-bottom: 1em;
+}
+
+</style>
