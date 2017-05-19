@@ -3,9 +3,7 @@ var { state, mutations } = require('iso/store/mutations')
 var actions = require('iso/store/actions')
 var getters = require('iso/store/getters')
 
-
-
-function initStore(vue) {
+function initStore (vue) {
   // So we can run vuex on Node
   vue.use(Vuex)
 
