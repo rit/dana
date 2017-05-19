@@ -1,10 +1,10 @@
 <template>
+  <div>
   <collection-layout>
     <collection-heading slot="collection-header" :collection-slug="collectionSlug">
     </collection-heading>
 
-    <collection-heading
-      v-show="isSeries"
+    <collection-heading v-show="onlyForSeries"
       :collection-slug="seriesSlug"
       slot="series-header">
     </collection-heading>
@@ -13,6 +13,8 @@
     </series-tree>
 
   </collection-layout>
+
+  </div>
 
   <!--<section class="main">-->
     <!--<section class="content">-->
@@ -28,9 +30,9 @@ import { mapActions } from 'vuex'
 export default {
   props: ['collectionSlug', 'seriesSlug'],
 
-  data () {
-    return {
-      isSeries: false
+  computed: {
+    onlyForSeries () {
+      return !!this.seriesSlug
     }
   },
 

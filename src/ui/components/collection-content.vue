@@ -7,6 +7,8 @@
     <div v-else>
       <collection-content-tree></collection-content-tree>
     </div>
+
+    <div>{{ lastSlug }}</div>
   </div>
 </template>
 

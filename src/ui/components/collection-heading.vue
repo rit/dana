@@ -10,7 +10,7 @@
 import { mapState } from 'vuex'
 
 export default {
-  props: ['accessionNo'],
+  props: ['accessionNo', 'collectionSlug'],
 
   computed: {
     ...mapState({
@@ -18,10 +18,16 @@ export default {
     }),
 
     label () {
+      if (this.collectionSlug === '3') {
+        return 'Series labal'
+      }
       return this.collectionHeading.label
     },
 
     physicalDesc () {
+      if (this.collectionSlug === '3') {
+        return 'Series Physical Desc.'
+      }
       return this.collectionHeading.physicalDesc
     }
   }
