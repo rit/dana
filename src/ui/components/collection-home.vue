@@ -5,7 +5,7 @@
       </collection-heading>
 
       <collection-heading v-show="onlyForSeries"
-        :collection-slug="seriesSlug"
+        :heading="seriesHeading"
         slot="series-header">
       </collection-heading>
 
@@ -31,7 +31,10 @@ export default {
   props: ['collectionSlug', 'seriesSlug'],
 
   computed: {
-    ...mapState(['collectionHeading']),
+    ...mapState([
+      'collectionHeading',
+      'seriesHeading'
+    ]),
 
     onlyForSeries () {
       return !!this.seriesSlug
