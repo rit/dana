@@ -9,7 +9,7 @@
         slot="series-header">
       </collection-heading>
 
-      <series-tree slot="collection-hierarchy" :series-tree-slug="collectionSlug">
+      <series-tree slot="collection-hierarchy" :series-tree="seriesTree">
       </series-tree>
 
     </collection-layout>
@@ -28,11 +28,14 @@
 import { mapActions, mapState } from 'vuex'
 
 export default {
+
+  // These props should be set by the router
   props: ['collectionSlug', 'seriesSlug'],
 
   computed: {
     ...mapState([
       'collectionHeading',
+      'seriesTree',
       'seriesHeading'
     ]),
 
