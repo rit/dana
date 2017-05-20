@@ -7,28 +7,19 @@
 
 <script>
 
-import { mapState } from 'vuex'
+import _ from 'lodash'
 
 export default {
-  props: ['accessionNo', 'collectionSlug'],
+  props: ['heading'],
 
   computed: {
-    ...mapState({
-      collectionHeading: state => state.collectionHeading
-    }),
 
     label () {
-      if (this.collectionSlug === '3') {
-        return 'Series labal'
-      }
-      return this.collectionHeading.label
+      return _.get(this.heading, 'label', '')
     },
 
     physicalDesc () {
-      if (this.collectionSlug === '3') {
-        return 'Series Physical Desc.'
-      }
-      return this.collectionHeading.physicalDesc
+      return _.get(this.heading, 'physicalDesc', '')
     }
   }
 }

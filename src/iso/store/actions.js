@@ -9,8 +9,8 @@ function updateCollectionMetaData ({ commit, state }, { slug }) {
     .then((resp) => {
       var seriesTree = [mapper.seriesTree(resp.data)]
       var collectionHeading = mapper.collectionHeading(resp.data)
-      commit('seriesTreeUpsert', { slug, seriesTree })
-      commit('collectionHeadingUpsert', { slug, collectionHeading })
+      commit('seriesTree', { seriesTree })
+      commit('collectionHeading', { collectionHeading })
     })
     .catch(function (err) {
       // TODO How do we update the UI?

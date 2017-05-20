@@ -1,19 +1,18 @@
 <template>
   <div>
-  <collection-layout>
-    <collection-heading slot="collection-header" :collection-slug="collectionSlug">
-    </collection-heading>
+    <collection-layout>
+      <collection-heading slot="collection-header" :heading="collectionHeading">
+      </collection-heading>
 
-    <collection-heading v-show="onlyForSeries"
-      :collection-slug="seriesSlug"
-      slot="series-header">
-    </collection-heading>
+      <collection-heading v-show="onlyForSeries"
+        :collection-slug="seriesSlug"
+        slot="series-header">
+      </collection-heading>
 
-    <series-tree slot="collection-hierarchy" :series-tree-slug="collectionSlug">
-    </series-tree>
+      <series-tree slot="collection-hierarchy" :series-tree-slug="collectionSlug">
+      </series-tree>
 
-  </collection-layout>
-
+    </collection-layout>
   </div>
 
   <!--<section class="main">-->
@@ -25,12 +24,15 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+
+import { mapActions, mapState } from 'vuex'
 
 export default {
   props: ['collectionSlug', 'seriesSlug'],
 
   computed: {
+    ...mapState(['collectionHeading']),
+
     onlyForSeries () {
       return !!this.seriesSlug
     }

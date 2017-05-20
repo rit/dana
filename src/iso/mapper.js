@@ -14,6 +14,7 @@ function seriesTree (data) {
 
 function collectionHeading (data) {
   if (!data.metadata) {
+    console.log('colleciton has no metadata');
     return {}
   }
   var mapped = metadataMap(data.metadata)

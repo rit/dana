@@ -11,7 +11,8 @@
 </template>
 
 <script>
-import { mapActions, mapState } from 'vuex'
+
+import { mapState } from 'vuex'
 
 export default {
   props: ['seriesTreeSlug'],
@@ -26,27 +27,21 @@ export default {
 
   computed: {
     ...mapState({
-      seriesTree: state => state.seriesTree
+      seriesTree: function (state) {
+        // console.log(state.seriesTree[this.seriesTreeSlug])
+        // return state.seriesTree[this.seriesTreeSlug]
+        return state.seriesTree
+      }
     })
   },
 
   methods: {
-    ...mapActions([
-      'updateSeriesTree'
-    ]),
-
     handleNodeClick (data) {
     }
   },
 
-  watch: {
-    seriesTreeSlug: function (newSlug) {
-      this.updateSeriesTree({ slug: newSlug })
-    }
-  },
-
   created () {
-    this.updateSeriesTree({ slug: this.seriesTreeSlug })
+    // this.updateSeriesTree({ slug: this.seriesTreeSlug })
   }
 }
 </script>

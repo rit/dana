@@ -1,18 +1,15 @@
-function collectionHeadingUpsert (state, { slug, collectionHeading }) {
-  state.collectionHeading[slug] = collectionHeading
-}
-
-function seriesTreeUpsert (state, { slug, seriesTree }) {
-  state.seriesTree[slug] = seriesTree
-}
-
 const mutations = {
-  seriesTreeUpsert,
-  collectionHeadingUpsert
+  seriesTree (state, { slug, seriesTree }) {
+    state.seriesTree = seriesTree
+  },
+
+  collectionHeading (state, { collectionHeading }) {
+    state.collectionHeading = collectionHeading
+  }
 }
 
 const state = {
-  seriesTree: {},
+  seriesTree: [],
   collectionHeading: {}
 }
 
