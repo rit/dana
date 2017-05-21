@@ -1,16 +1,16 @@
 var $ = require('jquery')
-var n = 1
+var counter = 0
 
 function ended () {
-  const counter = () => n++
-
   var div = $('#mocha')
   var hot = $('#hot')
   if (!hot.length) {
     hot = $('<div>', { id: 'hot', style: 'position: fixed; left: 3em; top: 1em' })
   }
-  hot.html(`Hot Reload: ${counter()}`)
-  hot.prependTo(div)
+  hot.html(`Hot Reload: ${counter}`)
+  if (counter++ > 0) {
+    hot.prependTo(div)
+  }
 }
 
 global.mochaEndedCallback = ended
