@@ -14,13 +14,6 @@
 
     </collection-layout>
   </div>
-
-  <!--<section class="main">-->
-    <!--<section class="content">-->
-    <!--  <content-heading></content-heading>-->
-    <!--  <content-tree></content-tree>-->
-    <!--</section>-->
-  <!--</section>-->
 </template>
 
 <script>

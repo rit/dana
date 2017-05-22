@@ -1,9 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import ElementUI from 'element-ui'
-import sinon from 'sinon'
-import swing from 'icemaker-swing'
-
 import SeriesTree from '@ui/components/series-tree'
 
 Vue.use(ElementUI)
