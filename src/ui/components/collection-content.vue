@@ -30,7 +30,7 @@ export default {
   },
 
   created () {
-    console.log('content component created')
+    // TODO fetch "series" collection data
   }
 }
 </script>
