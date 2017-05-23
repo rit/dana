@@ -34,6 +34,6 @@ describe('actions: updateCollectionMetaData', () => {
         expect(payload.collectionHeading.label).to.contain('Szeemann')
         expect(payload.collectionHeading.physicalDesc).to.contain('Linear Feet')
       })
-    })
+    }, 0)
   })
 })
