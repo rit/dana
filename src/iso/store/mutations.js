@@ -1,5 +1,5 @@
 const mutations = {
-  seriesTree (state, { slug, seriesTree }) {
+  seriesTree (state, { seriesTree }) {
     state.seriesTree = seriesTree
   },
 

@@ -14,6 +14,19 @@ function updateCollectionMetaData ({ commit, state }, { slug }) {
     })
 }
 
+function updateSeriesTree ({ commit, state }, { slug }) {
+  var url = `static/navtree/${slug}.json`
+  axios.get(url)
+    .then((resp) => {
+      var seriesTree = [mapper.seriesTree(resp.data)]
+      commit('seriesTree', { seriesTree })
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+}
+
 module.exports = {
-  updateCollectionMetaData
+  updateCollectionMetaData,
+  updateSeriesTree
 }
