@@ -1,4 +1,3 @@
-var moxios = require('moxios')
 var sinon = require('sinon')
 var swing = require('icemaker-swing')
 

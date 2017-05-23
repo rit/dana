@@ -1,6 +1,5 @@
 var Vue = require('vue/dist/vue.common')
 var initStore = require('iso/store')
-var moxios = require('moxios')
 var swing = require('icemaker-swing')
 
 var store = initStore(Vue)
