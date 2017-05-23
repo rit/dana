@@ -14,7 +14,7 @@ function seriesTree (data) {
 }
 
 function extractSlug (url) {
-  var pattern = /http:\/\/data\.getty\.edu\/iiif\/collection\/([\w-.]+)\/collection\.json/
+  var pattern = /.+\/([\w-.]+)\/collection\.json$/
   var matched = url.match(pattern)
   if (matched) {
     return matched[1]
