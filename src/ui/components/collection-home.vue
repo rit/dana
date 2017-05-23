@@ -39,7 +39,8 @@ export default {
 
   methods: {
     ...mapActions([
-      'updateCollectionMetaData'
+      'updateCollectionMetaData',
+      'updateSeriesTree'
     ]),
 
     handleNodeClick (data) {
@@ -54,6 +55,7 @@ export default {
 
   created () {
     this.updateCollectionMetaData({ slug: this.collectionSlug })
+    this.updateSeriesTree({ slug: this.collectionSlug })
   }
 }
 
