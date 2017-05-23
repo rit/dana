@@ -10,7 +10,7 @@ describe('actions: updateCollectionMetaData', () => {
 
   beforeEach(() => {
     moxios.install()
-    commit = sinon.mock()
+    commit = sinon.spy()
   })
 
   afterEach(() => {
