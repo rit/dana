@@ -24,8 +24,7 @@ function extractSlug(url) {
 
 function collectionHeading (data) {
   if (!data.metadata) {
-    console.log('colleciton has no metadata');
-    return {}
+    throw new Error('Collection has no metadata')
   }
   var mapped = metadataMap(data.metadata)
   var physicalDesc = mapped['Physical Desc.'].join(' ')

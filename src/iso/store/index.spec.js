@@ -2,11 +2,10 @@ var Vue = require('vue/dist/vue.common')
 var initStore = require('iso/store')
 var moxios = require('moxios')
 var swing = require('icemaker-swing')
-var loadJsonFixture = require('../../test/helper/load-json')
 
 var store = initStore(Vue)
 
-describe('seriesTree updateSeriesTree', () => {
+describe('initStore', () => {
   beforeEach(() => {
     moxios.install()
   })
@@ -15,7 +14,7 @@ describe('seriesTree updateSeriesTree', () => {
     moxios.uninstall()
   })
 
-  it('updates asynchronously', (done) => {
+  it('handles actions', (done) => {
     const slug = 'szeemann'
     store.dispatch('updateCollectionMetaData', { slug })
 
@@ -23,11 +22,10 @@ describe('seriesTree updateSeriesTree', () => {
       const req = moxios.requests.mostRecent()
       const wire = req.respondWith({
         status: 200,
-        response: loadJsonFixture('szeemann-collection.json')
+        response: loadJsonFixture('sample-collection.json')
       })
       swing(wire, done, () => {
-        expect(store.getters.collectionHeading(slug).label).to.contain('Szeemann papers')
-        expect(store.getters.seriesTree(slug)[0].label).to.contain('Szeemann')
+        expect(store.state.collectionHeading.label).to.contain('Szeemann papers')
       })
     })
   })

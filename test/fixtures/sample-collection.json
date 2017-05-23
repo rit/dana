@@ -3,40 +3,24 @@
   "@id": "http://data.getty.edu/iiif/collection/2011m30/collection.json",
   "@type": "sc:Collection",
   "label": "Harald Szeemann papers",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1800-2011, bulk 1949-2005"
+    },
+    {
+      "label": "Physical Desc.",
+      "value": [
+        "1959.35 Linear Feet",
+        "(3814 boxes, 449 flatfiles, 6 crates, 3 bins, 24 reels)"
+      ]
+    }
+  ],
   "collections": [
     {
       "@id": "http://data.getty.edu/iiif/collection/ref5903_vld/collection.json",
       "@type": "sc:Collection",
       "label": "Project files, Series I."
-    },
-    {
-      "@id": "http://data.getty.edu/iiif/collection/ref237693_e02/collection.json",
-      "@type": "sc:Collection",
-      "label": "Artist files Series II.",
-      "collections": [
-        { "@id": "id for Sub-Series II",
-          "@type": "sc:Collection",
-          "label": "Sub-Series II A",
-          "collections": []
-        },
-        {
-          "@id": "http://data.getty.edu/iiif/collection/ref237693_e02/collection.json",
-          "@type": "sc:Collection",
-          "label": "Sub-Series II B",
-          "collections": []
-        },
-        {
-          "@id": "http://data.getty.edu/iiif/collection/ref234485_6io/collection.json",
-          "@type": "sc:Collection",
-          "label": "Sub-Series II C",
-          "collections": []
-        }
-      ]
-    },
-    {
-      "@id": "http://data.getty.edu/iiif/collection/ref234485_6io/collection.json",
-      "@type": "sc:Collection",
-      "label": "Curator and museum professional files, Series III."
     }
   ]
 }
