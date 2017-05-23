@@ -28,17 +28,20 @@ export default {
     handleNodeClick (data, node, tree) {
       if (!node.isLeaf) return
 
-      console.log('route.params', this.$route.params)
-
+      var collectionSlug = this.$route.params.collectionSlug
+      var seriesSlug
       if (node.level === 2) {
+        seriesSlug = data.slug
         this.$router.push({
           name: 'SeriesHome',
-          params: { ...this.$route.params, seriesSlug: data.slug }
+          params: { collectionSlug, seriesSlug }
         })
       } else if (node.level === 3) {
+        seriesSlug = node.parent.data.slug
+        var subseriesSlug = data.slug
         this.$router.push({
-          name: 'SeriesHome',
-          params: { ...this.$route.params, seriesSlug: node.parent.data.slug, subseriesSlug: data.slug }
+          name: 'SubseriesHome',
+          params: { collectionSlug, seriesSlug, subseriesSlug }
         })
       }
     }

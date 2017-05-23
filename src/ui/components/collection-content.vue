@@ -1,14 +1,17 @@
 <template>
   <div>
-    <!--<collection-heading :slug="lastSlug"></collection-heading>-->
-    <div v-if="showSummary">
-      <collection-summary></collection-summary>
-    </div>
-    <div v-else>
-      <collection-content-tree></collection-content-tree>
+    <!--<div v-if="showSummary">-->
+    <!--  <collection-summary></collection-summary>-->
+    <!--</div>-->
+    <!--<div v-else>-->
+    <!--  <collection-content-tree></collection-content-tree>-->
+    <!--</div>-->
+
+    <div>
+      routemeta: {{ routemeta }}
     </div>
 
-    <div>{{ lastSlug }}</div>
+    <router-view ></router-view>
   </div>
 </template>
 
@@ -16,16 +19,15 @@
 
 export default {
 
-  props: ['collectionSlug', 'seriesSlug'],
+  props: ['collectionSlug', 'seriesSlug', 'subseriesSlug'],
 
   computed: {
     lastSlug () {
       return this.seriesSlug || this.collectionSlug
     },
 
-    showSummary () {
-      // TODO What constitute a leaf collection?
-      return this.seriesSlug !== 'sample'
+    routemeta () {
+      return this.$route.matched[this.$route.matched.length - 1].meta
     }
   },
 

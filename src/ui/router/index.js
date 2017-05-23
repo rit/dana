@@ -33,13 +33,30 @@ export default new Router({
         {
           path: '',
           props: true,
+          meta: { collection: true },
+          name: 'CollectionHome',
           component: CollectionContent
         },
         {
           path: 'series/:seriesSlug',
           props: true,
-          name: 'SeriesHome',
-          component: CollectionContent
+          component: CollectionContent,
+          children: [
+            {
+              path: '',
+              props: true,
+              meta: { series: true },
+              name: 'SeriesHome',
+              component: CollectionContent
+            },
+            {
+              path: 'subseries/:subseriesSlug',
+              props: true,
+              meta: { subseries: true },
+              name: 'SubseriesHome',
+              component: CollectionContent
+            }
+          ]
         }
       ]
     }
