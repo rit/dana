@@ -25,7 +25,22 @@ export default {
   },
 
   methods: {
-    handleNodeClick (data) {
+    handleNodeClick (data, node, tree) {
+      if (!node.isLeaf) return
+
+      console.log('route.params', this.$route.params)
+
+      if (node.level === 2) {
+        this.$router.push({
+          name: 'SeriesHome',
+          params: { ...this.$route.params, seriesSlug: data.slug }
+        })
+      } else if (node.level === 3) {
+        this.$router.push({
+          name: 'SeriesHome',
+          params: { ...this.$route.params, seriesSlug: node.parent.data.slug, subseriesSlug: data.slug }
+        })
+      }
     }
   }
 }
