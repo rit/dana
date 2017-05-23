@@ -1,5 +1,14 @@
-import szeemanSample from '@fixtures/szeemann-collection.json'
-import { seriesTree, metadataMap, collectionHeading } from 'iso/mapper'
+var { seriesTree, metadataMap, collectionHeading, extractSlug } = require('iso/mapper')
+
+var szeemanSample = loadJsonFixture('szeemann-collection.json')
+
+describe('extractSlug', () => {
+  it('returns the accessor number', () => {
+    var url = "http://data.getty.edu/iiif/collection/2-1.m.30/collection.json"
+    var actual = extractSlug(url)
+    expect(actual).to.equal('2-1.m.30')
+  })
+})
 
 describe('seriesTree', () => {
   var data
@@ -21,6 +30,10 @@ describe('seriesTree', () => {
 
     it('has an @id', () => {
       expect(root['@id']).to.contain('2011m30')
+    });
+
+    it('has an slug', () => {
+      expect(root['slug']).to.equal('2011m30')
     });
 
     it('has a list of child nodes', () => {
