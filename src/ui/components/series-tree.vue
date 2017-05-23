@@ -3,6 +3,7 @@
     <el-tree
       empty-text="Loading..."
       :data="seriesTree"
+      node-key="slug"
       :props="defaultProps"
       accordion
       @node-click="handleNodeClick">
