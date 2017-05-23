@@ -4,15 +4,17 @@
       <collection-heading slot="collection-header" :heading="collectionHeading">
       </collection-heading>
 
-      <collection-heading v-show="onlyForSeries"
-        :heading="seriesHeading"
-        slot="series-header">
-      </collection-heading>
+      <!--<collection-heading v-show="onlyForSeries"-->
+      <!--  :heading="seriesHeading"-->
+      <!--  slot="series-header">-->
+      <!--</collection-heading>-->
 
       <series-tree slot="collection-hierarchy" :series-tree="seriesTree">
       </series-tree>
 
     </collection-layout>
+
+    <router-view name="series-heading"></router-view>
   </div>
 </template>
 

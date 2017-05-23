@@ -39,8 +39,11 @@ export default new Router({
         },
         {
           path: 'series/:seriesSlug',
-          props: true,
-          component: CollectionContent,
+          props: { default: true, series: true },
+          components: {
+            default: CollectionContent,
+            'series-heading': CollectionHeading
+          },
           children: [
             {
               path: '',

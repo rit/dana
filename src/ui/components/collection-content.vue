@@ -11,7 +11,7 @@
       routemeta: {{ routemeta }}
     </div>
 
-    <router-view ></router-view>
+    <!--<router-view ></router-view>-->
   </div>
 </template>
 
@@ -33,6 +33,7 @@ export default {
 
   created () {
     // TODO fetch "series" collection data
+    console.log('collection-content created')
   }
 }
 </script>

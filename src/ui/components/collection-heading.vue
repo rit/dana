@@ -2,7 +2,10 @@
   <div>
     <h1> {{ label }}</h1>
     <div> {{ physicalDesc }} </div>
+
+    <!--<div v-if="!heading">Secondary Heading</div>-->
   </div>
+
 </template>
 
 <script>
@@ -21,6 +24,9 @@ export default {
     physicalDesc () {
       return _.get(this.heading, 'physicalDesc', '')
     }
+  },
+
+  created () {
   }
 }
 
