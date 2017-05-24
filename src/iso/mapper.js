@@ -35,6 +35,13 @@ function collectionHeading (data) {
   }
 }
 
+function collectionContent (data) {
+  var content = {}
+  content.heading = collectionHeading(data)
+  content.collections = data.collections
+  return content
+}
+
 // metadata is an array
 // we need to index it by label name
 function metadataMap (metadata) {
@@ -57,5 +64,6 @@ module.exports = {
   metadataMap,
   extractSlug,
   collectionHeading,
+  collectionContent,
   fetchCollection
 }

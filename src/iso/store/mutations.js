@@ -3,6 +3,10 @@ const mutations = {
     state.seriesTree = seriesTree
   },
 
+  collectionContent (state, { collectionContent }) {
+    state.collectionContent = collectionContent
+  },
+
   collectionHeading (state, { collectionHeading }) {
     state.collectionHeading = collectionHeading
   }
@@ -10,6 +14,7 @@ const mutations = {
 
 const state = {
   seriesTree: [],
+  collectionContent: {},
   collectionHeading: {}
 }
 
