@@ -3,7 +3,8 @@
     <el-tree
       :data="seriesTree"
       :props="defaultProps"
-      default-expanded-keys="2011m30_nav"
+      :default-expanded-keys="expandKeys"
+      :current-node-key="currentNodeKey"
       node-key="slug"
       empty-text="Loading..."
       @node-click="handleNodeClick"
@@ -22,6 +23,23 @@ export default {
         children: 'children',
         label: 'label'
       }
+    }
+  },
+
+  computed: {
+    expandKeys () {
+      var path = this.$route.path
+      var pattern = this.$route.matched[this.$route.matched.length - 1].regex
+      var found = path.match(pattern)
+      if (found) {
+        found = found.splice(1)
+        found.unshift('2011m30_nav') // TODO _nav should be removed
+        return found
+      }
+    },
+
+    currentNodeKey () {
+      return this.expandKeys[this.expandKeys.length - 1]
     }
   },
 
