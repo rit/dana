@@ -17,13 +17,15 @@
 
 <script>
 
+import { mapActions } from 'vuex'
+
 export default {
 
   props: ['collectionSlug', 'seriesSlug', 'subseriesSlug'],
 
   computed: {
-    lastSlug () {
-      return this.seriesSlug || this.collectionSlug
+    contentSlug () {
+      return this.subseriesSlug || this.seriesSlug || this.collectionSlug
     },
 
     routemeta () {
@@ -31,9 +33,12 @@ export default {
     }
   },
 
+  methods: {
+    ...mapActions(['updateCollectionContent'])
+  },
+
   created () {
-    // TODO fetch "series" collection data
-    console.log('collection-content created')
+    this.updateCollectionContent({ slug: this.contentSlug })
   }
 }
 </script>

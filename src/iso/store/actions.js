@@ -26,7 +26,21 @@ function updateSeriesTree ({ commit, state }, { slug }) {
     })
 }
 
+function updateCollectionContent ({ commit, state }, { slug }) {
+  var url = `/static/collections/${slug}.json`
+  axios.get(url)
+    .then((resp) => {
+      var collectionContent = mapper.collectionContent(resp.data)
+      commit('collectionContent', { collectionContent })
+    })
+    .catch(function (err) {
+      // TODO How do we update the UI?
+      console.log(err)
+    })
+}
+
 module.exports = {
   updateCollectionMetaData,
+  updateCollectionContent,
   updateSeriesTree
 }
