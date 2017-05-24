@@ -1,0 +1,1985 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://data.getty.edu/iiif/collection/ref5903_vld/collection.json",
+    "@type": "sc:Collection",
+    "collections": [
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6290_jng/collection.json",
+            "@type": "sc:Collection",
+            "label": "General correspondence"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6293_6t0/collection.json",
+            "@type": "sc:Collection",
+            "label": "Original documents"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6297_b7b/collection.json",
+            "@type": "sc:Collection",
+            "label": "Early work (1949-1956)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239179_cjm/collection.json",
+            "@type": "sc:Collection",
+            "label": "Sketches, notes, and writings (1954-1959)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15322_935/collection.json",
+            "@type": "sc:Collection",
+            "label": "Painter-Poets--Poet-Painters: 800 works of visual art, manuscripts, prints, and other documents by 150 painter-poets and poet-painters (Malende Dichter-dichtende Maler: 800 Werke der bildenden Kunst, Manuskripte, Drucke und weitere Dokumente von 150 Maler-Dichtern und Dichter-Malern) (1957 August 3 to October 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6326_c3n/collection.json",
+            "@type": "sc:Collection",
+            "label": "Hugo Ball 1886-1927: Manuscripts, Photographs, Books (Hugo Ball 1886-1927: Manuskripte, Photographien, B\u00fccher) (1957 September 24 to 27)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6331_so3/collection.json",
+            "@type": "sc:Collection",
+            "label": "J\u00e9r\u00f4me Szeemann's birth announcement (1959 September)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6332_cgo/collection.json",
+            "@type": "sc:Collection",
+            "label": "Iconography (1959)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6333_7d1/collection.json",
+            "@type": "sc:Collection",
+            "label": "Dissertation (1960)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239181_66l/collection.json",
+            "@type": "sc:Collection",
+            "label": "Class notes (1961)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6336_1c7/collection.json",
+            "@type": "sc:Collection",
+            "label": "University graduation (1961 March)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6337_z11/collection.json",
+            "@type": "sc:Collection",
+            "label": "Pierre Bonnard: Jeune femme \u00e0 la lampe (1961 February)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239091_mr2/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunsthalle Bern: 1961"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6342_iu3/collection.json",
+            "@type": "sc:Collection",
+            "label": "Otto Tschumi (1961 July 8 to September 3)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6346_1j9/collection.json",
+            "@type": "sc:Collection",
+            "label": "Hans Aeschbacher: Sculptures and Drawings (Hans Aeschbacher: Skulpturen und Zeichnungen) (1961 September 9 to October 15)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref237260_90r/collection.json",
+            "@type": "sc:Collection",
+            "label": "Prehistoric Rock Paintings from the Sahara: Henri Lhote's expedition in the Tassili-n-Ajjer region (Pr\u00e4historische Felsbilder der Sahara: Expedition Henri Lhote im Gebiet Tassili-n-Ajjer) (1961 October 21 to November 26)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6350_6mw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Puppets - Marionettes - Shadow Play: Asiatica and Experiments (Puppen - Marionetten - Schattenspiel: Asiatica und Experimente) (1962 February 17 to March 11)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6351_ev5/collection.json",
+            "@type": "sc:Collection",
+            "label": "Charles Lapicque (1962 March 17 to April 23)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6354_n5e/collection.json",
+            "@type": "sc:Collection",
+            "label": "Lenz Klotz, Friedrich Kuhn, Bruno M\u00fcller, Matias Spescha (1962 April 28 to May 27)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6355_t3j/collection.json",
+            "@type": "sc:Collection",
+            "label": "Walter Kurt Wiemken (1962 June 2 to July 1)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6356_eoh/collection.json",
+            "@type": "sc:Collection",
+            "label": "Press clipping (1962)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6357_7qo/collection.json",
+            "@type": "sc:Collection",
+            "label": "Francis Picabia 1879-1953: Works from 1909-1924 (Francis Picabia 1879-1953: Werke 1909-1924) (1962 July 7 to September 2)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6359_xt1/collection.json",
+            "@type": "sc:Collection",
+            "label": "Francis Picabia and 4 Americans"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6360_kjo/collection.json",
+            "@type": "sc:Collection",
+            "label": "4 Americans: Jasper Johns, Alfred Leslie, Robert Rauschenberg, Richard Stankiewicz (4 Amerikaner: Jasper Johns - Alfred Leslie - Robert Rauschenberg - Richard Stankiewicz) (1962 July 7 to September 2)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6361_7dr/collection.json",
+            "@type": "sc:Collection",
+            "label": "Harry Kramer: Self-propelled Sculptures, Marionettes, Films (Harry Kramer: Automobile Skulpturen - Marionetten - Filme) (1962 October 13 to November 25)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6364_czo/collection.json",
+            "@type": "sc:Collection",
+            "label": "Art from Tibet (Kunst aus Tibet) (1962 October 20 to November 25)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6367_kyw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Biel Christmas exhibition (1962 December)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6368_pv6/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kassel: Artist Necropolis"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6369_he3/collection.json",
+            "@type": "sc:Collection",
+            "label": "Auguste Herbin 1882-1960 (1963 February 16 to March 24)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6370_pwa/collection.json",
+            "@type": "sc:Collection",
+            "label": "Englebert van Anderlecht / Bram Bogart (1963 April 20 to May 19)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6371_o6n/collection.json",
+            "@type": "sc:Collection",
+            "label": "Piotr Kowalski (1963 May 4 to June 9) and Alan Davie (1963 May 4 to June 9)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6372_avp/collection.json",
+            "@type": "sc:Collection",
+            "label": "Alan Davie (1963 May 4 to June 9)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6373_7nv/collection.json",
+            "@type": "sc:Collection",
+            "label": "Victor Pasmore, William Scott (1963 July 12 to August 18)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6376_2j0/collection.json",
+            "@type": "sc:Collection",
+            "label": "Heinz-Peter Kohler, Gregory Masurovsky (1963 August 18 to September 15)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6377_7eh/collection.json",
+            "@type": "sc:Collection",
+            "label": "Art of the Mentally Ill (Bildnerei der Geisteskranken - Art Brut - Insania pingens) (1963 August 24 to September 15)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239099_z5m/collection.json",
+            "@type": "sc:Collection",
+            "label": "Sixtieth birthday of Professor Huggler"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6380_18t/collection.json",
+            "@type": "sc:Collection",
+            "label": "\u00c9tienne-Martin (1963 November 2 to December 1)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239100_ygw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Biel: Art owned by the city, 18th/19th century"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6384_qpd/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunsthalle Bern (1963)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6387_lk0/collection.json",
+            "@type": "sc:Collection",
+            "label": "Victor Vasarely: Works from 1935 to 1963 (Victor Vasarely: Werke von 1935 bis 1963) (1964 April 4 to May 10)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6390_7k8/collection.json",
+            "@type": "sc:Collection",
+            "label": "Swiss Art of the 20th Century (Art suisse au XXe si\u00e8cle - Schweizer Kunst im 20. Jahrhundert - Arte svizzera nel XX secolo) (1964 April 30 to October 25)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6393_guf/collection.json",
+            "@type": "sc:Collection",
+            "label": "Louise Nevelson (1964 May 20 to June 21)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6394_xwt/collection.json",
+            "@type": "sc:Collection",
+            "label": "Anselmo Boix-Vives (1964 May 20 to June 21)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref237287_nvv/collection.json",
+            "@type": "sc:Collection",
+            "label": "Hundertwasser (1964 May 20 to June 21)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6395_qry/collection.json",
+            "@type": "sc:Collection",
+            "label": "Ex Voto (1964 July 3 to September 6)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref237288_yk8/collection.json",
+            "@type": "sc:Collection",
+            "label": "Jean Prouv\u00e9: Industrielles Bauen (1964 September 11 to October 11)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6396_tpj/collection.json",
+            "@type": "sc:Collection",
+            "label": "25 Artists from Bern and Biel (25 Berner und Bieler K\u00fcnstler, 25 artistes bernois et beinnois) (1964 October 17 to November 25)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6397_zi8/collection.json",
+            "@type": "sc:Collection",
+            "label": "Marcel Duchamp, Wassily Kandinsky, Kasimir Malewitsch/Josef Albers/Tom Doyle (1964 October 23 to November 29)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6398_qfl/collection.json",
+            "@type": "sc:Collection",
+            "label": "Proposals for the promotion of Bernese artists: Expos\u00e9 (1964)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239101_x9d/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunsthalle Bern: Annual report (1964)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239182_tjx/collection.json",
+            "@type": "sc:Collection",
+            "label": "Appointment book, partial (1964)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6399_fff/collection.json",
+            "@type": "sc:Collection",
+            "label": "Robert M\u00fcller: Sculptures and Drawings (Robert M\u00fcller: Skulpturen und Zeichnungen) (1965 February 20 to March 28)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6400_695/collection.json",
+            "@type": "sc:Collection",
+            "label": "Oscar Wiggli: Sculptures and Drawings (Oscar Wiggli: Skulpturen und Zeichnungen) (1965 February 27 to April 4)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6401_rpv/collection.json",
+            "@type": "sc:Collection",
+            "label": "Charles J\u00f6rg (1965 February 27 to April 4)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref237471_6le/collection.json",
+            "@type": "sc:Collection",
+            "label": "The Human Image: World Exhibition of Photography (Der Mensch: Weltausstellung der Photographie) (1965 April 3 to May 9)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6402_gvl/collection.json",
+            "@type": "sc:Collection",
+            "label": "Otto Meyer-Amden (1965 May 21 to June 22)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6405_2h3/collection.json",
+            "@type": "sc:Collection",
+            "label": "Lyonel Feininger (1871-1956): Watercolors, Drawings, Prints (Lyonel Feininger 1871-1956: Aquarelle, Zeichnungen, Graphik) (1965 May 21 to June 22)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6406_17h/collection.json",
+            "@type": "sc:Collection",
+            "label": "Light and Movement/Kinetic Art (Licht und Bewegung, lumi\u00e8re et mouvement, luce e movimento: Kinetische Kunst) (1965 July 3 to September 5)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6411_xz8/collection.json",
+            "@type": "sc:Collection",
+            "label": "New Tendencies in Architecture (Neue Tendenzen der Architektur) (1965 July 3 to September 5)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6412_8s7/collection.json",
+            "@type": "sc:Collection",
+            "label": "Walter Linck: Sculptures, Mobiles, Drawings (Walter Linck: Skulpturen, Mobiles, Zeichnungen) (1965 September 11 to October 17)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6415_fkz/collection.json",
+            "@type": "sc:Collection",
+            "label": "Rolf Iseli: Recent Works, 1964-65 (Rolf Iseli: Neuere Werke, 1964-65) (1965 September 11 to October 17)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6416_o54/collection.json",
+            "@type": "sc:Collection",
+            "label": "Giorgio Morandi (1965 October 23 to December 5)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6420_yg3/collection.json",
+            "@type": "sc:Collection",
+            "label": "Fourth Biennale de Paris (1965)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239102_u36/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunsthalle Bern: Annual report (1965)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239103_csf/collection.json",
+            "@type": "sc:Collection",
+            "label": "Bern purchasing policy (1965)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239183_izy/collection.json",
+            "@type": "sc:Collection",
+            "label": "Appointment book, partial (1965)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6421_15o/collection.json",
+            "@type": "sc:Collection",
+            "label": "Jean Gorin, Jean Dewasne, Constant: Three Exhibitions (Jean Gorin, Jean Dewasne, Constant: Drei Austellungen) (1966 April 2 to May 8)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6425_mox/collection.json",
+            "@type": "sc:Collection",
+            "label": "K\u00fcnstlerfest (1966 May 14-15)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6429_o8z/collection.json",
+            "@type": "sc:Collection",
+            "label": "White on White (Weiss auf Weiss) (1966 May 25 to July 3)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6430_y23/collection.json",
+            "@type": "sc:Collection",
+            "label": "F-111 by James Rosenquist (1966 May 25 to 3 July): Brochures: Other museums"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239184_n4v/collection.json",
+            "@type": "sc:Collection",
+            "label": "11 Pop-Artists: The New Image (1966 May 25 to 3 July): Press kit"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6431_ni9/collection.json",
+            "@type": "sc:Collection",
+            "label": "Mark Tobey: Works 1933-1966 (Mark Tobey: Werke 1933-1966) (1966 July 9 to September 4)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6434_zyf/collection.json",
+            "@type": "sc:Collection",
+            "label": "Fantastic Art - Surrealism (Phantastische Kunst - Surrealismus) (1966 October 21 to December 4)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6437_wxs/collection.json",
+            "@type": "sc:Collection",
+            "label": "Bern 66 (1966 November 4 to December 4)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6438_xk5/collection.json",
+            "@type": "sc:Collection",
+            "label": "Paul Lehmann"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239104_jl6/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunsthalle Bern (1966)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239107_xwa/collection.json",
+            "@type": "sc:Collection",
+            "label": "Lueg? [empty]"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239110_fpo/collection.json",
+            "@type": "sc:Collection",
+            "label": "Interviews about Bern [empty]"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239108_6w5/collection.json",
+            "@type": "sc:Collection",
+            "label": "Opening of the Bern gallery"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239185_ejv/collection.json",
+            "@type": "sc:Collection",
+            "label": "Appointment book, partial (1966)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6439_972/collection.json",
+            "@type": "sc:Collection",
+            "label": "The Living Theatre (1967 January 23)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6443_rpo/collection.json",
+            "@type": "sc:Collection",
+            "label": "5 Young British Artists: Venice Biennial 1966 (5 junge englische K\u00fcnstler: Biennale Venedig 1966) (1967 February 4 to February 22)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239186_vdp/collection.json",
+            "@type": "sc:Collection",
+            "label": "The Living Theatre (1967 January 23)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6444_sdm/collection.json",
+            "@type": "sc:Collection",
+            "label": "Young British Sculptors (Junge englische Bildhauer) (1967 February 25 to April 2)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6449_d7e/collection.json",
+            "@type": "sc:Collection",
+            "label": "Shapes of Colour (Formen der Farbe) (1967 April 14 to May 21)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6450_6fi/collection.json",
+            "@type": "sc:Collection",
+            "label": "Science Fiction (1967 July 8 to September 17)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6464_uvz/collection.json",
+            "@type": "sc:Collection",
+            "label": "Richard Paul Lohse (1967 September 23 to November 4)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6465_i71/collection.json",
+            "@type": "sc:Collection",
+            "label": "TV broadcast: Kunst und Kitsch"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6466_zsi/collection.json",
+            "@type": "sc:Collection",
+            "label": "Cuba: Sal\u00f3n de Mayo  (1967 July)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref237306_pk9/collection.json",
+            "@type": "sc:Collection",
+            "label": "Otto Nebel: Works 1918-1967 (1967 October 28 to November 26)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6467_aa8/collection.json",
+            "@type": "sc:Collection",
+            "label": "Markus R\u00e4tz: Brochure"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239114_2rc/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1967"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6469_e60/collection.json",
+            "@type": "sc:Collection",
+            "label": "Roy Lichtenstein (1968 February 23 to March 31)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6472_svf/collection.json",
+            "@type": "sc:Collection",
+            "label": "Max Bill: Paintings and Sculptures, 1928-1968 (Max Bill: Malerei und Plastik, 1928-1968) (1968 April 6 to May 12)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6475_apr/collection.json",
+            "@type": "sc:Collection",
+            "label": "Jes\u00fas Rafael Soto: Kinetic Works 1950-1968 (Jes\u00fas Rafael Soto: Kinetische Werke 1950-1968) (1968 May 21 to June 30)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6479_8yn/collection.json",
+            "@type": "sc:Collection",
+            "label": "12 Environments/50 years Kunsthalle Bern (12 Environments/50 Jahre Kunsthalle Bern)(1968 July 20 to September 29)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6484_yr4/collection.json",
+            "@type": "sc:Collection",
+            "label": "Forum Bethlehem: Discussion/Tscharnergut (1968 September 10)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6487_546/collection.json",
+            "@type": "sc:Collection",
+            "label": "Artists' Party: 50 Years Kunsthalle Bern (Artists' Party: 50 Jahre Kunsthalle Bern ) (1968 September 27)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6490_x78/collection.json",
+            "@type": "sc:Collection",
+            "label": "20 Years of Service to Art by the City of Bern (1947-1968) (20 Jahre Kunstpflege der Stadt Bern (1947-1968)) (1968 October 5 to October 27)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6491_7u5/collection.json",
+            "@type": "sc:Collection",
+            "label": "Recent Art from Holland (Junge Kunst aus Holland) (1968 November 2 to December 1)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6492_wnk/collection.json",
+            "@type": "sc:Collection",
+            "label": "To the Movies-13 Bernese Museums (undated)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6493_3dw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Bernese Artists in Z\u00fcrick (1968)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6494_op4/collection.json",
+            "@type": "sc:Collection",
+            "label": "Documenta IV (1968)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6495_hed/collection.json",
+            "@type": "sc:Collection",
+            "label": "La Biennale di Venezia (1968)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6496_bax/collection.json",
+            "@type": "sc:Collection",
+            "label": "In Visu Werritas (Roland Werro) (1968)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6497_cp4/collection.json",
+            "@type": "sc:Collection",
+            "label": "Westdeutcher Rundfunk: \"Ausstellbarkeit Kunst\" (1968)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6498_y50/collection.json",
+            "@type": "sc:Collection",
+            "label": "Binder: 1956-1968"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239132_gg7/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunsthalle Bern: 1968"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239136_f9u/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Kunstgigant oder Scharlatan?\""
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239137_22t/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Worte der Woche\""
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239139_c5y/collection.json",
+            "@type": "sc:Collection",
+            "label": "In memorium Arnold Rudlinger"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239140_2u9/collection.json",
+            "@type": "sc:Collection",
+            "label": "Arnold Rudlinger"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239141_6jc/collection.json",
+            "@type": "sc:Collection",
+            "label": "Interview: Gazette litteraire"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239142_ney/collection.json",
+            "@type": "sc:Collection",
+            "label": "Celebration by Luginb\u00fchl"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239143_ff0/collection.json",
+            "@type": "sc:Collection",
+            "label": "Lagenthal artness"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239144_ozx/collection.json",
+            "@type": "sc:Collection",
+            "label": "Galerie Loeb"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239145_zg4/collection.json",
+            "@type": "sc:Collection",
+            "label": "Hippies in Bern: Hans Stamm"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239148_pn2/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kusthaus Z\u00fcrich: 1968"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6500_kwi/collection.json",
+            "@type": "sc:Collection",
+            "label": "Women: 2nd World Photography Exhibition (Die Frau: 2. Weltausstellung der Photographie) (1969 January 25 to March 9)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6501_a5d/collection.json",
+            "@type": "sc:Collection",
+            "label": "Karl Gerstner, Diter Rot, Daniel Spoerri, Andre Thomkins, and Friends and Friends of Friends (Freunde, Friends, d'Fr\u00fcnde: Karl Gerstner, Diter Rot, Daniel Spoerri, Andre Thomkins und ihre Freunde und Freundesfreunde) (1969 May 31 to June 1)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6502_wuz/collection.json",
+            "@type": "sc:Collection",
+            "label": "22 Young Swiss Artists (22 junge Schweizer) (1969 June 7 to July 6)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6505_hh1/collection.json",
+            "@type": "sc:Collection",
+            "label": "The Karl Str\u00f6her Collection (Sammlung Karl Str\u00f6her) (1969 Part 1: July 12 to August 17, Part 2: August 23 to September 28)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6506_2qe/collection.json",
+            "@type": "sc:Collection",
+            "label": "Plans and Projects as Art (Pl\u00e4ne und Projekte als Kunst) (1969 November 8 to December 7)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6507_h1x/collection.json",
+            "@type": "sc:Collection",
+            "label": "Discussion on Christmas Exhibition (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6508_ypa/collection.json",
+            "@type": "sc:Collection",
+            "label": "Live in Your Head: When Attitudes Become Form (1969 March 22 to April 27)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6555_ktg/collection.json",
+            "@type": "sc:Collection",
+            "label": "Well-Known Bern Artists Designed our Showcase Windows (Bekannte Berner K\u00fcnstler haben unsere Schaufenster gestaltet) (1969 April)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6556_ygs/collection.json",
+            "@type": "sc:Collection",
+            "label": "Interviews"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6562_q0o/collection.json",
+            "@type": "sc:Collection",
+            "label": "Survey questions (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6563_ohy/collection.json",
+            "@type": "sc:Collection",
+            "label": "Prospect 69 (1969 September-October)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6567_94y/collection.json",
+            "@type": "sc:Collection",
+            "label": "Max Bill: Work 1928-1969 (1969 October to December)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6568_iqs/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"A Kunsthalle is a Kunsthalle is a Kunsthalle\" in Sonntags Journal (1969 November)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6569_24f/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Das Suchen in der Gegenwart. Das Suchen in der Kunst\""
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6570_swu/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Rolf Iseli: oder die Farbe als Raum und K\u00f6rper\""
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6571_8j0/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Kunst als Aktion und Ereignis\" (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6572_jk9/collection.json",
+            "@type": "sc:Collection",
+            "label": "Telefonzeichange (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref237254_eoo/collection.json",
+            "@type": "sc:Collection",
+            "label": "Appointment book (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239150_tu8/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunsthalle Bern (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239160_1e4/collection.json",
+            "@type": "sc:Collection",
+            "label": "Bienne/Biel K\u00fcnstlerfest (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239161_314/collection.json",
+            "@type": "sc:Collection",
+            "label": "Fine art in Bern (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239164_x1v/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Die Berner Avantgarde\" (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239167_hhi/collection.json",
+            "@type": "sc:Collection",
+            "label": "TV broadcast En Marge wtih Marl\u00e8ne Belilos (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239168_2w4/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunstmarkt 69 in Cologne (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239169_ftj/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunstmuseum Luzern: D\u00fcsseldorfer Szene (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239170_7yn/collection.json",
+            "@type": "sc:Collection",
+            "label": "Amman to Luzern (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239171_tcd/collection.json",
+            "@type": "sc:Collection",
+            "label": "Art loan Basel (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239172_j96/collection.json",
+            "@type": "sc:Collection",
+            "label": "Beuys in Basel (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239188_k2o/collection.json",
+            "@type": "sc:Collection",
+            "label": "Letter to Karl-Heinz and letter fragment (1969)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15313_8e0/collection.json",
+            "@type": "sc:Collection",
+            "label": "Lecture: Zofingia"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6573_dl9/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Kunst: Wo bleibt die Kontestation?\" in Erneuern und beharren = Renouveler et maintenir = Innovare e salvaguardare (1970)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6574_0e3/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"George Sugarman\" in Art International (1970 February)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6575_uob/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunsthaus Hamburg: Discussion: \"K\u00fcnstler machen Pl\u00e4ne, andere auch!\" (1970 February)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6576_jv9/collection.json",
+            "@type": "sc:Collection",
+            "label": "N\u00fcrnberg Biennale binder (1969-1971)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6577_rtz/collection.json",
+            "@type": "sc:Collection",
+            "label": "Wuppertal hearings (1970 January)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6579_naa/collection.json",
+            "@type": "sc:Collection",
+            "label": "8\u00bd Documentation 1961-1969 (1970 February 5 to March 7)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6583_0xj/collection.json",
+            "@type": "sc:Collection",
+            "label": "Von Hodler zur Antiform (1970)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6588_q0x/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Bern in Skulptur\" (1970 May)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6589_o36/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Berner situation\" (1970)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6590_z04/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Kollektiv-Manifestation 1967 in Havana, Kuba\" and \"Objekt 'When attitudes become form'\" in Werk (1970)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6591_t9h/collection.json",
+            "@type": "sc:Collection",
+            "label": "Film: L\u00e4nge x Breite x H\u00f6he x Teife + 150 Bogen (1970)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6592_i4b/collection.json",
+            "@type": "sc:Collection",
+            "label": "Piotr Kowalski (1970 April to May)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6597_jdc/collection.json",
+            "@type": "sc:Collection",
+            "label": "The thing as object: European [sic] object art of the 20th century (Das Ding als Objekt: Europ\u00e4ische Objektkunst des 20. Jahrhunderts) (1970 July 10 to August 30)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6599_d9d/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Dynamismus , Behaviourismus, Staffeleiersatz: Das Auto und die bildende Kunst\" in Du (1970 August)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6600_5tc/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Leonardo Bezzola\" (undated)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6601_zdg/collection.json",
+            "@type": "sc:Collection",
+            "label": "Atelier 5: Herr Mens (1970 May)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15332_7c3/collection.json",
+            "@type": "sc:Collection",
+            "label": "Happening & Fluxus (1970 November 6 to 1971 January 6)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6629_mwx/collection.json",
+            "@type": "sc:Collection",
+            "label": "Buri, G\u00fcrtler, Iseli, Luginb\u00fchl, Meister, Spescha, Schaffner (1961 September 2 to September 24): Catalog"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6630_g80/collection.json",
+            "@type": "sc:Collection",
+            "label": "Das Haus der Lernprozesse"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6631_lry/collection.json",
+            "@type": "sc:Collection",
+            "label": "Vlaaderen survey (1970 May)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6632_7ra/collection.json",
+            "@type": "sc:Collection",
+            "label": "Westdeutscher Rundfunk: \"Kunst ohne Austellung\" (1970 October)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6633_osw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted (1970)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6642_rq0/collection.json",
+            "@type": "sc:Collection",
+            "label": "Literature rates in the canton of Bern (1970)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6634_4sw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Object attitudes: Galerie Loeb (1970 July)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6635_mc4/collection.json",
+            "@type": "sc:Collection",
+            "label": "Experiment F+F: Brochure"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239189_y0f/collection.json",
+            "@type": "sc:Collection",
+            "label": "Appointment book, partial (1970)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6637_ell/collection.json",
+            "@type": "sc:Collection",
+            "label": "Agentur f\u00fcr geistige Gastarbeit"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6640_x8f/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Kleiner R\u00fcckblick auf die siebziger Jahre\" in Tages Anzieger Magazin (1971 January)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6641_70v/collection.json",
+            "@type": "sc:Collection",
+            "label": "Radio-t\u00e9l\u00e9vision suisse romande: Correspondances: with Marti, Kurt (1971 February)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6643_lqi/collection.json",
+            "@type": "sc:Collection",
+            "label": "Bregenzerw\u00e4lder Kulturtage (1971 August)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6644_hj8/collection.json",
+            "@type": "sc:Collection",
+            "label": "International Council of Museums"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6647_bn1/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kaprow, Allan, Galerie Baecker, Bochum (1971)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6648_0sh/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Ausstellungmacher\" in Kunst-Praxis Heute (1971)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6649_7uv/collection.json",
+            "@type": "sc:Collection",
+            "label": "I want to leave a nice well-done child here (1971 April 29 to May 13)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6653_6bc/collection.json",
+            "@type": "sc:Collection",
+            "label": "The Street: a shop-window exhibition (Die Strasse: Schaufensterausstellung) (1971 May)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6658_003/collection.json",
+            "@type": "sc:Collection",
+            "label": "Surveys"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6663_3cz/collection.json",
+            "@type": "sc:Collection",
+            "label": "Articles in Swissair Gazette (1971)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6664_v2f/collection.json",
+            "@type": "sc:Collection",
+            "label": "Les Inconnus de la Suisse (festival), Berne (1971)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref246003_7hb/collection.json",
+            "@type": "sc:Collection",
+            "label": "Appointment book (1971)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6665_e6l/collection.json",
+            "@type": "sc:Collection",
+            "label": "Text for the exhibition of Franz Eggenschwiler Frau, Von-der-Heydt-Museum (1972)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6666_egs/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Sport und/oder Kunst\" in Hallwag Magazin (1972)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6667_2kq/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted and press clippings (1971)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6668_chb/collection.json",
+            "@type": "sc:Collection",
+            "label": "documenta 5: Questioning reality-Image worlds today (documenta 5: Befragung der Realit\u00e4t-Bildwelten heute) (1972 June 30 to 8 October)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6894_ig2/collection.json",
+            "@type": "sc:Collection",
+            "label": "Berliner K\u00fcnstlerprogramm: Deutscher Akademischer Austauschdienst (1972)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239194_vs7/collection.json",
+            "@type": "sc:Collection",
+            "label": "Museum International offprints (1972 January)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6895_fx9/collection.json",
+            "@type": "sc:Collection",
+            "label": "The First International Perfume Exhibition (1972 July)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6896_k7m/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Bruno M\u00fcller\" (1972 November)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6897_ebu/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Die heutige Kunstsituation\" in 50 Jahre Kunstgesellschaft Thun: KGT (1972 November)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239174_rv7/collection.json",
+            "@type": "sc:Collection",
+            "label": "Galerie Loeb (1972)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239175_0v6/collection.json",
+            "@type": "sc:Collection",
+            "label": "[Franz] Gertsch (1972)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239176_ccz/collection.json",
+            "@type": "sc:Collection",
+            "label": "Scholarship competition (1972)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239177_eqr/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted (1972)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6898_80n/collection.json",
+            "@type": "sc:Collection",
+            "label": "Berliner K\u00fcnstlerprogramm: Deutscher Akademischer Austauschdienst (1973)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15312_r75/collection.json",
+            "@type": "sc:Collection",
+            "label": "Jeunesse et Arts plastiques: \"documenta 5, six mois apr\u00e8s\" (1973 January)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6900_obb/collection.json",
+            "@type": "sc:Collection",
+            "label": "Lectures on documenta 5 (1973)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15314_g01/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Berner Szene\" (1973 April)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6907_is9/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"L'exposition est un moyen d'expression\" (1973)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6908_jul/collection.json",
+            "@type": "sc:Collection",
+            "label": "Statement: Domus (1973 May)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6909_zhr/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"11 Pop Artists: The New Image-7 Jahre sp\u00e4ter\" (1973)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6910_vur/collection.json",
+            "@type": "sc:Collection",
+            "label": "Mus\u00e9e d'art contemporain: Opus International survey"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6911_7zz/collection.json",
+            "@type": "sc:Collection",
+            "label": "Literarisches Colloquium Berlin (1973 December)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6912_nhq/collection.json",
+            "@type": "sc:Collection",
+            "label": "International Association of Curators of Contemporary Art [IKT] (1973)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6913_k2f/collection.json",
+            "@type": "sc:Collection",
+            "label": "TELL 73"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6914_1nb/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"La n\u00e9cropole de Staglieno\", Chroniques de l'art vivant (1973 March)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15325_m73/collection.json",
+            "@type": "sc:Collection",
+            "label": "Internationales Kunstgespr\u00e4ch (1973 November)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6915_agz/collection.json",
+            "@type": "sc:Collection",
+            "label": "Press clippings (1973)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239178_quq/collection.json",
+            "@type": "sc:Collection",
+            "label": "Letter to Pluchart (1973)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239195_y9m/collection.json",
+            "@type": "sc:Collection",
+            "label": "Emma Kunz: Press clippings (1973)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref246004_odw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Appointment book (1973)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6916_jug/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Paul Thek\", Chroniques de l'art vivant (1974 April)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6917_dnh/collection.json",
+            "@type": "sc:Collection",
+            "label": "Byars, James Lee: Notes (1972-1985)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6919_xpb/collection.json",
+            "@type": "sc:Collection",
+            "label": "Grandfather - a pioneer like us (Grossvater - Ein Pionier wie wir) (1974 February 16 to 1974 April 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6967_pfd/collection.json",
+            "@type": "sc:Collection",
+            "label": "Correspondence: Universit\u00e4t f\u00fcr Angewandte Kunst Wien (1974)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6968_qun/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunst bleibt Kunst: Aspekte internationaler Kunst am Anfang der 70er Jahre: Projekt 74 (1974 July 6 to 1974 September 8)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6969_3ls/collection.json",
+            "@type": "sc:Collection",
+            "label": "Interview with Jean Le Gac (1974)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6971_yxg/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1974"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref6990_nnr/collection.json",
+            "@type": "sc:Collection",
+            "label": "Kunz, Emma (1974-1976)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7004_afw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1975"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15361_hxo/collection.json",
+            "@type": "sc:Collection",
+            "label": "Museum of Obsessions (Museum der Obsessionen)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7043_8zw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Experimental International Film Competition, Knokke (1974)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7044_w8a/collection.json",
+            "@type": "sc:Collection",
+            "label": "Lecture tour: USA/D/Mexico: Canceled (1974)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7045_xdv/collection.json",
+            "@type": "sc:Collection",
+            "label": "Notes on Museum der Obsessionen and Emma Kunz"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7046_sgs/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Mentalit\u00e4tsraum-Klima\" in Kunst-Bulletin des Schweizerischen Kunstvereins (1974 June)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7047_c37/collection.json",
+            "@type": "sc:Collection",
+            "label": "The Bachelor Machines (Junggesellenmaschinen / Les machines c\u00e9libataires) (1975 July 5 to August 17)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7178_6pz/collection.json",
+            "@type": "sc:Collection",
+            "label": "H.S. Fan-Club (1975)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7201_48c/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1976"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7219_79r/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1977"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7233_gg4/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1978"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15356_g8b/collection.json",
+            "@type": "sc:Collection",
+            "label": "documenta 6 (1977 June 26 to October 2)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7260_u9c/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Running Fence\" Documentation (unrealized)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7181_m9t/collection.json",
+            "@type": "sc:Collection",
+            "label": "Interview: Domus (1979 December)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7182_m2w/collection.json",
+            "@type": "sc:Collection",
+            "label": "Ironie, Pathos, Poesie und tiefere Bedeutung in der europ\u00e4ischen Kunst seit 1969 (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7183_qjx/collection.json",
+            "@type": "sc:Collection",
+            "label": "Die Welt ist aus den Fugen geraten (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7184_a0c/collection.json",
+            "@type": "sc:Collection",
+            "label": "Pattern painting (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7185_97v/collection.json",
+            "@type": "sc:Collection",
+            "label": "Architektur & Wohnen magazine round table (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7186_lrw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Poem for Carlo von Castelberg's wedding (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7187_gda/collection.json",
+            "@type": "sc:Collection",
+            "label": "Project: Bianco e nero (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7188_5ym/collection.json",
+            "@type": "sc:Collection",
+            "label": "Visual Resources Inc. book project (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7189_kbc/collection.json",
+            "@type": "sc:Collection",
+            "label": "Lecture: On James Lee Byars for the Foundation for Art Resources (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7190_ygr/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Was ist modern\" in Vogue (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7191_jqw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Article: \"Neue Kunst oder die W\u00fcrde des Dekorativen\" (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7192_g6x/collection.json",
+            "@type": "sc:Collection",
+            "label": "\u00d6sterreichgespr\u00e4ch, Vienna (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7193_j1u/collection.json",
+            "@type": "sc:Collection",
+            "label": "Vienna trip (1979 November)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7194_4gn/collection.json",
+            "@type": "sc:Collection",
+            "label": "\"Die Agentur f\u00fcr geistige Gastarbeit im Dienste der Vision eines Museums der Obsessionen\" in Notizbuch (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7195_x2t/collection.json",
+            "@type": "sc:Collection",
+            "label": "Eine Ausstellung mit Werken von zw\u00f6lf K\u00fcnstlern, V\u00f6lkerkundemuseum, Munich (1979 April to May)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7196_qz7/collection.json",
+            "@type": "sc:Collection",
+            "label": "Discussion: \"Ruhig und gelassen in die 80er Jahre\" Kunsthalle Bern (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7199_fjj/collection.json",
+            "@type": "sc:Collection",
+            "label": "Text: \"Ausstellungen\" (1979)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7265_nbu/collection.json",
+            "@type": "sc:Collection",
+            "label": "Monte Verit\u00e0: The breasts of truth (Monte Verit\u00e0/Berg der Wahrheit ) (1978 July 7 to August 30)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7418_r4k/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1979"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7427_fvi/collection.json",
+            "@type": "sc:Collection",
+            "label": "La Biennale di Venezia (1980 June 1 to September 28)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7461_a1x/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1980"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7517_zwr/collection.json",
+            "@type": "sc:Collection",
+            "label": "Museo Casa Anatta (1981 April 18)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7549_f9y/collection.json",
+            "@type": "sc:Collection",
+            "label": "Monte Verit\u00e0 (1987-1989)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7480_nmd/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1981"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7553_i6z/collection.json",
+            "@type": "sc:Collection",
+            "label": "documenta 7 (1982 June 19 to September 28)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7571_ixv/collection.json",
+            "@type": "sc:Collection",
+            "label": "Museo Madonna del Sasso (1982 September 12)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7502_6bg/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1982"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7575_o3m/collection.json",
+            "@type": "sc:Collection",
+            "label": "Tendency towards the Gesamtkunstwerk: European utopias since 1800 (Der Hang zum Gesamtkunstwerk: Europ\u00e4ische Utopien seit 1800) (1983 February 11 to April 30)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7793_o73/collection.json",
+            "@type": "sc:Collection",
+            "label": "James Ensor (1983 May 20 to July 31)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7814_zjp/collection.json",
+            "@type": "sc:Collection",
+            "label": "Immendorff (1983 November 19 to 1984 January 22)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7837_8nu/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1983"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7866_50u/collection.json",
+            "@type": "sc:Collection",
+            "label": "Sigmar Polke (1984 April 5 to May 13)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7882_k68/collection.json",
+            "@type": "sc:Collection",
+            "label": "Alfred Jarry (1984 December 14 to 1985 March 10)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239208_a7q/collection.json",
+            "@type": "sc:Collection",
+            "label": "Europarat [Council of Europe] (1984-1985)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7907_lrz/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1984"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15381_j9b/collection.json",
+            "@type": "sc:Collection",
+            "label": "Mario Merz (1985 April 3 to May 27)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref7980_sjp/collection.json",
+            "@type": "sc:Collection",
+            "label": "Traces, Sculptures, and monuments of their precise journey (Spuren, Skulpturen und Monumente ihrer pr\u00e4zisen Reise) (1985 November 29 to 1986 February 16)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8015_quw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1985"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8063_2jd/collection.json",
+            "@type": "sc:Collection",
+            "label": "Jean Fautrier (1925-1935) (1986 March 15 to May 4)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8087_ev3/collection.json",
+            "@type": "sc:Collection",
+            "label": "De Sculptura (1986 May 16 to June 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8118_b3x/collection.json",
+            "@type": "sc:Collection",
+            "label": "Da Mar\u00e9es a Picasso: Capolavori del Museo Von der Heydt di Wuppertal (1986 June 7 to August 17)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8132_sgq/collection.json",
+            "@type": "sc:Collection",
+            "label": "Museo Elisarion: Pavilion for the panoramic painting Klarwelt der Seligen by Elis\u00e0r von Kupffer (Opening: 1986 August 12)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8156_o7m/collection.json",
+            "@type": "sc:Collection",
+            "label": "Monte Verit\u00e0 (1987)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8159_175/collection.json",
+            "@type": "sc:Collection",
+            "label": "SkulpturSein (1986 December 13 to 1987 February 1)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8168_yso/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1986"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8432_li5/collection.json",
+            "@type": "sc:Collection",
+            "label": "Back to Fucking Cambridge (1987)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8466_xox/collection.json",
+            "@type": "sc:Collection",
+            "label": "Cy Twombly: Paintings, works on paper, sculptures (Cy Twombly: Bilder, Arbeiten auf Papier, Skulpturen) (1987 February 18 to March 29)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8202_rik/collection.json",
+            "@type": "sc:Collection",
+            "label": "Eug\u00e8ne Delacroix (1987 June 5 to August 23)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8368_5dg/collection.json",
+            "@type": "sc:Collection",
+            "label": "Victor Hugo (1802-1885): Fantasies in ink (Victor Hugo (1802-1885): Phantasien in Tusche) (1987 June 5 to August 23)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8375_vsf/collection.json",
+            "@type": "sc:Collection",
+            "label": "Charles Baudelaire (1821-1867) (1987 June 5 to August 23)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8385_ria/collection.json",
+            "@type": "sc:Collection",
+            "label": "documenta 8 (1987 June 12 to September 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8420_adj/collection.json",
+            "@type": "sc:Collection",
+            "label": "Julie Szeemann-Kambly's 80th birthday (1987 October): Booklet"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8421_xm2/collection.json",
+            "@type": "sc:Collection",
+            "label": "Mario Merz (1987 November 17 to 1988 January 3)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8537_nld/collection.json",
+            "@type": "sc:Collection",
+            "label": "Museo Nacional Centro de Arte Reina Sof\u00eda (1987-1989)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8433_88x/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1987"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8550_x1r/collection.json",
+            "@type": "sc:Collection",
+            "label": "Zeitlos (1988 June 22 to September 25)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8637_mx0/collection.json",
+            "@type": "sc:Collection",
+            "label": "Marianne Werefkin (1988 August 6 to October 23)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8639_ljw/collection.json",
+            "@type": "sc:Collection",
+            "label": "a-Historical soundings: Harald Szeemann's choice from the collections of the Boymans-van Beuningen Museum (a-Historische klanken: De keuze van Harald Szeemann uit de collecties van Museum Boymans-van Beuningen) (1988 August 28 to October 2)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8652_zbi/collection.json",
+            "@type": "sc:Collection",
+            "label": "\u00c9tienne-Martin (1988 October 7 to November 15)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15400_9pk/collection.json",
+            "@type": "sc:Collection",
+            "label": "Egon Schiele and his time: Austrian paintings and drawings 1900 to 1930 from the collection Leopold (Egon Schiele und seine Zeit: \u00d6sterreichische Malerei und Zeichnung 1900 bis 1930 aus der Sammlung Leopold) (1988 November 25 to 1989 February 19)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8703_qwp/collection.json",
+            "@type": "sc:Collection",
+            "label": "Richard Serra: Maillart Extended (1988 September)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8710_vqo/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1988"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8687_5rn/collection.json",
+            "@type": "sc:Collection",
+            "label": "Piet Mondrian (1989 April 5 to May 28)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8761_s99/collection.json",
+            "@type": "sc:Collection",
+            "label": "Einleuchten: Will, Vorstel & Simul in HH (1989 November 11 to 1990 February 18)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15405_zay/collection.json",
+            "@type": "sc:Collection",
+            "label": "Towards free dance, towards pure art: Suzanne Perrottet (1889-1983) and Mary Wigman (1886-1973) (Zum freien Tanz, Zu reiner Kunst) (1989 December 1 to 1990 February 11)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8890_skn/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1989"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8943_pu1/collection.json",
+            "@type": "sc:Collection",
+            "label": "Richard Serra: The Hours of the Day (1990 March 9 to April 29)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8964_781/collection.json",
+            "@type": "sc:Collection",
+            "label": "Georg Baselitz (1990 May 23 to July 8)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8990_if1/collection.json",
+            "@type": "sc:Collection",
+            "label": "Niele Toroni (1990 August 18 to September 29)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref8996_cp0/collection.json",
+            "@type": "sc:Collection",
+            "label": "Mario Merz (1990 September 30 to December 16)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9009_lkb/collection.json",
+            "@type": "sc:Collection",
+            "label": "La Gomera (1990)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9021_e8n/collection.json",
+            "@type": "sc:Collection",
+            "label": "LightSeed (1990 December 1 to 1991 February 24)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9054_ftk/collection.json",
+            "@type": "sc:Collection",
+            "label": "Artis: Zeitschrift f\u00fcr neue Kunst"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9055_f44/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1990"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9005_ysz/collection.json",
+            "@type": "sc:Collection",
+            "label": "Z\u00fcrich: Bahnhofshalle competition (1991 February and March)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9113_yhn/collection.json",
+            "@type": "sc:Collection",
+            "label": "Ettore Jelmorini (1991 March 2 to May 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9122_06m/collection.json",
+            "@type": "sc:Collection",
+            "label": "Georg Baselitz: Works from the Ackermeier Berlin Collection (Georg Baselitz: Werke aus der Sammlung Ackermeier Berlin)  (1991 May 8 to July 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9131_buv/collection.json",
+            "@type": "sc:Collection",
+            "label": "Niele Toroni: Imprints of Brush No 50, Repeated in Regular Intervals (30 cm) (Niele Toroni: Impronte di pennello N. 50 ripetute a intervalli regolari (30 cm)) (1991 September 6 to October 27)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9145_qgi/collection.json",
+            "@type": "sc:Collection",
+            "label": "700th anniversary of Switzerland (1991)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9293_cq3/collection.json",
+            "@type": "sc:Collection",
+            "label": "Visionary Switzerland (Vision\u00e4re Schweiz) (1991 November 1 to 1992 January 26)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9433_k4y/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1991"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9512_88k/collection.json",
+            "@type": "sc:Collection",
+            "label": "Walter De Maria: The 2000 Sculpture (1992 February 20 to April 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9540_vtk/collection.json",
+            "@type": "sc:Collection",
+            "label": "Wolfgang Laib (1992 April 11 to May 31)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9550_y08/collection.json",
+            "@type": "sc:Collection",
+            "label": "Pabell\u00f3n de Suiza (1992 April 20 to October 12)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9640_7a1/collection.json",
+            "@type": "sc:Collection",
+            "label": "documenta IX (1992 June 13 to September 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239217_gxi/collection.json",
+            "@type": "sc:Collection",
+            "label": "Marcel Duchamp (unrealized) "
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9657_i12/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1992"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9725_7zv/collection.json",
+            "@type": "sc:Collection",
+            "label": "GAS: Grandiose Ambitieux Silencieux (1993 March 19 to May 23)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9767_x7f/collection.json",
+            "@type": "sc:Collection",
+            "label": "Joseph Beuys (1993 November 26 to 1994 February 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref9961_x81/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1993"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10044_s95/collection.json",
+            "@type": "sc:Collection",
+            "label": "Creativity in Switzerland: An exclusive exhibition by Harald Szeemann (1994 November)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10056_7iq/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1994"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10131_v8b/collection.json",
+            "@type": "sc:Collection",
+            "label": "Bruce Nauman (1995 July 14 to October 8)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10165_q9w/collection.json",
+            "@type": "sc:Collection",
+            "label": "100 Years of Cinema: Illusion - Emotion - Reality / The 7th art in search of the 6 others (100 Jahre Kino: Illusion - Emotion - Realit\u00e4t / Die 7. Kunst auf der Suche nach den 6 andern) (1995 November 9 to 1996 February 25)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10515_t6o/collection.json",
+            "@type": "sc:Collection",
+            "label": "Francisco de Goya (unrealized)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10530_8g3/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1995"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10614_87u/collection.json",
+            "@type": "sc:Collection",
+            "label": "Austria in a net of roses (Austria im Rosennetz) (1996 September 10 to November 10)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10841_uz3/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1996"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10922_yzs/collection.json",
+            "@type": "sc:Collection",
+            "label": "Epicenter Ljubljana (1997 April 8 to May 31)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref10941_7oy/collection.json",
+            "@type": "sc:Collection",
+            "label": "Biennale d'art contemporain de Lyon \"L'Autre\" (1997 July 9 to September 24)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11034_5sx/collection.json",
+            "@type": "sc:Collection",
+            "label": "Speed & Water (1997 September 1 to November 27)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11080_cdg/collection.json",
+            "@type": "sc:Collection",
+            "label": "Hierhin (unrealized)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11096_g3f/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1997"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11163_f1l/collection.json",
+            "@type": "sc:Collection",
+            "label": "Self-taught artists of the 20th century: An American anthology (1998 March 10 to May 17)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11198_6nb/collection.json",
+            "@type": "sc:Collection",
+            "label": "Diversities, Spices & Academies (Ausgew\u00e4hlte Studentenarbeiten aus der Akademie der Bildenden K\u00fcnste, Wien) (1998 June 24 to July 3)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11203_wws/collection.json",
+            "@type": "sc:Collection",
+            "label": "Elective Affinities: Jason Rhoades (Wahlverwandtschaften: Jason Rhoades) (1998 August 15 to October 18)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11204_hyl/collection.json",
+            "@type": "sc:Collection",
+            "label": "Thousand islands (reality models): Serge Spitzer (1998 October 16 to November 29): Unfiled: Correspondence"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11205_5zw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Close encounters: Torbj\u00f8rn R\u00f8dland (1998 October 16 to November 29)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11208_kwe/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1998"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11341_p5u/collection.json",
+            "@type": "sc:Collection",
+            "label": "La Biennale di Venezia: dAPERTutto / APERTO overALL / APERTO parTOUT / APERTO \u00fcberALL (1999 June 13 to November 7)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11584_0rf/collection.json",
+            "@type": "sc:Collection",
+            "label": "Art Open (1999 July 10 to July 15)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11598_he8/collection.json",
+            "@type": "sc:Collection",
+            "label": "The End of the World & The Principle of Hope (Weltuntergang & Prinzip Hoffnung) (1999 August 27 to November 7)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11774_1hx/collection.json",
+            "@type": "sc:Collection",
+            "label": "Walter De Maria: The 2000 Sculpture (1999 November 26 to 2000 January 16)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11796_87q/collection.json",
+            "@type": "sc:Collection",
+            "label": "Tinguely's Favourites: Yves Klein (1999 December 1 to 2000 April 9)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11811_6ur/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 1999"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11881_6az/collection.json",
+            "@type": "sc:Collection",
+            "label": "Expo 2000 (Hanover, Germany) (2000 June 1 to October 31)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/b9def1e92089d0fa6f1e39cf3096863c/collection.json",
+            "@type": "sc:Collection",
+            "label": "100 Years of Cinema (Cin\u00e9math\u00e8que Fran\u00e7aise): Painic, Dominic "
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11944_tf5/collection.json",
+            "@type": "sc:Collection",
+            "label": "Beware of exiting your dreams: You may find yourself in somebody else's (Uwa\u017caj wychodz\u0105c z w\u0142asnych sn\u00f3w: Mo\u017cesz znale\u017ac si\u0119 w cudzych) (2000 December 15 to 2001 January 28)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11959_6rd/collection.json",
+            "@type": "sc:Collection",
+            "label": "ForwArt: Georges Ad\u00e9agbo (2000 April 5 to May 14)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11962_gz7/collection.json",
+            "@type": "sc:Collection",
+            "label": "Nauman, his own neighbour (Nauman, sein eigener Nachbar) (2000 July 15 to August 27)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11967_boc/collection.json",
+            "@type": "sc:Collection",
+            "label": "Museo Comico nel Teatro Dimitri: The Collection of Dimitri Clown (2000 August 5)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref11982_jqc/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 2000"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref12092_cd1/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 2000-2001"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref12204_xne/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 2000-2002"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref12253_esd/collection.json",
+            "@type": "sc:Collection",
+            "label": "La Biennale di Venezia: PLATEA DELL'UMANIT\u00c0 / PLATEAU OF HUMANKIND / PLATEAU DER MENSCHHEIT / PLATEAU DE L'HUMANIT\u00c9 (2001 June 10 to November 4)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref12642_gkr/collection.json",
+            "@type": "sc:Collection",
+            "label": "Novartis campus (Basel, Switzerland) (2001-2005)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15267_uy6/collection.json",
+            "@type": "sc:Collection",
+            "label": "Von der Heydts: Bankiers, Christen und M\u00e4zene (2001)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref12816_1f4/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 2001"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref12852_9ag/collection.json",
+            "@type": "sc:Collection",
+            "label": "Tinguely's Favourites: Marcel Duchamp (2002 March 20 to June 30)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref12951_59e/collection.json",
+            "@type": "sc:Collection",
+            "label": "Money and Value/The Last Taboo (Geld und Wert/Das letzte Tabu) (2002 May 15 to October 20)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref13268_km6/collection.json",
+            "@type": "sc:Collection",
+            "label": "Friedrich Christian Flick Collection (2002 July)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref13344_xw7/collection.json",
+            "@type": "sc:Collection",
+            "label": "In Progress (2002 August 1 to 11)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref14421_dd1/collection.json",
+            "@type": "sc:Collection",
+            "label": "Aubes: R\u00eaveries au bord de Victor Hugo (2002 October 11 to 2003 January 19)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref13277_u5x/collection.json",
+            "@type": "sc:Collection",
+            "label": "Akademie der Kunst (Berlin, Germany) (2002)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref13284_2qh/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 2002"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref13399_dzj/collection.json",
+            "@type": "sc:Collection",
+            "label": "Ongoing Projects: 2002-2007"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15566_5z7/collection.json",
+            "@type": "sc:Collection",
+            "label": "Blood & Honey: The Future lies in the Balkans (Blut & Honig: Zukunft ist am Balkan) (2003 May 16 to September 28)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref13561_rdt/collection.json",
+            "@type": "sc:Collection",
+            "label": "G2003: Mostra internazionale d'Arte all'aperto: Un villaggio e un borgo accolgono l'arte (2003 July 20 to December 31)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref13806_g6q/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 2003"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref13703_wu1/collection.json",
+            "@type": "sc:Collection",
+            "label": "El Real Viaje Real/The Real Royal Trip (2003 October 12 to 2004 January 5)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref13957_mka/collection.json",
+            "@type": "sc:Collection",
+            "label": "Temporary Enchantment (Verzauberung auf Zeit) (2004 March to 2007 March)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref14018_23v/collection.json",
+            "@type": "sc:Collection",
+            "label": "La bellesa del fracas-El fracas de la bellesa/La belleza del fracaso-El fracaso de la belleza/The beauty of failure-The failure of beauty (2004 May 28 to October 24)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref14138_lzc/collection.json",
+            "@type": "sc:Collection",
+            "label": "La alegr\u00eda de mis sue\u00f1os / The Joy of My Dreams (2004 October 3 to December 5)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref14264_wyw/collection.json",
+            "@type": "sc:Collection",
+            "label": "Rundlederwelten (unrealized)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref14380_c4k/collection.json",
+            "@type": "sc:Collection",
+            "label": "Gilbert Clavel (unrealized)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref14487_hyt/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted: 2004"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref14676_fxs/collection.json",
+            "@type": "sc:Collection",
+            "label": "La Belgique Visionnaire Belgi\u00eb: C'est arriv\u00e9 pr\u00e8s de chez nous (2005 March 4 to May 15)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15127_e42/collection.json",
+            "@type": "sc:Collection",
+            "label": "Automobility Exhibition (unrealized)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239251_7l9/collection.json",
+            "@type": "sc:Collection",
+            "label": "Assorted 2005"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref15231_b1s/collection.json",
+            "@type": "sc:Collection",
+            "label": "Undated"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239258_gv6/collection.json",
+            "@type": "sc:Collection",
+            "label": "Image and document requests (1980-2003)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239260_0a6/collection.json",
+            "@type": "sc:Collection",
+            "label": "Loans from the Fabbrica (2008-2009)"
+        },
+        {
+            "@id": "http://data.getty.edu/iiif/collection/ref239273_95l/collection.json",
+            "@type": "sc:Collection",
+            "label": "Associations with organizations"
+        }
+    ],
+    "description": "\nThis series documents Harald Szeemann's curatorial process from conception to installation. In addition to his own known exhibitions, there are also records from unrealized exhibitions, exhibitions Szeemann co-curated, was consulted on, or to which he contributed writings for the catalog. Projects or exhibitions from which he resigned are also included, such as documenta 7 and documenta 8. There are materials related to other projects such as films, books and other publications, interviews given, seminars, lectures, surveys taken, and awards for which he was a jurist. Near the beginning of the series are Szeemann's illustrated notebooks from high school, papers from college, his dissertation, and documents of his early theatrical career, which Szeemann designates as projects by filing here.\n\nMaterials in the series include detailed notes, installation sketches, correspondence, building plans, exhibition announcements and checklists, loan agreements, brochures, catalogs, wall texts, research material, and documents related to the production of didactic material, framing, and shipping. Any photographic material housed with the papers of this series have been retained in this series although the majority of photographic materials from the collection were separated out by Szeemann and are located in Series IV. Photographs. Folders, envelopes or other containers found with only photographic material have been transferred to Series IV. Photographs. Groups of records regarding Szeemann\u2019s long-term participation on committees or boards have been moved to Series V. Professional activities. Szeemann also kept complete copies of books and periodicals with his project files. These have been moved to the General Collections and can be found by searching the Library Catalog for the \"Harald Szeemann Collection.\" Additional copies of catalogs for his exhibitions have been retained with the archival papers. \n\nSzeemann corresponded over a long period of time via exchange of mail art with Johan van Geluwe, director of the (fictional) Museum of Museums.  Folders that include mail art are noted when it is not apparent in the title.\n \nThe majority of exhibition titles are listed by the English translation found in Tobia Bezzola and Roman Kurzmeyer (ed.), Harald Szeemann with by through towards despite, Catalogue of all Exhibitions 1957-2005 (Z\u00fcrich: Edition Voldemeer; Wien; New York: Springer, 2007), followed by the original title in parentheses and the date of exhibition.  This book was written in collaboration with Szeemann, and it is assumed he had input into the correct way to express the titles in English. Projects and exhibition titles not listed in the book were not translated into English. See also this chronology of Szeemann's projects.\n \nTitles for folder contents are direct translations when the folder had a title given by Szeemann. When a label could not be read or translated, it was retained in the archive with the records. If a folder was not titled by Szeemann, the archivist has provided a title that is descriptive of the contents. Records found loose, not in a folder or envelope, between folders or at the front or back of a carton of folders are designated as \"loose\" in brackets. Szeemann frequently titled folders \"Diverse\" and \"Reliquien.\" These titles have been translated as \"Assorted\" and \"Souvenirs\" respectively. The difference between them is slight, as both contain an assortment of items. \"Assorted\" files primarily include press clippings or correspondence. It was difficult to interpret what Szeemann meant by reliquien. The contents could be mementos, souvenirs or other ephemera from exhibitions, projects, or entire years. \"Souvenirs\" can include event tickets, passes and brochures, notes, doodles and sketches and some appointment books. Szeemann also housed some of his appointment books on his bookshelves and these are integrated into the series.",
+    "label": "Project files, Series I.",
+    "metadata": [
+        {
+            "label": "Creation Date",
+            "value": "1836-2007, bulk 1949-2005"
+        },
+        {
+            "label": "Arrangement",
+            "value": [
+                "The arrangement reflects Szeemann's original organization of his project files. The series is arranged chronologically by the opening date of an exhibition. The dates of the material may not be the same as the date of a project, and Szeemann frequently worked on projects for years in advance of their opening. This is especially important to note for all of his documenta and Venice Biennale records. Exhibitions that toured are arranged according to the opening date of the first installation. Unrealized exhibitions are placed in the year most prevalent in the records. ",
+                "Szeemann kept his files in plastic cartons and three-ring binders. The groupings of folders from the cartons have been arranged as closely to chronological as possible. The sections of \"Assorted\" files have been arranged at the end of each year. \"Unfiled\" refers to papers not originally grouped with the Project files, but identified as pertaining to exhibitions and other projects by specialists and the archivist. These are at the very end of each project or \"Assorted\" section. ",
+                "When Szeemann worked on more than one project simultaneously, the resulting files are interspersed. As a result, files pertaining to the same project may be separated by files on a different project. For example, a group of folders from documenta 8 are housed with a group of folders from Tendency towards the Gesamtkunstwerk.  The earlier exhibition files are frequently interspersed with other assorted project files. As the exhibitions began generating more extensive records, sections of \"Assorted\" become more distinct, and Szeemann grouped them together by year."
+            ]
+        },
+        {
+            "label": "Physical Desc.",
+            "value": [
+                "555.54 Linear Feet",
+                "(1012 boxes, 149 flatfiles, 6 crates)"
+            ]
+        }
+    ]
+}

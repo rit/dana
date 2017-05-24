@@ -7,8 +7,15 @@
     <!--  <collection-content-tree></collection-content-tree>-->
     <!--</div>-->
 
-    <div>
-      routemeta: {{ routemeta }}
+    <collection-heading v-if="heading" :heading="heading"></collection-heading>
+
+    <div v-if="collections">
+      <h3>Collections</h3>
+      <ul>
+        <li v-for="c in collections">
+          {{ c.label }}
+        </li>
+      </ul>
     </div>
 
     <!--<router-view ></router-view>-->
@@ -17,13 +24,23 @@
 
 <script>
 
-import { mapActions } from 'vuex'
+import { mapActions, mapState } from 'vuex'
 
 export default {
 
   props: ['collectionSlug', 'seriesSlug', 'subseriesSlug'],
 
   computed: {
+    ...mapState(['collectionContent']),
+
+    collections () {
+      return this.collectionContent.collections
+    },
+
+    heading () {
+      return this.collectionContent.heading
+    },
+
     contentSlug () {
       return this.subseriesSlug || this.seriesSlug || this.collectionSlug
     },
