@@ -14,6 +14,8 @@
 </template>
 
 <script>
+import { last } from 'lodash'
+
 export default {
   props: ['seriesTree'],
 
@@ -29,7 +31,7 @@ export default {
   computed: {
     expandKeys () {
       var path = this.$route.path
-      var pattern = this.$route.matched[this.$route.matched.length - 1].regex
+      var pattern = last(this.$route.matched).regex
       var found = path.match(pattern)
       if (found) {
         found = found.splice(1)
@@ -39,7 +41,7 @@ export default {
     },
 
     currentNodeKey () {
-      return this.expandKeys[this.expandKeys.length - 1]
+      return last(this.expandKeys)
     }
   },
 
