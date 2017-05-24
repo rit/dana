@@ -10,7 +10,7 @@
     <collection-heading v-if="heading" :heading="heading"></collection-heading>
 
     <div v-if="collections">
-      <h3>Collections</h3>
+      <h3>Collections ({{ collections.length }})</h3>
       <ul>
         <li v-for="c in collections">
           {{ c.label }}
