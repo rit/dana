@@ -8,10 +8,7 @@ function updateCollectionMetaData ({ commit, state }, { slug }) {
       var collectionHeading = mapper.collectionHeading(resp.data)
       commit('collectionHeading', { collectionHeading })
     })
-    .catch(function (err) {
-      // TODO How do we update the UI?
-      console.log(err)
-    })
+    .catch(() => console.warn(url, 'not found'))
 }
 
 function updateSeriesTree ({ commit, state }, { slug }) {
@@ -21,22 +18,21 @@ function updateSeriesTree ({ commit, state }, { slug }) {
       var seriesTree = [mapper.seriesTree(resp.data)]
       commit('seriesTree', { seriesTree })
     })
-    .catch((err) => {
-      console.log(err)
-    })
+    .catch(() => console.warn(url, 'not found'))
 }
 
 function updateCollectionContent ({ commit, state }, { slug }) {
+  // Clear the collection content
+  var collectionContent = {}
+  commit('collectionContent', { collectionContent })
+
   var url = `/static/collections/${slug}.json`
   axios.get(url)
     .then((resp) => {
-      var collectionContent = mapper.collectionContent(resp.data)
+      collectionContent = mapper.collectionContent(resp.data)
       commit('collectionContent', { collectionContent })
     })
-    .catch(function (err) {
-      // TODO How do we update the UI?
-      console.log(err)
-    })
+    .catch(() => console.warn(url, 'not found'))
 }
 
 module.exports = {

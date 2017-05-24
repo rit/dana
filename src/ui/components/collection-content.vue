@@ -54,6 +54,19 @@ export default {
     ...mapActions(['updateCollectionContent'])
   },
 
+  /*
+  beforeRouteUpdate (to, from, next) {
+    this.updateCollectionContent({ slug: this.contentSlug })
+    next()
+  },
+  */
+
+  watch: {
+    contentSlug (slug, oldSlug) {
+      this.updateCollectionContent({ slug })
+    }
+  },
+
   created () {
     this.updateCollectionContent({ slug: this.contentSlug })
   }
