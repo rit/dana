@@ -1,12 +1,13 @@
 <template>
   <div class="series-tree">
     <el-tree
-      empty-text="Loading..."
       :data="seriesTree"
-      node-key="slug"
       :props="defaultProps"
-      accordion
-      @node-click="handleNodeClick">
+      default-expanded-keys="2011m30_nav"
+      node-key="slug"
+      empty-text="Loading..."
+      @node-click="handleNodeClick"
+      accordion >
     </el-tree>
   </div>
 </template>
@@ -52,5 +53,10 @@ export default {
 <style>
 .series-tree {
   width: 320px;
+}
+
+.is-current > div.el-tree-node__content {
+  background-color: #2980b9;
+  color: white;
 }
 </style>
