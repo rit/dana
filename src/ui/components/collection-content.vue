@@ -10,7 +10,7 @@
     <collection-heading v-if="heading" :heading="heading"></collection-heading>
 
     <div v-if="collections">
-      <h3>Collections</h3>
+      <h3>Collections ({{ collections.length }})</h3>
       <ul>
         <li v-for="c in collections">
           {{ c.label }}
@@ -52,6 +52,19 @@ export default {
 
   methods: {
     ...mapActions(['updateCollectionContent'])
+  },
+
+  /*
+  beforeRouteUpdate (to, from, next) {
+    this.updateCollectionContent({ slug: this.contentSlug })
+    next()
+  },
+  */
+
+  watch: {
+    contentSlug (slug, oldSlug) {
+      this.updateCollectionContent({ slug })
+    }
   },
 
   created () {
