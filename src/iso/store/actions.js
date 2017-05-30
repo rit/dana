@@ -15,7 +15,7 @@ function updateSeriesTree ({ commit, state }, { slug }) {
   var url = `static/navtree/${slug}.json`
   axios.get(url)
     .then((resp) => {
-      var seriesTree = [mapper.seriesTree(resp.data)]
+      var seriesTree = [resp.data]
       commit('seriesTree', { seriesTree })
     })
     .catch(() => console.warn(url, 'not found'))
