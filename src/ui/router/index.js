@@ -8,10 +8,12 @@ import CollectionContent from '@ui/components/collection-content'
 import SeriesTree from '@ui/components/series-tree'
 import CollectionSummary from '@ui/components/collection-summary'
 import CollectionContentTree from '@ui/components/collection-content-tree'
+import ContentItem from '@ui/components/content-item'
 
 Vue.use(Router)
 
 Vue.component('collection-content', CollectionContent)
+Vue.component('content-item', ContentItem)
 Vue.component('collection-content-tree', CollectionContentTree)
 Vue.component('collection-summary', CollectionSummary)
 Vue.component('collection-layout', CollectionLayout)

@@ -11,11 +11,9 @@
 
     <div v-if="collections">
       <h3>Collections ({{ collections.length }})</h3>
-      <ul>
-        <li v-for="c in collections">
-          {{ c.label }}
-        </li>
-      </ul>
+      <section>
+        <content-item v-for="c in collections" :item="c" :key="c.slug"></content-item>
+      </section>
     </div>
 
     <!--<router-view ></router-view>-->

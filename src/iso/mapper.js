@@ -1,4 +1,5 @@
 var axios = require('axios')
+var get = require('lodash').get
 
 function seriesTree (data) {
   var transformed = {}
@@ -38,8 +39,17 @@ function collectionHeading (data) {
 function collectionContent (data) {
   var content = {}
   content.heading = collectionHeading(data)
-  content.collections = data.collections
+  content.collections = data.collections.map(contentItem)
   return content
+}
+
+function contentItem (item) {
+  var mapped = metadataMap(item.metadata)
+  var label = [item.label, mapped['Creation Date']].join(', ')
+  var container = get(mapped, 'Container', '').split(' ')
+  var box = container[1]
+  var folder = container[3]
+  return { label, box, folder }
 }
 
 // metadata is an array
