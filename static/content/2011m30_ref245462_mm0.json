@@ -1,0 +1,67 @@
+{
+    "description": "Series V.E. Topical contains videocassettes, audio and videodiscs, music CDs, and audiocassettes reflecting subject matter found in Series VI. Topical files and other thematic materials. Topics include arts and art history, dance, film and video, literature, music,theater; geographic areas such as Australia, the Balkans, Belgium, Italy, Portugal, and Switzerland; politics, environment, society, advertising, banking and money, business and corporations, sexuality, sounds, sports, and World War II.",
+    "label": "Topical files, Series V.D.",
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1956, 1960, 1965-1972, 1984-2004, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref245465_y8s",
+            "label": "Arts and letters,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1975, 1980-2004, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref245615_bw3",
+            "label": "Places,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "2003-2004",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref245674_82e",
+            "label": "Politics, environment, and society: Artists for Good,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1989-1992, 1999-2002, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref245679_6x4",
+            "label": "Themes,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "manifests": [],
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref245462_mm0/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1956, 1960, 1965-1972, 1984-2004, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": "Arrangement of sections mirrors the subseries of Series VI and is alphabetical.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "3.75 Linear Feet",
+                "(9 boxes)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

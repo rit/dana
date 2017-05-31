@@ -1,0 +1,106 @@
+{
+    "description": "This series contains the ephemera Szeemann collected from hundreds of museums and galleries throughout the world. He also collected ephemera from international exhibitions, festivals, symposiums and workshops, public art, and other events. A number of items in this series are addressed to Ingeborg L\u00fcscher. Materials include brochures; booklets; exhibition and institution guides; catalogs; correspondence in the form of faxes, emails, postcards and letters; photographic materials; exhibition proposals; posters; price lists; ticket stubs; and city guidebooks; and, less frequently, items such as matches; pins; shopping bags; and coasters. Also included are items such as a t-shirt (see Galleries: Tokyo); 3-D glasses (see Museums: Bologna); a joke condom (see Museums: Tel-Aviv); and a work glove (see Museums: Sarajevo.) Any extensive correspondence with a museum or gallery or material from one of Szeemann's exhibitions is noted. There is some cross-over with the Artist files series for groups or companies of artists such as Atelier 5, and the Project files for exhibitions such as the Venice Biennale. It is possible the same copy of an item such as an exhibition postcard or brochure is represented in multiple folders. For example, a gallery brochure may be filed under a name in the artist files, under a city in the ephemera, and under a type of art in the topical files. Copies could also show up under multiple cities in the ephemera if an exhibition traveled. Box 2931 includes photographic material.",
+    "label": "Gallery and museum ephemera, Series VII.",
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1953-2007, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": [
+                        "Organized alphabetically by geographical name.",
+                        "Within each geographical name, the institutions are loosely organized alphabetically by name, usually by the \"main\" part of the name, such as a gallery owner's last name or what an institution might be known as colloquially. For example, \u201cGalleria\" or \"Galerie\" might be dropped for a gallery. ",
+                        "City names beginning with a form of \"Saint\" including \"San,\" \"Sankt,\" and \"Santo\" are grouped together and alphabetized in direct order in the galleries."
+                    ],
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "77.47 Linear Feet",
+                        "(177 boxes, 8 flatfiles)"
+                    ],
+                    "label": "Physical Desc."
+                }
+            ],
+            "slug": "2011m30_ref237795_wvv",
+            "label": "Galleries, Series VII.A."
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1915, 1937, 1954, 1960-2007, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": [
+                        "Organized alphabetically by geographical name.",
+                        "Within each geographical name, the institutions are  the institutions are loosely organized alphabetically by name, usually by the \"main\" part of the name, such as what an institution might be known as colloquially. For example, \"Museum\" or \"Centre\" could be dropped from the name. Kunsthalle and Kunsthaus are usually found within the Ks although a Kunstverein might be in the Vs. ",
+                        "City names beginning with a form of \"Saint\" including \"San,\" \"Sankt,\" and \"Santo\" are grouped together and alphabetized by the second part of the name in the museums."
+                    ],
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "148.26 Linear Feet",
+                        "(311 boxes, 45 flatfiles)"
+                    ],
+                    "label": "Physical Desc."
+                }
+            ],
+            "slug": "2011m30_ref238205_rcf",
+            "label": "Museums, Series VII.B."
+        },
+        {
+            "metadata": [
+                {
+                    "value": "2004-2005",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Original order maintained.",
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "0.42 Linear Feet",
+                        "(1 box)"
+                    ],
+                    "label": "Physical Desc."
+                },
+                {
+                    "value": "Box 2930",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239087_tlx",
+            "label": "General, Series VII.C."
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "manifests": [],
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref237792_fvd/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1915, 1937, 1953-2007, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": [
+                "This series is arranged in three subseries: Series VII.A. Galleries, 1953-2007, undated; Series VII.B. Museums, 1915, 1937, 1954, 1960-2007, undated; Series VII.C. General, 2004-2005.",
+                "The arrangement reflects Szeemann's original organization of his ephemera. He separated the ephemera into the groupings of galleries and museums and then organized alphabetically mainly by city name, but also created folders that relate to an entire state, canton, province, or country. To maintain the original order, geographical names have been listed under the form used by Szeemann, and the English name has been added in brackets.  Items incorrectly labeled by Szeemann using the title of the institution, neighborhood, or street name have been moved to the correct city in the organizational scheme. Because Szeemann and his assistants were all filing the materials, at times more than one form of a name is used such as with Copenhagen/Kobenhavn, Cuba/Kuba, Gen\u00e8ve/Genf, Praha/Prague, and Den Haag/Hague. These have not been merged.",
+                "Along with the general folders created by Szeemann, there are six categories created by the archivist as general folders: \"loose,\" \"unfiled,\" \"removed from library collection,\" \"to be filed,\" \"new mail,\" and \"unsorted.\" \"Loose\" denotes items found in the original boxes not in an original envelope and are obviously related to neighboring envelopes. \"Unfiled\" items are those were found in stacks around the Fabbrica and designated as part of this series by the archivist.   Unpublished materials, such as exhibition proposals or gallery press packets, were removed from the library collection and integrated into the ephemera series. \"To be filed\" and \"new mail\" are from two sections of ephemera Szeemann's office had sorted into museums or galleries and alphabetized. The archivist has sorted these further by city into general folders. \"Unsorted\" are completely unordered materials designated as ephemera by the curator while packing and transferring the collection. This section has also been sorted by the archivist into general folders."
+            ],
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "226.45 Linear Feet",
+                "(489 boxes, 53 flatfiles)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

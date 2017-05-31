@@ -1,0 +1,67 @@
+{
+    "description": "Series VI.G. Themes contains clippings, periodicals, booklets, souvenirs and ephemera, promotional materials, calendars, postcards, and brochures on a variety of topics.  A to Z themes include AIDS, Cadmium, Flugzeuge [airplanes], Fremdenhass [xenophobia], Liebe [love], and many more. Well represented are materials concerning Werbung [advertising], with material organized into subtopics including Werbung - Alkohol; Werbung - Auto; Werbung - Kunst [art]; Werbung - mit Sex [with sex]; and more.  Assorted contains files organized by Szeemann into categories including Architecture, Karikatur, and Erotik und Sex. This section also contains collections of greeting cards and covers and articles from the German magazine, Der Spiegel. Of interest is a Batman hand puppet.",
+    "label": "Themes, Series VI.G.",
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1914-1918, 1924, 1933-2004, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref240172_d1m",
+            "label": "A to Z,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1939, 1947-1999, 2002-2005, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref240199_84i",
+            "label": "Assorted,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "approximately 1930-1998",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref240222_0kt",
+            "label": "Oversize,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1912-1922, 1929, 1949, 1964-2004, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref240227_2pp",
+            "label": "Unfiled,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "manifests": [],
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref240169_f9n/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1912-2004, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": "Arranged into two sections: A to Z, containing a run of folders created by Szeemann arranged alphabetically; and Assorted, containing materials found in labeled boxes not part of the A to Z run. In Assorted, the labeled envelopes of Design, Drogen [drugs], Fahrrad [bicycle], Glas [glass], Karikatur [cartoons or caricatures], Keramik [ceramic], Kitsch, and Kuriosa [curiosities] were found together in an unlabeled box; the envelopes for Haus [house] were found together in a box marked \"Haus\"; and the labeled envelopes of Mund und Fuss [mouth and foot], Plakat [poster], Reklame [advertisement], Schiff, Speisekarten [menus], Spielzeug [toy], Textil, and Weltausstellungen [world expositions] were found together. Oversize and unfiled materials are at the end.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "18.7 Linear Feet",
+                "(33 boxes, 2 flatfiles)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

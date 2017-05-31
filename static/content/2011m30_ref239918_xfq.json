@@ -1,0 +1,149 @@
+{
+    "description": "Series VI.C. People and organizations includes clippings, articles, periodicals and, less often, books concerning noted figures from the arts and humanities, sciences, politics, sports, activism, religion, fashion, and other fields; figures include George W. Bush, Heinrich Himmler, Baader-Meinhof, Jacques Chirac, Eva Braun, Dwight Eisenhower, Moammar Gaddafi, Antonion Gramsci, John Glenn, Karl Marx, and John McEnroe, among many others.",
+    "manifests": [],
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1967-2004, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239921_kx2",
+            "label": "Personaggi, allgemein [People: general] - Casanova,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1967-2004, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3331",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239922_l32",
+            "label": "Castro - Diba,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1967-2004, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3332",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239923_mxk",
+            "label": "Di Maggio - Gramsci,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1968-2004, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3333",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239924_aan",
+            "label": "Gucci - Kenyatta,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1969-1999, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3334",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239925_ktz",
+            "label": "Kennedy - McEnroe,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1967-2003, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3335",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239926_nqg",
+            "label": "Meinhof - Rykiel,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1969-2004, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3336",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239927_86w",
+            "label": "Sacharow - Wiesenack,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1981-2004, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3337",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239928_9xw",
+            "label": "Winsors - Zita,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1974, 1992, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3774 Folder 2",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref246035_9zk",
+            "label": "Unfiled,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "label": "People and organizations, Series VI.C.",
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref239918_xfq/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1967-2004, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": "Arranged alphabetically.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "3.3 Linear Feet",
+                "(8 boxes)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

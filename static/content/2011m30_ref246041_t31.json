@@ -1,0 +1,59 @@
+{
+    "description": "Szeemann's hard drive contains 8.8 gigabytes of digital content. The drive is a Maxtor DiamondMax\u00ae Plus 9, 60GB. Szeemann's computer had a Windows operating system and Microsoft Outlook as the email client.  The emails are PST files from Outlook. Other files are mostly JPG, BMP, PDF, TIF, HTM, and Microsoft Word files primarily relating to artists and exhibitions. The file names are in Italian and German. Many of the digital files, including email, were printed out by Szeemann or his staff and are duplicated in the archive's paper files.   Access copies of the digital files are accessible on a laptop in the Special Collections Reading Room. All files except emails are available as a mounted disk image in a Windows environment. The emails are on the laptop as imported PST files and are accessible using a Microsoft Outlook client. Files containing restricted personal information such as third-party bank account numbers or student records have been removed from the access copy and may be accessed when the restriction period ends in 2081. The series is contained in two boxes (2 linear feet). ",
+    "manifests": [],
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "approximately 2001-approximately 2006",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3758",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref246044_r2s",
+            "label": "Hard drive [access copy],"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "approximately 2001-approximately 2006",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Restricted access. Contact respository regarding access.",
+                    "label": "Access/Rights"
+                },
+                {
+                    "value": "Box HD",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref246045_yze",
+            "label": "Hard drive [original],"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "label": "Digital files, Series X.",
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref246041_t31/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "approximately 2001-approximately 2006",
+            "label": "Creation Date"
+        },
+        {
+            "value": "Except for email, all digital files from Szeemann's computer hard drive remain in their original order in a disk image that is mounted on a non-networked laptop for research purposes. The .pst email files were exported from the disk image in order to make them accessible through an Outlook client. The email folders are in the order created by Outlook, while the emails within each folder are in their original chronological order.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "8.8 Gigabytes",
+                "(2 boxes)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

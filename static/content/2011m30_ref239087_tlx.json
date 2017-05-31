@@ -1,0 +1,45 @@
+{
+    "description": "General contains emailed announcements and invitations from museums and galleries received after Szeemann's death found in a hanging folder titled \"Exhibitions, etc.\"",
+    "manifests": [],
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "2004-2005",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2930",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239090_jen",
+            "label": "Emails,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "label": "General, Series VII.C.",
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref239087_tlx/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "2004-2005",
+            "label": "Creation Date"
+        },
+        {
+            "value": "Original order maintained.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "0.42 Linear Feet",
+                "(1 box)"
+            ],
+            "label": "Physical Desc."
+        },
+        {
+            "value": "Box 2930",
+            "label": "Container"
+        }
+    ]
+}

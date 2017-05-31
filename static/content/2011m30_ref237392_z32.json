@@ -1,0 +1,197 @@
+{
+    "description": "Series VIII.A. Individuals, consists of materials kept by Szeemann regarding specific family members, as well as materials related to Szeemann himself. The files on Szeemann include sketches and drawings he created in the 1950s, as well as membership cards, awards and curriculum vitae iterations beginning in 1968. A large portion consists of condolence letters collected by his family after his death, as well as tributes and press clippings commemorating his life and career. Additionally, files originally housed in hanging folders and labeled by Szeemann for individual family members are included in this subseries. This subseries is arranged alphabetically by last name, with folder contents remaining unarranged. Contents include correspondence and accompanied photographs, cards, postcards and newspaper clippings.",
+    "manifests": [],
+    "collections": [
+        {
+            "metadata": [],
+            "slug": "2011m30_ref237396_cox",
+            "label": "L\u00fcscher, Ingeborg"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1800, 1933-2007, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref237402_452",
+            "label": "Szeemann, Harald,"
+        },
+        {
+            "metadata": [],
+            "slug": "2011m30_ref237448_qdl",
+            "label": "Szeemann, J\u00e9r\u00f4me"
+        },
+        {
+            "metadata": [],
+            "slug": "2011m30_ref237451_49b",
+            "label": "Szeemann, Una"
+        },
+        {
+            "metadata": [],
+            "slug": "2011m30_ref237454_hoh",
+            "label": "Szeemann, Val\u00e9rie"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1979-2004, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2361A",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref237395_prt",
+            "label": "General family correspondence,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1974-1975, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2361B Folder 1",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref237676_ixs",
+            "label": "Bonnefoy, Jacques,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1991",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2361B Folder 2",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref237677_hf8",
+            "label": "Bonnefoy, Marcelle,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1984",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2397B Folder 1",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref237681_64j",
+            "label": "Family reunion,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1954-1958, 1964",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2364 Folder 2-3",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref237400_vt5",
+            "label": "Szeemann, \u00c9tienne Ernst,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1952-1976, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2364-2366, 2100, 3734",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref237401_91f",
+            "label": "Szeemann-Bonnefoy, Fran\u00e7oise,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1953-1958, 1968-2004",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2383-2384, 3770",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref237449_tb7",
+            "label": "Szeemann-Kambly, Julie,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1977-1994, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2384, 2396*",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref237450_ep6",
+            "label": "Szeemann, Rolf,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3735 Folder 9",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239495_bmh",
+            "label": "Unidentified: General,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 2387 Folder 9",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref237457_xqs",
+            "label": "Unidentified medical records,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "label": "Individuals, Series VIII.A.",
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref237392_z32/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1800, 1933-2007, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": "The material in this subseries has been arranged alphabetically by the archivist.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "18.18 Linear Feet",
+                "(40 boxes, 1 flatfile)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

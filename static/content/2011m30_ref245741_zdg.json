@@ -1,0 +1,47 @@
+{
+    "description": "Series V.F. Ephemera - Gallery and Museum AV contains compilation and other publicity-related items distributed by galleries and museums and includes CDs, DVDs, vinyl records, and videocassettes.",
+    "label": "Gallery and museum ephemera, Series V.E.",
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1998-2005, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref245744_9ae",
+            "label": "Galleries,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1995-2004, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref245780_vop",
+            "label": "Museums,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "manifests": [],
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref245741_zdg/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1995-2005, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": "The series is subdivided into subseries for Galleries and for Museums; within each, arrangement is in alphabetical order by name of city in which the institution is located.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "0.42 Linear Feet",
+                "(1 box)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

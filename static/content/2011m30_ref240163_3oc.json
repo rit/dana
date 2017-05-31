@@ -1,0 +1,72 @@
+{
+    "description": "Series VI.F. contains material collected from organizations of which Szeemann was associated.",
+    "manifests": [],
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1970-2003, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3467",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref240166_bmr",
+            "label": "AICA [International Association of Art Critics],"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1970-1998, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3468",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref240167_1yr",
+            "label": "ASHA - IKT [International Association of Curators of Contemporary Art],"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1968-1993, 1999-2005",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3469",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref240168_ad8",
+            "label": "IKT,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "label": "Professional associations, Series VI.F.",
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref240163_3oc/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1968-2005, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": [
+                "Arranged alphabetically.",
+                "The files were found arranged together but unlabeled, and category titles were devised by the archivist upon review of their contents."
+            ],
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "1.3 Linear Feet",
+                "(3 boxes)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

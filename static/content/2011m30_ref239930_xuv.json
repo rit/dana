@@ -1,0 +1,61 @@
+{
+    "description": "Series VI.D. Places contains materials collected on geographic areas and includes clippings; periodicals; books; advertisements; realia such as coins and cards; photographs; ledgers; scrapbooks; diaries; drawings; telephone directories; and photocopied materials, including police files.  The section on Switzerland is organized into general and Ticino, the canton that was home to Szeemann as well as to Monte Verit\u00e0. General contains materials concerning various aspects of life and culture in Switzerland. Specific topics include Swiss cities, especially Z\u00fcrich; politics and political parties including die Gr\u00fcne [Green Party] (see box 3349); and the 700. Settecentesimo Confederazione  [700th anniversary of the Swiss Confederation].\n \nTicino includes photocopied police files (Polizeiakten) on numerous figures from the early 20th century, including Ernst Toller (see box 3398) and Franziska Reventlov (see boxes 3392, 3502). Much of the material concerns people and places associated with early 20th century political and social movements in Ticino. Topics of particular focus include Ascona, Locarno and environs, and Monte Verit\u00e0; prominently featured are Charlotte Bara and the Bara Schule [school]; Dimitri; Gusto Gr\u00e4ser; Ida Hoffmann; Fitz Jordi; Georg Kaiser; Josua Klein; Rudolf von Laban; Henri Oedenkoven and Isa Oedenkoven; Alfredo Pioda; and Carlo Vester. Tourist information includes maps and guidebooks.",
+    "label": "Places, Series VI.D.",
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1926, 1962-2004",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239933_hck",
+            "label": "Global,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1851-2004, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "The materials concerning Switzerland were arranged by Szeemann into two main categories: Switzerland: A to Z and Ticino: A to Z. Files in the Ticino group were arranged in boxes labeled \"Ticino\"; however, much material was also filed under \"Tessin,\" the German variant of the name. Files under these names have not been merged.",
+                    "label": "Arrangement"
+                }
+            ],
+            "slug": "2011m30_ref239954_890",
+            "label": "Switzerland,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "approximately 1956-2004",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref240082_gn6",
+            "label": "Tourist information,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "manifests": [],
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref239930_xuv/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1851-2004, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": "Arranged into three sections: Global, Switzerland, and Tourist information.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "52 Linear Feet",
+                "(101 boxes, 1 flatfile)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

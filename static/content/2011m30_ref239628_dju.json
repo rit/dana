@@ -1,0 +1,139 @@
+{
+    "description": "Series VI.A. Arts and letters, comprises topical files documenting Szeemann's interests in arts and humanities \ndisciplines.  Art history, art movements, and genres is based on a run of alphabetically arrange manila folders, as well as \nmaterials found in boxes labeled Kubismus, Dada, Environments/R\u00e4ume [spaces], Fluxus & Happening, Jugendstil, \nKinetik [kinetic art], Pop Nouveau Realisme, Surrealismus, Comics, Design/Schmuck [design/jewelry], and \nPlakat/Graphik [poster/graphics]. The Unfiled section at the end includes actionism; architecture; Art Brut; \navant-garde art; materials on conceptual art, Cubism, Dada, and Fluxus that were found together; pataphysics; \nsculpture; and arts in various countries.  Collectors and publishers includes files on art collectors and collecting organized by Szeemann and materials on \npublishers and booksellers, some of which were organized by Szeemann and some of which were loose or unfiled. \nMaterials include clippings, catalogs, correspondence, photographs, fliers, brochures, and announcements. Box 3165 includes materials concerning collector Jean Brown.  Dance and choreography document dancers and dance in Switzerland and around the world, with a particular focus on early-20th century figures including Rudolf von Laban (see box 3178), Suzanne Perrotet (see box 3179), and Mary Wigman (see box 3180).  Includes clippings, announcements, articles, fliers, books, booklets, photographs, \nleaflets, brochures, choreographic sketches, and photocopied manuscript materials. Film, video, and broadcast media contains clippings, programs, fliers, handwritten notes, pamphlets, brochures, \nbroadsides, posters, announcements, periodicals, and other materials concerning directors, actors, cities, \ncountries, film genres, and organizations supporting film and video. The section Film festivals includes materials \non the Locarno, Venice, and other film festivals.  Literature and philosophy contains mostly clippings as well as fliers and programs, newsletters, periodicals, and \ncatalogs concerning writers and writing in many different fields, including literature, history, philosophy, \npsychology, and religion. Also contains booklets, books, programs, catalogs periodicals, and ephemera concerning \nKonkrete Poesie (concrete poetry) originally housed seperately and integrated into this section. Music contains clippings, programs, fliers, announcements, brochures, manuscript materials, and handwritten notes concerning music and musicians in Switzerland and worldwide.  Theater contains clippings, fliers, programs, announcements, books, and ephemera concerning theater, primarily in Switzerland and in Europe.  Postcards contains approximately 6000 picture, including photographic, postcards, with topics ranging from art to \ntourism to humor. Postcards were originally located in wooden drawers and in unlabeled boxes. Most of the \npostcards are blank, though some contain handwritten messages. The unfiled material at the end contains theater, film, and concert programs, primarily from Berlin during the Nazi era. ",
+    "manifests": [],
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1914, 1921, 1941-2005, bulk 1966-1995, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239631_8cy",
+            "label": "Art history, movements, and genres,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1934, 1957-2005, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239686_e14",
+            "label": "Collectors and publishers,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1905, 1923, 1928, 1947, 1956-2005, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239714_zx4",
+            "label": "Dance and choreography,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1942, 1946-2004, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239732_caz",
+            "label": "Film, video, and broadcast media,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1912-1913, 1946, 1961-2005",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239826_vn4",
+            "label": "Literature and philosophy,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1910, 1935, 1958, 1967-2005, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239849_1nm",
+            "label": "Music,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1928, 1943-2005, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239864_kmv",
+            "label": "Theater,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1908-2000, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref239884_ktt",
+            "label": "Postcards,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "approximately 1967-1998",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3745-3747",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref240261_1sb",
+            "label": "Fairs,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1936-1947, 1956-1962, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "The materials in boxes 3308 and 3309 were found together and their arrangement has been retained.",
+                    "label": "Arrangement"
+                },
+                {
+                    "value": "Box 3308-3311",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref239907_5wj",
+            "label": "Unfiled: Theater, film, and music: Historical documents,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "label": "Arts and letters, Series VI.A.",
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref239628_dju/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1905-2005, bulk 1956-2005",
+            "label": "Creation Date"
+        },
+        {
+            "value": "The archivist has combined subcategories into broader categories and arranged them alphabetically in eight sections. Arts and letters contains materials in the subcategories of art history and art movements, graphic arts and design, dance, film, literature and philosophy, music, postcards, and theater. Each section of the subseries retains Szeemann's organization of material into manila folders and labeled boxes, and loose and unfiled material has been integrated into Szeemann's categories where possible. Unfiled materials that could not be integrated into the various sections are at the end of this subseries.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "85.7 Linear Feet",
+                "(184 boxes, 3 flatfiles, 1 telescope roll box)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

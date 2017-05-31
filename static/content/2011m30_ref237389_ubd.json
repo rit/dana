@@ -1,0 +1,69 @@
+{
+    "description": "Series VIII. Personal files, contains materials illustrating the personal life and family of Harald Szeemann. Family members include Ingeborg L\u00fcscher, Julie Szeemann-Kambly, \u00c9tienne Ernst Szeemann, Fran\u00e7oise Szeemann-Bonnefoy, and Rolf Szeemann, as well as Val\u00e9rie, J\u00e9r\u00f4me, and Una Szeemann. Taken as a whole, the series is illustrative of the personal life of Harald Szeemann and his relationships with his family, while the materials he personally collected reflect his travel, work and personal interests.  Series VIII.A. Individuals, consists of materials kept by Szeemann regarding specific family members, as well as materials related to Szeemann himself. The files on Szeemann include sketches and drawings he created in the 1950s, as well as membership cards, awards and curriculum vitae iterations beginning in 1968. A large portion consists of condolence letters collected by his family after his death, as well as tributes and press clippings commemorating his life and career. Additionally, files originally housed in hanging folders and labeled by Szeemann for individual family members are included in this subseries. This subseries is arranged alphabetically by last name, with folder contents remaining unarranged. Contents include correspondence and accompanied photographs, cards, postcards and newspaper clippings.  Series VIII.B. Objects, includes personal use objects not directly related to Szeemann\u2019s business or career. These are organized alphabetically, and include cigars and cigar boxes, personalized photograph frames, souvenirs, and a t-shirt with a Harald Szeemann caricature. All of the items in this subseries have been drawn from the unfiled materials found loose in the Fabbrica. They have been labeled [unfiled]. Originally housed with the personal materials, 15 photographic albums as well as loose photographs have been moved to Series IV.F. Photographs, Personal, which already contained numerous family photographs and albums. Photographs associated with specific correspondence or personal events have been retained in the personal files. Additionally, a small number of folders were transferred to other series when folders on that subject already existed, such as information regarding houses, the Monte Verit\u00e0 project, business activities, specific artists and curators. This was done to reduce redundancy in multiple series housing similar materials.",
+    "label": "Personal files, Series VIII.",
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1800, 1933-2007, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "The material in this subseries has been arranged alphabetically by the archivist.",
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "18.18 Linear Feet",
+                        "(40 boxes, 1 flatfile)"
+                    ],
+                    "label": "Physical Desc."
+                }
+            ],
+            "slug": "2011m30_ref237392_z32",
+            "label": "Individuals, Series VIII.A."
+        },
+        {
+            "metadata": [
+                {
+                    "value": "undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "The material in this subseries has been arranged alphabetically by the archivist.",
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "6.13 Linear Feet",
+                        "(6 boxes)"
+                    ],
+                    "label": "Physical Desc."
+                }
+            ],
+            "slug": "2011m30_ref237458_nvx",
+            "label": "Objects, Series VIII.B."
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "manifests": [],
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref237389_ubd/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1800, 1933-2007, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": "This series is arranged in two subseries: Series VIII.A. Individuals, 1800, 1936, 1952-2004; Series VIII.B. Objects, undated.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "33.35 Linear Feet",
+                "(51 boxes, 1 flatfile)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "description": "Series V comprises Szeemann's audiovisual collection, which features over 2240 items including short films, videos, radio and television interviews and reports, music, photographic and textual files, and museum and gallery ephemera. Materials consist primarily of VHS and other formats of videotape, audio discs in the form of CDs and vinyl records, videodiscs (DVDs), audiocassettes, and computer discs in the form of CD-ROMs, CD-Rs, and floppy disks; the collection also includes 16mm and 8mm films, audiotape reels, and video compact discs (VCDs). Series V.A contains materials originally housed in Series I. Project files, and those whose titles or other means of identification link the item to a particular exhibition or project. Series V.B contains materials originally housed with the artist files in Series II as well as items created by artists not already listed in that series. In the latter case, the name of the director, conductor, or other entity identified as the work's main creator, where available, has been used to file the item. Also of interest are some of the items' original containers, many of which contain text or artwork pertaining to the item, and some of which are artworks in themselves; examples include those of Eva and Adele, Friederike Pezold, Anna Jermolaewa; and Jean Roualdes. While many of the sticky notes found attached to items contain brief notes regarding computer compatibility or whether contents have been printed, others feature pithy or even extensive annotations that provide a glimpse into the curatorial process; some examples are notes that accompany the work of Hermann J. Kassell, Ene-Liis Semper, Ann-Sofi-Sid\u00e9n, and Peter Land. Series V.C contains audiovisual items originally housed in Series III. Curator and museum professional files. Series V.D contains audiovisual items originally housed in Series VI. Topical files as well as materials deemed by the archivist to be related to particular topics. Series V.E contains audiovisual items originally housed in Series VII. Gallery and museum ephemera and unfiled items from galleries and museums. Series V.F contains items that appear to be of a personal nature. Series V.G contains unidentified items, including audiocassettes, audio and videodiscs, audiotape reels, and films and film scraps with either no information or with information inadequate for classification.",
+    "label": "Audiovisual files, Series V.",
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1989-2005, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Arrangement is alphabetical by curator's last name; for unfiled correspondence, arrangement is chronological.",
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "0.42 Linear Feet",
+                        "(1 box)"
+                    ],
+                    "label": "Physical Desc."
+                }
+            ],
+            "slug": "2011m30_ref245418_3ea",
+            "label": "Curator and museum professional files, Series V.C."
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1956, 1960, 1965-1972, 1984-2004, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Arrangement of sections mirrors the subseries of Series VI and is alphabetical.",
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "3.75 Linear Feet",
+                        "(9 boxes)"
+                    ],
+                    "label": "Physical Desc."
+                }
+            ],
+            "slug": "2011m30_ref245462_mm0",
+            "label": "Topical files, Series V.D."
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1995-2005, undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "The series is subdivided into subseries for Galleries and for Museums; within each, arrangement is in alphabetical order by name of city in which the institution is located.",
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "0.42 Linear Feet",
+                        "(1 box)"
+                    ],
+                    "label": "Physical Desc."
+                }
+            ],
+            "slug": "2011m30_ref245741_zdg",
+            "label": "Gallery and museum ephemera, Series V.E."
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1996-2005",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Materials are arranged in alphabetical order by name of person.",
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "0.42 Linear Feet",
+                        "(1 box)"
+                    ],
+                    "label": "Physical Desc."
+                }
+            ],
+            "slug": "2011m30_ref245848_521",
+            "label": "Personal files, Series V.F."
+        },
+        {
+            "metadata": [
+                {
+                    "value": "undated",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Arranged alphabetically by format.",
+                    "label": "Arrangement"
+                },
+                {
+                    "value": [
+                        "3.83 Linear Feet",
+                        "(2 boxes, 3 film reels)"
+                    ],
+                    "label": "Physical Desc."
+                }
+            ],
+            "slug": "2011m30_ref245913_wy5",
+            "label": "Unidentified, Series V.G."
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "manifests": [],
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref240273_o72/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1926-2005, undated, bulk 1983-2005",
+            "label": "Creation Date"
+        },
+        {
+            "value": [
+                "The series is arranged into seven subseries, which mirror the arrangement of the Harald Szeemann papers:",
+                "Series V.A. Projects files, 1969-2005, bulk 1983-2005, undated; Series V.B. Artists files, 1926, 1950-1956, 1965-2005, undated; Series V.C. Curator and museum professional files, 1989-2005, undated; Series V.D. Topical files, 1956, 1960, 1965-1972, 1984-2004, undated; Series V.E. Gallery and museum ephemera, 1995-2005, undated; Series V.F. Personal files, 1996-2005, undated; and Series V.G. Unidentified, undated.",
+                "Because most of the material in this series was unfiled and not organized by Szeemann, the archivist has arranged the audiovisual files into the subseries as appropriate. Materials that were removed from files in Series I. Project files; Series II. Artist files; Series III. Curator and museum professional files; Series VI. Topical files; and Series VII. Gallery and museum ephemera have been arranged within their respective subseries in this series, and original locations have been noted."
+            ],
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "87.4 Linear Feet",
+                "(152 boxes, 24 film reels)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}

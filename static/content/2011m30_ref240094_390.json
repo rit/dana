@@ -1,0 +1,71 @@
+{
+    "description": "Series VI.E. Politics, environment, and society includes clippings, publications, ephemera, notes, and documents photocopied \nfrom archives regarding humanitarian and environmental organizations and the topics of anarchism and socialism. The section Humanitarian and environmental organizations focuses on local, regional, and international \norganizations. Well-represented areas include DA! (Demokratische Alternative, Bern); Friedenspolitik [peace \npolitics]; Longo Mai; Menschenrechte [human rights]; Pro Veritate; Tierschutz [animal protection]; Fondation Fritz \nWeber; and work in countries including Kuba and Chile. The section also includes many issues of the periodicals \nParaplegia, Terre des Hommes Suisse, Journal Franz Weber, and Virus - antimilitarisches \nMonatsmagazin [antimilitarian monthly]. The section Anarchism, socialism, and communism focuses on materials from the early 20th century and with thinkers associated with Monte Verit\u00e0. It contains clippings, handwritten notes, and a great deal of photocopied material, much of it from archives. People and topics include Margarethe Faas-Hardegger (later Faas); Gustav Landauer; Mikhail Bakunin; Fritz Brupbacher; Ernst Frick; Langhard, Erich M\u00fchsam, and Else Lasker-Sch\u00fcler, as well as anarchism in Switzerland, particularly Ascona. Also noteworthy are photocopied police files on many individuals from the first two decades of the 20th century. The section Periodicals contains issues of the Kommunistische Internationale, Polis, and Der Sozialist.",
+    "manifests": [],
+    "collections": [
+        {
+            "metadata": [
+                {
+                    "value": "1967, 1973-1999, 2004",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref240097_s0x",
+            "label": "Humanitarian and environmental organizations: A-Z,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1905-2004, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref240126_ze3",
+            "label": "Anarchism, socialism, and communism,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1918-1919, 1960, 1967-1970, 1977, 2001-2004, undated",
+                    "label": "Creation Date"
+                }
+            ],
+            "slug": "2011m30_ref240157_7ag",
+            "label": "Unfiled,"
+        },
+        {
+            "metadata": [
+                {
+                    "value": "1918-1919, approximately 1930-1960",
+                    "label": "Creation Date"
+                },
+                {
+                    "value": "Box 3464",
+                    "label": "Container"
+                }
+            ],
+            "slug": "2011m30_ref240155_5ua",
+            "label": "Political broadsides and posters,"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "label": "Politics, environment, and society, Series VI.E.",
+    "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref240094_390/collection.json",
+    "@type": "sc:Collection",
+    "metadata": [
+        {
+            "value": "1905-2004, undated",
+            "label": "Creation Date"
+        },
+        {
+            "value": "The archivist has combined subcategories created by Szeemann into broader categories: Humanitarian and environmental organizations; and Anarchism, socialism, and communism; with oversize and unfiled materials at the end.",
+            "label": "Arrangement"
+        },
+        {
+            "value": [
+                "21.7 Linear Feet",
+                "(52 boxes)"
+            ],
+            "label": "Physical Desc."
+        }
+    ]
+}
