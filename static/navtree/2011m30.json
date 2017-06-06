@@ -205,18 +205,7 @@
         },
         {
             "slug": "2011m30_ref246041_t31",
-            "children": [
-                {
-                    "slug": "2011m30_ref246044_r2s",
-                    "children": [],
-                    "label": "Hard drive [access copy],"
-                },
-                {
-                    "slug": "2011m30_ref246045_yze",
-                    "children": [],
-                    "label": "Hard drive [original],"
-                }
-            ],
+            "children": [],
             "label": "Digital files, Series X."
         }
     ],
