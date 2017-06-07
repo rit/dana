@@ -45,7 +45,7 @@ function collectionContent (data) {
 
 function contentItem (item) {
   var mapped = metadataMap(item.metadata)
-  var label = [item.label, mapped['Creation Date']].join(', ')
+  var label = [item.label, mapped['Creation Date']].join(' ')
   var container = get(mapped, 'Container', '').split(' ')
   var box = container[1]
   var folder = container[3]
