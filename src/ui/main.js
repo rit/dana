@@ -8,7 +8,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
 import App from './App'
-import routes from './router'
+import routes from './routes'
 import initStore from 'iso/store'
 
 Vue.use(Router)
