@@ -1,7 +1,9 @@
 <template>
   <el-row class="wrapper">
     <el-col :span="18">
-      {{ label }}
+      <router-link :to="{ path: path }" append>
+        {{ label }}
+      </router-link>
     </el-col>
     <el-col :span="6">
       <div class="container">
@@ -20,6 +22,10 @@ export default {
   computed: {
     label () {
       return this.item.label
+    },
+
+    path () {
+      return `objects/${this.item.slug}`
     },
 
     box () {
