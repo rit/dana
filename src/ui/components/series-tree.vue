@@ -19,6 +19,8 @@ import { last } from 'lodash'
 export default {
   props: ['seriesTree'],
 
+  inject: ['currentRoute'],
+
   data () {
     return {
       defaultProps: {
@@ -30,12 +32,12 @@ export default {
 
   computed: {
     expandKeys () {
-      var path = this.$route.path
-      var pattern = last(this.$route.matched).regex
+      var route = this.currentRoute || this.$route
+      var path = route.path
+      var pattern = last(route.matched).regex
       var found = path.match(pattern)
       if (found) {
         found = found.splice(1)
-        found.unshift('2011m30_nav') // TODO _nav should be removed
         return found
       }
     },
