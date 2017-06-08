@@ -9,6 +9,8 @@
       <!--  slot="series-header">-->
       <!--</collection-heading>-->
 
+      <location-in-collection slot="location-in-collection"></location-in-collection>
+
       <series-tree slot="collection-hierarchy" :series-tree="seriesTree">
       </series-tree>
 
