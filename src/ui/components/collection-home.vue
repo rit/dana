@@ -9,6 +9,8 @@
       <!--  slot="series-header">-->
       <!--</collection-heading>-->
 
+      <image-viewer v-show="onlyForObject" slot="image-viewer"></image-viewer>
+
       <location-in-collection v-show="onlyForObject" slot="location-in-collection">
       </location-in-collection>
 
