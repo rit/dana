@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref6628_a6e/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Starn, Doug and Mike [Starn Twins],",
+  "metadata": [
+    {
+      "label": "Creation Date",
+      "value": "1982-1989"
+    },
+    {
+      "label": "Physical Desc.",
+      "value": "25 items"
+    },
+    {
+      "label": "Related Material",
+      "value": "Contains color slides and transparencies."
+    },
+    {
+      "label": "Container",
+      "value": "Box 180C Folder 5"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref6628_a6e/sequence/regular.json",
+      "@type": "sc:Sequence",
+      "label": "Regular Order",
+      "canvases": [
+        {
+          "@id": "http://data.getty.edu/iiif/research/archives/2011m30_ref6628_a6e/canvas/canvas-2011m30_ref6628_a6e.json",
+          "@type": "sc:Canvas",
+          "label": "Not Digitized",
+          "height": 1,
+          "width": 1
+        }
+      ]
+    }
+  ]
+}

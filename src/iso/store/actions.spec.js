@@ -66,7 +66,22 @@ describe('actions: updateCollectionMetaData', () => {
   })
 
   describe('updateObjectDetails', () => {
-    it('updates the object details', () => {
+    it.only('updates the object details', (done) => {
+      let slug = '2011m30_ref6628_a6e'
+      updateObjectDetails({ commit, state }, { slug })
+      moxios.wait(() => {
+        let req = moxios.requests.mostRecent()
+        let wire = req.respondWith({
+          status: 200,
+          response: loadJsonFixture('object-details.json')
+        })
+
+        swing(wire, done, () => {
+          var [mutation, payload] = commit.getCall(0).args
+          expect(mutation).to.equal('objectDetails')
+          expect(payload.objectDetails.label).to.contain('Starn')
+        })
+      }, 0)
     })
   })
 

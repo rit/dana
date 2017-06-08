@@ -1,4 +1,8 @@
 const mutations = {
+  objectDetails (state, { objectDetails }) {
+    state.objectDetails = objectDetails
+  },
+
   seriesTree (state, { seriesTree }) {
     state.seriesTree = seriesTree
   },
@@ -13,6 +17,7 @@ const mutations = {
 }
 
 const state = {
+  objectDetails: {},
   seriesTree: [],
   collectionContent: {},
   collectionHeading: {}

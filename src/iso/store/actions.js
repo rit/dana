@@ -37,7 +37,9 @@ function updateCollectionContent ({ commit, state }, { slug }) {
 
 function updateObjectDetails ({ commit, state }, { slug }) {
   var objectDetails = {}
-  commit('objectDetails', { objectDetails })
+  // TODO Clear the object details on
+  // commit('reset', { objectDetails })
+  // commit('objectDetails', { objectDetails })
 
   var url = `/static/iiif/manifests/${slug}/manifest.json`
   axios.get(url)
