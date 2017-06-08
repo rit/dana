@@ -1,7 +1,7 @@
 <template>
   <el-row class="wrapper">
     <el-col :span="18">
-      <router-link :to="{ path: path }" append>
+      <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
         {{ label }}
       </router-link>
     </el-col>
@@ -17,15 +17,15 @@
 
 <script>
 export default {
-  props: ['item'],
+  props: ['item', 'collectionSlug'],
 
   computed: {
     label () {
       return this.item.label
     },
 
-    path () {
-      return `objects/${this.item.slug}`
+    objectSlug () {
+      return this.item.slug
     },
 
     box () {

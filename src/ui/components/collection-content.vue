@@ -12,7 +12,7 @@
     <div v-if="collections">
       <h3>Collections ({{ collections.length }})</h3>
       <section>
-        <content-item v-for="c in collections" :item="c" :key="c.slug"></content-item>
+        <content-item v-for="c in collections" :item="c" :collectionSlug="collectionSlug" :key="c.slug"></content-item>
       </section>
     </div>
 

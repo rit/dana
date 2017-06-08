@@ -8,6 +8,7 @@ import SeriesTree from '@ui/components/series-tree'
 import CollectionSummary from '@ui/components/collection-summary'
 import CollectionContentTree from '@ui/components/collection-content-tree'
 import ContentItem from '@ui/components/content-item'
+import ObjectHome from '@ui/components/object-home'
 
 Vue.component('collection-content', CollectionContent)
 Vue.component('content-item', ContentItem)
@@ -34,6 +35,12 @@ const routes = [
         meta: { collection: true },
         name: 'CollectionHome',
         component: CollectionContent
+      },
+      {
+        path: 'objects/:objectSlug',
+        props: true,
+        name: 'ObjectHome',
+        component: ObjectHome
       },
       {
         path: 'series/:seriesSlug',
