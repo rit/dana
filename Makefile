@@ -1,3 +1,6 @@
+mocha:
+	mocha src/iso/*
+
 gentags:
 	ctags -R --extra=+f src
 

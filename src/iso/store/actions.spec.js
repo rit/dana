@@ -1,7 +1,12 @@
 var sinon = require('sinon')
 var swing = require('icemaker-swing')
 
-var { updateCollectionMetaData, updateSeriesTree } = require('./actions')
+var {
+  updateCollectionMetaData,
+  updateSeriesTree,
+  updateObjectDetails
+} = require('./actions')
+
 var state = {}
 
 describe('actions: updateCollectionMetaData', () => {
@@ -57,6 +62,11 @@ describe('actions: updateCollectionMetaData', () => {
           expect(payload.seriesTree[0].children.length).to.equal(10)
         })
       }, 0)
+    })
+  })
+
+  describe('updateObjectDetails', () => {
+    it('updates the object details', () => {
     })
   })
 

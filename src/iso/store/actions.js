@@ -35,7 +35,21 @@ function updateCollectionContent ({ commit, state }, { slug }) {
     .catch((err) => console.warn(err))
 }
 
+function updateObjectDetails ({ commit, state }, { slug }) {
+  var objectDetails = {}
+  commit('objectDetails', { objectDetails })
+
+  var url = `/static/iiif/manifests/${slug}/manifest.json`
+  axios.get(url)
+    .then((resp) => {
+      objectDetails = resp.data
+      commit('objectDetails', { objectDetails })
+    })
+    .catch((err) => console.warn(err))
+}
+
 module.exports = {
+  updateObjectDetails,
   updateCollectionMetaData,
   updateCollectionContent,
   updateSeriesTree
