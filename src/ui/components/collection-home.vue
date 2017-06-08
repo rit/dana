@@ -40,7 +40,7 @@ export default {
     ]),
 
     onlyForSeries () {
-      return !!this.seriesSlug
+      return !this.onlyForObject
     },
 
     onlyForObject () {
