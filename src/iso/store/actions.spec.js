@@ -66,7 +66,7 @@ describe('actions: updateCollectionMetaData', () => {
   })
 
   describe('updateObjectDetails', () => {
-    it.only('updates the object details', (done) => {
+    it('updates the object details', (done) => {
       let slug = '2011m30_ref6628_a6e'
       updateObjectDetails({ commit, state }, { slug })
       moxios.wait(() => {
