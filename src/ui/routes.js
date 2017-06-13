@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import Hello from '@ui/components/Hello'
 import CollectionLayout from '@ui/components/collection-layout'
 import CollectionHome from '@ui/components/collection-home'
 import CollectionHeading from '@ui/components/collection-heading'
@@ -23,11 +22,6 @@ Vue.component('location-in-collection', LocationInCollection)
 Vue.component('image-viewer', ImageViewer)
 
 const routes = [
-  {
-    path: '/hello',
-    name: 'Hello',
-    component: Hello
-  },
   {
     path: '/collections/:collectionSlug',
     props: true,
