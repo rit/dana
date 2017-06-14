@@ -1,3 +1,5 @@
+// src/ui specs require browser's DOM
+
 import Vue from 'vue'
 
 Vue.config.productionTip = false
