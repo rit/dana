@@ -1,6 +1,0 @@
-#!/bin/sh
-
-# `npm run unit-run` output an ugly message on failure
-# This tiny script helps getting rid of that.
-
-cross-env BABEL_ENV=test karma run test/unit/karma.conf.js --single-run
