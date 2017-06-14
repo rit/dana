@@ -11,6 +11,10 @@ module.exports = {
     jasmine: true,
     mocha: true
   },
+  globals: {
+    "moxios": false,
+    "loadJsonFixture": false
+  },
   extends: 'vue',
   // required to lint *.vue files
   plugins: [

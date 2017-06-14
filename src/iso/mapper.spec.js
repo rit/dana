@@ -4,7 +4,7 @@ var szeemanSample = loadJsonFixture('szeemann-collection.json')
 
 describe('extractSlug', () => {
   it('returns the accessor number', () => {
-    var url = "http://data.getty.edu/iiif/collection/2-1.m.30/collection.json"
+    var url = 'http://data.getty.edu/iiif/collection/2-1.m.30/collection.json'
     var actual = extractSlug(url)
     expect(actual).to.equal('2-1.m.30')
   })

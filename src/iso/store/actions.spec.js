@@ -33,7 +33,7 @@ describe('actions: updateCollectionMetaData', () => {
       })
       swing(wire, done, () => {
         expect(commit).to.have.been.called
-        var [ mutation, payload ] = commit.getCall(0).args
+        var [mutation, payload] = commit.getCall(0).args
         expect(mutation).to.eql('collectionHeading')
         expect(payload.collectionHeading.label).to.contain('Szeemann')
         expect(payload.collectionHeading.physicalDesc).to.contain('Linear Feet')
@@ -67,11 +67,11 @@ describe('actions: updateCollectionMetaData', () => {
 
   describe('updateObjectDetails', () => {
     it('updates the object details', (done) => {
-      let slug = '2011m30_ref6628_a6e'
+      const slug = '2011m30_ref6628_a6e'
       updateObjectDetails({ commit, state }, { slug })
       moxios.wait(() => {
-        let req = moxios.requests.mostRecent()
-        let wire = req.respondWith({
+        const req = moxios.requests.mostRecent()
+        const wire = req.respondWith({
           status: 200,
           response: loadJsonFixture('object-details.json')
         })
@@ -84,5 +84,4 @@ describe('actions: updateCollectionMetaData', () => {
       }, 0)
     })
   })
-
 })
