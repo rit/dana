@@ -1,6 +1,12 @@
 mocha:
 	mocha src/iso/*
 
+lint-fix:
+	@@npm run lint-fix
+
+lint-show:
+	@@npm run lint-show --silent
+
 gentags:
 	ctags -R --extra=+f src
 
