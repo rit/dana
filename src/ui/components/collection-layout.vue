@@ -21,7 +21,7 @@
     <el-row>
       <el-col :span="24">
         <div>
-          <slot name="series-header"></slot>
+          <slot name="series-navbar"></slot>
         </div>
       </el-col>
     </el-row><!-- /.row -->

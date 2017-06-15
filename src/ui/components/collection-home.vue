@@ -4,10 +4,11 @@
       <collection-heading slot="collection-header" :heading="collectionHeading">
       </collection-heading>
 
-      <!--<collection-heading v-show="onlyForSeries"-->
-      <!--  :heading="seriesHeading"-->
-      <!--  slot="series-header">-->
-      <!--</collection-heading>-->
+      <series-navbar v-show="onlyForSubseries"
+        :slug="seriesSlug"
+        :heading="seriesNavbar"
+        slot="series-navbar">
+      </series-navbar>
 
       <image-viewer v-show="onlyForObject" slot="image-viewer"></image-viewer>
 
@@ -18,8 +19,6 @@
       </series-tree>
 
     </collection-layout>
-
-    <router-view name="series-heading"></router-view>
   </div>
 </template>
 
@@ -30,14 +29,18 @@ import { mapActions, mapState } from 'vuex'
 export default {
 
   // These props should be set by the router
-  props: ['collectionSlug', 'seriesSlug', 'objectSlug'],
+  props: ['collectionSlug', 'seriesSlug', 'subseriesSlug', 'objectSlug'],
 
   computed: {
     ...mapState([
       'collectionHeading',
       'seriesTree',
-      'seriesHeading'
+      'seriesNavbar'
     ]),
+
+    onlyForSubseries () {
+      return !!this.subseriesSlug
+    },
 
     onlyForSeries () {
       return !this.onlyForObject
@@ -51,6 +54,7 @@ export default {
   methods: {
     ...mapActions([
       'updateCollectionMetaData',
+      'updateSeriesNavbar',
       'updateSeriesTree'
     ]),
 
@@ -61,11 +65,16 @@ export default {
   watch: {
     collectionSlug () {
       this.updateCollectionMetaData({ slug: this.collectionSlug })
+    },
+
+    seriesSlug () {
+      this.updateSeriesNavbar({ slug: this.seriesSlug })
     }
   },
 
   created () {
     this.updateCollectionMetaData({ slug: this.collectionSlug })
+    this.updateSeriesNavbar({ slug: this.seriesSlug })
     this.updateSeriesTree({ slug: this.collectionSlug })
   }
 }

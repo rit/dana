@@ -10,6 +10,7 @@ import ContentItem from '@ui/components/content-item'
 import ObjectHome from '@ui/components/object-home'
 import LocationInCollection from '@ui/components/location-in-collection'
 import ImageViewer from '@ui/components/image-viewer'
+import SeriesNavbar from '@ui/components/series-navbar'
 
 Vue.component('collection-content', CollectionContent)
 Vue.component('content-item', ContentItem)
@@ -20,6 +21,7 @@ Vue.component('collection-heading', CollectionHeading)
 Vue.component('series-tree', SeriesTree)
 Vue.component('location-in-collection', LocationInCollection)
 Vue.component('image-viewer', ImageViewer)
+Vue.component('series-navbar', SeriesNavbar)
 
 const routes = [
   {
@@ -44,8 +46,7 @@ const routes = [
         path: 'series/:seriesSlug',
         props: { default: true, series: true },
         components: {
-          default: CollectionContent,
-          'series-heading': CollectionHeading
+          default: CollectionContent
         },
         children: [
           {
