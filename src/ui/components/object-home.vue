@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="object-home">
     <h3>{{ label }}</h3>
     <dl>
       <template v-for="line in metadata">

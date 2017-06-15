@@ -9,7 +9,7 @@
     "mocha-server": "node build/mocha-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
-    "e2e": "node test/e2e/runner.js",
+    "e2e": "testcafe 'chrome:headless' test/testcafe",
     "test": "npm run unit && npm run e2e",
     "lint-show": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "lint-fix": "eslint --fix --ext .js,.vue src test/unit/specs test/e2e/specs"
@@ -79,6 +79,7 @@
     "simon": "^0.2.3",
     "sinon": "^2.1.0",
     "sinon-chai": "^2.10.0",
+    "testcafe": "^0.16.0",
     "url-loader": "^0.5.8",
     "vue-loader": "^11.3.4",
     "vue-style-loader": "^2.0.5",
