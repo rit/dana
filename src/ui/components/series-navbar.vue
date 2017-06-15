@@ -1,6 +1,6 @@
 <template>
   <div id="series-navbar">
-    <collection-heading :heading="heading"></collection-heading>
+    <collection-heading :heading="heading" showDetail="true"></collection-heading>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 #series-navbar {
-  background: silver;
+  background: #ecf0f1;
   padding: 0.1em 1em;
   margin-bottom: 1em;
 }
