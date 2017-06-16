@@ -8,6 +8,8 @@
         <div class="header">
           <collection-heading :heading="collectionSlideOut"></collection-heading>
         </div>
+
+        <p>{{ description }}</p>
       </div>
     </div>
   </div>
@@ -24,7 +26,11 @@ export default {
   },
 
   computed: {
-    ...mapState(['collectionSlideOut'])
+    ...mapState(['collectionSlideOut']),
+
+    description () {
+      return this.collectionSlideOut.description
+    }
   },
 
   watch: {
