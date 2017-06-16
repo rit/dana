@@ -1,7 +1,6 @@
 <template>
   <div id="series-navbar">
     <collection-heading :heading="heading" showDetail="true"></collection-heading>
-    <slide-out></slide-out>
   </div>
 </template>
 

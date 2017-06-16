@@ -21,6 +21,7 @@
     <el-row>
       <el-col :span="24">
         <div>
+          <slide-out></slide-out>
           <slot name="series-navbar"></slot>
         </div>
       </el-col>

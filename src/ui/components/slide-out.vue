@@ -16,6 +16,7 @@
 </template>
 <script>
 
+import { isEmpty } from 'lodash'
 import { mapActions, mapState } from 'vuex'
 
 export default {
@@ -34,10 +35,10 @@ export default {
   },
 
   watch: {
-    collectionSlideOut () {
-      if (_.isEmpty(this.collectionSlideOut)) return
-
-      this.isClosed = false
+    collectionSlideOut (newCollectionSlideOut) {
+      if (!isEmpty(newCollectionSlideOut)) {
+        this.isClosed = false
+      }
     }
   },
 
