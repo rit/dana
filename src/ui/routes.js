@@ -11,6 +11,7 @@ import ObjectHome from '@ui/components/object-home'
 import LocationInCollection from '@ui/components/location-in-collection'
 import ImageViewer from '@ui/components/image-viewer'
 import SeriesNavbar from '@ui/components/series-navbar'
+import SlideOut from '@ui/components/slide-out'
 
 Vue.component('collection-content', CollectionContent)
 Vue.component('content-item', ContentItem)
@@ -22,6 +23,7 @@ Vue.component('series-tree', SeriesTree)
 Vue.component('location-in-collection', LocationInCollection)
 Vue.component('image-viewer', ImageViewer)
 Vue.component('series-navbar', SeriesNavbar)
+Vue.component('slide-out', SlideOut)
 
 const routes = [
   {
