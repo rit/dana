@@ -5,7 +5,6 @@
       </collection-heading>
 
       <series-navbar v-show="onlyForSubseries"
-        :slug="seriesSlug"
         :heading="seriesNavbar"
         slot="series-navbar">
       </series-navbar>

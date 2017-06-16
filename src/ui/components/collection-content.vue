@@ -1,13 +1,7 @@
 <template>
   <div>
-    <!--<div v-if="showSummary">-->
-    <!--  <collection-summary></collection-summary>-->
-    <!--</div>-->
-    <!--<div v-else>-->
-    <!--  <collection-content-tree></collection-content-tree>-->
-    <!--</div>-->
-
-    <collection-heading v-if="heading" :heading="heading"></collection-heading>
+    <collection-heading v-if="heading" :heading="heading" showDetail="true">
+    </collection-heading>
 
     <div v-if="collections">
       <h3>Collections ({{ collections.length }})</h3>

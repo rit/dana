@@ -131,4 +131,8 @@ export default {
   font-size: 1.3rem;
 }
 
+p {
+  line-height: 1.8em;
+}
+
 </style>
