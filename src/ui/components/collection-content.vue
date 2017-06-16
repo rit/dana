@@ -1,14 +1,18 @@
 <template>
   <div>
-    <collection-heading v-if="heading" :heading="heading" showDetail="true">
-    </collection-heading>
+    <transition name="el-zoom-in-center">
+      <collection-heading v-if="heading" :heading="heading" showDetail="true">
+      </collection-heading>
+    </transition>
 
-    <div v-if="collections">
-      <h3>Collections ({{ collections.length }})</h3>
-      <section>
-        <content-item v-for="c in collections" :item="c" :collectionSlug="collectionSlug" :key="c.slug"></content-item>
-      </section>
-    </div>
+    <transition name="el-zoom-in-center">
+      <div v-if="collections">
+        <h3>Collections ({{ collections.length }})</h3>
+        <section>
+          <content-item v-for="c in collections" :item="c" :collectionSlug="collectionSlug" :key="c.slug"></content-item>
+        </section>
+      </div>
+    </transition>
 
     <!--<router-view ></router-view>-->
   </div>
