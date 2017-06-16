@@ -5,25 +5,44 @@
     <div :class="{ closed: isClosed }" class="modal" id="modal">
       <button class="close-button" id="close-button" @click="closeModal">X</button>
       <div class="modal-guts">
-        <h1>Modal Example</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
-
+        <div class="header">
+          <collection-heading :heading="collectionSlideOut"></collection-heading>
+        </div>
       </div>
     </div>
   </div>
 </template>
 <script>
+
+import { mapActions, mapState } from 'vuex'
+
 export default {
   data () {
     return {
-      isClosed: false
+      isClosed: true
+    }
+  },
+
+  computed: {
+    ...mapState(['collectionSlideOut'])
+  },
+
+  watch: {
+    collectionSlideOut () {
+      if (_.isEmpty(this.collectionSlideOut)) return
+
+      this.isClosed = false
     }
   },
 
   methods: {
+    ...mapActions([
+      'updateCollectionSlideOut'
+    ]),
+
     closeModal () {
       this.isClosed = true
+      this.updateCollectionSlideOut({ collection: {}})
     }
   }
 }
@@ -84,8 +103,8 @@ export default {
   padding: 0;
 }
 
-h1 {
-  margin: 0 0 20px 0;
+.header {
+  text-align: right;
 }
 
 .modal .close-button {

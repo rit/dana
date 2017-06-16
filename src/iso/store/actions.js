@@ -62,8 +62,13 @@ function updateObjectDetails ({ commit, state }, { slug }) {
     .catch((err) => console.warn(err))
 }
 
+function updateCollectionSlideOut ({ commit, state }, { collection }) {
+  commit('collectionSlideOut', { collection })
+}
+
 module.exports = {
   updateObjectDetails,
+  updateCollectionSlideOut,
   updateCollectionMetaData,
   updateCollectionContent,
   updateSeriesNavbar,

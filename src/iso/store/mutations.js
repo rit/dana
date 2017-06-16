@@ -3,6 +3,10 @@ const mutations = {
     state.seriesNavbar = seriesNavbar
   },
 
+  collectionSlideOut (state, { collection }) {
+    state.collectionSlideOut = collection
+  },
+
   objectDetails (state, { objectDetails }) {
     state.objectDetails = objectDetails
   },
@@ -21,6 +25,7 @@ const mutations = {
 }
 
 const state = {
+  collectionSlideOut: {},
   seriesNavbar: {},
   objectDetails: {},
   seriesTree: [],

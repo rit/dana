@@ -14,7 +14,7 @@
 <script>
 
 import _ from 'lodash'
-import { MessageBox } from 'element-ui';
+import { mapActions, mapState } from 'vuex'
 
 export default {
   props: ['heading', 'showDetail'],
@@ -30,10 +30,13 @@ export default {
     }
   },
 
-
   methods: {
+    ...mapActions([
+      'updateCollectionSlideOut'
+    ]),
+
     showDetailedDescription () {
-      // TODO show the overlay box
+      this.updateCollectionSlideOut({ collection: this.heading })
     }
   },
 
