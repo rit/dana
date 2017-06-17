@@ -14,7 +14,7 @@
 <script>
 
 import _ from 'lodash'
-import { mapActions, mapState } from 'vuex'
+import { mapActions } from 'vuex'
 
 export default {
   props: ['heading', 'showDetail'],
