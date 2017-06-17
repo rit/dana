@@ -19,11 +19,14 @@
     </el-row><!-- /.row -->
 
     <el-row>
+      <el-col :span="16" :push="8">
+        <slide-out></slide-out>
+      </el-col>
+    </el-row>
+
+    <el-row>
       <el-col :span="24">
-        <div>
-          <slide-out></slide-out>
-          <slot name="series-navbar"></slot>
-        </div>
+        <slot name="series-navbar"></slot>
       </el-col>
     </el-row><!-- /.row -->
 

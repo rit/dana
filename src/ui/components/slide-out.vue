@@ -3,13 +3,16 @@
     <div :class="{ closed: isClosed }" class="modal-overlay" id="modal-overlay"></div>
 
     <div :class="{ closed: isClosed }" class="modal" id="modal">
-      <button class="close-button" id="close-button" @click="closeModal">X</button>
       <div class="modal-guts">
         <div class="header">
+          <div class="action">
+            <el-button @click="closeModal" type="secondary" icon="close"></el-button>
+          </div>
           <collection-heading :heading="collectionSlideOut"></collection-heading>
         </div>
-
-        <p>{{ description }}</p>
+        <div class="modal-body">
+          <p>{{ description }}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -56,28 +59,15 @@ export default {
 </script>
 
 <style scoped>
-/* Based from https://css-tricks.com/considerations-styling-modal/ */
 
 .modal {
-  /* This way it could be display flex or grid or whatever also. */
-  display: block;
-
-  /* Probably need media queries here */
-  width: 800px;
-  max-width: 100%;
-
-  height: 800px;
-
   position: absolute;
-
-  z-index: 100;
-
   right: 0;
   top: 0;
-
+  z-index: 100;
   background: white;
-  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
 }
+
 .closed {
   display: none;
 }
@@ -92,44 +82,32 @@ export default {
 
   background: rgba(0, 0, 0, 0.6);
 }
+
 .modal-guts {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  padding: 20px 50px 20px 80px;
+  margin: 2em 2em 6em 0;
 }
 
-
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.modal-body {
+  margin-left: 6em;
 }
 
 .header {
   text-align: right;
+  position: relative;
+  margin: 2em 0;
 }
 
-.modal .close-button {
+.header .action {
+  width: 6em;
+  float: left;
+  text-align: center;
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
-  /* don't need to go crazy with z-index here, just sits over .modal-guts */
-  z-index: 1;
-
-  top: 20px;
-
-  /* needs to look OK with or without scrollbar */
-  left: 20px;
-
-  border: 0;
-  background: black;
-  color: white;
-  padding: 5px 10px;
-  font-size: 1.3rem;
+.header .heading {
+  margin: 2em
 }
 
 p {
