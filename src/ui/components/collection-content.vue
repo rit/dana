@@ -1,18 +1,21 @@
 <template>
-  <div>
+  <div class="collection-content">
+    <div class="loader" v-loading="loading">
+    </div>
     <transition name="el-zoom-in-center">
       <collection-heading v-if="heading" :heading="heading" showDetail="true">
       </collection-heading>
     </transition>
 
-    <transition name="el-zoom-in-center">
       <div v-if="collections">
         <h3>Collections ({{ collections.length }})</h3>
         <section>
-          <content-item v-for="c in collections" :item="c" :collectionSlug="collectionSlug" :key="c.slug"></content-item>
+          <transition-group name="el-zoom-in-center">
+            <content-item v-for="c in collections" :item="c" :collectionSlug="collectionSlug" :key="c.slug">
+            </content-item>
+          </transition-group>
         </section>
       </div>
-    </transition>
 
     <!--<router-view ></router-view>-->
   </div>
@@ -20,6 +23,7 @@
 
 <script>
 
+import { isEmpty } from 'lodash'
 import { mapActions, mapState } from 'vuex'
 
 export default {
@@ -41,21 +45,14 @@ export default {
       return this.subseriesSlug || this.seriesSlug || this.collectionSlug
     },
 
-    routemeta () {
-      return this.$route.matched[this.$route.matched.length - 1].meta
+    loading () {
+      return isEmpty(this.collectionContent)
     }
   },
 
   methods: {
     ...mapActions(['updateCollectionContent'])
   },
-
-  /*
-  beforeRouteUpdate (to, from, next) {
-    this.updateCollectionContent({ slug: this.contentSlug })
-    next()
-  },
-  */
 
   watch: {
     contentSlug (slug, oldSlug) {
@@ -68,3 +65,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+.collection-content {
+  position: relative
+}
+
+.loader {
+  position: absolute;
+  top: 3em;
+  left: 0;
+}
+
+</style>
