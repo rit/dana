@@ -2,7 +2,7 @@ const axios = require('axios')
 const mapper = require('iso/mapper')
 
 function updateCollectionMetaData ({ commit, state }, { slug }) {
-  var url = `/static/content/${slug}.json`
+  var url = `/api/v1/collections/${slug}`
   axios.get(url)
     .then((resp) => {
       var collectionHeading = mapper.collectionHeading(resp.data)
@@ -14,7 +14,7 @@ function updateCollectionMetaData ({ commit, state }, { slug }) {
 function updateSeriesNavbar ({ commit, state }, { slug }) {
   if (!slug) return
 
-  var url = `/static/content/${slug}.json`
+  var url = `/api/v1/collections/${slug}`
   axios.get(url)
     .then((resp) => {
       var seriesNavbar = mapper.collectionHeading(resp.data)
@@ -24,7 +24,7 @@ function updateSeriesNavbar ({ commit, state }, { slug }) {
 }
 
 function updateSeriesTree ({ commit, state }, { slug }) {
-  var url = `static/navtree/${slug}.json`
+  var url = `/api/v1/navtree/${slug}`
   axios.get(url)
     .then((resp) => {
       var seriesTree = [resp.data]
@@ -38,7 +38,7 @@ function updateCollectionContent ({ commit, state }, { slug }) {
   var collectionContent = {}
   commit('collectionContent', { collectionContent })
 
-  var url = `/static/content/${slug}.json`
+  var url = `/api/v1/collectiontree/${slug}`
   axios.get(url)
     .then((resp) => {
       collectionContent = mapper.collectionContent(resp.data)
