@@ -7,11 +7,11 @@
       </collection-heading>
     </transition>
 
-      <div v-if="collections">
-        <h3>Collections ({{ collections.length }})</h3>
+      <div v-if="children">
+        <h3>Collections ({{ children.length }})</h3>
         <section>
           <transition-group name="el-zoom-in-center">
-            <content-item v-for="c in collections" :item="c" :collectionSlug="collectionSlug" :key="c.slug">
+            <content-item v-for="c in children" :item="c" :collectionSlug="collectionSlug" :key="c.slug">
             </content-item>
           </transition-group>
         </section>
@@ -33,8 +33,9 @@ export default {
   computed: {
     ...mapState(['collectionContent']),
 
-    collections () {
-      return this.collectionContent.collections
+    /* children are both manifest and collection */
+    children () {
+      return this.collectionContent.children
     },
 
     heading () {

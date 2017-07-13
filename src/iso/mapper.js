@@ -41,7 +41,7 @@ function collectionHeading (data) {
 function collectionContent (data) {
   var content = {}
   content.heading = collectionHeading(data)
-  content.collections = data.collections.map(contentItem)
+  content.children = data.children.map(contentItem)
   return content
 }
 
