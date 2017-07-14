@@ -49,10 +49,11 @@ function contentItem (item) {
   var mapped = metadataMap(item.metadata)
   var label = [item.label, mapped['Creation Date']].join(' ')
   var slug = item.slug
+  var type = item.type
   var container = get(mapped, 'Container', '').split(' ')
   var box = container[1]
   var folder = container[3]
-  return { label, slug, box, folder }
+  return { label, slug, type, box, folder }
 }
 
 // metadata is an array
