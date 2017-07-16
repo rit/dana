@@ -1,18 +1,15 @@
 <template>
-  <el-row class="wrapper">
-    <el-col :span="18">
-      <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
-        {{ label }}
-      </router-link>
-    </el-col>
-    <el-col :span="6">
-      <div class="container">
-        Box: {{ box }}
-        <br />
-        Folder: {{ folder }}
-      </div>
-    </el-col>
-  </el-row>
+  <div>
+    <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
+      {{ label }}
+    </router-link>
+
+    <div class="xcontainer">
+      Box: {{ box }}
+      <br />
+      Folder: {{ folder }}
+    </div>
+  </div>
 </template>
 
 <script>

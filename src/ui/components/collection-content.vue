@@ -10,10 +10,7 @@
       <div v-if="children">
         <h3>Collections ({{ children.length }})</h3>
         <section>
-          <transition-group name="el-zoom-in-center">
-            <content-item v-for="c in children" :item="c" :collectionSlug="collectionSlug" :key="c.slug">
-            </content-item>
-          </transition-group>
+          <el-tree :data="children" :props="defaultProps" node-key="slug" :render-content="renderItem" @node-click="handleNodeClick"></el-tree>
         </section>
       </div>
 
@@ -26,9 +23,20 @@
 import { isEmpty } from 'lodash'
 import { mapActions, mapState } from 'vuex'
 
+import ContentItem from './content-item';
+
 export default {
 
   props: ['collectionSlug', 'seriesSlug', 'subseriesSlug'],
+
+  data () {
+    return {
+      defaultProps: {
+        children: 'children',
+        label: 'label'
+      }
+    }
+  },
 
   computed: {
     ...mapState(['collectionContent']),
@@ -52,7 +60,18 @@ export default {
   },
 
   methods: {
-    ...mapActions(['updateCollectionContent'])
+    ...mapActions(['updateCollectionContent']),
+
+    renderItem (h, comp) {
+      var data = comp.data
+      var node = comp.node
+      return (
+        <ContentItem item={data} key={data.slug} collectionSlug={this.collectionSlug}></ContentItem>
+      )
+    },
+
+    handleNodeClick () {
+    },
   },
 
   watch: {
