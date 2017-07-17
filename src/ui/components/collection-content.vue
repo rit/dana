@@ -10,7 +10,15 @@
       <div v-if="children">
         <h3>Collections ({{ children.length }})</h3>
         <section>
-          <el-tree :data="children" :props="defaultProps" node-key="slug" :render-content="renderItem" @node-click="handleNodeClick"></el-tree>
+          <el-tree
+            class="el-tree--dana-content dana"
+            :data="children"
+            :props="defaultProps"
+            node-key="slug"
+            :render-content="renderItem"
+            @node-click="handleNodeClick"
+            :indent="36">
+          </el-tree>
         </section>
       </div>
 
@@ -60,7 +68,7 @@ export default {
   },
 
   methods: {
-    ...mapActions(['updateCollectionContent']),
+    ...mapActions(['updateCollectionContent', 'appendCollectionContent']),
 
     renderItem (h, comp) {
       var data = comp.data
@@ -70,7 +78,11 @@ export default {
       )
     },
 
-    handleNodeClick () {
+    handleNodeClick (data, node, tree) {
+      if (data.type === 'sc:Collection') {
+        // TODO skip if already fetched
+        this.appendCollectionContent({ slug: data.slug, collection: data })
+      }
     },
   },
 
@@ -86,6 +98,27 @@ export default {
 }
 </script>
 
+<style>
+
+/*
+Reset line-height and height. Scoped CSS won't work.
+*/
+.dana .el-tree-node__content {
+  line-height: initial;
+  height: initial;
+  cursor: pointer;
+}
+
+.dana .el-tree-node__expand-icon {
+}
+
+.dana .is-current > div.el-tree-node__content {
+  background-color: unset;
+}
+
+
+</style>
+
 <style scoped>
 
 .collection-content {
@@ -96,6 +129,10 @@ export default {
   position: absolute;
   top: 3em;
   left: 0;
+}
+
+.el-tree--dana-content {
+  border: none;
 }
 
 </style>
