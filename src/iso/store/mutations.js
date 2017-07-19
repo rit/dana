@@ -15,7 +15,14 @@ const mutations = {
     state.seriesTree = seriesTree
   },
 
-  collectionContent (state, { collectionContent }) {
+  collectionContent (state, { collectionContent, paths }) {
+    if (paths) {
+      // state.collectionContent
+      console.log('paths', paths)
+      console.log('collectionContent', collectionContent)
+      state.collectionContent.children[0].children = collectionContent.children
+      return
+    }
     state.collectionContent = collectionContent
   },
 

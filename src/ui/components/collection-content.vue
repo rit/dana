@@ -60,7 +60,7 @@ export default {
   },
 
   methods: {
-    ...mapActions(['updateCollectionContent']),
+    ...mapActions(['updateCollectionContent', 'appendCollectionContent']),
 
     renderItem (h, comp) {
       var data = comp.data
@@ -70,7 +70,15 @@ export default {
       )
     },
 
-    handleNodeClick () {
+    handleNodeClick (data, node, tree) {
+      if (data.type === 'sc:Collection') {
+        console.log('expandable', data.slug, data.children)
+        this.appendCollectionContent({ slug: data.slug, paths: [0] })
+        // fetch collectiontree via action
+        // pass in data
+        // attached children to data
+        // will vuex know about it?
+      }
     },
   },
 
