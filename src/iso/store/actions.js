@@ -47,6 +47,16 @@ function updateCollectionContent ({ commit, state }, { slug }) {
     .catch((err) => console.warn(err))
 }
 
+function appendCollectionContent({ commit, state}, { slug, paths, collection }) {
+  var url = `/api/v1/collectiontree/${slug}`
+  axios.get(url)
+    .then((resp) => {
+      var collectionContent = mapper.collectionContent(resp.data)
+      commit('collectionContent', { collectionContent, paths, collection })
+    })
+    .catch((err) => console.warn(err))
+}
+
 function updateObjectDetails ({ commit, state }, { slug }) {
   var objectDetails = {}
   // TODO Clear the object details on
@@ -71,6 +81,7 @@ module.exports = {
   updateCollectionSlideOut,
   updateCollectionMetaData,
   updateCollectionContent,
+  appendCollectionContent,
   updateSeriesNavbar,
   updateSeriesTree
 }

@@ -60,7 +60,7 @@ export default {
   },
 
   methods: {
-    ...mapActions(['updateCollectionContent']),
+    ...mapActions(['updateCollectionContent', 'appendCollectionContent']),
 
     renderItem (h, comp) {
       var data = comp.data
@@ -70,7 +70,11 @@ export default {
       )
     },
 
-    handleNodeClick () {
+    handleNodeClick (data, node, tree) {
+      if (data.type === 'sc:Collection') {
+        // TODO skip if already fetched
+        this.appendCollectionContent({ slug: data.slug, collection: data })
+      }
     },
   },
 

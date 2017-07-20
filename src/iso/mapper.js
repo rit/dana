@@ -28,7 +28,7 @@ function collectionHeading (data) {
     throw new Error('Collection has no metadata')
   }
   var mapped = metadataMap(data.metadata)
-  var physicalDesc = mapped['Physical Desc.'].join(' ')
+  var physicalDesc = get(mapped, 'Physical Desc.', []).join(' ')
   var label = [data.label, mapped['Creation Date']].join(', ')
   var description = data['description']
   return {

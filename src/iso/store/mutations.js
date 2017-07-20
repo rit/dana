@@ -1,3 +1,5 @@
+var Vue = require('vue/dist/vue.common')
+
 const mutations = {
   seriesNavbar (state, { seriesNavbar }) {
     state.seriesNavbar = seriesNavbar
@@ -15,7 +17,11 @@ const mutations = {
     state.seriesTree = seriesTree
   },
 
-  collectionContent (state, { collectionContent }) {
+  collectionContent (state, { collection, collectionContent }) {
+    if (collection) {
+      Vue.set(collection, 'children', collectionContent.children)
+      return
+    }
     state.collectionContent = collectionContent
   },
 
