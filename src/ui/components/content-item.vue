@@ -4,11 +4,11 @@
       {{ label }}
     </router-link>
 
-    <!--<div class="xcontainer">-->
-    <!--  Box: {{ box }}-->
-    <!--  <br />-->
-    <!--  Folder: {{ folder }}-->
-    <!--</div>-->
+    <div class="physical-location" v-if="isManifest">
+      Box: {{ box }}
+      <br />
+      Folder: {{ folder }}
+    </div>
   </div>
 </template>
 
@@ -31,13 +31,17 @@ export default {
 
     folder () {
       return this.item.folder
+    },
+
+    isManifest () {
+      return this.item.type === 'sc:Manifest'
     }
   }
 
 }
 </script>
 
-<style>
+<style scoped>
 
 .wrapper {
   display: inline-block;
@@ -47,9 +51,11 @@ export default {
   margin-left: 1em;
 }
 
-.container {
-  border-left: 1px solid gray;
+.physical-location {
+  border-left: 1px solid silver;
   padding-left: 1em;
+  width: 120px;
+  float: right;
 }
 
 </style>

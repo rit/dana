@@ -114,6 +114,7 @@ Reset line-height and height. Scoped CSS won't work.
 
 .dana .is-current > div.el-tree-node__content {
   background-color: unset;
+  color: unset;
 }
 
 
