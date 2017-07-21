@@ -10,7 +10,15 @@
       <div v-if="children">
         <h3>Collections ({{ children.length }})</h3>
         <section>
-          <el-tree class="el-tree--dana-content dana" :data="children" :props="defaultProps" node-key="slug" :render-content="renderItem" @node-click="handleNodeClick"></el-tree>
+          <el-tree
+            class="el-tree--dana-content dana"
+            :data="children"
+            :props="defaultProps"
+            node-key="slug"
+            :render-content="renderItem"
+            @node-click="handleNodeClick"
+            :indent="36">
+          </el-tree>
         </section>
       </div>
 
@@ -100,6 +108,14 @@ Reset line-height and height. Scoped CSS won't work.
   height: initial;
   cursor: pointer;
 }
+
+.dana .el-tree-node__expand-icon {
+}
+
+.dana .is-current > div.el-tree-node__content {
+  background-color: unset;
+}
+
 
 </style>
 

@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div class="wrapper">
     <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
       {{ label }}
     </router-link>
 
-    <div class="xcontainer">
-      Box: {{ box }}
-      <br />
-      Folder: {{ folder }}
-    </div>
+    <!--<div class="xcontainer">-->
+    <!--  Box: {{ box }}-->
+    <!--  <br />-->
+    <!--  Folder: {{ folder }}-->
+    <!--</div>-->
   </div>
 </template>
 
@@ -40,8 +40,11 @@ export default {
 <style>
 
 .wrapper {
-  padding: 1em;
-  border-top: 1px solid gray;
+  display: inline-block;
+  padding: 1em 0;
+  border-bottom: 1px solid silver;
+  width: 90%;
+  margin-left: 1em;
 }
 
 .container {
