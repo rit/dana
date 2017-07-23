@@ -25,8 +25,11 @@ function extractSlug (url) {
 
 function collectionHeading (data) {
   if (!data.metadata) {
-    throw new Error('Collection has no metadata')
+    return {
+      label: data.label
+    }
   }
+
   var mapped = metadataMap(data.metadata)
   var physicalDesc = get(mapped, 'Physical Desc.', []).join(' ')
   var label = [data.label, mapped['Creation Date']].join(', ')
@@ -48,12 +51,13 @@ function collectionContent (data) {
 function contentItem (item) {
   var mapped = metadataMap(item.metadata)
   var label = [item.label, mapped['Creation Date']].join(' ')
-  var slug = item.slug
-  var type = item.type
-  var isLeaf = type === 'sc:Manifest'
   var container = get(mapped, 'Container', '').split(' ')
   var box = container[1]
   var folder = container[3]
+
+  var slug = item.slug
+  var type = item.type
+  var isLeaf = type === 'sc:Manifest'
   return { label, slug, type, box, folder, isLeaf }
 }
 
