@@ -14,7 +14,6 @@
             lazy
             empty-text="Loading..."
             class="el-tree--dana-content dana"
-            :data="children"
             :load="loadData"
             :props="defaultProps"
             node-key="slug"
@@ -32,7 +31,7 @@
 <script>
 
 import { isEmpty } from 'lodash'
-import { mapActions, mapState } from 'vuex'
+import { mapActions, mapState, mapGetters } from 'vuex'
 
 import ContentItem from './content-item';
 
@@ -51,15 +50,20 @@ export default {
   },
 
   computed: {
-    ...mapState(['collectionContent']),
+    ...mapState(['collections']),
+    ...mapGetters(['childCollectionsBySlug']),
+
+    rootCollection () {
+      return this.collections[this.contentSlug] || {}
+    },
 
     /* children are both manifest and collection */
     children () {
-      return this.collectionContent.children
+      return this.rootCollection.children
     },
 
     heading () {
-      return this.collectionContent.heading
+      return this.rootCollection.heading
     },
 
     contentSlug () {
@@ -67,7 +71,7 @@ export default {
     },
 
     loading () {
-      return isEmpty(this.collectionContent)
+      return isEmpty(this.rootCollection)
     }
   },
 
@@ -76,7 +80,12 @@ export default {
 
     loadData (node, resolve) {
       console.log('loadData')
-      resolve(this.collectionContent.children)
+      var slug = this.contentSlug
+      if (node.data) {
+        slug = node.data.slug
+      }
+      this.updateCollectionContent({ slug, resolve })
+      // resolve(this.childCollectionsBySlug(slug))
     },
 
     renderItem (h, comp) {

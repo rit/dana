@@ -33,16 +33,19 @@ function updateSeriesTree ({ commit, state }, { slug }) {
     .catch((err) => console.warn(err))
 }
 
-function updateCollectionContent ({ commit, state }, { slug }) {
+function updateCollectionContent ({ commit, state }, { slug, resolve }) {
   // Clear the collection content
-  var collectionContent = {}
-  commit('collectionContent', { collectionContent })
+  // var collectionContent = {}
+  // commit('collectionContent', { collectionContent })
 
   var url = `/api/v1/collectiontree/${slug}`
   axios.get(url)
     .then((resp) => {
-      collectionContent = mapper.collectionContent(resp.data)
-      commit('collectionContent', { collectionContent })
+      var collection = mapper.collectionContent(resp.data)
+      commit('collections', { slug, collection })
+      if (resolve) {
+        resolve(collection.children)
+      }
     })
     .catch((err) => console.warn(err))
 }
