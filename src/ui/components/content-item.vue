@@ -1,8 +1,13 @@
 <template>
   <div class="wrapper">
-    <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
+    <div v-if="isManifest">
+      <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
+        {{ label }}
+      </router-link>
+    </div>
+    <div v-else>
       {{ label }}
-    </router-link>
+    </div>
 
     <div class="physical-location" v-if="isManifest">
       Box: {{ box }}
