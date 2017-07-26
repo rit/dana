@@ -9,20 +9,21 @@
 
       <div v-if="children">
         <h3>Collections ({{ children.length }})</h3>
-        <section>
-          <el-tree
-            lazy
-            empty-text="Loading..."
-            class="el-tree--dana-content dana"
-            :load="loadData"
-            :props="defaultProps"
-            node-key="slug"
-            :render-content="renderItem"
-            @node-click="handleNodeClick"
-            :indent="36">
-          </el-tree>
-        </section>
       </div>
+
+      <section>
+        <el-tree
+          lazy
+          empty-text="Loading..."
+          class="el-tree--dana-content dana"
+          :load="loadData"
+          :props="defaultProps"
+          node-key="slug"
+          :render-content="renderItem"
+          @node-click="handleNodeClick"
+          :indent="36">
+        </el-tree>
+      </section>
 
     <!--<router-view ></router-view>-->
   </div>
@@ -51,10 +52,10 @@ export default {
 
   computed: {
     ...mapState(['collections']),
-    ...mapGetters(['childCollectionsBySlug']),
+    ...mapGetters(['collectionBySlug']),
 
     rootCollection () {
-      return this.collections[this.contentSlug] || {}
+      return this.collectionBySlug(this.contentSlug)
     },
 
     /* children are both manifest and collection */
@@ -79,13 +80,17 @@ export default {
     ...mapActions(['updateCollectionContent', 'appendCollectionContent']),
 
     loadData (node, resolve) {
-      console.log('loadData')
       var slug = this.contentSlug
       if (node.data) {
         slug = node.data.slug
       }
+      console.log('loadData', slug)
+      if (node.parent === null) {
+        console.log('loadData set rootResolver')
+        this.rootTree = node
+        this.rootResolver = resolve
+      }
       this.updateCollectionContent({ slug, resolve })
-      // resolve(this.childCollectionsBySlug(slug))
     },
 
     renderItem (h, comp) {
@@ -106,11 +111,17 @@ export default {
 
   watch: {
     contentSlug (slug, oldSlug) {
-      this.updateCollectionContent({ slug })
+      console.log('contentSlug changed:', slug)
+
+      // TODO trigger loadData
+      this.rootTree.setData([])
+      this.updateCollectionContent({ slug, resolve: this.rootResolver })
+
     }
   },
 
   created () {
+    console.log('created')
     this.updateCollectionContent({ slug: this.contentSlug })
   }
 }
