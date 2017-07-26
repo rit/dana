@@ -12,13 +12,13 @@
       </div>
 
       <section>
-        <el-tree
+        <el-tree class="el-tree--dana-content dana"
           lazy
+          node-key="slug"
           empty-text="Loading..."
-          class="el-tree--dana-content dana"
+          @node-click="navigateToObjectDetails"
           :load="loadData"
           :props="defaultProps"
-          node-key="slug"
           :render-content="renderItem"
           :indent="36">
         </el-tree>
@@ -88,6 +88,17 @@ export default {
         this.rootResolver = resolve
       }
       this.updateCollectionContent({ slug, resolve })
+    },
+
+    navigateToObjectDetails (data, node, tree) {
+      if (data.isLeaf) {
+        this.$router.push({ name: 'ObjectHome',
+          params: {
+            collectionSlug: this.collectionSlug,
+            objectSlug: data.slug
+          }
+        })
+      }
     },
 
     renderItem (h, comp) {
