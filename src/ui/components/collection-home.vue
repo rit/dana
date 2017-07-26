@@ -11,7 +11,10 @@
 
       <image-viewer v-show="onlyForObject" slot="image-viewer"></image-viewer>
 
-      <location-in-collection v-show="onlyForObject" slot="location-in-collection">
+      <location-in-collection
+        v-show="onlyForObject"
+        :objectSlug="objectSlug"
+        slot="location-in-collection">
       </location-in-collection>
 
       <series-tree v-show="onlyForSeries" slot="collection-hierarchy" :series-tree="seriesTree">

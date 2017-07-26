@@ -42,7 +42,7 @@ function updateCollectionContent ({ commit, state }, { slug, resolve }) {
   axios.get(url)
     .then((resp) => {
       var collection = mapper.collectionContent(resp.data)
-      commit('collections', { slug, collection })
+      commit('subcollections', { slug, collection })
       if (resolve) {
         resolve(collection.children)
       }
@@ -50,17 +50,12 @@ function updateCollectionContent ({ commit, state }, { slug, resolve }) {
     .catch((err) => console.warn(err))
 }
 
-function updateObjectDetails ({ commit, state }, { slug }) {
-  var objectDetails = {}
-  // TODO Clear the object details on
-  // commit('reset', { objectDetails })
-  // commit('objectDetails', { objectDetails })
-
-  var url = `/static/iiif/manifests/${slug}/manifest.json`
+function fetchCollection ({ commit, state }, { slug }) {
+  var url = `/api/v1/collections/${slug}`
   axios.get(url)
     .then((resp) => {
-      objectDetails = resp.data
-      commit('objectDetails', { objectDetails })
+      var collection = resp.data
+      commit('collection', { slug, collection })
     })
     .catch((err) => console.warn(err))
 }
@@ -69,8 +64,19 @@ function updateCollectionSlideOut ({ commit, state }, { collection }) {
   commit('collectionSlideOut', { collection })
 }
 
+function fetchObjectLocation ({ commit, state}, { slug }) {
+  var url = `/api/v1/objects/${slug}/location`
+  axios.get(url)
+    .then((resp) => {
+      var _location = resp.data
+      commit('locations', { slug, _location })
+    })
+    .catch((err) => console.warn(err))
+}
+
 module.exports = {
-  updateObjectDetails,
+  fetchObjectLocation,
+  fetchCollection,
   updateCollectionSlideOut,
   updateCollectionMetaData,
   updateCollectionContent,

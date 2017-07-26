@@ -17,7 +17,15 @@ const mutations = {
     state.seriesTree = seriesTree
   },
 
-  collections (state, { slug, collection}) {
+  subcollections (state, { slug, collection}) {
+    Vue.set(state.subcollections, slug, collection)
+  },
+
+  locations (state, { slug, _location }) {
+    Vue.set(state.locations, slug, _location)
+  },
+
+  collection (state, { slug, collection }) {
     Vue.set(state.collections, slug, collection)
   },
 
@@ -39,7 +47,9 @@ const state = {
   seriesNavbar: {},
   objectDetails: {},
   seriesTree: [],
-  collections: [],
+  collections: {},
+  subcollections: {},
+  locations: {},
   collectionContent: {},
   collectionHeading: {}
 }
