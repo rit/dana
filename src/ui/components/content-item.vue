@@ -1,20 +1,26 @@
 <template>
   <div class="wrapper">
-    <div v-if="isManifest">
-      <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
-        {{ label }}
-      </router-link>
-    </div>
-    <div v-else>
-      {{ label }}
-    </div>
+    <div class="item">
 
-    <div> {{ description }}</div>
+    <section class="item-detail">
+      <div v-if="isManifest">
+        <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
+          {{ label }}
+        </router-link>
+      </div>
+      <div v-else>
+        {{ label }}
+      </div>
+
+      <div> {{ description }}</div>
+    </section>
 
     <div class="physical-location" v-if="isManifest">
       Box: {{ box }}
       <br />
       Folder: {{ folder }}
+    </div>
+
     </div>
   </div>
 </template>
@@ -62,11 +68,19 @@ export default {
   margin-left: 1em;
 }
 
+.item {
+  display: flex;
+}
+
+.item-detail {
+  width: 100%;
+}
+
 .physical-location {
   border-left: 1px solid silver;
   padding-left: 1em;
-  width: 120px;
-  float: right;
+  width: 10em;
+  align-self: center;
 }
 
 </style>

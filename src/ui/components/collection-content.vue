@@ -120,6 +120,11 @@ export default {
 /*
 Reset line-height and height. Scoped CSS won't work.
 */
+
+.dana .el-tree-node {
+  white-space: unset;
+}
+
 .dana .el-tree-node__content {
   line-height: initial;
   height: initial;
