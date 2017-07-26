@@ -45,7 +45,7 @@ export default {
     },
 
     isManifest () {
-      return this.item.type === 'sc:Manifest'
+      return this.item.isLeaf
     }
   }
 
@@ -87,7 +87,7 @@ a {
 }
 
 p {
-  margin: 0.3em 0;
+  margin: 0.3em 1em 0.3em 0;
 }
 
 </style>
