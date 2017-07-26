@@ -8,11 +8,11 @@
           {{ label }}
         </router-link>
       </div>
-      <div v-else>
+      <div class="label" v-else>
         {{ label }}
       </div>
 
-      <div> {{ description }}</div>
+      <p> {{ description }}</p>
     </section>
 
     <div class="physical-location" v-if="isManifest">
@@ -81,6 +81,19 @@ export default {
   padding-left: 1em;
   width: 10em;
   align-self: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  margin: 0.3em 0;
 }
 
 </style>
