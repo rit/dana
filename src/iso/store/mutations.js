@@ -39,7 +39,7 @@ const state = {
   seriesNavbar: {},
   objectDetails: {},
   seriesTree: [],
-  collections: [],
+  collections: {},
   collectionContent: {},
   collectionHeading: {}
 }
