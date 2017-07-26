@@ -3,15 +3,9 @@
     <div class="item">
 
     <section class="item-detail">
-      <div v-if="isManifest">
-        <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
-          {{ label }}
-        </router-link>
-      </div>
-      <div class="label" v-else>
+      <div class="label">
         {{ label }}
       </div>
-
       <p> {{ description }}</p>
     </section>
 
