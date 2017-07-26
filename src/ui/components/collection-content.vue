@@ -84,9 +84,7 @@ export default {
       if (node.data) {
         slug = node.data.slug
       }
-      console.log('loadData', slug)
       if (node.parent === null) {
-        console.log('loadData set rootResolver')
         this.rootTree = node
         this.rootResolver = resolve
       }
@@ -111,9 +109,7 @@ export default {
 
   watch: {
     contentSlug (slug, oldSlug) {
-      console.log('contentSlug changed:', slug)
-
-      // TODO trigger loadData
+      // el-tree's resolve will append new data. So we have to clear the old data first.
       this.rootTree.setData([])
       this.updateCollectionContent({ slug, resolve: this.rootResolver })
 
@@ -121,7 +117,6 @@ export default {
   },
 
   created () {
-    console.log('created')
     this.updateCollectionContent({ slug: this.contentSlug })
   }
 }
