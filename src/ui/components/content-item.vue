@@ -3,15 +3,9 @@
     <div class="item">
 
     <section class="item-detail">
-      <div v-if="isManifest">
-        <router-link :to="{ name: 'ObjectHome', params: { collectionSlug, objectSlug }}" append>
-          {{ label }}
-        </router-link>
-      </div>
-      <div class="label" v-else>
+      <div class="label">
         {{ label }}
       </div>
-
       <p> {{ description }}</p>
     </section>
 
@@ -51,7 +45,7 @@ export default {
     },
 
     isManifest () {
-      return this.item.type === 'sc:Manifest'
+      return this.item.isLeaf
     }
   }
 
@@ -93,7 +87,7 @@ a {
 }
 
 p {
-  margin: 0.3em 0;
+  margin: 0.3em 1em 0.3em 0;
 }
 
 </style>
