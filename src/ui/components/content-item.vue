@@ -9,6 +9,8 @@
       {{ label }}
     </div>
 
+    <div> {{ description }}</div>
+
     <div class="physical-location" v-if="isManifest">
       Box: {{ box }}
       <br />
@@ -24,6 +26,10 @@ export default {
   computed: {
     label () {
       return this.item.label
+    },
+
+    description () {
+      return this.item.description
     },
 
     objectSlug () {
