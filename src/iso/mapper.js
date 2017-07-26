@@ -58,7 +58,8 @@ function contentItem (item) {
   var slug = item.slug
   var type = item.type
   var isLeaf = type === 'sc:Manifest'
-  return { label, slug, type, box, folder, isLeaf }
+  var description = item.description
+  return { label, slug, type, box, folder, isLeaf, description }
 }
 
 // metadata is an array
