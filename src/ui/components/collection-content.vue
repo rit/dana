@@ -20,7 +20,6 @@
           :props="defaultProps"
           node-key="slug"
           :render-content="renderItem"
-          @node-click="handleNodeClick"
           :indent="36">
         </el-tree>
       </section>
@@ -77,7 +76,7 @@ export default {
   },
 
   methods: {
-    ...mapActions(['updateCollectionContent', 'appendCollectionContent']),
+    ...mapActions(['updateCollectionContent']),
 
     loadData (node, resolve) {
       var slug = this.contentSlug
@@ -97,19 +96,13 @@ export default {
       return (
         <ContentItem item={data} key={data.slug} collectionSlug={this.collectionSlug}></ContentItem>
       )
-    },
-
-    handleNodeClick (data, node, tree) {
-      if (data.type === 'sc:Collection') {
-        // TODO skip if already fetched
-        // this.appendCollectionContent({ slug: data.slug, collection: data })
-      }
-    },
+    }
   },
 
   watch: {
     contentSlug (slug, oldSlug) {
-      // el-tree's resolve will append new data. So we have to clear the old data first.
+      // NOTE el-tree's resolve will append new data.
+      // So we have to clear the old data first.
       this.rootTree.setData([])
       this.updateCollectionContent({ slug, resolve: this.rootResolver })
 
