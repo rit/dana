@@ -44,9 +44,19 @@ export default {
     }
   },
 
+  watch: {
+    objectSlug (slug, oldSlug) {
+      if (slug) {
+        this.fetchObjectLocation({ slug })
+      }
+    }
+  },
+
   created () {
-    console.log('location created')
-    this.fetchObjectLocation({slug: this.objectSlug})
+    // this.objectSlug may be undefined because of the layout's reuse.
+    if (this.objectSlug) {
+      this.fetchObjectLocation({slug: this.objectSlug})
+    }
   }
 
 }
