@@ -42,7 +42,7 @@ function updateCollectionContent ({ commit, state }, { slug, resolve }) {
   axios.get(url)
     .then((resp) => {
       var collection = mapper.collectionContent(resp.data)
-      commit('collections', { slug, collection })
+      commit('subcollections', { slug, collection })
       if (resolve) {
         resolve(collection.children)
       }
