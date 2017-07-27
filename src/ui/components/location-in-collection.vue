@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <h4>Location in Collection</h4>
+  <div class="location-in-collection">
+    <h3>Location in Collection</h3>
 
-    <div v-for="loc in _location">
+    <div class="locations" v-for="loc in _location">
       <div class="loc">
-        <div>
-        {{ loc.doc.label }}
+        <div class="label">
+            {{ loc.doc.label }}
         </div>
         <p v-if="loc.doc.description">
           {{ loc.doc.description | ellipsis }}...
@@ -54,22 +54,39 @@ export default {
 
 
 <style scoped>
-  div {
-    /*
-    display: flex;
-    width: 320px;
-    height: 20em;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid silver;
-    */
-  }
+
+h3 {
+  padding: 0.5em 0;
+  padding-left: 1em;
+  margin-bottom: 0;
+  border-bottom: 4px solid silver;
+}
+
+.location-in-collection {
+  background-color: #ecf0f1;
+}
 
 .loc {
   display: flex;
   flex-direction: column;
+  border-bottom: 2px solid silver;
+  min-height: 4em;
+  padding: 1em;
+}
+
+.locations:last-child {
+  border-left: 2px solid silver;
+  border-right: 2px solid silver;
+  background-color: white;
 }
 
 .loc p {
+  margin-left: 0.4em;
 }
+
+.label {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
 </style>
