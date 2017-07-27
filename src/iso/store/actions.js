@@ -69,7 +69,18 @@ function updateCollectionSlideOut ({ commit, state }, { collection }) {
   commit('collectionSlideOut', { collection })
 }
 
+function fetchObjectLocation ({ commit, state}, { slug }) {
+  var url = `/api/v1/objects/${slug}/location`
+  axios.get(url)
+    .then((resp) => {
+      var _location = resp.data
+      commit('locations', { slug, _location })
+    })
+    .catch((err) => console.warn(err))
+}
+
 module.exports = {
+  fetchObjectLocation,
   updateObjectDetails,
   updateCollectionSlideOut,
   updateCollectionMetaData,

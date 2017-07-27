@@ -21,6 +21,10 @@ const mutations = {
     Vue.set(state.collections, slug, collection)
   },
 
+  locations (state, { slug, _location }) {
+    Vue.set(state.locations, slug, _location)
+  },
+
   collectionContent (state, { collection, collectionContent }) {
     if (collection) {
       Vue.set(collection, 'children', collectionContent.children)
@@ -40,6 +44,7 @@ const state = {
   objectDetails: {},
   seriesTree: [],
   collections: {},
+  locations: {},
   collectionContent: {},
   collectionHeading: {}
 }
