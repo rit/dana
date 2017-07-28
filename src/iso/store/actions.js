@@ -50,17 +50,12 @@ function updateCollectionContent ({ commit, state }, { slug, resolve }) {
     .catch((err) => console.warn(err))
 }
 
-function updateObjectDetails ({ commit, state }, { slug }) {
-  var objectDetails = {}
-  // TODO Clear the object details on
-  // commit('reset', { objectDetails })
-  // commit('objectDetails', { objectDetails })
-
-  var url = `/static/iiif/manifests/${slug}/manifest.json`
+function fetchCollection ({ commit, state }, { slug }) {
+  var url = `/api/v1/collections/${slug}`
   axios.get(url)
     .then((resp) => {
-      objectDetails = resp.data
-      commit('objectDetails', { objectDetails })
+      var collection = resp.data
+      commit('collection', { slug, collection })
     })
     .catch((err) => console.warn(err))
 }
@@ -81,7 +76,7 @@ function fetchObjectLocation ({ commit, state}, { slug }) {
 
 module.exports = {
   fetchObjectLocation,
-  updateObjectDetails,
+  fetchCollection,
   updateCollectionSlideOut,
   updateCollectionMetaData,
   updateCollectionContent,

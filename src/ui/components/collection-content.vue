@@ -51,10 +51,10 @@ export default {
 
   computed: {
     ...mapState(['collections']),
-    ...mapGetters(['collectionBySlug']),
+    ...mapGetters(['subcollectionsBySlug']),
 
     rootCollection () {
-      return this.collectionBySlug(this.contentSlug)
+      return this.subcollectionsBySlug(this.contentSlug)
     },
 
     /* children are both manifest and collection */

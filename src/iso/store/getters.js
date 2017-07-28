@@ -15,6 +15,12 @@ module.exports = {
 
   collectionBySlug (state, getters) {
     return slug => {
+      return state.collections[slug] || {}
+    }
+  },
+
+  subcollectionsBySlug (state, getters) {
+    return slug => {
       return state.subcollections[slug] || {}
     }
   }

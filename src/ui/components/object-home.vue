@@ -12,37 +12,42 @@
 
 <script>
 
-import { mapActions, mapState } from 'vuex'
+import { mapActions, mapState, mapGetters } from 'vuex'
 
 export default {
 
   props: ['objectSlug'],
 
   computed: {
-    ...mapState(['objectDetails']),
+    ...mapGetters(['collectionBySlug']),
+
+    collection () {
+      return this.collectionBySlug(this.objectSlug)
+    },
 
     label () {
-      return this.objectDetails.label
+      return this.collection.label
     },
 
     metadata () {
-      return this.objectDetails.metadata
+      return this.collection.metadata
     }
 
-  },
-
-  watch: {
-    objectSlug () {
-      this.updateObjectDetails({ slug: this.objectSlug })
-    }
   },
 
   methods: {
-    ...mapActions(['updateObjectDetails'])
+    ...mapActions(['fetchCollection']),
+  },
+
+
+  watch: {
+    objectSlug () {
+      this.fetchCollection({ slug: this.objectSlug })
+    }
   },
 
   created () {
-    this.updateObjectDetails({ slug: this.objectSlug })
+    this.fetchCollection({ slug: this.objectSlug })
   }
 
 }
