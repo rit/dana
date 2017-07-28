@@ -30,12 +30,6 @@
       </el-col>
     </el-row><!-- /.row -->
 
-    <el-row >
-      <el-col :span="24">
-        <slot name="image-viewer"></slot>
-      </el-col>
-    </el-row><!-- /.row -->
-
     <el-row :gutter="15">
       <el-col :xs="24" :sm="24" :md="24" :lg="8">
         <slot name="location-in-collection"></slot>
@@ -43,11 +37,19 @@
       </el-col>
 
       <el-col :xs="24" :sm="24" :md="24" :lg="16">
+        <slot name="image-viewer"></slot>
 
         <router-view></router-view>
 
       </el-col>
     </el-row><!-- /.row -->
+
+    <el-row >
+      <el-col :span="24">
+        <router-view name="full"></router-view>
+      </el-col>
+    </el-row><!-- /.row -->
+
   </div>
 
 </template>

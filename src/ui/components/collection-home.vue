@@ -5,7 +5,7 @@
       </collection-heading>
 
       <series-navbar v-show="onlyForSubseries"
-        :heading="seriesNavbar"
+        :heading="seriesHeading"
         slot="series-navbar">
       </series-navbar>
 
@@ -26,7 +26,8 @@
 
 <script>
 
-import { mapActions, mapState } from 'vuex'
+import { mapActions, mapState, mapGetters } from 'vuex'
+import mapper from 'iso/mapper'
 
 export default {
 
@@ -35,10 +36,22 @@ export default {
 
   computed: {
     ...mapState([
-      'collectionHeading',
       'seriesTree',
-      'seriesNavbar'
     ]),
+
+    ...mapGetters(['collectionBySlug']),
+
+    rootCollection () {
+      return this.collectionBySlug(this.collectionSlug)
+    },
+
+    collectionHeading () {
+      return mapper.collectionHeading(this.rootCollection)
+    },
+
+    seriesHeading () {
+      return mapper.collectionHeading(this.collectionBySlug(this.seriesSlug))
+    },
 
     onlyForSubseries () {
       return !!this.subseriesSlug
@@ -55,8 +68,7 @@ export default {
 
   methods: {
     ...mapActions([
-      'updateCollectionMetaData',
-      'updateSeriesNavbar',
+      'fetchCollection',
       'updateSeriesTree'
     ]),
 
@@ -66,17 +78,17 @@ export default {
 
   watch: {
     collectionSlug () {
-      this.updateCollectionMetaData({ slug: this.collectionSlug })
+      this.fetchCollection({ slug: this.collectionSlug })
     },
 
     seriesSlug () {
-      this.updateSeriesNavbar({ slug: this.seriesSlug })
+      this.fetchCollection({ slug: this.seriesSlug })
     }
   },
 
   created () {
-    this.updateCollectionMetaData({ slug: this.collectionSlug })
-    this.updateSeriesNavbar({ slug: this.seriesSlug })
+    this.fetchCollection({ slug: this.collectionSlug })
+    this.fetchCollection({ slug: this.seriesSlug })
     this.updateSeriesTree({ slug: this.collectionSlug })
   }
 }

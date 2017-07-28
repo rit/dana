@@ -40,9 +40,11 @@ const routes = [
       },
       {
         path: 'objects/:objectSlug',
-        props: true,
+        props: { full: true},
         name: 'ObjectHome',
-        component: ObjectHome
+        components: {
+          full: ObjectHome
+        }
       },
       {
         path: 'series/:seriesSlug',
