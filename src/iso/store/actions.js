@@ -2,18 +2,6 @@ const axios = require('axios')
 const mapper = require('iso/mapper')
 
 
-function updateSeriesNavbar ({ commit, state }, { slug }) {
-  if (!slug) return
-
-  var url = `/api/v1/collections/${slug}`
-  axios.get(url)
-    .then((resp) => {
-      var seriesNavbar = mapper.collectionHeading(resp.data)
-      commit('seriesNavbar', { seriesNavbar })
-    })
-    .catch((err) => console.warn(err))
-}
-
 function updateSeriesTree ({ commit, state }, { slug }) {
   var url = `/api/v1/navtree/${slug}`
   axios.get(url)
@@ -70,6 +58,5 @@ module.exports = {
   fetchCollection,
   updateCollectionSlideOut,
   updateCollectionContent,
-  updateSeriesNavbar,
   updateSeriesTree
 }

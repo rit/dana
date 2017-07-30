@@ -5,7 +5,7 @@
       </collection-heading>
 
       <series-navbar v-show="onlyForSubseries"
-        :heading="seriesNavbar"
+        :heading="seriesHeading"
         slot="series-navbar">
       </series-navbar>
 
@@ -37,7 +37,6 @@ export default {
   computed: {
     ...mapState([
       'seriesTree',
-      'seriesNavbar'
     ]),
 
     ...mapGetters(['collectionBySlug']),
@@ -48,6 +47,10 @@ export default {
 
     collectionHeading () {
       return mapper.collectionHeading(this.rootCollection)
+    },
+
+    seriesHeading () {
+      return mapper.collectionHeading(this.collectionBySlug(this.seriesSlug))
     },
 
     onlyForSubseries () {
@@ -66,7 +69,6 @@ export default {
   methods: {
     ...mapActions([
       'fetchCollection',
-      'updateSeriesNavbar',
       'updateSeriesTree'
     ]),
 
@@ -80,13 +82,13 @@ export default {
     },
 
     seriesSlug () {
-      this.updateSeriesNavbar({ slug: this.seriesSlug })
+      this.fetchCollection({ slug: this.seriesSlug })
     }
   },
 
   created () {
     this.fetchCollection({ slug: this.collectionSlug })
-    this.updateSeriesNavbar({ slug: this.seriesSlug })
+    this.fetchCollection({ slug: this.seriesSlug })
     this.updateSeriesTree({ slug: this.collectionSlug })
   }
 }
