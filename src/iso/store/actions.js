@@ -1,15 +1,6 @@
 const axios = require('axios')
 const mapper = require('iso/mapper')
 
-function updateCollectionMetaData ({ commit, state }, { slug }) {
-  var url = `/api/v1/collections/${slug}`
-  axios.get(url)
-    .then((resp) => {
-      var collectionHeading = mapper.collectionHeading(resp.data)
-      commit('collectionHeading', { collectionHeading })
-    })
-    .catch((err) => console.warn(err))
-}
 
 function updateSeriesNavbar ({ commit, state }, { slug }) {
   if (!slug) return
@@ -78,7 +69,6 @@ module.exports = {
   fetchObjectLocation,
   fetchCollection,
   updateCollectionSlideOut,
-  updateCollectionMetaData,
   updateCollectionContent,
   updateSeriesNavbar,
   updateSeriesTree
