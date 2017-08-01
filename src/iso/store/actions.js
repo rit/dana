@@ -12,11 +12,7 @@ function updateSeriesTree ({ commit, state }, { slug }) {
     .catch((err) => console.warn(err))
 }
 
-function updateCollectionContent ({ commit, state }, { slug, resolve }) {
-  // Clear the collection content
-  // var collectionContent = {}
-  // commit('collectionContent', { collectionContent })
-
+function fetchSubcollections ({ commit, state }, { slug, resolve }) {
   var url = `/api/v1/collectiontree/${slug}`
   axios.get(url)
     .then((resp) => {
@@ -58,7 +54,7 @@ function fetchObjectLocation ({ commit, state}, { slug }) {
 module.exports = {
   fetchObjectLocation,
   fetchCollection,
+  fetchSubcollections,
   updateCollectionSlideOut,
-  updateCollectionContent,
   updateSeriesTree
 }

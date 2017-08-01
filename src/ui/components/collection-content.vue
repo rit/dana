@@ -75,7 +75,7 @@ export default {
   },
 
   methods: {
-    ...mapActions(['updateCollectionContent']),
+    ...mapActions(['fetchSubcollections']),
 
     loadData (node, resolve) {
       var slug = this.contentSlug
@@ -86,7 +86,7 @@ export default {
         this.rootTree = node
         this.rootResolver = resolve
       }
-      this.updateCollectionContent({ slug, resolve })
+      this.fetchSubcollections({ slug, resolve })
     },
 
     navigateToObjectDetails (data, node, tree) {
@@ -114,13 +114,13 @@ export default {
       // NOTE el-tree's resolve will append new data.
       // So we have to clear the old data first.
       this.rootTree.setData([])
-      this.updateCollectionContent({ slug, resolve: this.rootResolver })
+      this.fetchSubcollections({ slug, resolve: this.rootResolver })
 
     }
   },
 
   created () {
-    this.updateCollectionContent({ slug: this.contentSlug })
+    this.fetchSubcollections({ slug: this.contentSlug })
   }
 }
 </script>
