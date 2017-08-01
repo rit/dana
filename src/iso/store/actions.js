@@ -30,6 +30,8 @@ function updateCollectionContent ({ commit, state }, { slug, resolve }) {
 }
 
 function fetchCollection ({ commit, state }, { slug }) {
+  if (!slug) return
+
   var url = `/api/v1/collections/${slug}`
   axios.get(url)
     .then((resp) => {
