@@ -1,10 +1,6 @@
 var Vue = require('vue/dist/vue.common')
 
 const mutations = {
-  seriesNavbar (state, { seriesNavbar }) {
-    state.seriesNavbar = seriesNavbar
-  },
-
   collectionSlideOut (state, { collection }) {
     state.collectionSlideOut = collection
   },
@@ -29,7 +25,6 @@ const mutations = {
 
 const state = {
   collectionSlideOut: {},
-  seriesNavbar: {},
   seriesTree: [],
 
   collections: {},
