@@ -7,24 +7,23 @@
       </collection-heading>
     </transition>
 
-      <div v-if="children">
-        <h3>Collections ({{ children.length }})</h3>
-      </div>
+    <div v-if="children">
+      <h3>Collections ({{ children.length }})</h3>
+    </div>
 
-      <section>
-        <el-tree class="el-tree--dana-content dana"
-          lazy
-          node-key="slug"
-          empty-text="Loading..."
-          @node-click="navigateToObjectDetails"
-          :load="loadData"
-          :props="defaultProps"
-          :render-content="renderItem"
-          :indent="36">
-        </el-tree>
-      </section>
+    <section>
+      <el-tree class="el-tree--dana-content dana"
+        lazy
+        node-key="slug"
+        empty-text="Loading..."
+        @node-click="navigateToObjectDetails"
+        :load="loadData"
+        :props="defaultProps"
+        :render-content="renderItem"
+        :indent="36">
+      </el-tree>
+    </section>
 
-    <!--<router-view ></router-view>-->
   </div>
 </template>
 
