@@ -8,8 +8,7 @@
             {{ loc.doc.label }}
         </div>
         <p v-if="loc.doc.description">
-          {{ loc.doc.description | ellipsis }}...
-          <a href="">Read more</a>
+          <a href="">More info</a>
         </p>
       </div>
     </div>
