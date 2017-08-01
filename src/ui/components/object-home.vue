@@ -3,12 +3,14 @@
     <h2>Full Record Details</h2>
 
     <h3>{{ label }}</h3>
-    <dl>
-      <template v-for="line in metadata">
-        <dt> {{ line.label }} </dt>
-        <dd> {{ line.value }} </dd>
-      </template>
-    </dl>
+    <ul class="metadata">
+      <li v-for="line in metadata">
+        <div class="label">
+          <span> {{ line.label }} </span>
+        </div>
+        <div class="value"> {{ line.value }} </div>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -63,13 +65,31 @@ h2 {
   border-top: 2px solid #3498db;
 }
 
-dt {
-  border-bottom: 1px solid silver;
-  font-size: 1.2em;
+ul {
+  padding: 0;
 }
 
-dd {
-  margin-bottom: 1.5em;
-  margin-left: 0;
+li {
+  border-bottom: 1px solid silver;
+  list-style: none;
+  font-size: 1.2em;
+  padding: 1.5em 0;
+  display: flex;
 }
+
+.label {
+  width: 20em;
+  font-weight: bold;
+}
+
+.label span:after {
+  content: ":";
+  margin-left: -0.2em;
+}
+
+
+.value {
+  width: 100%;
+}
+
 </style>

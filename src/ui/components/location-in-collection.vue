@@ -79,7 +79,7 @@ h3 {
   display: flex;
   flex-direction: column;
   border-bottom: 2px solid silver;
-  min-height: 4em;
+  min-height: 2em;
   padding: 1em;
 }
 
