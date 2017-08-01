@@ -1,9 +1,14 @@
 <template>
   <div id="object-home">
     <h2>Full Record Details</h2>
-
-    <h3>{{ label }}</h3>
     <ul class="metadata">
+      <li>
+        <div class="label">
+          <span> Title </span>
+        </div>
+        <div class="value"> {{ label }} </div>
+      </li>
+
       <li v-for="line in metadata">
         <div class="label">
           <span> {{ line.label }} </span>
