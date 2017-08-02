@@ -13,7 +13,10 @@
         <div class="label">
           <span> {{ line.label }} </span>
         </div>
-        <div class="value"> {{ line.value }} </div>
+        <metadata
+          :render-fn="line.label.trim()"
+          :value="line.value"
+        />
       </li>
     </ul>
   </div>
@@ -23,9 +26,66 @@
 
 import { mapActions, mapState, mapGetters } from 'vuex'
 
+const Metadata = {
+  props: ['renderFn', 'value'],
+
+  methods: {
+
+    renderText (h, value) {
+      return (
+        <div class="value">
+          { value }
+        </div>
+      )
+    },
+
+    ["renderList"] (h, value) {
+      return (
+        <ul class="value metadata-list">
+          { value.map((item) => {
+              return (
+                <li>
+                  { item }
+                </li>
+              )
+            })
+          }
+        </ul>
+      )
+    },
+
+    ["Form/Genre"] (h, value) {
+      return this.renderList(h, value)
+    },
+
+    ["Subject"] (h, value) {
+      return this.renderList(h, value)
+    },
+
+    ['ID/Acc. No.'] (h, value) {
+      return this.renderText(h, value[0])
+    }
+
+  },
+
+  render(h) {
+    var fn = this[this.renderFn]
+    if (fn) {
+      return fn(h, this.value)
+    }
+
+    return this.renderText(h, this.value)
+  }
+}
+
+
 export default {
 
   props: ['objectSlug'],
+
+  components: {
+    'metadata': Metadata
+  },
 
   computed: {
     ...mapGetters(['collectionBySlug']),
@@ -95,6 +155,14 @@ li {
 
 .value {
   width: 100%;
+}
+
+</style>
+
+<style>
+
+.metadata-list li {
+  list-style: none
 }
 
 </style>
