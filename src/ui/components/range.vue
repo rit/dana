@@ -4,6 +4,7 @@
       <div class="label">
         {{ label }}
       </div>
+
     </div>
   </section>
 </template>
