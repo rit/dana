@@ -1,6 +1,7 @@
 {
   "presets": [
-    ["env", { "modules": false }],
+    // NOTE: when modules is set to false, module.exports is not working
+    ["env", { "modules": "commonjs" }],
     "stage-2"
   ],
   "plugins": [
