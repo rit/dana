@@ -1,8 +1,8 @@
 class Range {
-  constructor ({ db, label, subranges, canvases }) {
+  constructor ({ rangeDb, label, subranges, canvases }) {
     this.label = label
 
-    if (subranges) this.subranges = subranges.map(id => mkRange(db, id))
+    if (subranges) this.subranges = subranges.map(id => mkRange({ rangeDb, id }))
 
     this.__class__ = this.constructor.name
   }
@@ -27,21 +27,21 @@ function lookupDb (records, key) {
   }, {})
 }
 
-function mkRange(db, id) {
-  let record = db[id]
+function mkRange({ rangeDb, id }) {
+  let record = rangeDb[id]
   return new Range({
-    db,
+    rangeDb,
     label: record['label'],
     subranges: record['ranges']
   })
 }
 
 function parse(manifest) {
-  var db = lookupDb(manifest.structures, '@id')
+  var rangeDb = lookupDb(manifest.structures, '@id')
   var canvasDb = lookupDb(manifest.sequences[0].canvases)
 
   let first = manifest.structures[0]
-  let root = mkRange(db, first['@id'])
+  let root = mkRange({ rangeDb, id: first['@id'] })
   return root
 }
 
