@@ -21,9 +21,10 @@ class Range {
 
 
 class Canvas {
-  constructor ({ label, thumbnail }) {
+  constructor ({ label, thumbnail, images }) {
     this.label = label
     this.thumbnail = thumbnail
+    this.images = images
 
     this.__class__ = this.constructor.name
   }

@@ -3,12 +3,6 @@
     <template v-for="range in ranges">
       <range :range="range" />
     </template>
-    <template v-for="range in ranges">
-      <range :range="range" />
-    </template>
-    <template v-for="range in ranges">
-      <range :range="range" />
-    </template>
   </div>
 </template>
 
@@ -30,6 +24,11 @@ export default {
   padding: 2em;
   display: flex;
   flex-wrap: wrap;
+}
+
+.subrange-content {
+  background-color: white;
+  flex-basis: 100%;
 }
 
 </style>
