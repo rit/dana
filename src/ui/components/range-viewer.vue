@@ -3,6 +3,12 @@
     <template v-for="range in ranges">
       <range :range="range" />
     </template>
+    <template v-for="range in ranges">
+      <range :range="range" />
+    </template>
+    <template v-for="range in ranges">
+      <range :range="range" />
+    </template>
   </div>
 </template>
 
@@ -18,8 +24,12 @@ export default {
 </script>
 
 <style scoped>
+
 .ranges {
   background-color: #ecf0f1;
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 </style>

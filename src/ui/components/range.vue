@@ -1,6 +1,10 @@
 <template>
   <section class="range">
-    {{ label }}
+    <div class="wrapper">
+      <div class="label">
+        {{ label }}
+      </div>
+    </div>
   </section>
 </template>
 
@@ -21,3 +25,18 @@ export default {
 }
 
 </script>
+
+<style scoped>
+.range {
+  flex-basis: 25%;
+}
+
+.wrapper {
+  border-bottom: 1px solid gray;
+  margin: 0 2em ;
+}
+
+.label {
+  padding: 1em;
+}
+</style>
