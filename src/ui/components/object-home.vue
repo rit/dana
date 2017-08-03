@@ -1,9 +1,9 @@
 <template>
   <div id="object-home">
-    <h2>Navigate {{ label }}</h2>
-    <range-viewer
-       :manifest="collection"
+    <manifest-viewer
+      :manifest="collection"
     />
+
     <h2>Full Record Details</h2>
     <ul class="metadata">
       <li>
@@ -37,7 +37,7 @@ export default {
 
   components: {
     'metadata-item': require('./metadata-item.vue'),
-    'range-viewer': require('./range.vue')
+    'manifest-viewer': require('./manifest-viewer.vue'),
   },
 
   computed: {

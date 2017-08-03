@@ -1,35 +1,42 @@
 <template>
-  <div>
-    <div>
-      <ul>
-        <li v-for="range in subranges">
-          {{ range.label }}
-        </li>
-      </ul>
+  <section class="range">
+    <div class="wrapper">
+      <div class="label">
+        {{ label }}
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
 
-import { parse } from 'iso/ranger'
-
 export default {
-  props: ['manifest'],
+  props: ['range'],
 
   computed: {
     label () {
-      return this.manifest.label
-    },
-
-    subranges () {
-      if (this.manifest.structures) {
-        return parse(this.manifest).subranges
-      }
+      return this.range.label
     }
+
   },
 
   methods: {
   }
 }
+
 </script>
+
+<style scoped>
+.range {
+  flex-basis: 25%;
+}
+
+.wrapper {
+  border-bottom: 1px solid gray;
+  margin: 0 2em ;
+}
+
+.label {
+  padding: 1em;
+}
+</style>
