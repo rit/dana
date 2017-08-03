@@ -1,3 +1,5 @@
+'use strict'
+
 class Range {
   constructor ({ rangeDb, canvasDb, label, subranges, canvases }) {
     this.label = label
@@ -30,7 +32,7 @@ class Canvas {
 
 function lookupDb (records, key) {
   return records.reduce((acc, rec) => {
-    id = rec[key]
+    let id = rec[key]
     acc[id] = rec
     return acc
   }, {})
