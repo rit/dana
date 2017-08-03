@@ -1,5 +1,9 @@
 <template>
   <div id="object-home">
+    <h2>Navigate {{ label }}</h2>
+    <range-viewer
+       :manifest="collection"
+    />
     <h2>Full Record Details</h2>
     <ul class="metadata">
       <li>
@@ -24,6 +28,7 @@
 
 <script>
 
+import ranger from 'iso/ranger'
 import { mapActions, mapState, mapGetters } from 'vuex'
 
 export default {
@@ -31,7 +36,8 @@ export default {
   props: ['objectSlug'],
 
   components: {
-    'metadata-item': require('./metadata-item.vue')
+    'metadata-item': require('./metadata-item.vue'),
+    'range-viewer': require('./range.vue')
   },
 
   computed: {
@@ -47,7 +53,8 @@ export default {
 
     metadata () {
       return this.collection.metadata
-    }
+    },
+
 
   },
 
