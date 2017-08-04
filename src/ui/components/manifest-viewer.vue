@@ -1,9 +1,28 @@
 <template>
   <section>
     <h2>Navigate {{ label }}</h2>
-    <range-viewer
-       :ranges="ranges"
-    />
+
+    <el-tabs>
+      <template v-for="range in ranges">
+        <el-tab-pane :label="range.label">
+          <section>
+            <div class="subranges">
+              <div class="subrange" v-for="sub in range.subranges">
+                <h3>
+                  {{ sub.label }}
+                </h3>
+                <thumbnail-viewer :canvases="sub.canvases"></thumbnail-viewer>
+              </div>
+            </div>
+            {{ range.canvases }}
+          </section>
+        </el-tab-pane>
+      </template>
+    </el-tabs>
+
+    <!--<range-viewer-->
+    <!--   :ranges="ranges"-->
+    <!--/>-->
   </section>
 </template>
 
@@ -15,7 +34,8 @@ export default {
   props: ['manifest'],
 
   components: {
-    'range-viewer': require('./range-viewer.vue')
+    'range-viewer': require('./range-viewer.vue'),
+    'thumbnail-viewer': require('./thumbnail-viewer.vue')
   },
 
   computed: {
@@ -41,5 +61,13 @@ h2 {
   border-top: 2px solid #3498db;
   background-color: white;
 }
+
+</style>
+
+<style>
+.el-tabs__item {
+  font-size: 1.2em;
+}
+
 
 </style>
