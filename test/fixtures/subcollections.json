@@ -1,0 +1,540 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json", 
+  "@id": "http://data.getty.edu/iiif/research/archives/2011m30/collection.json", 
+  "@type": "sc:Collection", 
+  "children": [
+    {
+      "description": "\nThis series documents Harald Szeemann's curatorial process from conception to installation. In addition to his own known exhibitions, there are also records from unrealized exhibitions, exhibitions Szeemann co-curated, was consulted on, or to which he contributed writings for the catalog. Projects or exhibitions from which he resigned are also included, such as documenta 7 and documenta 8. There are materials related to other projects such as films, books and other publications, interviews given, seminars, lectures, surveys taken, and awards for which he was a jurist. Near the beginning of the series are Szeemann's illustrated notebooks from high school, papers from college, his dissertation, and documents of his early theatrical career, which Szeemann designates as projects by filing here.\n\nMaterials in the series include detailed notes, installation sketches, correspondence, building plans, exhibition announcements and checklists, loan agreements, brochures, catalogs, wall texts, research material, and documents related to the production of didactic material, framing, and shipping. Any photographic material housed with the papers of this series have been retained in this series although the majority of photographic materials from the collection were separated out by Szeemann and are located in Series IV. Photographs. Folders, envelopes or other containers found with only photographic material have been transferred to Series IV. Photographs. Groups of records regarding Szeemann\u2019s long-term participation on committees or boards have been moved to Series V. Professional activities. Szeemann also kept complete copies of books and periodicals with his project files. These have been moved to the General Collections and can be found by searching the Library Catalog for the \"Harald Szeemann Collection.\" Additional copies of catalogs for his exhibitions have been retained with the archival papers. \n\nSzeemann corresponded over a long period of time via exchange of mail art with Johan van Geluwe, director of the (fictional) Museum of Museums.  Folders that include mail art are noted when it is not apparent in the title.\n \nThe majority of exhibition titles are listed by the English translation found in Tobia Bezzola and Roman Kurzmeyer (ed.), Harald Szeemann with by through towards despite, Catalogue of all Exhibitions 1957-2005 (Z\u00fcrich: Edition Voldemeer; Wien; New York: Springer, 2007), followed by the original title in parentheses and the date of exhibition.  This book was written in collaboration with Szeemann, and it is assumed he had input into the correct way to express the titles in English. Projects and exhibition titles not listed in the book were not translated into English. See also this chronology of Szeemann's projects.\n \nTitles for folder contents are direct translations when the folder had a title given by Szeemann. When a label could not be read or translated, it was retained in the archive with the records. If a folder was not titled by Szeemann, the archivist has provided a title that is descriptive of the contents. Records found loose, not in a folder or envelope, between folders or at the front or back of a carton of folders are designated as \"loose\" in brackets. Szeemann frequently titled folders \"Diverse\" and \"Reliquien.\" These titles have been translated as \"Assorted\" and \"Souvenirs\" respectively. The difference between them is slight, as both contain an assortment of items. \"Assorted\" files primarily include press clippings or correspondence. It was difficult to interpret what Szeemann meant by reliquien. The contents could be mementos, souvenirs or other ephemera from exhibitions, projects, or entire years. \"Souvenirs\" can include event tickets, passes and brochures, notes, doodles and sketches and some appointment books. Szeemann also housed some of his appointment books on his bookshelves and these are integrated into the series.", 
+      "label": "Project files, Series I.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "1836-2007, bulk 1949-2005"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": [
+            "The arrangement reflects Szeemann's original organization of his project files. The series is arranged chronologically by the opening date of an exhibition. The dates of the material may not be the same as the date of a project, and Szeemann frequently worked on projects for years in advance of their opening. This is especially important to note for all of his documenta and Venice Biennale records. Exhibitions that toured are arranged according to the opening date of the first installation. Unrealized exhibitions are placed in the year most prevalent in the records. ", 
+            "Szeemann kept his files in plastic cartons and three-ring binders. The groupings of folders from the cartons have been arranged as closely to chronological as possible. The sections of \"Assorted\" files have been arranged at the end of each year. \"Unfiled\" refers to papers not originally grouped with the Project files, but identified as pertaining to exhibitions and other projects by specialists and the archivist. These are at the very end of each project or \"Assorted\" section. ", 
+            "When Szeemann worked on more than one project simultaneously, the resulting files are interspersed. As a result, files pertaining to the same project may be separated by files on a different project. For example, a group of folders from documenta 8 are housed with a group of folders from Tendency towards the Gesamtkunstwerk.  The earlier exhibition files are frequently interspersed with other assorted project files. As the exhibitions began generating more extensive records, sections of \"Assorted\" become more distinct, and Szeemann grouped them together by year."
+          ]
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "555.54 Linear Feet", 
+            "(1012 boxes, 149 flatfiles, 6 crates)"
+          ]
+        }
+      ], 
+      "slug": "2011m30_ref5903_vld", 
+      "type": "sc:Collection"
+    }, 
+    {
+      "description": "Series II contains artist files on more than 20,000 artists. In addition to fine arts artists, Harald Szeemann created artist files for architects, composers, musicians, film directors, authors and philosphers. There is also some overlap with the files in Series III when a person had more than one profession. For example, Dieter Bogner is mainly a curator and museum planner, but is also listed as an author and was found among the artist files. Without knowing if this was misfiling or intentional, these files have been left as found. All correspondence from Szeemann to his wife Ingeborg L\u00fcscher found in the unfiled materials has been put into her artist file regardless of content. Because of L\u00fcscher\u2019s profession, a large number of exhibition announcements and some correspondence in this collection were addressed to her instead of to Szeemann, or to both of them. The contents of the artist files vary widely from artist to artist, but may include artist statements; artist proposals; biographies; correspondence; exhibition announcements; news clippings; notes; photographs of works of art, exhibitions of the artist; posters; resumes; and original works of art. Szeemann made a folder for every artist, even if it was just one exhibition announcement. Many of the artist files contain only a few items. When present, artist correspondence, works of art and other significant items are noted, as are any records relating to exhibitions curated by Szeemann. Any photographic material housed with the papers of this series have been retained in this series although the majority of photographic materials from the collection were separated out by Szeemann and are located in Series IV. Photographs. Szeemann also kept complete copies of books and periodicals with his artist files. These have been moved to the General Collections and can be found by searching the Library Catalog for the \"Harald Szeemann Collection.\" The artist files organized by Szeemann were originally housed in large envelopes inside boxes in the Groundwork, Monograph, and Work in Progress rooms of the Fabbrica. One small box was titled \u201cAnonym.\" These have been kept together at the end under Anonymous to preserve the original order, but the materials are identified when possible. Additional files for artists Szeemann worked with extensively or was interested in were found in the Knights, Monograph, and Work in Progress rooms and identified as Artist files by the curator. These include artists such as Joseph Beuys, Christian Boltanski, Johann Michael Bossard, Marcel Broodthaers, James Lee Byars, Francesco Clemente, Fran\u00e7ois Clavel, Marcel Duchamp, J\u00f6rg Immendorf, Alfred Jarry, Sigmar Polke, Mario Merz, Paul Thek and Adolf Wolfli. Artist files found outside of the boxes organized by Szeemann are designated as [loose] or [unfiled.] Loose means the envelope was sitting out on a desk or that materials were found in what looked like intentional stacks of papers about that artist on shelves, desk tops or the floor or near the boxes of artist files. The majority of Byars material was found this way. Some of the materials were found in hanging folders similar to the project files original housing. These materials frequently related to exhibitions by Szeemann that the artist was in and were perhaps moved out of the project files by Szeemann during his rearrangement of the archive. Unfiled contains materials found in boxes titled \u201cNew mail,\u201d \u201cSingle artists,\u201d or were in stacks of unrelated papers on desk tops or the floor. These materials have been sorted and designated by the archivist. Mail addressed to Szeemann continued arriving after his death, and some of this mail was received as part of the archive and is found in the [unfiled] folders. Some large envelopes with artists\u2019 names were found empty and are indicated as such. Unpublished materials such as exhibition proposals or gallery press packets were removed from the library collection and integrated into the artist files. These items are indicated as such on the folders. Due to its size, the Artist files in Series II. are described in a separate finding aid. Click here to view the finding aid for Series II. ", 
+      "label": "Artist files Series II.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "1888-2009, bulk 1969-2005"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": "Arranged alphabetically by last name."
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "642.92 Linear Feet", 
+            "(1217 boxes, 235 flatfiles)"
+          ]
+        }
+      ], 
+      "slug": "2011m30_ref237693_e02", 
+      "type": "sc:Collection"
+    }, 
+    {
+      "description": "This series includes correspondence, press clippings, press releases, and gallery and museum ephemera regarding curators and other museum professionals. Szeemann also collected material pertaining to art institutions, associations, magazines, companies, awards, publishing houses and fairs, as well as architects, gallerists, art critics, art historians, choreographers, collectors, photographers and other figures. Material related to catalog contributors and other collaborators to his exhibitions can also be found, as well as correspondence and curricula vitae of various persons looking for employment. Series III.A includes the material originally organized by Szeemann for his files regarding curators and museum figures. Series III.B and III.C include other materials, mostly found in stacks of unrelated papers throughout the Fabbrica on shelves, desktops, and on the floor, that have been identified by the archivist as similar in content to Szeemann\u2019s curator files. Any record pertaining to exhibitions curated by Szeemann has been noted. Any photographic materials housed with the papers of this series have been retained in place. Szeemann also kept complete copies of books and periodicals with his curator files. These have been moved to the library's General Collections and can be found by searching the Library Catalog for the \"Harald Szeemann Collection.\" Unpublished materials such as gallery press packets were removed from the library collection and integrated into the curator files. These items are indicated as such on the folders.", 
+      "label": "Curator and museum professional files, Series III.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "1903, 1942, 1955-2007"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": "This series is arranged in three subseries: Series III.A. Curator files, 1903, 1942, 1955-2007; Series III.B. Correspondence binders, 1973-1998; Series III.C. Unfiled materials, 1958-2007."
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "52.79 Linear Feet", 
+            "(114 boxes, 1 flatfile)"
+          ]
+        }
+      ], 
+      "slug": "2011m30_ref234485_6io", 
+      "type": "sc:Collection"
+    }, 
+    {
+      "description": "The series contains more than 40,500 photographic prints, negatives, slides, and tansparencies. Included is extensive documentation of many of Szeemann's exhibitions, publications and other projects; photographs of artists with whom he worked and their individual artworks and performances; a collection of portraits of the Monte Verit\u00e0 intellectual circle by photographer Margarethe Fellerer; Szeemann's slide library, including the slideshows he compiled for lectures and other engagements; collections of photographs reflecting Szeemann's interdisciplinary subject interests with a focus on cultural sites and geographic locations; portraits and snapshots of Szeemann and his family. Any manuscripts, typescripts or correspondence associated with the photographs were kept in this series. Series I. Project files and Series II. Artist files also contain photographic materials that were not separated out by Szeemann. Late in Szeemann's career he acquired the rights to Balthazar Burkhard's photographic archive. Szeemann filed the Burkhard photographs in folders ajacent to his other photographs of the same subject. Photographs from the Burkhard archive are noted in thecontainer list. Szeemann also frequently worked with the following photographers: Harry Shunk, Wim Beeren, Leonardo Bezzola, Pieter Boersma, Walter Drayer, Verena Eggmann, Gaechter & Clahsen, Brigitte Hellgroth, Andrea Merola, Margaret Nissen, Didi Sattmann, Niklaus Stauss, Erhard Wehrmann. Among the projects with particularly extensive photographic documentaion are: Live in Your Head: When Attitudes Become Form, Happening amp; Fluxus, Documenta 5, The Bachelor Machines, Monte Verit\u00e0, Tendency towards the Gesamtkunstwerk,Zeitlos, Visionary Switzerland, Swiss Pavilion, Joseph Beuys, 100 Years of Cinema, and Austria in a net of roses. The following artists are also well represented in the series: Joseph Beuys, James Lee Byars, Michael Heizer, Edward Kienholz, Piotr Kowalski, Wolfgang Laib, Mario Merz, Otto Muehl, Hermann Nitsch, Claes Oldenburg, Sigmar Polke, Royden Rabinowitch, Markus Raetz, Armand Schulthess, Richard Serra, Kieth Sonnier, Niele Toroni, Cy Twombly and Ben Vautier. Materials include black-and-white photographs, negatives, contact prints, color photographs, color slides, color transparencies, color negatives and photographic postcards. Also included are some album pages with more than one photograph per page. Original folder labels and photographic labels are often included but are not counted or cataloged. The item counts indicate the number of photographic items only, unless otherwise specified.", 
+      "label": "Photographs, Series IV.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "1800, 1836-2011, bulk 1957-2005"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": "This series is arranged in six subseries: Series IV.A. Projects, 1895-2007; Series IV.B.              Artists, 1892-2007; Series IV.C. Margarethe Fellerer photographs of Monte Verit\u00e0, 1904-1979; Series IV.D. Topical, 1900-2004; Series IV.E. Slide carousels, undated; Series IV.F. Personal, 1912-2004."
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "101.9 Linear Feet", 
+            "(255 boxes and 3 flatfiles)"
+          ]
+        }, 
+        {
+          "label": "Access/Rights", 
+          "value": "Boxes 81, 214, 224, 2409, and 2418 are sealed pending further review. Boxes 82 and 215 require special handling; contact the repository regarding access. Boxes 230-267 are restricted because they contain nitrate negatives."
+        }
+      ], 
+      "slug": "2011m30_ref13_0pf", 
+      "type": "sc:Collection"
+    }, 
+    {
+      "description": "Series V comprises Szeemann's audiovisual collection, which features over 2240 items including short films, videos, radio and television interviews and reports, music, photographic and textual files, and museum and gallery ephemera. Materials consist primarily of VHS and other formats of videotape, audio discs in the form of CDs and vinyl records, videodiscs (DVDs), audiocassettes, and computer discs in the form of CD-ROMs, CD-Rs, and floppy disks; the collection also includes 16mm and 8mm films, audiotape reels, and video compact discs (VCDs). Series V.A contains materials originally housed in Series I. Project files, and those whose titles or other means of identification link the item to a particular exhibition or project. Series V.B contains materials originally housed with the artist files in Series II as well as items created by artists not already listed in that series. In the latter case, the name of the director, conductor, or other entity identified as the work's main creator, where available, has been used to file the item. Also of interest are some of the items' original containers, many of which contain text or artwork pertaining to the item, and some of which are artworks in themselves; examples include those of Eva and Adele, Friederike Pezold, Anna Jermolaewa; and Jean Roualdes. While many of the sticky notes found attached to items contain brief notes regarding computer compatibility or whether contents have been printed, others feature pithy or even extensive annotations that provide a glimpse into the curatorial process; some examples are notes that accompany the work of Hermann J. Kassell, Ene-Liis Semper, Ann-Sofi-Sid\u00e9n, and Peter Land. Series V.C contains audiovisual items originally housed in Series III. Curator and museum professional files. Series V.D contains audiovisual items originally housed in Series VI. Topical files as well as materials deemed by the archivist to be related to particular topics. Series V.E contains audiovisual items originally housed in Series VII. Gallery and museum ephemera and unfiled items from galleries and museums. Series V.F contains items that appear to be of a personal nature. Series V.G contains unidentified items, including audiocassettes, audio and videodiscs, audiotape reels, and films and film scraps with either no information or with information inadequate for classification.", 
+      "label": "Audiovisual files, Series V.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "1926-2005, undated, bulk 1983-2005"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": [
+            "The series is arranged into seven subseries, which mirror the arrangement of the Harald Szeemann papers:", 
+            "Series V.A. Projects files, 1969-2005, bulk 1983-2005, undated; Series V.B. Artists files, 1926, 1950-1956, 1965-2005, undated; Series V.C. Curator and museum professional files, 1989-2005, undated; Series V.D. Topical files, 1956, 1960, 1965-1972, 1984-2004, undated; Series V.E. Gallery and museum ephemera, 1995-2005, undated; Series V.F. Personal files, 1996-2005, undated; and Series V.G. Unidentified, undated.", 
+            "Because most of the material in this series was unfiled and not organized by Szeemann, the archivist has arranged the audiovisual files into the subseries as appropriate. Materials that were removed from files in Series I. Project files; Series II. Artist files; Series III. Curator and museum professional files; Series VI. Topical files; and Series VII. Gallery and museum ephemera have been arranged within their respective subseries in this series, and original locations have been noted."
+          ]
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "87.4 Linear Feet", 
+            "(152 boxes, 24 film reels)"
+          ]
+        }
+      ], 
+      "slug": "2011m30_ref240273_o72", 
+      "type": "sc:Collection"
+    }, 
+    {
+      "description": "Series VI documents Szeemann's research interests in wide range subject areas including fine and graphic arts; art collectors and publishing houses; dance and choreography; film, video, and broadcast media; literature and philosophy; music; theater; countries, regions, and cities in Europe and around the globe; people; politics, environment and society; and assorted topics he collected under the rubric Temi (themes). The topical files also include research materials supporting specific projects (see Unfiled: Assorted research materials, box 3500); clippings, and papers concerning professional associations with which Szeemann was involved. Materials include clippings from newspapers, magazines, and press bureaus; catalogs; correspondence in the form of letters and postcards; pamphlets; publications including books, journals, and newsletters; photographic materials; postcards; drawings; choreographic sketches; ephemera in the form of announcements, brochures, fliers, and invitations; posters; theater and film programs; calendars; city guidebooks; handwritten notes, including on index cards (see the Arts and Letters subseries, Assorted research materials, box 3159); maps; and photocopies of books and other material. Also included are items such as wine labels (see the Themes subseries, box 3483), a set of matchbooks (see Themes, box 3402), and a Batman hand puppet (see Themes, box 3485). Any photographic material housed with the papers of this series have been retained in place although the majority of photographic materials were separated out by Szeemann and are located in Series IV. Photographs. Especially well represented in this series are materials concerning fine arts and art history; film, including film festivals; Switzerland and the Ticino region; anarchism and socialism; and themes including advertising. The topical files also include a postcard collection consisting of approximately 6000 items (see Arts and Letters: Postcards) and a wealth of historical documentation in the form of journals, books, and photocopied police files from the early 20th century (see especially the Places subseries, Switzerland: Ticino and the Politics, Environment, and Society subseries); these include late-19th- and early 20th-century ledgers and sentencing books (see boxes 3405-3409); artifacts such as a box of handwritten sayings and maxims from 1908 (see box 3380); and Nazi-era theater and film programs (see boxes 3308-3311).", 
+      "label": "Topical files, Series VI.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "1806-2005, bulk 1967-2005"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": [
+            "The series is arranged in seven subseries:\nSeries VI.A. Arts and letters, 1905-2005, bulk 1956-2005, undated;\nSeries VI.B. Clippings and assorted research materials, approximately 1969-2005, undated;\nSeries VI.C. People and organizations, 1967-2005, undated;\nSeries VI.D. Places, 1851-2004, undated;\nSeries VI.E. Politics, environment, and society, 1905-2004, undated;\nSeries VI.F. Professional associations, 1968-2005, undated;\nSeries VI.G. Themes, 1912-2004, undated;\nSeries VI.H. Unfiled materials, 1806, 1924-1929, 1948-1958, 1967-2004, undated.", 
+            "The arrangement of each subseries reflects Szeemann's original organization of topical material, much of which he and his assistants separated into categories, labeled, and filed in manila folders in alphabetical order. These categories include Sammlungen (art collections); Tanz (dance); Cinema; Letteratura (literature); Musik; Theater; Luoghi (places); Personaggi (people); Associazioni umanitarie e ambientaliste (humanitarian and environmental organizations); Schweiz (Switzerland); Ticino; and Temi (themes). In addition, Szeemann organized other material into boxes or folders, some of which was also labeled; examples are resources concerning topics such as Expressionismus (Expressionism), Konkrete Poesie (Concrete Poetry) and Design/Schmuck (design/jewelry).", 
+            "Where manila folders created by Szeemann were present, the archivist transcribed their titles, providing translations in brackets. In cases in which files were found arranged together but unlabeled, category titles were devised by the archivist upon review of their contents.", 
+            "The arrangement of the series as a whole is an alphabetical ordering of all of the subseries. Within subseries, manila folders arranged and titled by Szeemann in alphabetical order are found in the \"A to Z\" sections at the start of each subseries and section. Box titles indicate the titles of the first and last folders in each box; otherwise, individual folder titles are not listed. Though most folder titles are in German, some are in Italian or French. To maintain original order, folder titles have been listed under the form used by Szeemann; where names are not cognates, English translations have been added in brackets. Because Szeemann and his assistants were all filing materials, occasionally materials are filed under more than one form of a title, such as Ticino and Tessin; these have not been merged.", 
+            "Along with material organized by Szeemann, the Topical files contain a great deal of material found either loose among and obviously related to items in a subseries; unfiled; or unsorted. \"Unfiled\" is material found in stacks in the Fabbrica, and \"unsorted\" is that found completely unordered. These materials have been designated as part of the series by the archivist, and have been integrated to the extent possible within Szeemann's arrangement. Where such integration is not possible, unfiled materials have been arranged at the end of each subseries. The materials that do not clearly belong to a subseries make up Series VI.H. Unfiled materials."
+          ]
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "193.13 Linear Feet", 
+            "(405 boxes, 6 flatfiles, 1 telescope roll box)"
+          ]
+        }
+      ], 
+      "slug": "2011m30_ref239625_hhi", 
+      "type": "sc:Collection"
+    }, 
+    {
+      "description": "This series contains the ephemera Szeemann collected from hundreds of museums and galleries throughout the world. He also collected ephemera from international exhibitions, festivals, symposiums and workshops, public art, and other events. A number of items in this series are addressed to Ingeborg L\u00fcscher. Materials include brochures; booklets; exhibition and institution guides; catalogs; correspondence in the form of faxes, emails, postcards and letters; photographic materials; exhibition proposals; posters; price lists; ticket stubs; and city guidebooks; and, less frequently, items such as matches; pins; shopping bags; and coasters. Also included are items such as a t-shirt (see Galleries: Tokyo); 3-D glasses (see Museums: Bologna); a joke condom (see Museums: Tel-Aviv); and a work glove (see Museums: Sarajevo.) Any extensive correspondence with a museum or gallery or material from one of Szeemann's exhibitions is noted. There is some cross-over with the Artist files series for groups or companies of artists such as Atelier 5, and the Project files for exhibitions such as the Venice Biennale. It is possible the same copy of an item such as an exhibition postcard or brochure is represented in multiple folders. For example, a gallery brochure may be filed under a name in the artist files, under a city in the ephemera, and under a type of art in the topical files. Copies could also show up under multiple cities in the ephemera if an exhibition traveled. Box 2931 includes photographic material.", 
+      "label": "Gallery and museum ephemera, Series VII.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "1915, 1937, 1953-2007, undated"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": [
+            "This series is arranged in three subseries: Series VII.A. Galleries, 1953-2007, undated; Series VII.B. Museums, 1915, 1937, 1954, 1960-2007, undated; Series VII.C. General, 2004-2005.", 
+            "The arrangement reflects Szeemann's original organization of his ephemera. He separated the ephemera into the groupings of galleries and museums and then organized alphabetically mainly by city name, but also created folders that relate to an entire state, canton, province, or country. To maintain the original order, geographical names have been listed under the form used by Szeemann, and the English name has been added in brackets.  Items incorrectly labeled by Szeemann using the title of the institution, neighborhood, or street name have been moved to the correct city in the organizational scheme. Because Szeemann and his assistants were all filing the materials, at times more than one form of a name is used such as with Copenhagen/Kobenhavn, Cuba/Kuba, Gen\u00e8ve/Genf, Praha/Prague, and Den Haag/Hague. These have not been merged.", 
+            "Along with the general folders created by Szeemann, there are six categories created by the archivist as general folders: \"loose,\" \"unfiled,\" \"removed from library collection,\" \"to be filed,\" \"new mail,\" and \"unsorted.\" \"Loose\" denotes items found in the original boxes not in an original envelope and are obviously related to neighboring envelopes. \"Unfiled\" items are those were found in stacks around the Fabbrica and designated as part of this series by the archivist.   Unpublished materials, such as exhibition proposals or gallery press packets, were removed from the library collection and integrated into the ephemera series. \"To be filed\" and \"new mail\" are from two sections of ephemera Szeemann's office had sorted into museums or galleries and alphabetized. The archivist has sorted these further by city into general folders. \"Unsorted\" are completely unordered materials designated as ephemera by the curator while packing and transferring the collection. This section has also been sorted by the archivist into general folders."
+          ]
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "226.45 Linear Feet", 
+            "(489 boxes, 53 flatfiles)"
+          ]
+        }
+      ], 
+      "slug": "2011m30_ref237792_fvd", 
+      "type": "sc:Collection"
+    }, 
+    {
+      "description": "Series VIII. Personal files, contains materials illustrating the personal life and family of Harald Szeemann. Family members include Ingeborg L\u00fcscher, Julie Szeemann-Kambly, \u00c9tienne Ernst Szeemann, Fran\u00e7oise Szeemann-Bonnefoy, and Rolf Szeemann, as well as Val\u00e9rie, J\u00e9r\u00f4me, and Una Szeemann. Taken as a whole, the series is illustrative of the personal life of Harald Szeemann and his relationships with his family, while the materials he personally collected reflect his travel, work and personal interests.  Series VIII.A. Individuals, consists of materials kept by Szeemann regarding specific family members, as well as materials related to Szeemann himself. The files on Szeemann include sketches and drawings he created in the 1950s, as well as membership cards, awards and curriculum vitae iterations beginning in 1968. A large portion consists of condolence letters collected by his family after his death, as well as tributes and press clippings commemorating his life and career. Additionally, files originally housed in hanging folders and labeled by Szeemann for individual family members are included in this subseries. This subseries is arranged alphabetically by last name, with folder contents remaining unarranged. Contents include correspondence and accompanied photographs, cards, postcards and newspaper clippings.  Series VIII.B. Objects, includes personal use objects not directly related to Szeemann\u2019s business or career. These are organized alphabetically, and include cigars and cigar boxes, personalized photograph frames, souvenirs, and a t-shirt with a Harald Szeemann caricature. All of the items in this subseries have been drawn from the unfiled materials found loose in the Fabbrica. They have been labeled [unfiled]. Originally housed with the personal materials, 15 photographic albums as well as loose photographs have been moved to Series IV.F. Photographs, Personal, which already contained numerous family photographs and albums. Photographs associated with specific correspondence or personal events have been retained in the personal files. Additionally, a small number of folders were transferred to other series when folders on that subject already existed, such as information regarding houses, the Monte Verit\u00e0 project, business activities, specific artists and curators. This was done to reduce redundancy in multiple series housing similar materials.", 
+      "label": "Personal files, Series VIII.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "1800, 1933-2007, undated"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": "This series is arranged in two subseries: Series VIII.A. Individuals, 1800, 1936, 1952-2004; Series VIII.B. Objects, undated."
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "33.35 Linear Feet", 
+            "(51 boxes, 1 flatfile)"
+          ]
+        }
+      ], 
+      "slug": "2011m30_ref237389_ubd", 
+      "type": "sc:Collection"
+    }, 
+    {
+      "description": "Series IX contains business records covering a wide range of materials, dates, and activities. Including both private and professional business, the series is made up of three subseries: Receipts and bank statements, Taxes and balances, and Miscellaneous business. The series as a whole reflects Szeemann's business activities and meticulous recordkeeping, with a majority of the materials originally housed in binders labeled and dated with specific information, including type of bank account or type of material. When possible, folders have been labeled to reflect the original binder title, with the binder label being photocopied or placed within a mylar sleeve. Binder titles have been translated into English when possible. Making up a majority of the Business files, Series IX.A includes receipts and bank documents created or used by Szeemann during the course of travel or work, with a small portion covering personal family expenses, such as tuition and house repairs. Receipts are for expenses such as taxis, hotels, groceries, order forms, and exhibition-related purchases of books or catalogs. Receipts, bank statements and other bank-account related materials were originally housed in binders titled \u201cKasse\u201d (for receipts) or by name of a specific bank for materials such as bank statements and account transfer forms. Prior to rehousing the binders into folders, the binders were arranged chronologically, with receipts and bank documents of the same year remaining together. Following rehousing, all \u201cKasse\u201d receipt folders created from the original binders have been arranged chronologically together, followed by the banks organized by name and date. The arrangement of materials within the binders has not been altered. Series IX.B contains balance ledgers and tax documents related to Szeemann\u2019s personal and professional finances. Rehoused binders and ledger books originally labeled \u201cAbschluss\u201d have been changed to \u201cBalance,\u201d while materials labeled \"Steuern\" are now \u201cTaxes.\u201d Records within each section are arranged chronologically.  Series IX.C is made up of other business-related materials created by his office and have been arranged alphabetically. A majority of the records in this subseries have been drawn from Unfiled materials or labeled Loose to reflect their original placement outside of the formally organized binders in subseries IX.A. All Unfiled materials have been drawn from boxes of unfiled materials while Loose materials include records that appear to be intentionally placed with the business files (such as those in loose folders or groupings of documents) but not within a receipt or bank statement binder.", 
+      "label": "Business files, Series IX.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "1923-2011, bulk 1974-2004"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": "This series is arranged in three subseries: Series IX.A. Receipt and bank documents 1968-2006; Series IX.B. Taxes and balances, 1969-2004; Series IX.C. Miscellaneous business, 1965-2004."
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "63.88 Linear Feet", 
+            "(117 boxes, 3 bins, 1 flatfile)"
+          ]
+        }
+      ], 
+      "slug": "2011m30_ref237033_046", 
+      "type": "sc:Collection"
+    }, 
+    {
+      "description": "Szeemann's hard drive contains 8.8 gigabytes of digital content. The drive is a Maxtor DiamondMax\u00ae Plus 9, 60GB. Szeemann's computer had a Windows operating system and Microsoft Outlook as the email client.  The emails are PST files from Outlook. Other files are mostly JPG, BMP, PDF, TIF, HTM, and Microsoft Word files primarily relating to artists and exhibitions. The file names are in Italian and German. Many of the digital files, including email, were printed out by Szeemann or his staff and are duplicated in the archive's paper files.   Access copies of the digital files are accessible on a laptop in the Special Collections Reading Room. All files except emails are available as a mounted disk image in a Windows environment. The emails are on the laptop as imported PST files and are accessible using a Microsoft Outlook client. Files containing restricted personal information such as third-party bank account numbers or student records have been removed from the access copy and may be accessed when the restriction period ends in 2081. The series is contained in two boxes (2 linear feet). ", 
+      "label": "Digital files, Series X.", 
+      "metadata": [
+        {
+          "label": "Creation Date", 
+          "value": "approximately 2001-approximately 2006"
+        }, 
+        {
+          "label": "Arrangement", 
+          "value": "Except for email, all digital files from Szeemann's computer hard drive remain in their original order in a disk image that is mounted on a non-networked laptop for research purposes. The .pst email files were exported from the disk image in order to make them accessible through an Outlook client. The email folders are in the order created by Outlook, while the emails within each folder are in their original chronological order."
+        }, 
+        {
+          "label": "Physical Desc.", 
+          "value": [
+            "8.8 Gigabytes", 
+            "(2 boxes)"
+          ]
+        }
+      ], 
+      "slug": "2011m30_ref246041_t31", 
+      "type": "sc:Collection"
+    }
+  ], 
+  "collections": [], 
+  "description": "Harald Szeemann's vast archive documents his career as a visionary art curator for almost five decades, from 1957 to 2005. Included are project files tracing the development of numerous exhibitions and other projects, extensive correspondence with noted artists and cultural figures throughout the world, photographic documentation of exhibitions and artworks, video art and recorded interviews, exhibition announcements and other ephemera from hundreds of museums and galleries, research files on a broad range of topics, a small group of personal papers, and business records. Series I documents Szeemann's curatorial process from conception to installation (\"from vision to nail\"), including his detailed notes, installation sketches, correspondence, building plans, exhibition announcements and checklists, wall texts, research material, and documents related to the production of didactic material, framing, and shipping. Some projects have files on the individual artists in the exhibition, and there is crossover with Series II. The project files also include material related to other projects such as films, books, texts, seminars, lectures and awards ceremonies. Also documented are exhibitions Szeemann co-curated, for which he was a consultant, or to which he contributed writings. The files were organized by Szeemann in chronological order. Unrealized projects have been integrated into the series by the archivist using the earliest date mentioned in the records. Series II contains artist files on more than 20,000 artists. While many files contain only one or two items, other files include artist correspondence, unique works of art, rare posters, and limited-edition items along with exhibition announcements and press clippings. Some exhibition records were relocated to the artist files by Szeemann, so there is crossover with Series I. Artist files are not limited to fine artists, but also include authors, musicians, filmmakers, and other creators. Szeemann accrued particularly extensive files on Joseph Beuys, James Lee Byars, Gilbert Clavel, Marcel Duchamp, Mario Merz, Antonin Artaud, and Hugo Ball. Click here for the finding aid for Series II. Series III contains Szeemann's files on and correspondence with other curators and art world figures, including architects, gallerists, art critics, art historians, choreographers, collectors, and photographers. Correspondence with catalog contributors and other collaborators to his exhibitions can be found here, as well as materials on art associations, magazines, companies, awards, publishing houses, and fairs. Series IV contains more than 40,500 photographic prints, negatives, slides, and transparencies. Included is extensive documentation of many of Szeemann's exhibitions and other projects; photographs of artists with whom he worked and their individual artworks and performances; a collection of portraits of the Monte Verit\u00e0 intellectual circle by photographer Margarethe Fellerer; Szeemann's slide library, including slideshows compiled for lectures; collections of photographs reflecting Szeemann's interdisciplinary subject interests with a focus on cultural sites and geographic locations; and portraits and snapshots of Szeemann and his family. Series V comprises Szeemann's audiovisual collection of approximately 2240 items including films and videos submitted by artists, radio and television interviews, music, photographic and textual files regarding exhibitions or artists, and materials received from museums and galleries. Some of the material has been separated from other series. Formats include VHS, compact discs, vinyl records, DVDs, audiocassettes, CD-ROMs, CD-Rs, floppy disks, and film and audiotape reels. Series VI documents Szeemann's research interests in wide range subject areas including fine and graphic arts; art collectors and publishing houses; dance and choreography; film, video, and broadcast media; literature and philosophy; music; theater; countries, regions, and cities in Europe and around the globe; people; politics, environment and society; and assorted topics he collected under the rubric Temi (themes). Materials include clippings from newspapers, magazines, and press bureaus; brochures and pamphlets; publications including books, journals, and newsletters; photographic materials; postcards; drawings; posters; theater and film programs; calendars; city guidebooks; and maps. Series VII contains the ephemera Szeemann collected from hundreds of museums and galleries throughout the world. He also collected ephemera from international exhibitions, festivals, symposiums and workshops, and other events. Materials include brochures, booklets; exhibition and institution guides; catalogs; correspondence in the form of faxes, emails, postcards and letters; posters; price lists; ticket stubs; and city guidebooks; and, less frequently, items such as matches; pins; shopping bags; and coasters. Series VIII includes family correspondence; materials collected by Szeemann about individuals in his family; materials collected by his family about his death including obituaries and condolence letters; and objects. Series IX reflects Szeemann's business activities and contains many years' worth of bank statements, receipts, and other financial records created or used by Szeemann during the course of travel or work, with a small portion covering personal family expenses, such as tuition and house repairs. Series X contains Szeemann's hard drive which includes his emails from Microsoft Outlook; and other files, mostly JPG, BMP, PDF, TIF, HTM, and Microsoft Word, primarily relating to artists and exhibitions. ", 
+  "label": "Harald Szeemann papers 2011.M.30", 
+  "manifests": [], 
+  "metadata": [
+    {
+      "label": "Author/Creator", 
+      "value": "Szeemann, Harald"
+    }, 
+    {
+      "label": "Contributors", 
+      "value": [
+        "Merz, Mario", 
+        "Beuys, Joseph", 
+        "M\u00fchl, Otto", 
+        "Fellerer, Margarethe", 
+        "Rabinowitch, Royden", 
+        "Byars, James Lee", 
+        "Shunk, Harry", 
+        "Sattmann, Didi", 
+        "Hellgroth, Brigitte", 
+        "Merola, Andrea", 
+        "Eggmann, Verena", 
+        "Beeren, Wim", 
+        "Burkhard, Balthasar", 
+        "Bezzola, Leonardo", 
+        "Boersma, Pieter", 
+        "Wehrmann, Erhard", 
+        "Cotton, Paul", 
+        "Drayer, Walter", 
+        "L\u00fcscher, Ingeborg", 
+        "Geluwe, Johan van", 
+        "Gaechter & Clausen"
+      ]
+    }, 
+    {
+      "label": "Creation Date", 
+      "value": "1800-2011, bulk 1949-2005"
+    }, 
+    {
+      "label": "Bio./Hist. Note", 
+      "value": [
+        "Among the most influential art curators of his generation, Harald Szeemann (Swiss, 1933-2005) organized more than 150 exhibitions during a career that spanned almost five decades. Szeemann studied art history, archaeology and journalism in Bern and Paris and had a brief, but successful, theatrical career before he organized his first exhibition in 1957. In 1961 he became one of the youngest museum directors in the world when he was appointed to head the Kunsthalle Bern. From 1961 to 1966, Szeemann was also in charge of the exhibition program at the St\u00e4dtische Galerie Biel. Szeemann gained prominence through a lively and experimental series of exhibitions that included early projects with Robert Rauschenberg, Andy Warhol, James Rosenquist, and Christo. In addition to showcasing current developments in contemporary art such as kinetic art, op art, and happenings, Szeemann also examined areas of early twentieth-century modernism such as Dada and surrealism, including artists such as Marcel Duchamp, Kazimir Malevich, and Vassily Kandinsky, as well as various fields of visual culture such as Art Brut, science fiction and religious iconography. ", 
+        "Following his 1969 exhibition Live in Your Head: When Attitudes Become Form, a sprawling and controversial international survey of postminimalism, conceptual art, and Arte Povera, Szeemann left the Kunsthalle Bern to become an independent curator. Calling his business the Agentur f\u00fcr geistige Gastarbeit, or Agency for Spiritual Guest-Labor, a one-man enterprise relying on a group of independent partners, Szeemann developed a new form of exhibition-making that centered on close collaborative relationships with artists and a sweeping global vision of contemporary visual culture, aided by a pioneering vision of fundraising. Because he traveled extensively and frequently, he was able to integrate emerging developments from disparate parts of the world into exhibitions that became touchstones of their time. ", 
+        "Taking on the organization of documenta 5 in 1972, Szeemann transformed the exhibition into a vast and dynamic survey of young artists from across the world. Likewise, when asked to co-direct the Venice Biennale in 1980, the curator introduced a new concept that became a mainstay of the Biennale: the \"Aperto,\" an international and multigenerational group exhibition that contrasted with the Biennale's traditional focus on national representations. He continued to survey art-making from all parts of the world in the biennials he later organized in Lyon, Seville, and Gwangju, as well as when he returned to the Venice Biennale in both 1999 and 2001. \n \nSzeemann often tackled enormous themes that cut across regions and spanned the nineteenth and twentieth centuries, with a stunningly original approach, as in his trilogy of exhibitions The Bachelor Machines (1975), Monte Verit\u00e0: The breasts of truth (1978), and Tendency towards the Gesamtkunstwerk (1983). Exhibitions focused on topics such as utopia, disaster, and the \"Plateau of Humankind\" offered sweeping and provocative surveys, while exhibitions such as Visionary Switzerland (1991), Austria in a Net of Roses (1996), Blood and Honey: the Future Lies in the Balkans (2003) and La Belgique Visionnaire Belgi\u00eb: C'est arriv\u00e9 pr\u00e8s de chez nous (2005) aimed at examining narrower topics and regions in interdisciplinary depth. Szeemann was also active on a local level in Ticino, Switzerland, where he organized several exhibitions and worked on various museum projects, among which Casa Anatta on Monte Verit\u00e0, devoted to the history of the early 20th-century colony of anarchists, artists and life reformers, is to be counted among his greatest achievements. ", 
+        "During his collaboration with Kunsthaus Z\u00fcrich (1981-2000), Szeemann became known for producing definitive solo exhibitions, not only on contemporary artists such as Joseph Beuys, Georg Baselitz, and Bruce Nauman, but on such cultural icons as Charles Baudelaire, Alfred Jarry and Egon Schiele. Szeemann's mid-1980s contemporary sculpture group exhibitions included Traces, Sculptures and Monuments of Their Precise Journey (1985) and De Sculptura (1986). He referred to them as \"poems in space,\" and investigated the \"breathing space\" between artworks and within the exhibition venue. From the late 1980s onward, he often embarked on large-scale projects set in historical buildings including Deichtorhallen in Hamburg, Halle Tony Garnier in Lyon, and the Arsenale in Venice. It was the first time these locations hosted contemporary art exhibitions.", 
+        "Even when collaborating with large institutions, Szeemann relied on the same team of independent partners for the technical aspects, believing that \"only tribes survive.\" Long-term friends and coworkers included his wife Ingeborg L\u00fcscher, an artist; daughter Una Szeemann, also an artist; son J\u00e9r\u00f4me Szeemann, who was in charge of installation; architect Christoph Z\u00fcrcher; model designer Peter Bissegger; and Josy Kraft, who was in charge of transportation and storage.", 
+        "Szeemann\u2019s parents were Julie Szeemann-Kambly (1907-2005) and \u00c9tienne Ernst Szeemann (1904-1958), and his younger brother was Rolf Szeemann (1935-1994).  His father worked in a salon owned by Szeemann\u2019s grandfather, \u00c9tienne Szeemann (1873-1971), a successful hair stylist during the early 20th century, who was the subject of Szeemann's exhibition Grandfather - a pioneer like us. Szeemann married twice, the first time to Fran\u00e7oise Bonnefoy (1934-) in 1959. He has three children: J\u00e9r\u00f4me (1959-) and Val\u00e9rie (1964-) from his first marriage, and Una (1975-) with L\u00fcscher.", 
+        "Szeemann began his personal archive in the late 1960s when, leaving the Kunsthalle Bern, he decided to take a substantial part of the documentation for his exhibitions with him. The archive grew significantly over the decades. Szeemann kept all documents and research material related to his projects, including all correspondence sent or received. The archive is not only a resource for the study of Szeemann's exhibitions, activities and interests, but is also an invaluable trove of rare gallery and museum ephemera such as invitation cards, press releases and posters from the 1960s to the 2000s. In the mid-1980s Szeemann permanently housed the entire archive in a former watch factory in the village of Maggia, in Ticino, which Szeemann called the \"Fabbrica Rosa\" or \"Pink Factory.\" Previously it had been scattered between his homes in Ticino, Bern, and Civitanova Marche.", 
+        "The result of almost 50 years of professional activity, the archive can be considered one of Szeemann's main achievements. Both a physical office and a tool for retrieving information, it functioned also as an instrument of self-representation, ranging from his high school years and theatrical experiments to his \"Museum of Obsessions.\" The archive also afforded Szeemann the opportunity to personally write and partially rectify the history of his own professional life, and it is possible to trace examples of concealment through intentional \"misfiling\" of exhibitions he felt were unsatisfactory. The importance the Fabbrica Rosa played in the Szeemann's understanding of his own career is demonstrated by the fact that Szeemann had planned to retire from exhibition-making in 2006 and focus all of his energies on reordering this archive. Unfortunately he died unexpectedly in 2005 at the age of 71 before realizing his plan."
+      ]
+    }, 
+    {
+      "label": "Arrangement", 
+      "value": "The collection is arranged in ten series: Series I. Project files;  Series II. Artist files; Series III. Curator and museum professional files;  Series IV. Photographs;  Series V. Audiovisual;  Series VI. Topical;  Series VII. Gallery and museum ephemera;  Series VIII. Personal files;  Series IX. Business files;  Series X. Digital files. "
+    }, 
+    {
+      "label": "Physical Desc.", 
+      "value": [
+        "1959.35 Linear Feet", 
+        "(3814 boxes, 449 flatfiles, 6 crates, 3 bins, 24 reels)"
+      ]
+    }, 
+    {
+      "label": "Summary", 
+      "value": "Swiss art curator Harald Szeemann (1933-2005) organized more than 150 exhibitions during a career that spanned almost five decades. An advocate of contemporary movements such as conceptualism, land art, happenings, Fluxus and performance, and of artists such as Joseph Beuys, Richard Serra, Cy Twombly and Mario Merz, Szeemann developed a new form of exhibition-making that centered on close collaborative relationships with artists and a sweeping global vision of contemporary visual culture. He organized vast international surveys such as documenta 5; retrospectives of individual artists including Sigmar Polke, Bruce Nauman, Wolfgang Laib, James Ensor, and Eug\u00e8ne Delacroix; and thematic exhibitions on such provocative topics as utopia, disaster, and the \"Plateau of Humankind.\" Szeemann's papers thoroughly document his curatorial practice, including preliminary notes for many projects, written descriptions and proposals for exhibitions, installation sketches, photographic documentation, research files, and extensive correspondence with colleagues, artists and collaborators."
+    }, 
+    {
+      "label": "Form/Genre", 
+      "value": [
+        "Cellulose nitrate film ", 
+        "Black-and-white negatives", 
+        "Color negatives", 
+        "Postcards", 
+        "Color transparencies", 
+        "Black-and-white negatives", 
+        "Ephemera -- 20th century", 
+        "Gelatin silver prints -- 20th century", 
+        "Postcards", 
+        "Ephemera -- 20th century", 
+        "Color photographs", 
+        "Gelatin silver prints -- 20th century", 
+        "Color transparencies", 
+        "CD-Rs", 
+        "Color slides -- 20th century", 
+        "Color slides -- 20th century", 
+        "Color photographs", 
+        "Color negatives", 
+        "Cellulose nitrate film ", 
+        "CD-Rs"
+      ]
+    }, 
+    {
+      "label": "Subject", 
+      "value": [
+        "Documenta", 
+        "Festival internazionale del film di Locarno", 
+        "Festival internazionale del film di Locarno", 
+        "Documenta", 
+        "Biennale di Venezia", 
+        "Biennale di Venezia (Venice, Italy)", 
+        "Johns, Jasper", 
+        "Twombly, Cy", 
+        "Merz, Marisa", 
+        "Nauman, Bruce", 
+        "Darboven, Hanne", 
+        "Nauman, Bruce, 1941-", 
+        "Nitsch, Hermann, 1938-", 
+        "Flavin, Dan", 
+        "Oldenburg, Claes, 1929-", 
+        "Boltanski, Christian", 
+        "Oppenheim, Meret, 1913-1985", 
+        "Buren, Daniel", 
+        "Picabia, Francis, 1879-1953", 
+        "Soto, Jes\u00fas Rafael", 
+        "Polke, Sigmar", 
+        "Cragg, Tony", 
+        "De Maria, Walter", 
+        "Rhoades, Jason, 1965-2006", 
+        "Andre, Carl", 
+        "Roth, Dieter, 1930-1998", 
+        "Serra, Richard", 
+        "Ryman, Robert, 1930-", 
+        "Brus, G\u00fcnter", 
+        "R\u00e4tz, Markus", 
+        "Tinguely, Jean", 
+        "R\u00fcckriem, Ulrich", 
+        "Klein, Yves", 
+        "Jeanne-Claude, 1935-2009", 
+        "Jarry, Alfred, 1873-1907", 
+        "Judd, Donald", 
+        "Judd, Donald, 1928-1994", 
+        "Christo", 
+        "Johns, Jasper, 1930-", 
+        "Long, Richard", 
+        "Klein, Yves, 1928-1962", 
+        "LeWitt, Sol", 
+        "Kienholz, Edward, 1927-1994", 
+        "Heizer, Michael", 
+        "Kunz, Emma, 1892-1963", 
+        "Oppenheim, Meret", 
+        "Kowalski, Piotr, 1927-2004", 
+        "LeWitt, Sol, 1928-2007", 
+        "Roth, Dieter", 
+        "Laib, Wolfgang, 1950-", 
+        "Jarry, Alfred", 
+        "Lischetti, Carlo E., 1946-", 
+        "Picabia, Francis", 
+        "Lijn, Liliane, 1939-", 
+        "Ryman, Robert", 
+        "Bode, Arnold", 
+        "Long, Richard, 1945-", 
+        "Schwitters, Kurt", 
+        "Medalla, David, 1942-", 
+        "Spoerri, Daniel", 
+        "Martin, \u00c9tienne, 1913-1995", 
+        "Tuttle, Richard", 
+        "West, Franz, 1947-2012", 
+        "Schulthess, Armand", 
+        "W\u00f6lfli, Adolf, 1864-1930", 
+        "Warhol, Andy", 
+        "Warhol, Andy, 1928-1987", 
+        "Szeemann, Harald", 
+        "Serra, Richard, 1939-", 
+        "Nitsch, Hermann", 
+        "Schwitters, Kurt, 1887-1948", 
+        "Oldenburg, Claes", 
+        "Schulthess, Armand, 1900-1972", 
+        "Polke, Sigmar", 
+        "Spitzer, Serge, 1951-2012", 
+        "R\u00e4tz, Markus", 
+        "Soto, Jes\u00fas Rafael, 1923-2005", 
+        "Kowalski, Piotr", 
+        "Sonnier, Keith, 1941-", 
+        "Kienholz, Edward, 1927-1994", 
+        "Tinguely, Jean, 1925-1991", 
+        "Vautier, Ben", 
+        "Szeemann, Harald", 
+        "Toroni, Niele", 
+        "Sonnier, Keith", 
+        "Spoerri, Daniel, 1930-", 
+        "Laib, Wolfgang", 
+        "Vautier, Ben, 1935-", 
+        "Twombly, Cy, 1928-2011", 
+        "Tuttle, Richard, 1941-", 
+        "Toroni, Niele, 1937-", 
+        "Duchamp, Marcel", 
+        "Lijn, Liliane", 
+        "De Maria, Walter, 1935-", 
+        "Distel, Herbert", 
+        "Medalla, David", 
+        "Darboven, Hanne", 
+        "De Domizio Durini, Lucrezia", 
+        "Lischetti, Carlo E.", 
+        "Heizer, Michael, 1944-", 
+        "Flavin, Dan, 1933-1996", 
+        "Duchamp, Marcel", 
+        "Ensor, James, 1860-1949", 
+        "West, Franz", 
+        "Bode, Arnold, 1900-1977", 
+        "Spitzer, Serge", 
+        "W\u00f6lfli, Adolf", 
+        "Merz, Marisa", 
+        "Andre, Carl, 1935-", 
+        "Rhoades, Jason", 
+        "Cragg, Tony, 1949-", 
+        "R\u00fcckriem, Ulrich", 
+        "Christo, 1935-", 
+        "Jeanne-Claude", 
+        "Martin, \u00c9tienne", 
+        "Kunz, Emma", 
+        "Buren, Daniel", 
+        "De Domizio Durini, Lucrezia", 
+        "Brus, G\u00fcnter", 
+        "Distel, Herbert", 
+        "Boltanski, Christian, 1944-", 
+        "Ensor, James", 
+        "Installations (Art)", 
+        "Artists -- Correspondence", 
+        "Happening (Art)", 
+        "Mail art", 
+        "Monte Verit\u00e0 (Artists' colony)", 
+        "Monte Verit\u00e0 (Artists' colony)", 
+        "Mail art", 
+        "Performance art", 
+        "Museum curators -- Correspondence", 
+        "Artists -- Correspondence", 
+        "Fluxus (Group of artists)", 
+        "Art, Modern -- 20th century", 
+        "Art, Modern -- 20th century", 
+        "Museum curators -- Correspondence", 
+        "Arte povera", 
+        "Art museum curators", 
+        "Performance art", 
+        "Art museum curators", 
+        "Installations (Art)", 
+        "Fluxus (Group of artists)", 
+        "Earthworks (Art)", 
+        "Conceptual Art", 
+        "Happening (Art)", 
+        "Earthworks (Art)", 
+        "Arte povera", 
+        "Conceptual Art"
+      ]
+    }, 
+    {
+      "label": "Language", 
+      "value": [
+        "German", 
+        "German", 
+        "Italian", 
+        "French", 
+        "English"
+      ]
+    }, 
+    {
+      "label": "Preferred Citation", 
+      "value": [
+        "Harald Szeemann papers, 1800-2011, bulk 1949-2005, The Getty Research Institute, Los Angeles, Accession no. 2011.M.30.", 
+        "http://hdl.handle.net/10020/cifa2011m30"
+      ]
+    }, 
+    {
+      "label": "Use Restrictions", 
+      "value": "Contact Library Reproductions and Permissions."
+    }, 
+    {
+      "label": "Access/Rights", 
+      "value": [
+        "Open for use by qualified researchers with the following exceptions. ", 
+        "Unreformatted audiovisual materials, nitrate negatives and computer files are unavailable. Contact repository to request reformatting.", 
+        "Boxes 81, 214, 224, 2409, 2418, RX and RX2 are sealed pending further review. Boxes 230-267 contain nitrate negatives and are restricted. ", 
+        "Boxes 82, 215, and 1074B require special handling; contact the repository regarding access. Box 2885A is restricted due to fragility; contact the repository regarding access. Boxes 1074C and 1074D are restricted due to fragility; contact repository to request digital imaging. Boxes B-13**, B-16**, B-43**, B-48**, B-79**, B-81**, B-83**, B-84**, B-86**, 3741**-3743**, 3765*-3767* and TP-drawers are housed off-site and only open for use with the curator's permission. Contact repository regarding access. Boxes 320-321, 924, 2955-3028*, 2966**, 3716-3730, 3727*, 3748-3754, 3755*-3757*, TP59A-TP59B, TP77-TP78, and 3109* are currently only open for use with the curator's permission. Contact the repository regarding access. Boxes 2214-2312, 2315-2346, 2353-2360 and 3513-3531 contain unreformatted audiovisual materials and are restricted; all reels are also restricted; contact the repository for reformatting of items in these boxes on reels.", 
+        "The digital files are accessible on a laptop in the Special Collections Reading Room. All files except emails are available as a mounted disk image in a Windows environment. The emails are on the laptop as imported PST files accessible through a Microsoft Outlook client. Digital files containing restricted personal information such as third-party bank account numbers or student records are restricted until 2081. "
+      ]
+    }, 
+    {
+      "label": "Related Material", 
+      "value": "Prior to the acquisition of the collection by the Getty Research Institute, some of the materials related to Monte Verit\u00e0 were separated by Harald Szeemann and given to the Fondazione Monte Verit\u00e0 in Ascona, Switzerland. The link to information about these materials is \nat http://www.monteverita.org/en/92/fondo-harald-szeemann.aspx."
+    }
+  ]
+}
