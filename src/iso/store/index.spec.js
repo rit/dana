@@ -15,7 +15,7 @@ describe('initStore', () => {
 
   it('handles actions', (done) => {
     const slug = 'szeemann'
-    store.dispatch('updateCollectionMetaData', { slug })
+    store.dispatch('fetchCollection', { slug })
 
     moxios.wait(() => {
       const req = moxios.requests.mostRecent()
@@ -24,7 +24,7 @@ describe('initStore', () => {
         response: loadJsonFixture('sample-collection.json')
       })
       swing(wire, done, () => {
-        expect(store.state.collectionHeading.label).to.contain('Szeemann papers')
+        expect(store.getters.collectionBySlug(slug).label).to.equal('Harald Szeemann papers')
       })
     })
   })
