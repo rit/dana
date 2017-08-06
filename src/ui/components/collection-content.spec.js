@@ -1,17 +1,13 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
-import ElementUI from 'element-ui'
-import CollectionContent from '@ui/components/collection-content'
-import swing from 'icemaker-swing'
-import initStore from 'iso/store'
-
 import moxios from 'moxios'
-moxios.delay = 0
+import swing from 'icemaker-swing'
 
-Vue.use(ElementUI)
-Vue.use(Vuex)
+import { vmFor } from '@ui/testing'
+import initStore from 'iso/store'
+import CollectionContent from '@ui/components/collection-content'
 
-describe('Collection Content', () => {
+
+describe('Collection Tree Content', () => {
   var vm
   var store
 
@@ -28,14 +24,13 @@ describe('Collection Content', () => {
   })
 
   it('shows the parent collection label', (done) => {
-    moxios.wait(() => {
-      const req = moxios.requests.mostRecent()
-      const wire = req.respondWith({
-        status: 200,
-        response: require('@fixtures/subcollections.json')
-      })
+    moxios.stubRequest(/api\/v1\/collectiontree.*/, {
+      status: 200,
+      responseText: require('@fixtures/subcollections.json')
+    })
 
-      swing(wire, done, () => {
+    moxios.wait(() => {
+      swing(vm.$nextTick(), done, () => {
         expect(vm.$el.textContent).to.contain('Harald Szeemann papers 2011.M.30, 1800-2011, bulk 1949-2005')
       })
     }, 0)
@@ -57,9 +52,3 @@ describe('Collection Content', () => {
 
   })
 });
-
-function vmFor (component, options) {
-  var Comp = Vue.extend(component)
-  var vm = new Comp(options)
-  return vm
-}

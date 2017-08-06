@@ -1,3 +1,2 @@
 --recursive
---report .
 --require test/mocha-config.js
