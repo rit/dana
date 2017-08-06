@@ -2,14 +2,13 @@ var sinon = require('sinon')
 var swing = require('icemaker-swing')
 
 var {
-  updateCollectionMetaData,
+  fetchCollection,
   updateSeriesTree,
-  updateObjectDetails
 } = require('./actions')
 
 var state = {}
 
-describe('actions: updateCollectionMetaData', () => {
+describe('Actions', () => {
   var commit
 
   beforeEach(() => {
@@ -21,24 +20,26 @@ describe('actions: updateCollectionMetaData', () => {
     moxios.uninstall()
   })
 
-  it('updates collectionHeading', (done) => {
-    const slug = 'szeemann'
-    updateCollectionMetaData({ commit, state }, { slug })
+  describe('fetchCollection', () => {
+    it('updates collection by slug', (done) => {
+      const slug = 'szeemann'
+      fetchCollection({ commit, state }, { slug })
 
-    moxios.wait(() => {
-      const req = moxios.requests.mostRecent()
-      const wire = req.respondWith({
-        status: 200,
-        response: loadJsonFixture('sample-collection.json')
-      })
-      swing(wire, done, () => {
-        expect(commit).to.have.been.called
-        var [mutation, payload] = commit.getCall(0).args
-        expect(mutation).to.eql('collectionHeading')
-        expect(payload.collectionHeading.label).to.contain('Szeemann')
-        expect(payload.collectionHeading.physicalDesc).to.contain('Linear Feet')
-      })
-    }, 0)
+      moxios.wait(() => {
+        const req = moxios.requests.mostRecent()
+        const wire = req.respondWith({
+          status: 200,
+          response: loadJsonFixture('sample-collection.json')
+        })
+        swing(wire, done, () => {
+          expect(commit).to.have.been.called
+          var [mutation, payload] = commit.getCall(0).args
+          expect(mutation).to.eql('collection')
+          expect(payload.slug).to.equal('szeemann')
+          expect(payload.collection.label).to.equal('Harald Szeemann papers')
+        })
+      }, 0)
+    })
   })
 
   describe('updateSeriesTree', () => {
@@ -60,26 +61,6 @@ describe('actions: updateCollectionMetaData', () => {
           expect(payload.seriesTree.length).to.equal(1)
           expect(payload.seriesTree[0].label).to.contain('Szeemann')
           expect(payload.seriesTree[0].children.length).to.equal(10)
-        })
-      }, 0)
-    })
-  })
-
-  describe('updateObjectDetails', () => {
-    it('updates the object details', (done) => {
-      const slug = '2011m30_ref6628_a6e'
-      updateObjectDetails({ commit, state }, { slug })
-      moxios.wait(() => {
-        const req = moxios.requests.mostRecent()
-        const wire = req.respondWith({
-          status: 200,
-          response: loadJsonFixture('object-details.json')
-        })
-
-        swing(wire, done, () => {
-          var [mutation, payload] = commit.getCall(0).args
-          expect(mutation).to.equal('objectDetails')
-          expect(payload.objectDetails.label).to.contain('Starn')
         })
       }, 0)
     })
