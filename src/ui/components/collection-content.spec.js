@@ -6,8 +6,6 @@ import { vmFor } from '@ui/testing'
 import initStore from 'iso/store'
 import CollectionContent from '@ui/components/collection-content'
 
-moxios.delay = 0
-
 
 describe('Collection Content', () => {
   var vm

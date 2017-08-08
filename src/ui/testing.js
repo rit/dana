@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import ElementUI from 'element-ui'
+import moxios from 'moxios'
 
+
+// The default delay is too long.
+moxios.delay = 0
 
 Vue.use(ElementUI)
 Vue.use(Vuex)
