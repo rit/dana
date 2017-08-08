@@ -5,7 +5,7 @@ import { vmFor } from '@ui/testing'
 import SeriesTree from '@ui/components/series-tree'
 
 
-describe('Series Tree', () => {
+describe('Series Tree Sidebar', () => {
   var vm
 
   beforeEach(() => {
@@ -16,13 +16,13 @@ describe('Series Tree', () => {
     vm = vmFor(SeriesTree, { propsData, parent }).$mount()
   });
 
-  it('can bind seriesTree', (done) => {
+  it('accepts seriesTree from props', (done) => {
     swing(vm.$nextTick(), done, () => {
       expect(vm.$el.textContent).to.contain('Szeemann')
     })
   });
 
-  it('renders series', (done) => {
+  it('can expand to show its children', (done) => {
     var node = vm.$el.querySelector('.el-tree-node__content')
     node.click()
     swing(vm.$nextTick(), done, () => {

@@ -7,7 +7,7 @@ import initStore from 'iso/store'
 import CollectionContent from '@ui/components/collection-content'
 
 
-describe('Collection Content', () => {
+describe('Collection Tree Content', () => {
   var vm
   var store
 
@@ -24,14 +24,13 @@ describe('Collection Content', () => {
   })
 
   it('shows the parent collection label', (done) => {
-    moxios.wait(() => {
-      const req = moxios.requests.mostRecent()
-      const wire = req.respondWith({
-        status: 200,
-        response: require('@fixtures/subcollections.json')
-      })
+    moxios.stubRequest(/api\/v1\/collectiontree.*/, {
+      status: 200,
+      responseText: require('@fixtures/subcollections.json')
+    })
 
-      swing(wire, done, () => {
+    moxios.wait(() => {
+      swing(vm.$nextTick(), done, () => {
         expect(vm.$el.textContent).to.contain('Harald Szeemann papers 2011.M.30, 1800-2011, bulk 1949-2005')
       })
     }, 0)
