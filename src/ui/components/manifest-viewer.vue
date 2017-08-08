@@ -14,7 +14,9 @@
                 <thumbnail-viewer :canvases="sub.canvases"></thumbnail-viewer>
               </div>
             </div>
-            {{ range.canvases }}
+
+            <!--if there is no subrange, there may be canvases-->
+            <thumbnail-viewer :canvases="range.canvases" v-if="!range.subranges"></thumbnail-viewer>
           </section>
         </el-tab-pane>
       </template>
