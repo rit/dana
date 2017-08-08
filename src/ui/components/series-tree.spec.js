@@ -1,11 +1,9 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
-import ElementUI from 'element-ui'
-import SeriesTree from '@ui/components/series-tree'
 import swing from 'icemaker-swing'
 
-Vue.use(ElementUI)
-Vue.use(Vuex)
+import { vmFor } from '@ui/testing'
+import SeriesTree from '@ui/components/series-tree'
+
 
 describe('Series Tree', () => {
   var vm
@@ -32,9 +30,3 @@ describe('Series Tree', () => {
     })
   })
 });
-
-function vmFor (component, options) {
-  var Comp = Vue.extend(component)
-  var vm = new Comp(options)
-  return vm
-}
