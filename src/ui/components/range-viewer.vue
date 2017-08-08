@@ -1,24 +1,18 @@
 <template>
   <div class="ranges">
-    <template v-for="range in ranges">
-      <range :range="range" />
-    </template>
+    <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['ranges'],
-
   components: {
     'range': require('./range.vue')
   }
-
 }
 </script>
 
 <style scoped>
-
 .ranges {
   background-color: #ecf0f1;
   padding: 2em;
@@ -30,5 +24,4 @@ export default {
   background-color: white;
   flex-basis: 100%;
 }
-
 </style>
