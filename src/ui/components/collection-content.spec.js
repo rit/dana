@@ -1,15 +1,13 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
-import ElementUI from 'element-ui'
-import CollectionContent from '@ui/components/collection-content'
-import swing from 'icemaker-swing'
-import initStore from 'iso/store'
-
 import moxios from 'moxios'
+import swing from 'icemaker-swing'
+
+import { vmFor } from '@ui/testing'
+import initStore from 'iso/store'
+import CollectionContent from '@ui/components/collection-content'
+
 moxios.delay = 0
 
-Vue.use(ElementUI)
-Vue.use(Vuex)
 
 describe('Collection Content', () => {
   var vm
@@ -57,9 +55,3 @@ describe('Collection Content', () => {
 
   })
 });
-
-function vmFor (component, options) {
-  var Comp = Vue.extend(component)
-  var vm = new Comp(options)
-  return vm
-}
