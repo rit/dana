@@ -1,7 +1,7 @@
 import swing from 'icemaker-swing'
 
 import Vue from 'vue'
-import { vmInit, vmDestroy } from '@ui/testing'
+import { vmInit, vmDestroy, isVisible } from '@ui/testing'
 import RangeViewer from '@ui/components/range-viewer'
 
 Vue.component('range-viewer', RangeViewer)
@@ -10,19 +10,35 @@ describe('range-viewer', () => {
   let vm
 
   beforeEach(() => {
+  });
+
+  afterEach(() => {
+    // vmDestroy(vm)
+  })
+
+  it('renders its nested children', () => {
     let template = `
       <range-viewer>
         <div> Dragon </div>
       </range-viewer>
     `
-    vm = vmInit({ template }, true)
-  });
-
-  afterEach(() => {
-    vmDestroy(vm)
+    vm = vmInit({ template })
+    expect(vm.$el.children[0].innerHTML.trim()).to.equal('Dragon')
   })
 
-  it('renders its nested children', () => {
-    expect(vm.$el.children[0].innerHTML.trim()).to.equal('Dragon')
+  it.only('acts like an accordion', (done) => {
+    let template = `
+      <range-viewer current-name="Dragon">
+        <el-tab-pane name="Dragon">
+          <p>Dragon</p>
+        </el-tab-pane>
+      </range-viewer>
+    `
+
+    vm = vmInit({ template }, null, true)
+    swing(vm.$nextTick(), done, () => {
+      expect(vm.$el.querySelector('p').innerHTML).to.equal('Dragon')
+      expect(isVisible(vm.$el.children[0])).to.be.true
+    })
   })
 })

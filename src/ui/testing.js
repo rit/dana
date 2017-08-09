@@ -57,3 +57,9 @@ exports.triggerClick = function(elm, ...opts) {
 
   return elm;
 };
+
+// Based on jQuery: $(elm).is(':visible')
+exports.isVisible = function (elm) {
+  return !!( elm.offsetWidth || elm.offsetHeight || elm.getClientRects().length )
+}
+
