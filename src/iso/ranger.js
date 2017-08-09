@@ -39,7 +39,6 @@ function lookupDb (records, key) {
 
 function mkRange ({ rangeDb, canvasDb, id }) {
   const record = rangeDb[id]
-  const label = record['label']
   return new Range({
     rangeDb,
     canvasDb,

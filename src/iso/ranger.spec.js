@@ -1,5 +1,5 @@
 var _ = require('lodash')
-var { Range, parse } = require('iso/ranger')
+var { parse } = require('iso/ranger')
 var manifest = loadJsonFixture('gen_co_c.json')
 
 describe('parse', () => {

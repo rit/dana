@@ -17,7 +17,7 @@
 
 <script>
 
-import { mapActions, mapState, mapGetters } from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 import { ellipsis } from 'iso/util'
 
 export default {

@@ -28,8 +28,7 @@
 
 <script>
 
-import ranger from 'iso/ranger'
-import { mapActions, mapState, mapGetters } from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 
 export default {
 

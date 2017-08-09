@@ -13,7 +13,7 @@ describe('range-viewer', () => {
   });
 
   afterEach(() => {
-    // vmDestroy(vm)
+    vmDestroy(vm)
   })
 
   it('renders its nested children', () => {
@@ -26,7 +26,7 @@ describe('range-viewer', () => {
     expect(vm.$el.children[0].innerHTML.trim()).to.equal('Dragon')
   })
 
-  it.only('acts like an accordion', (done) => {
+  it('acts like an accordion', (done) => {
     const template = `
       <range-viewer current-name="Dragon">
         <el-tab-pane name="Dragon">

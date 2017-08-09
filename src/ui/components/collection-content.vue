@@ -102,7 +102,7 @@ export default {
 
     renderItem (h, comp) {
       var data = comp.data
-      var node = comp.node
+      // NOTE: comp.node might be of use
       return (
         <ContentItem item={data} key={data.slug} collectionSlug={this.collectionSlug}></ContentItem>
       )
