@@ -8,12 +8,20 @@ Vue.component('range-viewer', RangeViewer)
 
 describe('range-viewer', () => {
   let vm
+  let template = `
+    <range-viewer current-name="Dragon">
+      <el-tab-pane ref="dragon" name="Dragon"> <p>Dragon</p> </el-tab-pane>
+      <el-tab-pane ref="tiger" name="Tiger"> <p>Tiger</p> </el-tab-pane>
+      <el-tab-pane ref="snake" name="Snake"> <p>Snake</p> </el-tab-pane>
+      <el-tab-pane ref="ox" name="Ox"> <p>Ox</p> </el-tab-pane>
+    </range-viewer>
+  `
 
   beforeEach(() => {
   });
 
   afterEach(() => {
-    // vmDestroy(vm)
+    vmDestroy(vm)
   })
 
   it('renders its nested children', () => {
@@ -23,27 +31,10 @@ describe('range-viewer', () => {
       </range-viewer>
     `
     vm = vmInit({ template })
-    expect(vm.$el.children[0].innerHTML.trim()).to.equal('Dragon')
+    expect(vm.$el.innerHTML).to.contain('Dragon')
   })
 
-  it.only('shows headers', (done) => {
-    const template = `
-      <range-viewer current-name="Dragon">
-        <el-tab-pane name="Dragon">
-          <p>Dragon</p>
-        </el-tab-pane>
-        <el-tab-pane name="Tiger">
-          <p>Tiger</p>
-        </el-tab-pane>
-        <el-tab-pane name="Snake">
-          <p>Snake</p>
-        </el-tab-pane>
-        <el-tab-pane name="Ox">
-          <p>Ox</p>
-        </el-tab-pane>
-      </range-viewer>
-    `
-
+  it('shows headers', (done) => {
     vm = vmInit({ template }, null, true)
     swing(vm.$nextTick(), done, () => {
       expect(vm.$el.querySelector('header').innerText)
@@ -53,22 +44,10 @@ describe('range-viewer', () => {
   })
 
   it('acts like an accordion', (done) => {
-    const template = `
-      <range-viewer current-name="Dragon">
-        <el-tab-pane name="Dragon">
-          <p>Dragon</p>
-        </el-tab-pane>
-        <el-tab-pane name="Tiger">
-          <p>Tiger</p>
-        </el-tab-pane>
-      </range-viewer>
-    `
-
     vm = vmInit({ template }, null, true)
     swing(vm.$nextTick(), done, () => {
-      expect(vm.$el.querySelector('p').innerHTML).to.equal('Dragon')
-      expect(isVisible(vm.$el.children[0])).to.be.true
-      expect(isVisible(vm.$el.children[1])).to.be.false
+      expect(isVisible(vm.$refs.dragon.$el)).to.be.true
+      expect(isVisible(vm.$refs.tiger.$el)).to.be.false
     })
   })
 })
