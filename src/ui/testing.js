@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
+// import Vuex from 'vuex'
 import ElementUI from 'element-ui'
 import moxios from 'moxios'
 
@@ -8,7 +8,7 @@ import moxios from 'moxios'
 moxios.delay = 0
 
 Vue.use(ElementUI)
-Vue.use(Vuex)
+// Vue.use(Vuex)
 
 
 export function vmFor (component, options) {

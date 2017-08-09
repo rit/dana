@@ -1,7 +1,7 @@
 import swing from 'icemaker-swing'
 
 import Vue from 'vue'
-import { createVue, destroyVM } from '@ui/util'
+import { vmInit, vmDestroy } from '@ui/util'
 import RangeViewer from '@ui/components/range-viewer'
 
 Vue.component('range-viewer', RangeViewer)
@@ -15,11 +15,11 @@ describe('range-viewer', () => {
         <div> Dragon </div>
       </range-viewer>
     `
-    vm = createVue({ template }, true)
+    vm = vmInit({ template }, true)
   });
 
   afterEach(() => {
-    destroyVM(vm)
+    vmDestroy(vm)
   })
 
   it('renders its nested children', () => {

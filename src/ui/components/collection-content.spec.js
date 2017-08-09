@@ -2,7 +2,7 @@ import Vue from 'vue'
 import moxios from 'moxios'
 import swing from 'icemaker-swing'
 
-import { vmFor } from '@ui/testing'
+import { vmInit } from '@ui/util'
 import initStore from 'iso/store'
 import CollectionContent from '@ui/components/collection-content'
 
@@ -16,7 +16,7 @@ describe('Collection Tree Content', () => {
 
     let data = { collectionSlug: 'szeemann' }
     store = initStore(Vue)
-    vm = vmFor(CollectionContent, { propsData: data, store }).$mount()
+    vm = vmInit(CollectionContent, { propsData: data, store })
   });
 
   afterEach(() => {
