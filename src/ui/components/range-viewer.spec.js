@@ -13,7 +13,7 @@ describe('range-viewer', () => {
   });
 
   afterEach(() => {
-    vmDestroy(vm)
+    // vmDestroy(vm)
   })
 
   it('renders its nested children', () => {
@@ -32,6 +32,9 @@ describe('range-viewer', () => {
         <el-tab-pane name="Dragon">
           <p>Dragon</p>
         </el-tab-pane>
+        <el-tab-pane name="Tiger">
+          <p>Tiger</p>
+        </el-tab-pane>
       </range-viewer>
     `
 
@@ -39,6 +42,7 @@ describe('range-viewer', () => {
     swing(vm.$nextTick(), done, () => {
       expect(vm.$el.querySelector('p').innerHTML).to.equal('Dragon')
       expect(isVisible(vm.$el.children[0])).to.be.true
+      expect(isVisible(vm.$el.children[1])).to.be.false
     })
   })
 })
