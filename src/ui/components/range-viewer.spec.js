@@ -1,11 +1,10 @@
 import swing from 'icemaker-swing'
 
 import Vue from 'vue'
-import { vmFor } from '@ui/testing'
+import { createVue, destroyVM } from '@ui/util'
 import RangeViewer from '@ui/components/range-viewer'
 
 Vue.component('range-viewer', RangeViewer)
-
 
 describe('range-viewer', () => {
   let vm
@@ -13,13 +12,17 @@ describe('range-viewer', () => {
   beforeEach(() => {
     let template = `
       <range-viewer>
-        <div> bruce </div>
+        <div> Dragon </div>
       </range-viewer>
     `
-    vm = vmFor({ template }).$mount()
+    vm = createVue({ template }, true)
   });
 
+  afterEach(() => {
+    destroyVM(vm)
+  })
+
   it('renders its nested children', () => {
-    expect(vm.$el.children[0].innerHTML.trim()).to.equal('bruce')
+    expect(vm.$el.children[0].innerHTML.trim()).to.equal('Dragon')
   })
 })
