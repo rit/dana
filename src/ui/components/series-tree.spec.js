@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import swing from 'icemaker-swing'
 
-import { vmFor } from '@ui/testing'
+import { vmInit } from '@ui/testing'
 import SeriesTree from '@ui/components/series-tree'
 
 
@@ -13,8 +13,9 @@ describe('Series Tree Sidebar', () => {
     var propsData = { seriesTree: [tree] }
     var currentRoute = { path: '/test/123', matched: [{ regex: /test\/(\d+)/ }] }
     var parent = new Vue({ provide: { currentRoute }})
-    vm = vmFor(SeriesTree, { propsData, parent }).$mount()
+    vm = vmInit(SeriesTree, { propsData, parent })
   });
+
 
   it('accepts seriesTree from props', (done) => {
     swing(vm.$nextTick(), done, () => {

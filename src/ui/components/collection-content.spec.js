@@ -2,7 +2,7 @@ import Vue from 'vue'
 import moxios from 'moxios'
 import swing from 'icemaker-swing'
 
-import { vmInit } from '@ui/util'
+import { vmInit } from '@ui/testing'
 import initStore from 'iso/store'
 import CollectionContent from '@ui/components/collection-content'
 

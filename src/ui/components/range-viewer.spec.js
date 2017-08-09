@@ -1,7 +1,7 @@
 import swing from 'icemaker-swing'
 
 import Vue from 'vue'
-import { vmInit, vmDestroy } from '@ui/util'
+import { vmInit, vmDestroy } from '@ui/testing'
 import RangeViewer from '@ui/components/range-viewer'
 
 Vue.component('range-viewer', RangeViewer)
