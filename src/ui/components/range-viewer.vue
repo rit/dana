@@ -1,15 +1,28 @@
 <template>
   <div class="ranges">
-    <slot></slot>
+    <header>
+      <template v-for="pane in panes">
+        <range :label="pane.name"></range>
+      </template>
+    </header>
+    <section>
+      <slot></slot>
+    </section>
   </div>
 </template>
 
 <script>
 
+import range from './range.vue'
+
 const ELEMENT_NODE = 1
 
 export default {
   props: ['currentName'],
+
+  components: {
+    'range': range
+  },
 
   data () {
     return {
@@ -27,7 +40,6 @@ export default {
         return vnode.elm.nodeType === ELEMENT_NODE
       })
       const idx = panes.indexOf(pane.$vnode)
-      // TODO Need to make use of panes
       this.panes.splice(idx, 0, pane)
     },
 
@@ -43,7 +55,7 @@ export default {
 </script>
 
 <style scoped>
-.ranges {
+.ranges header {
   background-color: #ecf0f1;
   padding: 2em;
   display: flex;

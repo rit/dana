@@ -26,6 +26,32 @@ describe('range-viewer', () => {
     expect(vm.$el.children[0].innerHTML.trim()).to.equal('Dragon')
   })
 
+  it.only('shows headers', (done) => {
+    const template = `
+      <range-viewer current-name="Dragon">
+        <el-tab-pane name="Dragon">
+          <p>Dragon</p>
+        </el-tab-pane>
+        <el-tab-pane name="Tiger">
+          <p>Tiger</p>
+        </el-tab-pane>
+        <el-tab-pane name="Snake">
+          <p>Snake</p>
+        </el-tab-pane>
+        <el-tab-pane name="Ox">
+          <p>Ox</p>
+        </el-tab-pane>
+      </range-viewer>
+    `
+
+    vm = vmInit({ template }, null, true)
+    swing(vm.$nextTick(), done, () => {
+      expect(vm.$el.querySelector('header').innerText)
+        .to.equal('Dragon\nTiger\n\Snake\nOx\n')
+    })
+
+  })
+
   it('acts like an accordion', (done) => {
     const template = `
       <range-viewer current-name="Dragon">

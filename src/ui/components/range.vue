@@ -12,17 +12,7 @@
 <script>
 
 export default {
-  props: ['range'],
-
-  computed: {
-    label () {
-      return this.range.label
-    }
-
-  },
-
-  methods: {
-  }
+  props: ['label']
 }
 
 </script>
