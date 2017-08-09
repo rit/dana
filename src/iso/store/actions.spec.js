@@ -3,7 +3,7 @@ var swing = require('icemaker-swing')
 
 var {
   fetchCollection,
-  updateSeriesTree,
+  updateSeriesTree
 } = require('./actions')
 
 var state = {}

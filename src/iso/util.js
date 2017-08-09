@@ -1,4 +1,4 @@
-function ellipsis(text, count) {
+function ellipsis (text, count) {
   var words = text.substring(0, count).split(' ')
   words.pop()
   var joined = words.join(' ')

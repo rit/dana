@@ -17,7 +17,7 @@ describe('range-viewer', () => {
   })
 
   it('renders its nested children', () => {
-    let template = `
+    const template = `
       <range-viewer>
         <div> Dragon </div>
       </range-viewer>
@@ -27,7 +27,7 @@ describe('range-viewer', () => {
   })
 
   it.only('acts like an accordion', (done) => {
-    let template = `
+    const template = `
       <range-viewer current-name="Dragon">
         <el-tab-pane name="Dragon">
           <p>Dragon</p>

@@ -22,16 +22,16 @@ export default {
   },
 
   methods: {
-    addPanes(pane) {
-      let panes = this.$slots.default.filter(vnode => {
+    addPanes (pane) {
+      const panes = this.$slots.default.filter(vnode => {
         return vnode.elm.nodeType === ELEMENT_NODE
       })
-      let idx = panes.indexOf(pane.$vnode)
+      const idx = panes.indexOf(pane.$vnode)
       // TODO Need to make use of panes
       this.panes.splice(idx, 0, pane)
     },
 
-    removePanes(pane) {
+    removePanes (pane) {
       // console.log(pane)
     }
   },

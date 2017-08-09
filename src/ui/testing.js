@@ -4,13 +4,12 @@ import Vue from 'vue';
 import ElementUI from 'element-ui'
 import moxios from 'moxios'
 
-
 Vue.use(ElementUI)
 moxios.delay = 0
 
 let id = 0;
 
-const createElm = function() {
+const createElm = function () {
   const elm = document.createElement('div');
 
   elm.id = 'app' + ++id;
@@ -19,19 +18,19 @@ const createElm = function() {
   return elm;
 };
 
-exports.vmDestroy = function(vm) {
+exports.vmDestroy = function (vm) {
   vm.$el &&
   vm.$el.parentNode &&
   vm.$el.parentNode.removeChild(vm.$el);
 };
 
-exports.vmInit = function(Compo, options, mounted = false) {
+exports.vmInit = function (Compo, options, mounted = false) {
   const elm = createElm();
   const Ctor = Vue.extend(Compo);
   return new Ctor(options).$mount(mounted === false ? null : elm);
 };
 
-exports.triggerEvent = function(elm, name, ...opts) {
+exports.triggerEvent = function (elm, name, ...opts) {
   let eventName;
 
   if (/^mouse|click/.test(name)) {
@@ -51,7 +50,7 @@ exports.triggerEvent = function(elm, name, ...opts) {
   return elm;
 };
 
-exports.triggerClick = function(elm, ...opts) {
+exports.triggerClick = function (elm, ...opts) {
   exports.triggerEvent(elm, 'mousedown', ...opts);
   exports.triggerEvent(elm, 'mouseup', ...opts);
 
@@ -60,6 +59,6 @@ exports.triggerClick = function(elm, ...opts) {
 
 // Based on jQuery: $(elm).is(':visible')
 exports.isVisible = function (elm) {
-  return !!( elm.offsetWidth || elm.offsetHeight || elm.getClientRects().length )
+  return !!(elm.offsetWidth || elm.offsetHeight || elm.getClientRects().length)
 }
 

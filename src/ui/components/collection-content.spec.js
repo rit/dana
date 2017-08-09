@@ -6,7 +6,6 @@ import { vmInit } from '@ui/testing'
 import initStore from 'iso/store'
 import CollectionContent from '@ui/components/collection-content'
 
-
 describe('Collection Tree Content', () => {
   var vm
   var store
@@ -14,7 +13,7 @@ describe('Collection Tree Content', () => {
   beforeEach(() => {
     moxios.install()
 
-    let data = { collectionSlug: 'szeemann' }
+    const data = { collectionSlug: 'szeemann' }
     store = initStore(Vue)
     vm = vmInit(CollectionContent, { propsData: data, store })
   });
@@ -49,6 +48,5 @@ describe('Collection Tree Content', () => {
         expect(vm.$el.querySelector('.el-tree-node').classList.contains('is-expanded')).to.be.ok
       })
     }, 0)
-
   })
 });

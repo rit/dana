@@ -33,7 +33,7 @@ export default {
   },
 
   methods: {
-    ...mapActions(['fetchObjectLocation']),
+    ...mapActions(['fetchObjectLocation'])
 
   },
 
@@ -54,7 +54,7 @@ export default {
   created () {
     // this.objectSlug may be undefined because of the layout's reuse.
     if (this.objectSlug) {
-      this.fetchObjectLocation({slug: this.objectSlug})
+      this.fetchObjectLocation({ slug: this.objectSlug })
     }
   }
 

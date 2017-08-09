@@ -7,7 +7,7 @@ module.exports = {
     return slug => state.seriesTree[slug]
   },
 
-  locationBySlug(state, getters) {
+  locationBySlug (state, getters) {
     return slug => {
       return state.locations[slug] || []
     }

@@ -36,7 +36,7 @@ export default {
 
   computed: {
     ...mapState([
-      'seriesTree',
+      'seriesTree'
     ]),
 
     ...mapGetters(['collectionBySlug']),

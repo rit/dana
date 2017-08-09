@@ -1,7 +1,6 @@
 const axios = require('axios')
 const mapper = require('iso/mapper')
 
-
 function updateSeriesTree ({ commit, state }, { slug }) {
   var url = `/api/v1/navtree/${slug}`
   axios.get(url)
@@ -41,7 +40,7 @@ function updateCollectionSlideOut ({ commit, state }, { collection }) {
   commit('collectionSlideOut', { collection })
 }
 
-function fetchObjectLocation ({ commit, state}, { slug }) {
+function fetchObjectLocation ({ commit, state }, { slug }) {
   var url = `/api/v1/objects/${slug}/location`
   axios.get(url)
     .then((resp) => {

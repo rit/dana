@@ -4,7 +4,6 @@ import swing from 'icemaker-swing'
 import { vmInit } from '@ui/testing'
 import SeriesTree from '@ui/components/series-tree'
 
-
 describe('Series Tree Sidebar', () => {
   var vm
 
@@ -15,7 +14,6 @@ describe('Series Tree Sidebar', () => {
     var parent = new Vue({ provide: { currentRoute }})
     vm = vmInit(SeriesTree, { propsData, parent })
   });
-
 
   it('accepts seriesTree from props', (done) => {
     swing(vm.$nextTick(), done, () => {

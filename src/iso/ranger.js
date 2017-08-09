@@ -19,7 +19,6 @@ class Range {
   }
 }
 
-
 class Canvas {
   constructor ({ label, thumbnail, images }) {
     this.label = label
@@ -30,18 +29,17 @@ class Canvas {
   }
 }
 
-
 function lookupDb (records, key) {
   return records.reduce((acc, rec) => {
-    let id = rec[key]
+    const id = rec[key]
     acc[id] = rec
     return acc
   }, {})
 }
 
-function mkRange({ rangeDb, canvasDb, id }) {
-  let record = rangeDb[id]
-  let label = record['label']
+function mkRange ({ rangeDb, canvasDb, id }) {
+  const record = rangeDb[id]
+  const label = record['label']
   return new Range({
     rangeDb,
     canvasDb,
@@ -51,12 +49,12 @@ function mkRange({ rangeDb, canvasDb, id }) {
   })
 }
 
-function parse(manifest) {
+function parse (manifest) {
   var rangeDb = lookupDb(manifest.structures, '@id')
   var canvasDb = lookupDb(manifest.sequences[0].canvases, '@id')
 
-  let rootId = manifest.structures[0]['@id']
-  let root = mkRange({ rangeDb, canvasDb, id: rootId })
+  const rootId = manifest.structures[0]['@id']
+  const root = mkRange({ rangeDb, canvasDb, id: rootId })
   return root
 }
 

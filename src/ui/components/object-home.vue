@@ -37,7 +37,7 @@ export default {
 
   components: {
     'metadata-item': require('./metadata-item.vue'),
-    'manifest-viewer': require('./manifest-viewer.vue'),
+    'manifest-viewer': require('./manifest-viewer.vue')
   },
 
   computed: {
@@ -53,15 +53,13 @@ export default {
 
     metadata () {
       return this.collection.metadata
-    },
-
+    }
 
   },
 
   methods: {
-    ...mapActions(['fetchCollection']),
+    ...mapActions(['fetchCollection'])
   },
-
 
   watch: {
     objectSlug () {

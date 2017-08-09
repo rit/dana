@@ -115,7 +115,6 @@ export default {
       // So we have to clear the old data first.
       this.rootTree.setData([])
       this.fetchSubcollections({ slug, resolve: this.rootResolver })
-
     }
   },
 

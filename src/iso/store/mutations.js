@@ -9,7 +9,7 @@ const mutations = {
     state.seriesTree = seriesTree
   },
 
-  subcollections (state, { slug, collection}) {
+  subcollections (state, { slug, collection }) {
     Vue.set(state.subcollections, slug, collection)
   },
 
@@ -29,7 +29,7 @@ const state = {
 
   collections: {},
   subcollections: {},
-  locations: {},
+  locations: {}
 }
 
 module.exports = {
