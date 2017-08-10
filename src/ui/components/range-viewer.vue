@@ -2,7 +2,7 @@
   <div class="ranges">
     <header>
       <template v-for="pane in panes">
-        <range :label="pane.name"></range>
+        <range :label="pane.name" :activeLabel="activeLabel"></range>
       </template>
     </header>
     <section>
@@ -18,7 +18,7 @@ import range from './range.vue'
 const ELEMENT_NODE = 1
 
 export default {
-  props: ['currentName'],
+  props: ['startingActiveLabel'],
 
   components: {
     'range': range
@@ -26,6 +26,8 @@ export default {
 
   data () {
     return {
+      currentName: null, // currentName is what el-tab-pane needs currentName value to hide or display
+      activeLabel: null,
       panes: []
     }
   },
@@ -35,6 +37,11 @@ export default {
   },
 
   methods: {
+    updateActiveLabel (label) {
+      this.activeLabel = label
+      this.currentName = label
+    },
+
     addPanes (pane) {
       const panes = this.$slots.default.filter(vnode => {
         return vnode.elm.nodeType === ELEMENT_NODE
@@ -44,12 +51,12 @@ export default {
     },
 
     removePanes (pane) {
-      // console.log(pane)
+      console.log(pane)
     }
   },
 
   created () {
-    console.log('currentName', this.currentName)
+    this.updateActiveLabel(this.startingActiveLabel)
   }
 }
 </script>
