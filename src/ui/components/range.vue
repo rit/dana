@@ -1,7 +1,7 @@
 <template>
   <section class="range">
     <div class="wrapper">
-      <div class="label">
+      <div class="label" :class="{ active: isActive}" @click="activate">
         {{ label }}
       </div>
 
@@ -12,7 +12,30 @@
 <script>
 
 export default {
-  props: ['label']
+  props: ['label', 'activeLabel'],
+
+  data () {
+    return {
+      active: false
+    }
+  },
+
+  computed: {
+    isActive () {
+      return this.label == this.activeLabel
+    }
+  },
+
+  methods: {
+    activate () {
+      this.active = true
+      this.$parent.updateActiveLabel(this.label)
+    }
+  },
+
+  created () {
+    this.active = this.isActive
+  }
 }
 
 </script>
@@ -29,5 +52,9 @@ export default {
 
 .label {
   padding: 1em;
+}
+
+.active {
+  background-color: white;
 }
 </style>
