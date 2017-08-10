@@ -2,9 +2,9 @@
   <section>
     <h2>Navigate {{ label }}</h2>
 
-    <el-tabs>
+    <range-viewer>
       <template v-for="range in ranges">
-        <el-tab-pane :label="range.label">
+        <el-tab-pane :name="range.label">
           <section>
             <div class="subranges">
               <div class="subrange" v-for="sub in range.subranges">
@@ -20,7 +20,7 @@
           </section>
         </el-tab-pane>
       </template>
-    </el-tabs>
+    </range-viewer>
 
     <!--<range-viewer-->
     <!--   :ranges="ranges"-->
