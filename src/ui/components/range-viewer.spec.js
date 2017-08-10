@@ -54,16 +54,18 @@ describe('range-viewer', () => {
   it('shows only the selected range content', (done) => {
     vm = vmInit({ template }, null, true)
     vm.$nextTick(() => {
-      var tigerHeader = vm.$el.querySelectorAll('header .label')[1]
+      var tigerHeader = vm.$el.querySelector('header section:nth-child(2) .label')
       tigerHeader.click()
     })
 
     swing(vm.$nextTick(), done, () => {
-      var tigerHeader = vm.$el.querySelector('header').children[1]
-      expect(tigerHeader.innerText).to.contain('Tiger')
       let tigerVm = vm.$refs.tiger
       expect(tigerVm.$el.innerText).to.equal('Tiger')
       expect(isVisible(tigerVm.$el)).to.be.true
+
+      expect(isVisible(vm.$refs.dragon.$el)).to.be.false
+      expect(isVisible(vm.$refs.snake.$el)).to.be.false
+      expect(isVisible(vm.$refs.ox.$el)).to.be.false
     })
   })
 })
