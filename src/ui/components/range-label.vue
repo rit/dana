@@ -43,6 +43,7 @@ export default {
 <style scoped>
 .range {
   flex-basis: 25%;
+  align-self: flex-start;
 }
 
 .wrapper {
