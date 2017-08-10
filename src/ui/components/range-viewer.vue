@@ -2,7 +2,7 @@
   <div class="ranges">
     <header>
       <template v-for="pane in panes">
-        <range :label="pane.name" :activeLabel="activeLabel"></range>
+        <range-label :label="pane.name" :activeLabel="activeLabel"></range-label>
       </template>
     </header>
     <section>
@@ -13,7 +13,7 @@
 
 <script>
 
-import range from './range.vue'
+import RangeLabel from './range-label.vue'
 
 const ELEMENT_NODE = 1
 
@@ -21,7 +21,7 @@ export default {
   props: ['startingActiveLabel'],
 
   components: {
-    'range': range
+    'range-label': RangeLabel
   },
 
   data () {
@@ -30,10 +30,6 @@ export default {
       activeLabel: null,
       panes: []
     }
-  },
-
-  components: {
-    'range': require('./range.vue')
   },
 
   methods: {
