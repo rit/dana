@@ -2,8 +2,9 @@
   <section>
     <h2>Navigate {{ label }}</h2>
 
+    <template v-for="row in rows">
     <range-viewer>
-      <template v-for="range in ranges">
+      <template v-for="range in row">
         <el-tab-pane :name="range.label">
           <section>
             <div class="subranges">
@@ -21,12 +22,16 @@
         </el-tab-pane>
       </template>
     </range-viewer>
+    </template>
   </section>
 </template>
 
 <script>
 
 import { parse } from 'iso/ranger'
+import { chunk } from 'lodash'
+
+const RANGES_PER_ROW = 4
 
 export default {
   props: ['manifest'],
@@ -45,6 +50,10 @@ export default {
       if (this.manifest.structures) {
         return parse(this.manifest).subranges
       }
+    },
+
+    rows () {
+      return chunk(this.ranges, RANGES_PER_ROW)
     }
   }
 }
