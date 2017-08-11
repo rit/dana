@@ -28,8 +28,14 @@ export default {
 
   methods: {
     activate () {
-      this.active = true
+      this.active = !this.active
       this.$parent.updateActiveLabel(this.label)
+    }
+  },
+
+  watch: {
+    activeLabel (newValue, oldValue) {
+      this.active = this.isActive
     }
   },
 
