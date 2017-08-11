@@ -21,10 +21,6 @@
         </el-tab-pane>
       </template>
     </range-viewer>
-
-    <!--<range-viewer-->
-    <!--   :ranges="ranges"-->
-    <!--/>-->
   </section>
 </template>
 

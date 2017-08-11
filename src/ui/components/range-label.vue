@@ -33,12 +33,6 @@ export default {
     }
   },
 
-  watch: {
-    activeLabel (newValue, oldValue) {
-      this.active = this.isActive
-    }
-  },
-
   created () {
     this.active = this.isActive
   }
