@@ -1,10 +1,9 @@
 <template>
-  <section class="range">
+  <section class="range" :class="{ active: isActive}" >
     <div class="wrapper">
-      <div class="label" :class="{ active: isActive}" @click="activate">
+      <div class="label" @click="activate">
         {{ label }}
       </div>
-
     </div>
   </section>
 </template>
@@ -43,16 +42,15 @@ export default {
 <style scoped>
 .range {
   flex-basis: 25%;
-  align-self: flex-start;
+  align-self: normal;
 }
 
 .wrapper {
-  border-bottom: 1px solid gray;
-  margin: 0 2em ;
+  padding: 1em 0;
 }
 
 .label {
-  padding: 1em;
+  margin: 1em;
 }
 
 .active {

@@ -62,15 +62,12 @@ export default {
 </script>
 
 <style scoped>
+
 .ranges header {
   background-color: #ecf0f1;
-  padding: 2em;
   display: flex;
+  padding: 1em 1em 0 1em;
   flex-wrap: wrap;
 }
 
-.subrange-content {
-  background-color: white;
-  flex-basis: 100%;
-}
 </style>

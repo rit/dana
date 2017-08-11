@@ -8,14 +8,13 @@
         <el-tab-pane :name="range.label">
           <section>
             <div class="subranges">
-              <div class="subrange" v-for="sub in range.subranges">
+              <div class="subrange-details" v-for="sub in range.subranges">
                 <h3>
                   {{ sub.label }}
                 </h3>
                 <thumbnail-viewer :canvases="sub.canvases"></thumbnail-viewer>
               </div>
             </div>
-
             <!--if there is no subrange, there may be canvases-->
             <thumbnail-viewer :canvases="range.canvases" v-if="!range.subranges"></thumbnail-viewer>
           </section>
@@ -69,12 +68,18 @@ h2 {
   background-color: white;
 }
 
-</style>
-
-<style>
-.el-tabs__item {
-  font-size: 1.2em;
+h3 {
+  margin: 0;
 }
 
+.subranges {
+  background-color: #ecf0f1;
+  padding: 0 1em;
+}
+
+.subrange-details {
+  background-color: white;
+  padding: 0.5em 1em;
+}
 
 </style>
