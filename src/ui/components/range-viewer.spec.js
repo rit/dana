@@ -68,4 +68,23 @@ describe('range-viewer', () => {
       expect(isVisible(vm.$refs.ox.$el)).to.be.false
     })
   })
+
+  it('toggles the content', (done) => {
+    vm = vmInit({ template }, null, true)
+    vm.$nextTick(() => {
+      var tigerHeader = vm.$el.querySelector('header section:nth-child(2) .label')
+      tigerHeader.click()
+      tigerHeader.click()
+    })
+
+    swing(vm.$nextTick(), done, () => {
+      let tigerVm = vm.$refs.tiger
+      expect(tigerVm.$el.innerText).to.equal('Tiger')
+      expect(isVisible(tigerVm.$el)).to.be.false
+
+      expect(isVisible(vm.$refs.dragon.$el)).to.be.false
+      expect(isVisible(vm.$refs.snake.$el)).to.be.false
+      expect(isVisible(vm.$refs.ox.$el)).to.be.false
+    })
+  })
 })

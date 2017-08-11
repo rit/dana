@@ -34,6 +34,10 @@ export default {
 
   methods: {
     updateActiveLabel (label) {
+      if (label === this.activeLabel) {
+        label = null // the toggle the label
+      }
+
       this.activeLabel = label
       this.currentName = label
     },
