@@ -1,8 +1,10 @@
 'use strict'
 
 class Range {
-  constructor ({ rangeDb, canvasDb, label, subranges, canvases }) {
+  constructor ({ rangeDb, canvasDb, label, subranges, canvases, metadata, description }) {
     this.label = label
+    this.metadata = metadata
+    this.description = description
 
     if (subranges) {
       this.subranges = subranges.map(id => mkRange({ rangeDb, canvasDb, id }))
@@ -43,6 +45,8 @@ function mkRange ({ rangeDb, canvasDb, id }) {
     rangeDb,
     canvasDb,
     label: record['label'],
+    description: record['description'],
+    metadata: record['metadata'],
     subranges: record['ranges'],
     canvases: record['canvases']
   })
