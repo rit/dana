@@ -1,26 +1,18 @@
 <template>
   <section>
     <h2>Navigate {{ label }}</h2>
-
     <template v-for="row in rows">
-    <range-viewer>
-      <template v-for="range in row">
-        <el-tab-pane :name="range.label">
-          <section>
-            <div class="subranges">
-              <div class="subrange-details" v-for="sub in range.subranges">
-                <h3>
-                  {{ sub.label }}
-                </h3>
-                <thumbnail-viewer :canvases="sub.canvases"></thumbnail-viewer>
+      <range-viewer>
+        <template v-for="range in row">
+          <el-tab-pane :name="range.label">
+            <section>
+              <div class="subranges" v-for="sub in range.subranges">
+                <subrange :range="sub"></subrange>
               </div>
-            </div>
-            <!--if there is no subrange, there may be canvases-->
-            <thumbnail-viewer :canvases="range.canvases" v-if="!range.subranges"></thumbnail-viewer>
-          </section>
-        </el-tab-pane>
-      </template>
-    </range-viewer>
+            </section>
+          </el-tab-pane>
+        </template>
+      </range-viewer>
     </template>
   </section>
 </template>
@@ -37,6 +29,7 @@ export default {
 
   components: {
     'range-viewer': require('./range-viewer.vue'),
+    'subrange': require('./subrange.vue'),
     'thumbnail-viewer': require('./thumbnail-viewer.vue')
   },
 
