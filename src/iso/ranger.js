@@ -22,7 +22,7 @@ class Range {
       })
     }
 
-    if (this.canvases) {
+    if (this.parent && this.canvases) {
       let found = this.canvases.find(item => {
         if (item.label.startsWith('Recto') || item.label.startsWith('Verso')) {
           return true

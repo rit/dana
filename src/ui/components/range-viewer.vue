@@ -51,7 +51,7 @@ export default {
     },
 
     removePanes (pane) {
-      console.log(pane)
+      // console.log(pane)
     }
   },
 

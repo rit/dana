@@ -1,19 +1,38 @@
 <template>
   <section>
     <h2>Navigate {{ label }}</h2>
-    <template v-for="row in rows">
-      <range-viewer>
-        <template v-for="range in row">
-          <el-tab-pane :name="range.label">
-            <section>
-              <div class="subranges" v-for="sub in range.subranges">
-                <subrange :range="sub"></subrange>
-              </div>
-            </section>
-          </el-tab-pane>
+      <template v-if="rootRange.nestedCanvas">
+        <section>
+          <subrange :range="rootRange"></subrange>
+        </section>
+      </template>
+      <template v-else>
+        <template v-for="row in rows">
+          <range-viewer>
+            <template v-for="range in row">
+              <el-tab-pane :name="range.label">
+                <section v-if="range.nestedCanvas">
+                  <div class="subranges">
+                    <div class="subrange-details">
+                      <thumbnail-nested :ranges="range.subranges"></thumbnail-nested>
+                    </div>
+                  </div>
+                </section>
+                <section v-else-if="range.subranges">
+                  <div class="subranges" v-for="sub in range.subranges">
+                    <subrange :range="sub"></subrange>
+                  </div>
+                </section>
+                <section v-else>
+                  <div class="subranges">
+                    <subrange :range="range"></subrange>
+                  </div>
+                </section>
+              </el-tab-pane>
+            </template>
+          </range-viewer>
         </template>
-      </range-viewer>
-    </template>
+      </template>
   </section>
 </template>
 
@@ -30,6 +49,7 @@ export default {
   components: {
     'range-viewer': require('./range-viewer.vue'),
     'subrange': require('./subrange.vue'),
+    'thumbnail-nested': require('./thumbnail-nested.vue'),
     'thumbnail-viewer': require('./thumbnail-viewer.vue')
   },
 
@@ -38,10 +58,15 @@ export default {
       return this.manifest.label
     },
 
-    ranges () {
+    rootRange () {
       if (this.manifest.structures) {
-        return parse(this.manifest).subranges
+        return parse(this.manifest)
       }
+      return {}
+    },
+
+    ranges () {
+      return this.rootRange.subranges
     },
 
     rows () {
