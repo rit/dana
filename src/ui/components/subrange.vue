@@ -1,17 +1,21 @@
 <template>
   <div class="subrange-details">
-    <h3>
-      {{ range.label }}
-    </h3>
-    <p>
+    <div>
+      <h3>
+        {{ range.label }}
+      </h3>
+
+      <p>
       {{ range.description }}
-    </p>
+      </p>
+    </div>
 
-    <thumbnail-viewer :canvases="range.canvases"></thumbnail-viewer>
-
-    <!--<div class="subrange-details" v-for="sub in range.subranges">-->
-    <!--  <subrange :range="sub"></subrange>-->
-    <!--</div>-->
+    <template v-if="range.nestedCanvas">
+      <thumbnail-nested :ranges="range.subranges"></thumbnail-nested>
+    </template>
+    <template v-else>
+      <thumbnail-viewer :canvases="range.canvases"></thumbnail-viewer>
+    </template>
   </div>
 
 </template>
@@ -22,13 +26,8 @@ export default {
   props: ['range'],
 
   components: {
+    'thumbnail-nested': require('./thumbnail-nested.vue'),
     'thumbnail-viewer': require('./thumbnail-viewer.vue')
-  },
-
-  computed: {
-    isLeaf () {
-      return !this.range.subranges
-    }
   }
 }
 </script>

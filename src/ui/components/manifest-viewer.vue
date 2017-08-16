@@ -5,6 +5,16 @@
       <range-viewer>
         <template v-for="range in row">
           <el-tab-pane :name="range.label">
+            <!--<section>-->
+              <!--{{ range.label }}-->
+              <!--{{ range.nestedCanvas }}-->
+
+              <!--<div v-for="sub in range.subranges">-->
+              <!--  {{ sub.label }}-->
+              <!--  {{ sub.nestedCanvas }}-->
+              <!--</div>-->
+            <!--</section>-->
+
             <section>
               <div class="subranges" v-for="sub in range.subranges">
                 <subrange :range="sub"></subrange>
