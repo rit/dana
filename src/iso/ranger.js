@@ -9,6 +9,7 @@ class Range {
     this.metadata = metadata
     this.description = description
     this.parent = parent
+    this.nestedCanvas = false
 
     if (subranges) {
       this.subranges = subranges.map(id => mkRange({ rangeDb, canvasDb, id, parent: this }))
@@ -21,18 +22,14 @@ class Range {
       })
     }
 
-    if (this.subranges) {
-      var found = this.subranges.find(sub => {
-        if (!sub.canvases) return false
-
-        return sub.canvases.find(item => {
-          if (item.label.startsWith('Recto') || item.label.startsWith('Verso')) {
-            return true
-          }
-          return false
-        })
+    if (this.canvases) {
+      let found = this.canvases.find(item => {
+        if (item.label.startsWith('Recto') || item.label.startsWith('Verso')) {
+          return true
+        }
+        return false
       })
-      this.nestedCanvas = !!found
+      this.parent.nestedCanvas = !!found
     }
 
     this.__class__ = this.constructor.name

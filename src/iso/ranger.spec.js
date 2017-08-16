@@ -56,5 +56,7 @@ describe('range', () => {
     expect(bwPhotos.label).to.equal('Black-and-white photographs')
     expect(bwPhotos.canvases).to.be.undefined
     expect(bwPhotos.nestedCanvas).to.equal(true)
+
+    expect(bwNegatives.nestedCanvas).to.equal(false)
   })
 })
