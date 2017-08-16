@@ -91,7 +91,7 @@ h3 {
 }
 
 .subranges {
-  background-color: #ecf0f1;
+  background-color: #eeeeee;
   padding: 0 1em;
 }
 

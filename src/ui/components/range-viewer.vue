@@ -64,7 +64,7 @@ export default {
 <style scoped>
 
 .ranges header {
-  background-color: #ecf0f1;
+  background-color: #eeeeee;
   display: flex;
   padding: 1em 1em 0 1em;
   flex-wrap: wrap;

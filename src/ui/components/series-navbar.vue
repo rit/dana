@@ -15,7 +15,7 @@ export default {
 <style scoped>
 #series-navbar {
   position: relative;
-  background: #ecf0f1;
+  background: #eeeeee;
   padding: 0.1em 1em;
   margin-bottom: 1em;
 }
