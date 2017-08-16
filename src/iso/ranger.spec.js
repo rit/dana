@@ -1,6 +1,9 @@
+'use strict';
+
 var _ = require('lodash')
 var { parse } = require('iso/ranger')
 var manifest = loadJsonFixture('gen_co_c.json')
+var liveInYourHead = loadJsonFixture('live_in_your_head.json')
 
 describe('parse', () => {
   it('returns the top level ranges', () => {
@@ -39,5 +42,19 @@ describe('range', () => {
     var papers = root.subranges[0]
     expect(papers.label).to.equal('Papers')
     expect(papers.subranges.length).to.equal(8)
+  })
+
+  it.only('groups nested sub-subrange', () => {
+    var root = parse(liveInYourHead)
+    expect(root.label).to.equal('Live in Your Head: When Attitudes Become Form, 1969')
+
+    let ranges = root.subranges
+    let michaelHeizer = ranges.find(r => r.label.match(/Michael Heizer/))
+    expect(michaelHeizer.label).to.equal('Michael Heizer')
+    expect(michaelHeizer.subranges.length).to.equal(2)
+    let [bwPhotos, bwNegatives] = michaelHeizer.subranges
+    expect(bwPhotos.label).to.equal('Black-and-white photographs')
+    expect(bwPhotos.canvases).to.be.undefined
+    expect(bwPhotos.nestedCanvas).to.equal(true)
   })
 })
