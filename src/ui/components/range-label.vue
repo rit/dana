@@ -4,6 +4,7 @@
       <div class="label" @click="activate">
         {{ label }}
       </div>
+      <icon :name="iconName"></icon>
     </div>
   </section>
 </template>
@@ -22,6 +23,11 @@ export default {
   computed: {
     isActive () {
       return this.label == this.activeLabel
+    },
+
+    iconName () {
+      if (this.isActive) return 'minus'
+      return 'plus'
     }
   },
 
