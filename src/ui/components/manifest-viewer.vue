@@ -5,17 +5,14 @@
       <range-viewer>
         <template v-for="range in row">
           <el-tab-pane :name="range.label">
-            <!--<section>-->
-              <!--{{ range.label }}-->
-              <!--{{ range.nestedCanvas }}-->
-
-              <!--<div v-for="sub in range.subranges">-->
-              <!--  {{ sub.label }}-->
-              <!--  {{ sub.nestedCanvas }}-->
-              <!--</div>-->
-            <!--</section>-->
-
-            <section>
+            <section v-if="range.nestedCanvas">
+              <div class="subranges">
+                <div class="subrange-details">
+                  <thumbnail-nested :ranges="range.subranges"></thumbnail-nested>
+                </div>
+              </div>
+            </section>
+            <section v-else>
               <div class="subranges" v-for="sub in range.subranges">
                 <subrange :range="sub"></subrange>
               </div>
@@ -40,6 +37,7 @@ export default {
   components: {
     'range-viewer': require('./range-viewer.vue'),
     'subrange': require('./subrange.vue'),
+    'thumbnail-nested': require('./thumbnail-nested.vue'),
     'thumbnail-viewer': require('./thumbnail-viewer.vue')
   },
 
