@@ -1,7 +1,7 @@
 <template>
-  <section class="range" :class="{ active: isActive}" >
-    <div class="wrapper">
-      <div class="item label" @click="activate">
+  <section class="range" :class="{ active: isActive}">
+    <div class="wrapper" @click="activate">
+      <div class="item label">
         {{ label }}
       </div>
       <icon class="item" :name="iconName"></icon>
@@ -55,6 +55,7 @@ export default {
   padding: 1em 0;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .item {
