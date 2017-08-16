@@ -72,7 +72,7 @@ h3 {
 }
 
 .location-in-collection {
-  background-color: #ecf0f1;
+  background-color: #eeeeee;
 }
 
 .loc {

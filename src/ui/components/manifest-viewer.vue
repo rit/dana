@@ -53,6 +53,12 @@ export default {
     'thumbnail-viewer': require('./thumbnail-viewer.vue')
   },
 
+  data() {
+    return {
+      activeRange: null
+    }
+  },
+
   computed: {
     label () {
       return this.manifest.label
@@ -71,6 +77,12 @@ export default {
 
     rows () {
       return chunk(this.ranges, RANGES_PER_ROW)
+    }
+  },
+
+  methods: {
+    setActiveRange (label) {
+      this.activeLabel = label
     }
   }
 }
@@ -91,7 +103,7 @@ h3 {
 }
 
 .subranges {
-  background-color: #ecf0f1;
+  background-color: #eeeeee;
   padding: 0 1em;
 }
 

@@ -38,6 +38,11 @@ export default {
         label = null // the toggle the label
       }
 
+      this.setLabel(label)
+      // this.$parent.closeOtherRanges(this)
+    },
+
+    setLabel(label) {
       this.activeLabel = label
       this.currentName = label
     },
@@ -56,7 +61,7 @@ export default {
   },
 
   created () {
-    this.updateActiveLabel(this.startingActiveLabel)
+    this.setLabel(this.startingActiveLabel)
   }
 }
 </script>
@@ -64,7 +69,7 @@ export default {
 <style scoped>
 
 .ranges header {
-  background-color: #ecf0f1;
+  background-color: #eeeeee;
   display: flex;
   padding: 1em 1em 0 1em;
   flex-wrap: wrap;
