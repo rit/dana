@@ -6,6 +6,12 @@ import Router from 'vue-router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
+
+import 'vue-awesome/icons/plus'
+import 'vue-awesome/icons/minus'
+import Icon from 'vue-awesome/components/Icon'
+Vue.component('icon', Icon)
+
 import App from './App'
 import routes from './routes'
 import initStore from 'iso/store'
