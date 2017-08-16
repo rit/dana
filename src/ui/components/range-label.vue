@@ -56,6 +56,7 @@ export default {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+  border-bottom: 1px solid #ddd;
 }
 
 .item {
@@ -70,6 +71,10 @@ export default {
 
 .label {
   margin: 1em;
+  color: #5998c9;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .active {
