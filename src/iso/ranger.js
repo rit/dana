@@ -1,13 +1,17 @@
 'use strict'
 
+var { includes } = require('lodash')
+
+
 class Range {
-  constructor ({ rangeDb, canvasDb, label, subranges, canvases, metadata, description }) {
+  constructor ({ rangeDb, canvasDb, label, subranges, canvases, metadata, description, parent }) {
     this.label = label
     this.metadata = metadata
     this.description = description
+    this.parent = parent
 
     if (subranges) {
-      this.subranges = subranges.map(id => mkRange({ rangeDb, canvasDb, id }))
+      this.subranges = subranges.map(id => mkRange({ rangeDb, canvasDb, id, parent: this }))
     }
 
     if (canvases) {
@@ -17,8 +21,23 @@ class Range {
       })
     }
 
+    if (this.subranges) {
+      var found = this.subranges.find(sub => {
+        if (!sub.canvases) return false
+
+        return sub.canvases.find(item => {
+          if (item.label.startsWith('Recto') || item.label.startsWith('Verso')) {
+            return true
+          }
+          return false
+        })
+      })
+      this.nestedCanvas = !!found
+    }
+
     this.__class__ = this.constructor.name
   }
+
 }
 
 class Canvas {
@@ -39,11 +58,12 @@ function lookupDb (records, key) {
   }, {})
 }
 
-function mkRange ({ rangeDb, canvasDb, id }) {
+function mkRange ({ rangeDb, canvasDb, id, parent }) {
   const record = rangeDb[id]
   return new Range({
     rangeDb,
     canvasDb,
+    parent,
     label: record['label'],
     description: record['description'],
     metadata: record['metadata'],
@@ -57,7 +77,7 @@ function parse (manifest) {
   var canvasDb = lookupDb(manifest.sequences[0].canvases, '@id')
 
   const rootId = manifest.structures[0]['@id']
-  const root = mkRange({ rangeDb, canvasDb, id: rootId })
+  const root = mkRange({ rangeDb, canvasDb, id: rootId, parent: null })
   return root
 }
 
