@@ -12,9 +12,14 @@
                 </div>
               </div>
             </section>
-            <section v-else>
+            <section v-else-if="range.subranges">
               <div class="subranges" v-for="sub in range.subranges">
                 <subrange :range="sub"></subrange>
+              </div>
+            </section>
+            <section v-else>
+              <div class="subranges">
+                <subrange :range="range"></subrange>
               </div>
             </section>
           </el-tab-pane>
