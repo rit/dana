@@ -44,7 +44,7 @@ describe('range', () => {
     expect(papers.subranges.length).to.equal(8)
   })
 
-  it.only('groups nested sub-subrange', () => {
+  it('groups nested sub-subrange', () => {
     var root = parse(liveInYourHead)
     expect(root.label).to.equal('Live in Your Head: When Attitudes Become Form, 1969')
 
