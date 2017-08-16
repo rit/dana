@@ -59,6 +59,10 @@ export default {
   border-bottom: 1px solid #ddd;
 }
 
+.active .wrapper {
+  border-bottom: none;
+}
+
 .item {
   flex-basis: auto;
   align-self: baseline;
