@@ -1,6 +1,7 @@
 'use strict'
 
 var { includes } = require('lodash')
+var { metadataMap } = require('iso/mapper')
 
 
 class Range {
@@ -10,6 +11,9 @@ class Range {
     this.description = description
     this.parent = parent
     this.nestedCanvas = false
+
+    let mapped = metadataMap(metadata || [])
+    this.container = mapped['Container']
 
     if (subranges) {
       this.subranges = subranges.map(id => mkRange({ rangeDb, canvasDb, id, parent: this }))
