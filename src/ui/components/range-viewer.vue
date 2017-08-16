@@ -68,6 +68,7 @@ export default {
   display: flex;
   padding: 1em 1em 0 1em;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 </style>

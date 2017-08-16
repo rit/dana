@@ -1,10 +1,10 @@
 <template>
   <section class="range" :class="{ active: isActive}" >
     <div class="wrapper">
-      <div class="label" @click="activate">
+      <div class="item label" @click="activate">
         {{ label }}
       </div>
-      <icon :name="iconName"></icon>
+      <icon class="item" :name="iconName"></icon>
     </div>
   </section>
 </template>
@@ -47,12 +47,24 @@ export default {
 
 <style scoped>
 .range {
-  flex-basis: 25%;
+  flex-basis: 20%;
   align-self: normal;
 }
 
 .wrapper {
   padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  flex-basis: auto;
+  align-self: baseline;
+}
+
+.item:last-child {
+  flex-shrink: 0;
+  width: 2em;
 }
 
 .label {
