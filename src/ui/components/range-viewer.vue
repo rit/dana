@@ -38,6 +38,11 @@ export default {
         label = null // the toggle the label
       }
 
+      this.setLabel(label)
+      // this.$parent.closeOtherRanges(this)
+    },
+
+    setLabel(label) {
       this.activeLabel = label
       this.currentName = label
     },
@@ -56,7 +61,7 @@ export default {
   },
 
   created () {
-    this.updateActiveLabel(this.startingActiveLabel)
+    this.setLabel(this.startingActiveLabel)
   }
 }
 </script>
