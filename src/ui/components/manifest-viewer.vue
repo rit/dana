@@ -55,7 +55,7 @@ export default {
 
   data() {
     return {
-      activeRange: null
+      activeRangeViewer: null
     }
   },
 
@@ -81,8 +81,13 @@ export default {
   },
 
   methods: {
-    setActiveRange (label) {
-      this.activeLabel = label
+    setActiveRangeViewer (rangeViewer) {
+      if (this.activeRangeViewer !== rangeViewer) {
+        this.activeRangeViewer &&
+        this.activeRangeViewer.closeAll()
+      }
+
+      this.activeRangeViewer = rangeViewer
     }
   }
 }

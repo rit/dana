@@ -39,7 +39,14 @@ export default {
       }
 
       this.setLabel(label)
-      // this.$parent.closeOtherRanges(this)
+
+      if (this.$parent.setActiveRangeViewer) {
+        this.$parent.setActiveRangeViewer(this)
+      }
+    },
+
+    closeAll () {
+      this.setLabel(null)
     },
 
     setLabel(label) {
