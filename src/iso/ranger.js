@@ -1,8 +1,6 @@
 'use strict'
 
-var { includes } = require('lodash')
 var { metadataMap } = require('iso/mapper')
-
 
 class Range {
   constructor ({ rangeDb, canvasDb, label, subranges, canvases, metadata, description, parent }) {
@@ -12,7 +10,7 @@ class Range {
     this.parent = parent
     this.nestedCanvas = false
 
-    let mapped = metadataMap(metadata || [])
+    const mapped = metadataMap(metadata || [])
     this.container = mapped['Container']
 
     if (subranges) {
@@ -27,7 +25,7 @@ class Range {
     }
 
     if (this.parent && this.canvases) {
-      let found = this.canvases.find(item => {
+      const found = this.canvases.find(item => {
         if (item.label.startsWith('Recto') || item.label.startsWith('Verso')) {
           return true
         }

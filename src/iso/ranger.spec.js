@@ -48,11 +48,11 @@ describe('range', () => {
     var root = parse(liveInYourHead)
     expect(root.label).to.equal('Live in Your Head: When Attitudes Become Form, 1969')
 
-    let ranges = root.subranges
-    let michaelHeizer = ranges.find(r => r.label.match(/Michael Heizer/))
+    const ranges = root.subranges
+    const michaelHeizer = ranges.find(r => r.label.match(/Michael Heizer/))
     expect(michaelHeizer.label).to.equal('Michael Heizer')
     expect(michaelHeizer.subranges.length).to.equal(2)
-    let [bwPhotos, bwNegatives] = michaelHeizer.subranges
+    const [bwPhotos, bwNegatives] = michaelHeizer.subranges
     expect(bwPhotos.label).to.equal('Black-and-white photographs')
     expect(bwPhotos.canvases).to.be.undefined
     expect(bwPhotos.nestedCanvas).to.equal(true)

@@ -53,7 +53,7 @@ export default {
     'thumbnail-viewer': require('./thumbnail-viewer.vue')
   },
 
-  data() {
+  data () {
     return {
       activeRangeViewer: null
     }

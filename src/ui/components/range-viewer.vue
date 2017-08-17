@@ -49,7 +49,7 @@ export default {
       this.setLabel(null)
     },
 
-    setLabel(label) {
+    setLabel (label) {
       this.activeLabel = label
       this.currentName = label
     },

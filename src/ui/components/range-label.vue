@@ -16,7 +16,7 @@ export default {
 
   computed: {
     isActive () {
-      return this.label == this.activeLabel
+      return this.label === this.activeLabel
     },
 
     iconName () {

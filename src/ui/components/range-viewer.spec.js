@@ -8,7 +8,7 @@ Vue.component('range-viewer', RangeViewer)
 
 describe('range-viewer', () => {
   let vm
-  let template = `
+  const template = `
     <range-viewer starting-active-label="Dragon" ref="sut">
       <el-tab-pane ref="dragon" name="Dragon"> <p>Dragon</p> </el-tab-pane>
       <el-tab-pane ref="tiger" name="Tiger"> <p>Tiger</p> </el-tab-pane>
@@ -40,7 +40,6 @@ describe('range-viewer', () => {
       expect(vm.$el.querySelector('header').innerText)
         .to.equal('Dragon\nTiger\n\Snake\nOx\n')
     })
-
   })
 
   it('acts like an accordion', (done) => {
@@ -59,7 +58,7 @@ describe('range-viewer', () => {
     })
 
     swing(vm.$nextTick(), done, () => {
-      let tigerVm = vm.$refs.tiger
+      const tigerVm = vm.$refs.tiger
       expect(tigerVm.$el.innerText).to.equal('Tiger')
       expect(isVisible(tigerVm.$el)).to.be.true
 
@@ -78,7 +77,7 @@ describe('range-viewer', () => {
     })
 
     swing(vm.$nextTick(), done, () => {
-      let tigerVm = vm.$refs.tiger
+      const tigerVm = vm.$refs.tiger
       expect(tigerVm.$el.innerText).to.equal('Tiger')
       expect(isVisible(tigerVm.$el)).to.be.false
 
