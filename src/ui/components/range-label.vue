@@ -14,12 +14,6 @@
 export default {
   props: ['label', 'activeLabel'],
 
-  data () {
-    return {
-      active: false
-    }
-  },
-
   computed: {
     isActive () {
       return this.label == this.activeLabel
@@ -33,13 +27,8 @@ export default {
 
   methods: {
     activate () {
-      this.active = !this.active
       this.$parent.updateActiveLabel(this.label)
     }
-  },
-
-  created () {
-    this.active = this.isActive
   }
 }
 
