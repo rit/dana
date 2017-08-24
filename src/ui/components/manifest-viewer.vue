@@ -1,6 +1,14 @@
 <template>
   <section>
-    <h2>Navigate {{ label }}</h2>
+    <header>
+      <h2>Navigate {{ label }}</h2>
+      <span @click="toggleManifest" class="clickable">
+        <icon class="toggle" :name="manifestSwitch"></icon>
+      </span>
+    </header>
+
+    <content :class="{ hidden: isCollapsed }">
+
       <template v-if="rootRange.nestedCanvas">
         <section>
           <subrange :range="rootRange"></subrange>
@@ -33,6 +41,7 @@
           </range-viewer>
         </template>
       </template>
+    </content>
   </section>
 </template>
 
@@ -55,13 +64,22 @@ export default {
 
   data () {
     return {
-      activeRangeViewer: null
+      activeRangeViewer: null,
+      isManifestActive: true,
     }
   },
 
   computed: {
     label () {
       return this.manifest.label
+    },
+
+    manifestSwitch () {
+      return this.isManifestActive ? 'minus' : 'plus'
+    },
+
+    isCollapsed () {
+      return !this.isManifestActive
     },
 
     rootRange () {
@@ -88,6 +106,10 @@ export default {
       }
 
       this.activeRangeViewer = rangeViewer
+    },
+
+    toggleManifest () {
+      this.isManifestActive = !this.isManifestActive
     }
   }
 }
@@ -95,11 +117,18 @@ export default {
 
 <style scoped>
 
-h2 {
-  font-weight: bold;
+
+header {
+  display: flex;
+  border-top: 2px solid #3498db;
   padding-top: 0.5em;
   margin-top: 2em;
-  border-top: 2px solid #3498db;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-weight: bold;
   background-color: white;
 }
 
@@ -115,6 +144,19 @@ h3 {
 .subrange-details {
   background-color: white;
   padding: 0.5em 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.toggle {
+  width: auto;
+  height: 1.4em;
 }
 
 </style>
