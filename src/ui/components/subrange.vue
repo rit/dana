@@ -19,13 +19,16 @@
 </template>
 
 <script>
+import ThumbnailNested from './thumbnail-nested'
+import ThumbnailViewer from './thumbnail-viewer'
+
 export default {
   name: 'subrange',
   props: ['range'],
 
   components: {
-    'thumbnail-nested': require('./thumbnail-nested.vue'),
-    'thumbnail-viewer': require('./thumbnail-viewer.vue')
+    ThumbnailNested,
+    ThumbnailViewer
   }
 }
 </script>

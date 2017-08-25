@@ -50,16 +50,21 @@
 import { parse } from 'iso/ranger'
 import { chunk } from 'lodash'
 
+import RangeViewer from './range-viewer'
+import Subrange from './subrange'
+import ThumbnailNested from './thumbnail-nested'
+import ThumbnailViewer from './thumbnail-viewer'
+
 const RANGES_PER_ROW = 4
 
 export default {
   props: ['manifest'],
 
   components: {
-    'range-viewer': require('./range-viewer.vue'),
-    'subrange': require('./subrange.vue'),
-    'thumbnail-nested': require('./thumbnail-nested.vue'),
-    'thumbnail-viewer': require('./thumbnail-viewer.vue')
+    RangeViewer,
+    Subrange,
+    ThumbnailNested,
+    ThumbnailViewer
   },
 
   data () {

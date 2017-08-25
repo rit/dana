@@ -29,14 +29,16 @@
 <script>
 
 import { mapActions, mapGetters } from 'vuex'
+import MetadataItem from './metadata-item'
+import ManifestViewer from './manifest-viewer'
 
 export default {
 
   props: ['objectSlug'],
 
   components: {
-    'metadata-item': require('./metadata-item.vue'),
-    'manifest-viewer': require('./manifest-viewer.vue')
+    MetadataItem,
+    ManifestViewer
   },
 
   computed: {

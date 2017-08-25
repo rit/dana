@@ -10,13 +10,16 @@
 </template>
 
 <script>
+import ThumbnailViewer from './thumbnail-viewer'
+
 export default {
   props: ['ranges'],
 
   components: {
-    'thumbnail-viewer': require('./thumbnail-viewer.vue')
+    ThumbnailViewer
   }
 }
+
 </script>
 
 <style scoped>
