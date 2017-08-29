@@ -10,7 +10,7 @@ export default {
 
   computed: {
     isActive () {
-      return this.title == this.activePanel
+      return this.title == this.$parent.activePanel
     }
   },
 

@@ -1,12 +1,12 @@
 <template>
-  <tab>
+  <tab startingActivePanel="Tiger">
 
     <panel title="Dragon">
       <div>Dragon</div>
     </panel>
 
-    <panel title="Tigger">
-      <div>Tigger</div>
+    <panel title="Tiger">
+      <div>Tiger</div>
     </panel>
 
     <panel title="Rabbit">
