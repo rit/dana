@@ -1,5 +1,5 @@
 var numeralize = function(num) {
-  if (num === null) return ""
+  if (num === null || num === "") return ""
 
   var numerals = {
     1: "one",
