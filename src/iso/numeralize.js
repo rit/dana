@@ -1,4 +1,6 @@
 var numeralize = function(num) {
+  if (num === null) return ""
+
   var numerals = {
     1: "one",
     2: "two",

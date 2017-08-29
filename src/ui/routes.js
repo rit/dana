@@ -13,6 +13,8 @@ import ImageViewer from '@ui/components/image-viewer'
 import SeriesNavbar from '@ui/components/series-navbar'
 import SlideOut from '@ui/components/slide-out'
 
+import Focus from '@ui/components/focus'
+
 Vue.component('collection-content', CollectionContent)
 Vue.component('content-item', ContentItem)
 Vue.component('collection-content-tree', CollectionContentTree)
@@ -70,6 +72,10 @@ const routes = [
         ]
       }
     ]
+  },
+  {
+    path: '/focus',
+    component: Focus
   }
 ]
 
