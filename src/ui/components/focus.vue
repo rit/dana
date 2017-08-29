@@ -1,18 +1,25 @@
 <template>
-  <form>
-    <label for="">Amount</label>
-    <input v-model="amount" >
+  <tab>
 
-    <br />
+    <panel title="Dragon">
+      <div>Dragon</div>
+    </panel>
 
-    <numeral :number="amount"></numeral>
+    <panel title="Tigger">
+      <div>Tigger</div>
+    </panel>
 
-  </form>
+    <panel title="Rabbit">
+      <div>Rabbit</div>
+    </panel>
+
+  </tab>
 </template>
 
 <script>
 
-import Numeral from '@ui/components/numeral'
+import Panel from '@ui/components/panel'
+import Tab from '@ui/components/tab'
 
 export default {
   data () {
@@ -21,7 +28,8 @@ export default {
     }
   },
   components: {
-    numeral: Numeral
+    tab: Tab,
+    panel: Panel
   }
 }
 
