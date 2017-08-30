@@ -1,7 +1,7 @@
 <template>
   <section>
     <header>
-      <ul>
+      <ul ref="navbar">
         <li v-for="panel in panels" @click="activatePanel(panel)"> {{ panel.title }}</li>
       </ul>
     </header>
