@@ -34,10 +34,12 @@ function collectionHeading (data) {
   var physicalDesc = get(mapped, 'Physical Desc.', []).join(' ')
   var label = [data.label, mapped['Creation Date']].join(', ')
   var description = data['description']
+  var arrangement = get(mapped, 'Arrangement', [])
   return {
     label,
     description,
-    physicalDesc
+    physicalDesc,
+    arrangement
   }
 }
 

@@ -11,7 +11,15 @@
           <collection-heading :heading="collectionSlideOut"></collection-heading>
         </div>
         <div class="modal-body">
+          <h4>Description</h4>
           <p>{{ description }}</p>
+          <h4>Arrangement</h4>
+          <template v-if="typeof(arrangement) == 'object'">
+            <p v-for="entry in arrangement">{{ entry }}</p>
+          </template>
+          <template v-else-if="typeof(arrangement) == 'string'">
+            <p>{{ arrangement }}</p>
+          </template>
         </div>
       </div>
     </div>
@@ -34,6 +42,10 @@ export default {
 
     description () {
       return this.collectionSlideOut.description
+    }, 
+
+    arrangement () {
+      return this.collectionSlideOut.arrangement
     }
   },
 
@@ -61,11 +73,21 @@ export default {
 <style scoped>
 
 .modal {
-  position: absolute;
+  position: fixed;
+  right: 0;
+
+  width: 1000px;
+  max-width: 100%;
+  height: 600px;
+  max-height: 100%;
+  z-index: 100;
+  display: flex;
+  background: #c6c6c6;
+  /*position: absolute;
   right: 0;
   top: 0;
   z-index: 100;
-  background: white;
+  background: white;*/
 }
 
 .closed {
@@ -84,17 +106,31 @@ export default {
 }
 
 .modal-guts {
-  margin: 2em 2em 6em 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+  /*margin: 2em 2em 6em 0;*/
 }
 
 .modal-body {
+  position: absolute;
   margin-left: 6em;
+  margin-top: 6em;
+  margin-right: 2em;
 }
 
 .header {
+  position: absolute;
+  width: 100%;
+  padding-right: 2em;
   text-align: right;
-  position: relative;
-  margin: 2em 0;
+  background: #ddd;
+  /*position: relative;*/
+  /*margin: 2em 0;*/
 }
 
 .header .action {
