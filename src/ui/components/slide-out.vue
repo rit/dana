@@ -14,12 +14,7 @@
           <h4>Description</h4>
           <p>{{ description }}</p>
           <h4>Arrangement</h4>
-          <template v-if="typeof(arrangement) == 'object'">
-            <p v-for="entry in arrangement">{{ entry }}</p>
-          </template>
-          <template v-else-if="typeof(arrangement) == 'string'">
-            <p>{{ arrangement }}</p>
-          </template>
+          <p v-for="entry in arrangement">{{ entry }}</p>
         </div>
       </div>
     </div>

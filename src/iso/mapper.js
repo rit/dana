@@ -28,6 +28,7 @@ function collectionHeading (data) {
     return {
       label: data.label
     }
+
   }
 
   var mapped = metadataMap(data.metadata)
@@ -35,6 +36,9 @@ function collectionHeading (data) {
   var label = [data.label, mapped['Creation Date']].join(', ')
   var description = data['description']
   var arrangement = get(mapped, 'Arrangement', [])
+  if (typeof(arrangement) === 'string') {
+    arrangement = [arrangement]
+  }
   return {
     label,
     description,
