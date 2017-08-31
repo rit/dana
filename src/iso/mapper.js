@@ -1,5 +1,6 @@
 var axios = require('axios')
 var get = require('lodash').get
+var isString = require('lodash.isstring')
 
 function seriesTree (data) {
   var transformed = {}
@@ -36,7 +37,7 @@ function collectionHeading (data) {
   var label = [data.label, mapped['Creation Date']].join(', ')
   var description = data['description']
   var arrangement = get(mapped, 'Arrangement', [])
-  if (typeof(arrangement) === 'string') {
+  if (isString(arrangement)) {
     arrangement = [arrangement]
   }
   return {
