@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <span @click="backward()">backward</span>
+  <div class="thumbnails">
+    <span @click="backward()" class="backward control">
+      <icon name="chevron-left" class="large"></icon>
+    </span>
     <ul ref="carousel">
       <li v-for="canvas in canvases">
         <figure>
@@ -11,7 +13,9 @@
         </figure>
       </li>
     </ul>
-    <span @click="forward()">forward</span>
+    <span @click="forward()" class="forward control">
+      <icon name="chevron-right" class="large"></icon>
+    </span>
   </div>
 </template>
 
@@ -39,6 +43,31 @@ export default {
 </script>
 
 <style scoped>
+.thumbnails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.control {
+  position: absolute;
+  z-index: 1;
+}
+
+.backward {
+}
+
+.forward {
+  right: 0;
+}
+
+.large {
+  width: 1.5em;
+  height: auto;
+  color: #333;
+}
+
 img {
   width: auto;
   height: 8em;
@@ -58,7 +87,6 @@ li {
   text-align: center;
   padding: 0
 }
-
 
 figure {
   margin: 0.5em;

@@ -8,6 +8,8 @@ import 'element-ui/lib/theme-default/index.css'
 
 import 'vue-awesome/icons/plus'
 import 'vue-awesome/icons/minus'
+import 'vue-awesome/icons/chevron-left'
+import 'vue-awesome/icons/chevron-right'
 import Icon from 'vue-awesome/components/Icon'
 Vue.component('icon', Icon)
 
