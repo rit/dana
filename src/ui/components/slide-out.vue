@@ -71,7 +71,7 @@ export default {
   position: fixed;
   right: 0;
 
-  width: 1000px;
+  width: 800px;
   max-width: 100%;
   height: 600px;
   max-height: 100%;
@@ -138,11 +138,16 @@ export default {
 }
 
 .header .heading {
-  margin: 2em
+  margin-right: 2em
+}
+
+h4 {
+  margin-bottom: 0;
 }
 
 p {
   line-height: 1.8em;
+  margin-top: 0;
 }
 
 </style>

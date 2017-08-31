@@ -51,10 +51,12 @@ export default {
 h2 {
   font-size: 1.2em;
   margin-bottom: 0.2em;
+  margin-right: 2em;
 }
 
 div {
   margin-bottom: 1em;
+  margin-right: 2em;
 }
 
 span a {
