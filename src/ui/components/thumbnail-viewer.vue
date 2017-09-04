@@ -3,16 +3,7 @@
     <span @click="backward()" class="control">
       <icon name="chevron-left" class="large"></icon>
     </span>
-    <ul ref="carousel">
-      <li v-for="canvas in canvases">
-        <figure>
-          <img :src="canvas.thumbnail['@id']" :alt="canvas.label" />
-          <figcaption>
-            {{ canvas.label }}
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
+    <slot></slot>
     <span @click="forward()" class="control">
       <icon name="chevron-right" class="large"></icon>
     </span>
@@ -29,14 +20,19 @@ export default {
   props: ['canvases'],
 
   methods:{
+    carousel () {
+      return this.$slots.default[0].elm
+    },
+
     forward() {
-      var x = this.$refs.carousel.scrollLeft + (this.$refs.carousel.clientWidth/2)
-      TweenLite.to(this.$refs.carousel, 0.30, {scrollTo:{ x }});
+      // debugger
+      var x = this.carousel().scrollLeft + (this.carousel().clientWidth/2)
+      TweenLite.to(this.carousel(), 0.30, {scrollTo:{ x }});
     },
 
     backward() {
-      var x = this.$refs.carousel.scrollLeft - (this.$refs.carousel.clientWidth/2)
-      TweenLite.to(this.$refs.carousel, 0.30, {scrollTo:{ x }});
+      var x = this.carousel().scrollLeft - (this.carousel().clientWidth/2)
+      TweenLite.to(this.carousel(), 0.30, {scrollTo:{ x }});
     }
   }
 }
@@ -59,34 +55,5 @@ export default {
   width: 1.5em;
   height: auto;
   color: #fff;
-}
-
-img {
-  width: auto;
-  height: 8em;
-}
-
-ul {
-  background-color: #333;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  overflow: hidden;
-  flex-basis: 100%;
-}
-
-li {
-  list-style: none;
-  margin: 0;
-  text-align: center;
-  padding: 0
-}
-
-figure {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #333;
-  color: white;
-  font-weight: bold;
 }
 </style>

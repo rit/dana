@@ -9,10 +9,14 @@
     <p> {{ range.description }} </p>
 
     <template v-if="range.nestedCanvas">
-      <thumbnail-nested :ranges="range.subranges"></thumbnail-nested>
+      <thumbnail-viewer >
+        <thumbnail-nested :ranges="range.subranges"></thumbnail-nested>
+      </thumbnail-viewer>
     </template>
     <template v-else>
-      <thumbnail-viewer :canvases="range.canvases"></thumbnail-viewer>
+      <thumbnail-viewer >
+        <thumbnails :canvases="range.canvases"></thumbnails>
+      </thumbnail-viewer>
     </template>
   </div>
 
@@ -21,6 +25,7 @@
 <script>
 import ThumbnailNested from './thumbnail-nested'
 import ThumbnailViewer from './thumbnail-viewer'
+import Thumbnails from './thumbnails'
 
 export default {
   name: 'subrange',
@@ -28,7 +33,8 @@ export default {
 
   components: {
     ThumbnailNested,
-    ThumbnailViewer
+    ThumbnailViewer,
+    Thumbnails,
   }
 }
 </script>
