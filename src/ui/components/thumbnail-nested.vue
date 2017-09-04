@@ -29,6 +29,7 @@ ul {
   padding: 0;
   display: flex;
   overflow: hidden;
+  width: 100%;
 }
 
 li {

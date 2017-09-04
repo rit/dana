@@ -21,9 +21,7 @@
               <el-tab-pane :name="range.label">
                 <section v-if="range.nestedCanvas">
                   <div class="subranges">
-                    <div class="subrange-details">
-                      <thumbnail-nested :ranges="range.subranges"></thumbnail-nested>
-                    </div>
+                    <subrange :range="range"></subrange>
                   </div>
                 </section>
                 <section v-else-if="range.subranges">
@@ -144,6 +142,11 @@ h3 {
 .subranges {
   background-color: #eeeeee;
   padding: 0 1em;
+}
+
+.subranges:last-child {
+  padding-bottom: 1em;
+  background-color: #eee;
 }
 
 .subrange-details {
