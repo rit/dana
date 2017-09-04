@@ -3,20 +3,20 @@
     <li v-for="range in ranges">
       <figure>
         <figcaption> {{ range.label }}</figcaption>
-        <thumbnail-viewer :canvases="range.canvases"></thumbnail-viewer>
+        <thumbnails :canvases="range.canvases"></thumbnails>
       </figure>
     </li>
   </ul>
 </template>
 
 <script>
-import ThumbnailViewer from './thumbnail-viewer'
+import Thumbnails from './thumbnails'
 
 export default {
   props: ['ranges'],
 
   components: {
-    ThumbnailViewer
+    Thumbnails
   }
 }
 
@@ -24,28 +24,29 @@ export default {
 
 <style scoped>
 
-img {
-  width: auto;
-  height: 8em;
-}
-
 ul {
-  /* background-color: grey; */
   margin: 0;
   padding: 0;
   display: flex;
-  overflow: auto;
+  overflow: hidden;
+  width: 100%;
 }
 
 li {
   list-style: none;
-  margin: 0;
   text-align: left;
-  padding: 0
+  margin: 0;
+  margin-top: 1em;
+  padding: 0;
+  color: white;
 }
 
 figure {
-  margin: 0.5em;
-  padding: 0.5em;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  margin-left: 1em;
 }
 </style>
