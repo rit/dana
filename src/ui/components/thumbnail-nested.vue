@@ -24,13 +24,7 @@ export default {
 
 <style scoped>
 
-img {
-  width: auto;
-  height: 8em;
-}
-
 ul {
-  /* background-color: grey; */
   margin: 0;
   padding: 0;
   display: flex;
@@ -39,14 +33,19 @@ ul {
 
 li {
   list-style: none;
-  margin: 0;
   text-align: left;
-  padding: 0
+  margin: 0;
+  margin-top: 1em;
+  padding: 0;
+  color: white;
 }
 
 figure {
-  margin: 0.5em;
-  padding: 0.5em;
-  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  margin-left: 1em;
 }
 </style>
