@@ -1,6 +1,6 @@
 <template>
   <div class="thumbnails">
-    <span @click="backward()" class="backward control">
+    <span @click="backward()" class="control">
       <icon name="chevron-left" class="large"></icon>
     </span>
     <ul ref="carousel">
@@ -13,7 +13,7 @@
         </figure>
       </li>
     </ul>
-    <span @click="forward()" class="forward control">
+    <span @click="forward()" class="control">
       <icon name="chevron-right" class="large"></icon>
     </span>
   </div>
@@ -45,27 +45,20 @@ export default {
 <style scoped>
 .thumbnails {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: relative;
+  background-color: #333;
 }
 
 .control {
-  position: absolute;
-  z-index: 1;
-}
-
-.backward {
-}
-
-.forward {
-  right: 0;
+  padding: 0.4em;
 }
 
 .large {
   width: 1.5em;
   height: auto;
-  color: #333;
+  color: #fff;
 }
 
 img {
@@ -74,11 +67,12 @@ img {
 }
 
 ul {
-  background-color: grey;
+  background-color: #333;
   margin: 0;
   padding: 0;
   display: flex;
   overflow: hidden;
+  flex-basis: 100%;
 }
 
 li {
@@ -91,6 +85,8 @@ li {
 figure {
   margin: 0.5em;
   padding: 0.5em;
-  background-color: white;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
 }
 </style>
