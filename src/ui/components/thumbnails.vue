@@ -2,7 +2,7 @@
   <ul>
     <li v-for="canvas in canvases">
       <figure>
-        <img :src="canvas.thumbnail['@id']" :alt="canvas.label" />
+        <img :src="canvas.thumbnail['@id']" :alt="canvas.label" @click="openImageViewer(canvas)" />
         <figcaption>
           {{ canvas.label }}
         </figcaption>
@@ -12,8 +12,18 @@
 </template>
 
 <script>
+import { TweenLite } from "gsap";
+// Initialize the ScrollToPlugin by importing
+import ScrollToPlugin from "gsap/ScrollToPlugin";
+
 export default {
-  props: ['canvases']
+  props: ['canvases'],
+
+  methods: {
+    openImageViewer(canvas) {
+      TweenLite.to(window, 0.25, {scrollTo:"#image-viewer"});
+    }
+  }
 }
 </script>
 <style scoped>

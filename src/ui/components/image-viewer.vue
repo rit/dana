@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="image-viewer">
     <h4>Image Viewer Placeholder</h4>
   </div>
 </template>
