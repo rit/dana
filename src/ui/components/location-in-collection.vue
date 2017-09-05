@@ -1,14 +1,14 @@
 <template>
   <div class="location-in-collection">
-    <h3>Location in Collection</h3>
+    <h2>Location in Collection</h2>
     <ul>
       <li v-for="(loc, index) in manifestParents" :style="marginLeft(index)">
         <span> {{ loc.label }} </span>
-        <span class="more"><a href="#" @click.prevent="showMoreInfo(loc)">More Info</a></span>
+        <span><a href="#" @click.prevent="showMoreInfo(loc)">More Info</a></span>
       </li>
       <li class="manifest" :style="paddingLeft(_location.length)">
         <span> {{ manifest.label }} </span>
-        <span class="more">
+        <span class="full">
           <a href="#" @click.prevent="showMoreInfo(manifest)">Full Record Details</a>
         </span>
       </li>
@@ -82,11 +82,10 @@ export default {
 
 <style scoped>
 
-h3 {
+h2 {
   padding: 0.5em 0;
-  padding-left: 1em;
   margin-bottom: 0;
-  border-top: 4px solid #3498db;
+  border-top: 2px solid #3498db;
 }
 
 .location-in-collection {
@@ -113,6 +112,14 @@ li.manifest {
   background-color: white;
   flex-direction: column;
   padding-right: 1em;
+}
+
+.full {
+  margin-top: 1em;
+}
+
+a, a:visited, a:hover {
+  color: #5598c9;
 }
 
 </style>
