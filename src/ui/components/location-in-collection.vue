@@ -6,7 +6,10 @@
         <span> {{ loc.label }} </span>
         <span class="more">More Info</span>
       </li>
-      <li> {{ manifest.label }}</li>
+      <li class="manifest" :style="paddingLeft(_location.length)">
+        <span> {{ manifest.label }} </span>
+        <span> Full Record Details</span>
+      </li>
     </ul>
   </div>
 </template>
@@ -43,7 +46,11 @@ export default {
     ...mapActions(['fetchObjectLocation']),
 
     marginLeft (index) {
-      return `margin-left: ${index*1.5}em`
+      return `margin-left: ${index*1.2}em`
+    },
+
+    paddingLeft (index) {
+      return `padding-left: ${index*1.2}em`
     }
 
   },
@@ -93,6 +100,13 @@ li {
   justify-content: space-between;
   font-weight: bold;
   border-bottom: 2px solid white;
+}
+
+li.manifest {
+  border-bottom: none;
+  background-color: white;
+  flex-direction: column;
+  padding-right: 1em;
 }
 
 </style>
