@@ -4,11 +4,13 @@
     <ul>
       <li v-for="(loc, index) in manifestParents" :style="marginLeft(index)">
         <span> {{ loc.label }} </span>
-        <span class="more">More Info</span>
+        <span class="more"><a href="#" @click.prevent="showMoreInfo(loc)">More Info</a></span>
       </li>
       <li class="manifest" :style="paddingLeft(_location.length)">
         <span> {{ manifest.label }} </span>
-        <span> Full Record Details</span>
+        <span class="more">
+          <a href="#" @click.prevent="showMoreInfo(manifest)">Full Record Details</a>
+        </span>
       </li>
     </ul>
   </div>
@@ -51,6 +53,10 @@ export default {
 
     paddingLeft (index) {
       return `padding-left: ${index*1.2}em`
+    },
+
+    showMoreInfo (collection) {
+      console.log('showMoreInfo', collection.label, collection.slug)
     }
 
   },
