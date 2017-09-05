@@ -2,16 +2,18 @@
   <div class="location-in-collection">
     <h3>Location in Collection</h3>
     <ul>
-      <li v-for="(loc, index) in _location" :style="marginLeft(index)">
+      <li v-for="(loc, index) in manifestParents" :style="marginLeft(index)">
         <span> {{ loc.label }} </span>
         <span class="more">More Info</span>
       </li>
+      <li> {{ manifest.label }}</li>
     </ul>
   </div>
 </template>
 
 <script>
 
+import { last, cloneDeep } from 'lodash'
 import { mapActions, mapGetters } from 'vuex'
 
 export default {
@@ -23,6 +25,17 @@ export default {
 
     _location () {
       return this.locationBySlug(this.objectSlug)
+    },
+
+    manifest () {
+      // location may not be set yet
+      return last(this._location) || {}
+    },
+
+    manifestParents () {
+      var parents = cloneDeep(this._location)
+      parents.pop()
+      return parents
     }
   },
 
