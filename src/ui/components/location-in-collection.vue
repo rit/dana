@@ -1,24 +1,18 @@
 <template>
   <div class="location-in-collection">
     <h3>Location in Collection</h3>
-
-    <div class="locations" v-for="loc in _location">
-      <div class="loc">
-        <div class="label">
-            {{ loc.doc.label }}
-        </div>
-        <p v-if="loc.doc.description">
-          <a href="">More info</a>
-        </p>
-      </div>
-    </div>
+    <ul>
+      <li v-for="(loc, index) in _location" :style="marginLeft(index)">
+        <span> {{ loc.label }} </span>
+        <span class="more">More Info</span>
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
 
 import { mapActions, mapGetters } from 'vuex'
-import { ellipsis } from 'iso/util'
 
 export default {
 
@@ -33,14 +27,12 @@ export default {
   },
 
   methods: {
-    ...mapActions(['fetchObjectLocation'])
+    ...mapActions(['fetchObjectLocation']),
 
-  },
-
-  filters: {
-    ellipsis (text) {
-      return ellipsis(text, 120)
+    marginLeft (index) {
+      return `margin-left: ${index*1.5}em`
     }
+
   },
 
   watch: {
@@ -68,34 +60,26 @@ h3 {
   padding: 0.5em 0;
   padding-left: 1em;
   margin-bottom: 0;
-  border-bottom: 4px solid silver;
+  border-top: 4px solid #3498db;
 }
 
 .location-in-collection {
+}
+
+ul {
   background-color: #eeeeee;
-}
-
-.loc {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 2px solid silver;
-  min-height: 2em;
   padding: 1em;
+  margin: 0;
 }
 
-.locations:last-child {
-  border-left: 2px solid silver;
-  border-right: 2px solid silver;
-  background-color: white;
-}
-
-.loc p {
-  margin-left: 0.4em;
-}
-
-.label {
+li {
+  list-style: none;
+  padding: 1em 0;
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
   font-weight: bold;
-  font-size: 1.1em;
+  border-bottom: 2px solid white;
 }
 
 </style>
