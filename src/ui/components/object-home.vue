@@ -4,7 +4,7 @@
       :manifest="collection"
     />
 
-    <h2>Full Record Details</h2>
+    <h2 id="full-record-details">Full Record Details</h2>
     <ul class="metadata">
       <li>
         <div class="label">

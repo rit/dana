@@ -9,7 +9,7 @@
       <li class="manifest" :style="paddingLeft(_location.length)">
         <span> {{ manifest.label }} </span>
         <span class="full">
-          <a href="#" @click.prevent="showMoreInfo(manifest)">Full Record Details</a>
+          <a href="#" @click.prevent="showDetails">Full Record Details</a>
         </span>
       </li>
     </ul>
@@ -17,6 +17,8 @@
 </template>
 
 <script>
+import { TweenLite } from "gsap";
+import ScrollToPlugin from "gsap/ScrollToPlugin";
 
 import { last, cloneDeep } from 'lodash'
 import { mapActions, mapGetters } from 'vuex'
@@ -57,6 +59,10 @@ export default {
 
     showMoreInfo (collection) {
       console.log('showMoreInfo', collection.label, collection.slug)
+    },
+
+    showDetails () {
+      TweenLite.to(window, 0.25, {scrollTo:"#full-record-details"});
     }
 
   },
