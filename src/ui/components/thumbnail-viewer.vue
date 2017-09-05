@@ -49,6 +49,7 @@ export default {
 
 .control {
   padding: 0.4em;
+  cursor: pointer;
 }
 
 .large {
