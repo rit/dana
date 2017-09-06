@@ -5,8 +5,11 @@
     <div :class="{ closed: isClosed }" class="modal" id="modal">
       <div class="modal-guts">
         <div class="header">
-          <div class="action">
+          <!--<div class="action">
             <el-button @click="closeModal" type="secondary" icon="close"></el-button>
+          </div>-->
+          <div @click="closeModal" class="action">
+            <icon class="close" name="times" scale="2"></icon>
           </div>
           <collection-heading :heading="collectionSlideOut"></collection-heading>
         </div>
@@ -77,7 +80,7 @@ export default {
   max-height: 100%;
   z-index: 100;
   display: flex;
-  background: #c6c6c6;
+  
   /*position: absolute;
   right: 0;
   top: 0;
@@ -104,12 +107,17 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
+  right: -100px;
   width: 100%;
   height: 100%;
   overflow: auto;
+  background: #c6c6c6;
+  transition: 1s;
+  transform: translateX(-100, 0);
 
   /*margin: 2em 2em 6em 0;*/
 }
+
 
 .modal-body {
   position: absolute;
@@ -121,7 +129,7 @@ export default {
 .header {
   position: absolute;
   width: 100%;
-  padding-right: 2em;
+  margin-right: 2em;
   text-align: right;
   background: #ddd;
   /*position: relative;*/
@@ -135,11 +143,16 @@ export default {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
-.header .heading {
-  margin-right: 2em
+.close {
+  width: auto;
+  height: 1.4em;
 }
+/*.header .heading {
+  margin-right: 2em
+}*/
 
 h4 {
   margin-bottom: 0;
