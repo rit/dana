@@ -40,7 +40,8 @@ class Range {
 }
 
 class Canvas {
-  constructor ({ label, thumbnail, images }) {
+  constructor ({ label, thumbnail, images, ...kwargs }) {
+    this.id = kwargs['@id']
     this.label = label
     this.thumbnail = thumbnail
     this.images = images

@@ -19,6 +19,10 @@
     <script src="/static/mirador/mirador.js"></script>
     <script type="text/javascript">
     $(function() {
+      var uri = new URI(window.location);
+      var data = uri.search(true);
+      console.log(data)
+
       // Called without "let" or "var"
       // so we can play with it in the browser
       myMiradorInstance = Mirador({
@@ -28,12 +32,12 @@
           'show' : false
         },
         "data": [
-          { "manifestUri": "http://media.getty.edu/data/iiif/research/archives/2011m30_ref1002_kt3/manifest.json", "location": "The Getty"},
+          { "manifestUri": data.manifestUri },
         ],
         "windowObjects": [
           {
-            "loadedManifest" : "http://media.getty.edu/data/iiif/research/archives/2011m30_ref1002_kt3/manifest.json",
-            "canvasID" : "http://media.getty.edu/data/iiif/research/archives/2011m30_ref1002_kt3/canvas/canvas-FL2418546.json",
+            "loadedManifest" : data.manifestUri,
+            "canvasID" : data.canvasId,
             "viewType" : "ImageView",
             "displayLayout": false,
             "bottomPanel" : false,

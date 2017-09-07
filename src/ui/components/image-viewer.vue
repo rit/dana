@@ -1,13 +1,29 @@
 <template>
   <div id="image-viewer">
-    <h4>Image Viewer Placeholder</h4>
+    <iframe
+      :src="miradorSrc"
+      title="Mirador"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true">
+    </iframe>
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+import URI from 'urijs'
 
 export default {
+  computed: {
+    ...mapState(['imageViewerOptions']),
 
+    miradorSrc () {
+      var uri = new URI('/static/mirador/index.html')
+      uri.search(this.imageViewerOptions)
+      return uri.toString()
+    }
+  }
 }
 </script>
 
@@ -15,11 +31,17 @@ export default {
 <style scoped>
   div {
     display: flex;
-    height: 20em;
+    /*
     justify-content: center;
     align-items: center;
+    */
     border: 1px solid silver;
     margin-top: 1em;
     margin-bottom: 2em;
+  }
+
+  iframe {
+    width: 100%;
+    height: 40em;
   }
 </style>

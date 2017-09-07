@@ -45,6 +45,8 @@
 
 <script>
 
+import { mapMutations } from 'vuex'
+
 import { parse } from 'iso/ranger'
 import { chunk } from 'lodash'
 
@@ -102,6 +104,8 @@ export default {
   },
 
   methods: {
+    ...mapMutations(['imageViewerOptions']),
+
     setActiveRangeViewer (rangeViewer) {
       if (this.activeRangeViewer !== rangeViewer) {
         this.activeRangeViewer &&
@@ -113,6 +117,14 @@ export default {
 
     toggleManifest () {
       this.isManifestActive = !this.isManifestActive
+    }
+  },
+
+  watch: {
+    manifest (newVal, oldVal) {
+      if (newVal['@id']) {
+        this.imageViewerOptions({ manifestUri: newVal['@id']})
+      }
     }
   }
 }

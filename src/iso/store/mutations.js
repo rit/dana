@@ -1,4 +1,9 @@
 var Vue = require('vue/dist/vue.common')
+var { pickBy } = require('lodash')
+
+// NOTE: `Vue.set` pattern only works for adding key-value pair when the key is new
+// To update the value for an existing key, use Object.assign pattern
+
 
 const mutations = {
   collectionSlideOut (state, { collection }) {
@@ -7,6 +12,11 @@ const mutations = {
 
   seriesTree (state, { seriesTree }) {
     state.seriesTree = seriesTree
+  },
+
+  imageViewerOptions (state, { manifestUri, canvasId }) {
+    let values = pickBy({ manifestUri, canvasId }) // Remove falsy values
+    state.imageViewerOptions = Object.assign({}, state.imageViewerOptions, values)
   },
 
   subcollections (state, { slug, collection }) {
@@ -27,6 +37,7 @@ const state = {
   collectionSlideOut: {},
   seriesTree: [],
 
+  imageViewerOptions: {}, // for mirador
   collections: {},
   subcollections: {},
   locations: {}
