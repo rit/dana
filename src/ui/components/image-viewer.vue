@@ -1,7 +1,7 @@
 <template>
   <div id="image-viewer">
     <iframe
-      src="/static/mirador/index.html?manifest=szeeman"
+      :src="miradorSrc"
       title="Mirador"
       allowfullscreen="true"
       webkitallowfullscreen="true"
@@ -13,7 +13,19 @@
 
 <script>
 
+import URI from 'urijs'
+
 export default {
+  props: ['manifestUri', 'canvasId'],
+
+  computed: {
+    miradorSrc () {
+      var uri = new URI('/static/mirador/index.html')
+      uri.search({manifestUri: this.manifestUri, canvasId: this.canvasId})
+      console.log('uri', uri.toString())
+      return uri
+    }
+  }
 }
 </script>
 

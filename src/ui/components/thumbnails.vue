@@ -21,6 +21,7 @@ export default {
 
   methods: {
     openImageViewer(canvas) {
+      console.log(canvas.id)
       TweenLite.to(window, 0.25, {scrollTo:"#image-viewer"});
     }
   }
