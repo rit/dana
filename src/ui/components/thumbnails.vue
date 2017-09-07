@@ -12,6 +12,8 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
+
 import { TweenLite } from "gsap";
 // Initialize the ScrollToPlugin by importing
 import ScrollToPlugin from "gsap/ScrollToPlugin";
@@ -20,8 +22,10 @@ export default {
   props: ['canvases'],
 
   methods: {
+    ...mapMutations(['imageViewerOptions']),
+
     openImageViewer(canvas) {
-      console.log(canvas.id)
+      this.imageViewerOptions({canvasId: canvas.id})
       TweenLite.to(window, 0.25, {scrollTo:"#image-viewer"});
     }
   }

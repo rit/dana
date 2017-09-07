@@ -7,23 +7,21 @@
       webkitallowfullscreen="true"
       mozallowfullscreen="true">
     </iframe>
-
   </div>
 </template>
 
 <script>
-
+import { mapState } from 'vuex'
 import URI from 'urijs'
 
 export default {
-  props: ['manifestUri', 'canvasId'],
-
   computed: {
+    ...mapState(['imageViewerOptions']),
+
     miradorSrc () {
       var uri = new URI('/static/mirador/index.html')
-      uri.search({manifestUri: this.manifestUri, canvasId: this.canvasId})
-      console.log('uri', uri.toString())
-      return uri
+      uri.search(this.imageViewerOptions)
+      return uri.toString()
     }
   }
 }
@@ -33,8 +31,10 @@ export default {
 <style scoped>
   div {
     display: flex;
+    /*
     justify-content: center;
     align-items: center;
+    */
     border: 1px solid silver;
     margin-top: 1em;
     margin-bottom: 2em;

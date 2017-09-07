@@ -123,7 +123,6 @@ export default {
   watch: {
     manifest (newVal, oldVal) {
       if (newVal['@id']) {
-        console.log('watches', newVal)
         this.imageViewerOptions({ manifestUri: newVal['@id']})
       }
     }
