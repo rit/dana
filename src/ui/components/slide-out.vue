@@ -1,26 +1,28 @@
 <template>
   <div>
-    <div :class="{ closed: isClosed }" class="modal-overlay" id="modal-overlay"></div>
-
-    <div :class="{ closed: isClosed }" class="modal" id="modal">
-      <div class="modal-guts">
-        <div class="header">
-          <!--<div class="action">
-            <el-button @click="closeModal" type="secondary" icon="close"></el-button>
-          </div>-->
-          <div @click="closeModal" class="action">
-            <icon class="close" name="times" scale="2"></icon>
+    <transition name="slide">
+      <div v-if="!isClosed" class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="modal">
+          <div class="modal-guts">
+            <div class="header">
+              <!--<div class="action">
+                <el-button @click="closeModal" type="secondary" icon="close"></el-button>
+              </div>-->
+              <div @click="closeModal" class="action">
+                <icon class="close" name="times" scale="2"></icon>
+              </div>
+              <collection-heading :heading="collectionSlideOut"></collection-heading>
+            </div>
+            <div class="modal-body">
+              <h4>Description</h4>
+              <p>{{ description }}</p>
+              <h4>Arrangement</h4>
+              <p v-for="entry in arrangement">{{ entry }}</p>
+            </div>
           </div>
-          <collection-heading :heading="collectionSlideOut"></collection-heading>
-        </div>
-        <div class="modal-body">
-          <h4>Description</h4>
-          <p>{{ description }}</p>
-          <h4>Arrangement</h4>
-          <p v-for="entry in arrangement">{{ entry }}</p>
         </div>
       </div>
-    </div>
+    </transition>
   </div>
 </template>
 <script>
@@ -112,8 +114,8 @@ export default {
   height: 100%;
   overflow: auto;
   background: #c6c6c6;
-  transition: 1s;
-  transform: translateX(-100, 0);
+  transition: .3s;
+  /*transform: translateX(-100, 0);*/
 
   /*margin: 2em 2em 6em 0;*/
 }
@@ -161,6 +163,18 @@ h4 {
 p {
   line-height: 1.8em;
   margin-top: 0;
+}
+
+.slide-enter-active .modal-guts{
+  transition: all .3s ease;
+}
+.slide-leave-active {
+  transition: all .3s ease;
+}
+.slide-enter .modal-guts, .slide-leave-to .modal-guts
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(800px);
+  opacity: 0;
 }
 
 </style>
