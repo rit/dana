@@ -9,6 +9,16 @@ const mutations = {
     state.seriesTree = seriesTree
   },
 
+  imageViewerOptions (state, { manifestUri, canvasId }) {
+    if (manifestUri) {
+      Vue.set(state.imageViewerOptions, 'manifestUri', manifestUri)
+    }
+
+    if (canvasId) {
+      Vue.set(state.imageViewerOptions, 'canvasId', canvasId)
+    }
+  },
+
   subcollections (state, { slug, collection }) {
     Vue.set(state.subcollections, slug, collection)
   },
@@ -27,6 +37,7 @@ const state = {
   collectionSlideOut: {},
   seriesTree: [],
 
+  imageViewerOptions: {}, // for mirador
   collections: {},
   subcollections: {},
   locations: {}
