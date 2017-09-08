@@ -1,6 +1,6 @@
 <template>
   <div id="image-viewer">
-    <iframe
+    <iframe v-if="miradorSrc"
       :src="miradorSrc"
       title="Mirador"
       allowfullscreen="true"
@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import { isEmpty } from 'lodash'
 import { mapState, mapMutations } from 'vuex'
 import URI from 'urijs'
 
@@ -19,6 +20,8 @@ export default {
     ...mapState(['imageViewerOptions']),
 
     miradorSrc () {
+      if (isEmpty(this.imageViewerOptions)) return
+
       var uri = new URI('/static/mirador/index.html')
       uri.search(this.imageViewerOptions)
       return uri.toString()
