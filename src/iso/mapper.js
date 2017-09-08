@@ -1,6 +1,5 @@
 var axios = require('axios')
-var get = require('lodash').get
-var isString = require('lodash.isstring')
+var { get, isString } = require('lodash')
 
 function seriesTree (data) {
   var transformed = {}
