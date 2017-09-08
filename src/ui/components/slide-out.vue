@@ -4,8 +4,8 @@
          :scrollable="true"
          width="60%" 
          :adaptave="true"
-         pivotX=1 
-         pivotY=.15
+         :pivotX="1"
+         :pivotY=".15"
          transition="slide"
          @closed="closeModal">
     <div class="header">
