@@ -1,38 +1,34 @@
 <template>
-  <div>
-    <transition name="slide">
-      <div v-if="!isClosed" class="modal-overlay" id="modal-overlay" @click="closeModal">
-        <div class="modal" id="modal">
-          <div class="modal-guts">
-            <div class="header">
-              <div @click="closeModal" class="action">
-                <icon class="close" name="times" scale="2"></icon>
-              </div>
-              <collection-heading :heading="collectionSlideOut"></collection-heading>
-            </div>
-            <div class="modal-body">
-              <h4>Description</h4>
-              <p>{{ description }}</p>
-              <h4>Arrangement</h4>
-              <p v-for="entry in arrangement">{{ entry }}</p>
-            </div>
-          </div>
-        </div>
+  <modal name="detail"
+         height="auto"
+         :scrollable="true"
+         width="60%" 
+         :adaptave="true"
+         pivotX=1 
+         pivotY=.15
+         transition="slide"
+         @closed="closeModal">
+    <div class="header">
+      <div @click="closeModal" class="action">
+        <icon class="close" name="times" scale="2"></icon>
       </div>
-    </transition>
-  </div>
+      <collection-heading :heading="collectionSlideOut"></collection-heading>
+    </div>
+    <div class="modal-body">
+      <h4>Description</h4>
+      <p>{{ description }}</p>
+      <h4>Arrangement</h4>
+      <p v-for="entry in arrangement">{{ entry }}</p>
+    </div>
+  </modal>
 </template>
+
 <script>
 
 import { isEmpty } from 'lodash'
 import { mapActions, mapState } from 'vuex'
 
 export default {
-  data () {
-    return {
-      isClosed: true
-    }
-  },
 
   computed: {
     ...mapState(['collectionSlideOut']),
@@ -49,7 +45,7 @@ export default {
   watch: {
     collectionSlideOut (newCollectionSlideOut) {
       if (!isEmpty(newCollectionSlideOut)) {
-        this.isClosed = false
+        this.$modal.show('detail')
       }
     }
   },
@@ -60,82 +56,62 @@ export default {
     ]),
 
     closeModal () {
-      this.isClosed = true
+      this.$modal.hide('detail')
       this.updateCollectionSlideOut({ collection: {}})
     }
   }
 }
+
 </script>
+
+<style>
+.v--modal {
+  background: #c6c6c6;
+  display: flex;
+  flex-direction: column;
+  -ms-flex-driection: column;
+}
+
+.slide-enter-active, .slide-leave-active {
+  transition: all .5s;
+}
+
+.slide-enter, .slide-leave-to {
+  opacity: 0;
+  transform: translateX(800px);;
+}
+
+</style>
 
 <style scoped>
 
-.modal {
-  position: fixed;
-  margin-top: 8%;
-  right: 0;
-  width: 800px;
-  max-width: 80%;
-  height: 800px;
-  max-height: 80%;
-  z-index: 100;
-  display: flex;
-}
-
-.closed {
-  display: none;
-}
-
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 50;
-
+.v--modal-overlay {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.modal-guts {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background: #c6c6c6;
-  transition: .3s;
-}
-
-
-.modal-body {
-  position: absolute;
-  margin-left: 6em;
-  margin-top: 6em;
-  margin-right: 2em;
-}
-
 .header {
-  position: absolute;
-  width: 100%;
-  margin-right: 2em;
+  padding-top: 1em;
   text-align: right;
   background: #ddd;
+}
+
+.modal-body {
+  flex: 1;
+  padding-left: 6em;
+  padding-right: 2em;
+  padding-bottom: 6em;
 }
 
 .header .action {
   width: 6em;
   float: left;
   text-align: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   cursor: pointer;
 }
 
 .close {
   width: auto;
-  height: 1.4em;
+  height: 2em;
 }
 
 h4 {
@@ -145,17 +121,6 @@ h4 {
 p {
   line-height: 1.8em;
   margin-top: 0;
-}
-
-.slide-enter-active .modal-guts {
-  transition: all .3s ease;
-}
-.slide-leave-active {
-  transition: all .3s ease;
-}
-.slide-enter .modal-guts, .slide-leave-to .modal-guts {
-  transform: translateX(800px);
-  opacity: 0;
 }
 
 </style>

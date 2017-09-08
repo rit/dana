@@ -6,6 +6,8 @@ import Router from 'vue-router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
+import vmodal from 'vue-js-modal'
+
 import 'vue-awesome/icons/plus'
 import 'vue-awesome/icons/minus'
 import 'vue-awesome/icons/chevron-left'
@@ -20,6 +22,7 @@ import initStore from 'iso/store'
 
 Vue.use(Router)
 Vue.use(ElementUI)
+Vue.use(vmodal)
 Vue.config.productionTip = false
 
 var store = initStore(Vue)
