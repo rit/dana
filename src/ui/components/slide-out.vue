@@ -1,13 +1,10 @@
 <template>
   <div>
     <transition name="slide">
-      <div v-if="!isClosed" class="modal-overlay" id="modal-overlay">
+      <div v-if="!isClosed" class="modal-overlay" id="modal-overlay" @click="closeModal">
         <div class="modal" id="modal">
           <div class="modal-guts">
             <div class="header">
-              <!--<div class="action">
-                <el-button @click="closeModal" type="secondary" icon="close"></el-button>
-              </div>-->
               <div @click="closeModal" class="action">
                 <icon class="close" name="times" scale="2"></icon>
               </div>
@@ -74,20 +71,14 @@ export default {
 
 .modal {
   position: fixed;
+  margin-top: 8%;
   right: 0;
-
   width: 800px;
-  max-width: 100%;
-  height: 600px;
-  max-height: 100%;
+  max-width: 80%;
+  height: 800px;
+  max-height: 80%;
   z-index: 100;
   display: flex;
-  
-  /*position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 100;
-  background: white;*/
 }
 
 .closed {
@@ -109,15 +100,11 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  right: -100px;
   width: 100%;
   height: 100%;
   overflow: auto;
   background: #c6c6c6;
   transition: .3s;
-  /*transform: translateX(-100, 0);*/
-
-  /*margin: 2em 2em 6em 0;*/
 }
 
 
@@ -134,8 +121,6 @@ export default {
   margin-right: 2em;
   text-align: right;
   background: #ddd;
-  /*position: relative;*/
-  /*margin: 2em 0;*/
 }
 
 .header .action {
@@ -152,9 +137,6 @@ export default {
   width: auto;
   height: 1.4em;
 }
-/*.header .heading {
-  margin-right: 2em
-}*/
 
 h4 {
   margin-bottom: 0;
@@ -165,14 +147,13 @@ p {
   margin-top: 0;
 }
 
-.slide-enter-active .modal-guts{
+.slide-enter-active .modal-guts {
   transition: all .3s ease;
 }
 .slide-leave-active {
   transition: all .3s ease;
 }
-.slide-enter .modal-guts, .slide-leave-to .modal-guts
-/* .slide-fade-leave-active below version 2.1.8 */ {
+.slide-enter .modal-guts, .slide-leave-to .modal-guts {
   transform: translateX(800px);
   opacity: 0;
 }
