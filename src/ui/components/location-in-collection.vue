@@ -17,8 +17,9 @@
 </template>
 
 <script>
-import { TweenLite } from "gsap";
-import ScrollToPlugin from "gsap/ScrollToPlugin";
+import { TweenLite } from 'gsap';
+/* eslint-disable no-unused-vars */
+import ScrollToPlugin from 'gsap/ScrollToPlugin';
 
 import { last, cloneDeep } from 'lodash'
 import { mapActions, mapGetters } from 'vuex'
@@ -50,11 +51,11 @@ export default {
     ...mapActions(['fetchObjectLocation']),
 
     marginLeft (index) {
-      return `margin-left: ${index*1.2}em`
+      return `margin-left: ${index * 1.2}em`
     },
 
     paddingLeft (index) {
-      return `padding-left: ${index*1.2}em`
+      return `padding-left: ${index * 1.2}em`
     },
 
     showMoreInfo (collection) {
@@ -62,7 +63,7 @@ export default {
     },
 
     showDetails () {
-      TweenLite.to(window, 0.25, {scrollTo:"#full-record-details"});
+      TweenLite.to(window, 0.25, { scrollTo: '#full-record-details' });
     }
 
   },

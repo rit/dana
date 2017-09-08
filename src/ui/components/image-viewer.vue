@@ -30,7 +30,6 @@ export default {
 
     danaSetMiradorInstance (miradorInstance) {
       this.miradorInstance({ miradorInstance })
-      console.log(miradorInstance)
     }
   },
 

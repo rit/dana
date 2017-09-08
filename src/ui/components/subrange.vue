@@ -34,7 +34,7 @@ export default {
   components: {
     ThumbnailNested,
     ThumbnailViewer,
-    Thumbnails,
+    Thumbnails
   }
 }
 </script>

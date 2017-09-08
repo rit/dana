@@ -11,28 +11,27 @@
 </template>
 
 <script>
-import { TweenLite } from "gsap";
-// Initialize the ScrollToPlugin by importing
-import ScrollToPlugin from "gsap/ScrollToPlugin";
-
+import { TweenLite } from 'gsap';
+/* eslint-disable no-unused-vars */
+import ScrollToPlugin from 'gsap/ScrollToPlugin';
 
 export default {
   props: ['canvases'],
 
-  methods:{
+  methods: {
     carousel () {
       return this.$slots.default[0].elm
     },
 
-    forward() {
+    forward () {
       // debugger
-      var x = this.carousel().scrollLeft + (this.carousel().clientWidth/2)
-      TweenLite.to(this.carousel(), 0.30, {scrollTo:{ x }});
+      var x = this.carousel().scrollLeft + (this.carousel().clientWidth / 2)
+      TweenLite.to(this.carousel(), 0.30, { scrollTo: { x }});
     },
 
-    backward() {
-      var x = this.carousel().scrollLeft - (this.carousel().clientWidth/2)
-      TweenLite.to(this.carousel(), 0.30, {scrollTo:{ x }});
+    backward () {
+      var x = this.carousel().scrollLeft - (this.carousel().clientWidth / 2)
+      TweenLite.to(this.carousel(), 0.30, { scrollTo: { x }});
     }
   }
 }

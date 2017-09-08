@@ -14,9 +14,9 @@
 <script>
 import { mapState } from 'vuex'
 
-import { TweenLite } from "gsap";
-// Initialize the ScrollToPlugin by importing
-import ScrollToPlugin from "gsap/ScrollToPlugin";
+import { TweenLite } from 'gsap';
+/* eslint-disable no-unused-vars */
+import ScrollToPlugin from 'gsap/ScrollToPlugin';
 
 export default {
   props: ['canvases'],
@@ -26,10 +26,10 @@ export default {
   },
 
   methods: {
-    openImageViewer(canvas) {
+    openImageViewer (canvas) {
       var windowId = this.miradorInstance.viewer.workspace.windows[0].id
       this.miradorInstance.eventEmitter.publish('SET_CURRENT_CANVAS_ID.' + windowId, canvas.id);
-      TweenLite.to(window, 0.25, {scrollTo:"#image-viewer"});
+      TweenLite.to(window, 0.25, { scrollTo: '#image-viewer' });
     }
   }
 }

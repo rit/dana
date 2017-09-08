@@ -70,7 +70,7 @@ export default {
   data () {
     return {
       activeRangeViewer: null,
-      isManifestActive: true,
+      isManifestActive: true
     }
   },
 
@@ -123,7 +123,7 @@ export default {
   watch: {
     manifest (newVal, oldVal) {
       if (newVal['@id']) {
-        this.imageViewerOptions({ manifestUri: newVal['@id']})
+        this.imageViewerOptions({ manifestUri: newVal['@id'] })
       }
     }
   }

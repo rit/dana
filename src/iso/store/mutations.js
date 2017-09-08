@@ -4,7 +4,6 @@ var { pickBy } = require('lodash')
 // NOTE: `Vue.set` pattern only works for adding key-value pair when the key is new
 // To update the value for an existing key, use Object.assign pattern
 
-
 const mutations = {
   collectionSlideOut (state, { collection }) {
     state.collectionSlideOut = collection
@@ -19,7 +18,7 @@ const mutations = {
   },
 
   imageViewerOptions (state, { manifestUri, canvasId }) {
-    let values = pickBy({ manifestUri, canvasId }) // Remove falsy values
+    const values = pickBy({ manifestUri, canvasId }) // Remove falsy values
     state.imageViewerOptions = Object.assign({}, state.imageViewerOptions, values)
   },
 
