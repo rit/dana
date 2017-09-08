@@ -2,7 +2,7 @@
   <modal name="detail"
          height="auto"
          :scrollable="true"
-         width="60%" 
+         width="60%"
          :adaptave="true"
          :pivotX="1"
          :pivotY=".15"
@@ -35,7 +35,7 @@ export default {
 
     description () {
       return this.collectionSlideOut.description
-    }, 
+    },
 
     arrangement () {
       return this.collectionSlideOut.arrangement

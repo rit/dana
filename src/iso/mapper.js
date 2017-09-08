@@ -28,7 +28,6 @@ function collectionHeading (data) {
     return {
       label: data.label
     }
-
   }
 
   var mapped = metadataMap(data.metadata)
