@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState, mapMutations } from 'vuex'
 import URI from 'urijs'
 
 export default {
@@ -23,6 +23,19 @@ export default {
       uri.search(this.imageViewerOptions)
       return uri.toString()
     }
+  },
+
+  methods: {
+    ...mapMutations(['miradorInstance']),
+
+    danaSetMiradorInstance (miradorInstance) {
+      this.miradorInstance({ miradorInstance })
+      console.log(miradorInstance)
+    }
+  },
+
+  mounted () {
+    window.danaSetMiradorInstance = this.danaSetMiradorInstance
   }
 }
 </script>

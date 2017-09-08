@@ -14,6 +14,10 @@ const mutations = {
     state.seriesTree = seriesTree
   },
 
+  miradorInstance (state, { miradorInstance }) {
+    state.miradorInstance = miradorInstance
+  },
+
   imageViewerOptions (state, { manifestUri, canvasId }) {
     let values = pickBy({ manifestUri, canvasId }) // Remove falsy values
     state.imageViewerOptions = Object.assign({}, state.imageViewerOptions, values)
@@ -38,6 +42,7 @@ const state = {
   seriesTree: [],
 
   imageViewerOptions: {}, // for mirador
+  miradorInstance: null,
   collections: {},
   subcollections: {},
   locations: {}

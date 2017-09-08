@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
+import { mapState } from 'vuex'
 
 import { TweenLite } from "gsap";
 // Initialize the ScrollToPlugin by importing
@@ -21,11 +21,14 @@ import ScrollToPlugin from "gsap/ScrollToPlugin";
 export default {
   props: ['canvases'],
 
-  methods: {
-    ...mapMutations(['imageViewerOptions']),
+  computed: {
+    ...mapState(['miradorInstance'])
+  },
 
+  methods: {
     openImageViewer(canvas) {
-      this.imageViewerOptions({canvasId: canvas.id})
+      var windowId = this.miradorInstance.viewer.workspace.windows[0].id
+      this.miradorInstance.eventEmitter.publish('SET_CURRENT_CANVAS_ID.' + windowId, canvas.id);
       TweenLite.to(window, 0.25, {scrollTo:"#image-viewer"});
     }
   }
